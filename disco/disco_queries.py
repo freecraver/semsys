@@ -1,5 +1,6 @@
 from ibm_watson import DiscoveryV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+from settings import START_DATE
 
 authenticator = IAMAuthenticator('o-V5I0eeHruCOX5uyc8dICpCNT4Uzbd-6Q8JEpuCM7_D')
 discovery = DiscoveryV1(
@@ -17,15 +18,25 @@ def extract_resources(news_result):
     res_dict = {}
 
     if enriched_text.get("entities"):
-        res_dict = set([e["disambiguation"]["dbpedia_resource"]
-                         for e in enriched_text["entities"]
-                         if e["relevance"] > 0.5 and e.get("disambiguation") and e.get("disambiguation").get(
-                "dbpedia_resource")])
+        for e in enriched_text["entities"]:
+            if not e.get("disambiguation") or not e.get("disambiguation")\
+                    .get("dbpedia_resource") or e["relevance"] < 0.5:
+                continue
+
+            val = e["disambiguation"]["dbpedia_resource"]
+            if not res_dict.get(val) or res_dict[val] < e["relevance"]:
+                res_dict[val] = e["relevance"]
 
     if enriched_text.get("concepts"):
-        res_dict |= set(c["dbpedia_resource"] for c in enriched_text["concepts"] if c["relevance"] > 0.5)
+        for c in enriched_text["concepts"]:
+            if c["relevance"] < 0.5:
+                continue
 
-    return list(res_dict)
+            val = c["dbpedia_resource"]
+            if not res_dict.get(val) or res_dict[val] < c["relevance"]:
+                res_dict[val] = c["relevance"]
+
+    return list(res_dict.items())
 
 
 def extract_info(news_result):
@@ -43,6 +54,7 @@ def load_disaster_news(country_name):
     res = discovery.query('system', 'news-en',
                           query=f'enriched_text.entities:(type:Location,'
                                 f'disambiguation:(subtype:Country, name:"{country_name}"),relevance>0.5),'
-                                f'enriched_text.categories:(label:"/science/weather/meteorological disaster/", score>0.75)')
+                                f'enriched_text.categories:(label:"/science/weather/meteorological disaster/", score>0.75),'
+                                f'publication_date>={START_DATE}')
     news_results = [extract_info(r) for r in res.result.get('results')]
     return news_results
