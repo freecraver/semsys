@@ -1,3 +1,4 @@
 geocoder
 ibm-watson
 pytest
+rdflib

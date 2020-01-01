@@ -1,6 +1,6 @@
 from ibm_watson import DiscoveryV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
-from settings import START_DATE
+from settings import START_DATE, END_DATE
 
 authenticator = IAMAuthenticator('o-V5I0eeHruCOX5uyc8dICpCNT4Uzbd-6Q8JEpuCM7_D')
 discovery = DiscoveryV1(
@@ -55,6 +55,7 @@ def load_disaster_news(country_name):
                           query=f'enriched_text.entities:(type:Location,'
                                 f'disambiguation:(subtype:Country, name:"{country_name}"),relevance>0.5),'
                                 f'enriched_text.categories:(label:"/science/weather/meteorological disaster/", score>0.75),'
-                                f'publication_date>={START_DATE}')
+                                f'publication_date>={START_DATE},'
+                                f'publication_date<={END_DATE}')
     news_results = [extract_info(r) for r in res.result.get('results')]
     return news_results

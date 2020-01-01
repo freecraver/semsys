@@ -1,7 +1,7 @@
 import geocoder
 import json
 
-RES_FILE_PATH = "../res/aut_min_travel.json"
+RES_FILE_PATH = "res/aut_min_travel.json"
 
 
 def get_geonames_country_name(country):
