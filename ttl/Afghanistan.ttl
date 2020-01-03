@@ -7,155 +7,985 @@
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 6.08766e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.4777e-01 ],
+            sws:relevance 9.7253e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.70498e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.1088e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 5.87054e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 7.98997e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 6.35075e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 7.65117e-01 ],
+            sws:relevance 9.13421e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Tsunami ;
-            sws:relevance 6.77522e-01 ] ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.32314e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.58585e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 6.16345e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 5.49395e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.88281e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
-    sws:origin "earthquakenewstoday.com" ;
-    sws:publicationDate "2019-12-04T09:08:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
-    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/04/moderate-earthquake-5-mag-has-occurred-near-jarm-in-afghanistan/" ;
-    sws:title "Moderate earthquake, 5 mag has occurred near Jarm in Afghanistan" .
+    sws:origin "zeenews.india.com" ;
+    sws:publicationDate "2019-12-20T17:19:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.36404e-01 ;
+    sws:sourceUrl "https://zeenews.india.com/delhi/6-1-magnitude-earthquake-hits-afghanistan-strong-tremors-felt-in-north-india-2253402.html" ;
+    sws:title "6.1 magnitude earthquake hits Afghanistan, strong tremors felt in north India" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:India ;
-            sws:relevance 8.20621e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Pakistan ;
-            sws:relevance 8.75974e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Lahore ;
-            sws:relevance 6.09504e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Kabul ;
-            sws:relevance 8.11444e-01 ],
+            sws:relevance 7.37294e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Kashmir ;
-            sws:relevance 9.65623e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Indus_River ;
-            sws:relevance 9.40372e-01 ],
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 6.83484e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Hindu_Kush ;
-            sws:relevance 9.84435e-01 ],
+            sws:relevance 7.43246e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Himalayas ;
-            sws:relevance 5.90145e-01 ],
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.73889e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States ;
+            sws:relevance 5.26938e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.56241e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Taliban ;
+            sws:relevance 5.41522e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.53096e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "sott.net" ;
+    sws:publicationDate "2019-12-20T19:14:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.44321e-01 ;
+    sws:sourceUrl "https://www.sott.net/article/426043-Afghanistan-jolted-by-strong-magnitude-6-1-earthquake-also-felt-in-Pakistan" ;
+    sws:title "Afghanistan jolted by strong magnitude 6.1 earthquake also felt in Pakistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.03863e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:North-West_Frontier_Province ;
-            sws:relevance 7.21998e-01 ],
+            sws:relevance 6.32898e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Azad_Kashmir ;
+            sws:relevance 5.03996e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 7.54709e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 5.229e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.56833e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.68269e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Peshawar ;
+            sws:relevance 7.1712e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 5.57873e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 6.54858e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 5.1781e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.64564e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "pakistancompanynews.com" ;
+    sws:publicationDate "2019-12-20T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.81916e-01 ;
+    sws:sourceUrl "https://pakistancompanynews.com/6-4-magnitude-earthquake-jolts-different-parts-of-country/" ;
+    sws:title "6.4 magnitude earthquake jolts different parts of country" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 8.61014e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 6.47886e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.63958e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 7.24739e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.21809e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 6.74575e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 9.82777e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 7.2696e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.28316e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "poandpo.com" ;
+    sws:publicationDate "2019-12-20T08:04:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.23798e-01 ;
+    sws:sourceUrl "https://www.poandpo.com/news/63-earthquake-hits-afghanistan-20122019802/" ;
+    sws:title "6.3 earthquake hits Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.44563e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 7.27305e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
+            sws:relevance 5.29972e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.74101e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "earthquakenewstoday.com" ;
+    sws:publicationDate "2019-12-18T21:09:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.26281e-01 ;
+    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/18/light-earthquake-4-2-mag-33-km-s-of-jarm-afghanistan/" ;
+    sws:title "Light earthquake 4.2 mag, 33 km S of Jarm, Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.89568e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.0325e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.25464e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.77001e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mercury_Prize ;
+            sws:relevance 5.59571e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.13746e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.3014e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.21357e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Moment_magnitude_scale ;
+            sws:relevance 5.02e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.99101e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.55001e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.85291e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.94867e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Epicenter ;
+            sws:relevance 5.2314e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 6.09973e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.21092e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Badakhshan_Province ;
+            sws:relevance 5.67453e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.0318e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.41314e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.52367e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 7.08615e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "citizen.co.za" ;
+    sws:publicationDate "2019-12-20T14:32:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -8.63526e-01 ;
+    sws:sourceUrl "https://citizen.co.za/news/news-world/2221349/afghanistan-and-pakistan-jolted-by-strong-6-1-quake-usgs/" ;
+    sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake: USGS – The Citizen" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mercury_Prize ;
+            sws:relevance 5.31518e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.13435e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.26691e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.90374e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.71296e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.58994e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.49438e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 6.7397e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Badakhshan_Province ;
+            sws:relevance 6.07946e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.56057e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.83306e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.93384e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.57714e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.52392e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.22754e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.55858e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "asianage.com" ;
+    sws:publicationDate "2019-12-21T00:00:00+02:00"^^xsd:dateTime ;
+    sws:sentiment -8.08777e-01 ;
+    sws:sourceUrl "http://asianage.com/world/middle-east/201219/afghanistan-and-pakistan-jolted-by-strong-61-quake-usgs.html" ;
+    sws:title "'Afghanistan and Pakistan jolted by strong 6.1 quake': USGS" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Qarchi_Gak ;
+            sws:relevance 7.4245e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Kholm,_Afghanistan> ;
+            sws:relevance 5.18184e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.69126e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.94914e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.23539e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Seismic_wave ;
+            sws:relevance 5.15369e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 7.55078e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "earthquakenewstoday.com" ;
+    sws:publicationDate "2019-12-03T07:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.30788e-01 ;
+    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/03/light-earthquake-4-7-mag-strikes-near-qarchi-gak-in-afghanistan/" ;
+    sws:title "Light earthquake, 4.7 mag strikes near Qarchi Gak in Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 8.67594e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 7.24629e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.99046e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himachal_Pradesh ;
+            sws:relevance 6.20421e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tiananmen_Square_protests_of_1989 ;
+            sws:relevance 5.22772e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 6.29495e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjab_region ;
+            sws:relevance 5.77725e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:States_and_territories_of_India ;
+            sws:relevance 7.1174e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.61983e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 6.51154e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 7.60413e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.47855e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.88442e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 5.02047e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 6.01859e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 8.87483e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.38171e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.10141e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.4964e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 7.9631e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 8.00893e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.08373e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 6.84621e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.63841e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Xinhua_News_Agency ;
+            sws:relevance 6.43105e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Uttar_Pradesh ;
+            sws:relevance 5.45057e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.45775e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "newkerala.com" ;
+    sws:publicationDate "2019-12-21T01:33:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -4.5375e-01 ;
+    sws:sourceUrl "https://www.newkerala.com/news/read/267735/strong-quake-hits-afghanistan-pak-tremors-felt-in-india.html" ;
+    sws:title "Strong quake hits Afghanistan, Pak; tremors felt in India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.09653e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 8.46639e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.45687e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 7.94081e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 6.4536e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kolkata ;
+            sws:relevance 5.49119e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 6.17479e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 8.74465e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.64912e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:New_Delhi ;
+            sws:relevance 6.56117e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.04116e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 5.70438e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 6.01108e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 7.35522e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 6.79343e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 5.53104e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.92508e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.66882e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 7.03315e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 5.58114e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Twitter ;
+            sws:relevance 8.85655e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 5.47924e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "india4u.com" ;
+    sws:publicationDate "2019-12-20T15:02:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -3.53113e-01 ;
+    sws:sourceUrl "http://www.india4u.com/twitter-abuzz-after-tremors-jolt-northern-india/" ;
+    sws:title "Twitter abuzz after tremors jolt northern India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Product_Development_and_Management_Association ;
+            sws:relevance 6.94164e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.54136e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.95376e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Peshawar ;
+            sws:relevance 5.14207e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 8.0603e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 5.47653e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 8.33185e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.28361e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.0529e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamic_Republic_News_Agency ;
+            sws:relevance 5.34977e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 9.8161e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "en.irna.ir" ;
+    sws:publicationDate "2019-12-20T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.69588e-01 ;
+    sws:sourceUrl "https://en.irna.ir/news/83601768/6-4-magnitude-earthquake-jolts-Pakistan" ;
+    sws:title "6.4 magnitude earthquake jolts Pakistan - IRNA English" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.61325e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.89962e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 5.78664e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 6.40861e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 5.62793e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 6.73055e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.3147e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "china.org.cn" ;
+    sws:publicationDate "2019-12-21T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.71721e-01 ;
+    sws:sourceUrl "http://www.china.org.cn/world/2019-12/21/content_75536366.htm" ;
+    sws:title "Strong earthquake hits Afghanistan, Pakistan, no casualties reported so far - China.org.cn" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.24434e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 5.96849e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.23853e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.87196e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 6.33943e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjab_region ;
+            sws:relevance 6.09209e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 8.64265e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himachal_Pradesh ;
+            sws:relevance 6.52196e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.82931e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 7.05292e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 8.315e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 8.42466e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.88553e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 6.56254e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.12722e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tiananmen_Square_protests_of_1989 ;
+            sws:relevance 5.47716e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Moment_magnitude_scale ;
+            sws:relevance 5.59659e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.52624e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.41506e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 8.36161e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.6737e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.18649e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.94069e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:News_agency ;
+            sws:relevance 5.39583e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Xinhua_News_Agency ;
+            sws:relevance 6.74888e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 6.81317e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 8.77894e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:States_and_territories_of_India ;
+            sws:relevance 6.95811e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "netindian.in" ;
+    sws:publicationDate "2019-12-20T15:42:00+00:00"^^xsd:dateTime ;
+    sws:sentiment 3.17482e-01 ;
+    sws:sourceUrl "http://netindian.in/news/2019/12/20/00061443/strong-quake-hits-afghanistan-pak-tremors-felt-india" ;
+    sws:title "Strong quake hits Afghanistan, Pak; tremors felt in India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.88199e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 7.18487e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 5.82854e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:New_Delhi ;
+            sws:relevance 6.32313e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 6.47303e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.15697e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 6.19037e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.15181e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.89332e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 6.87034e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.09836e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tremor ;
+            sws:relevance 8.73435e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.82293e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.42394e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "oneindia.com" ;
+    sws:publicationDate "2019-12-20T12:59:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.05547e-01 ;
+    sws:sourceUrl "https://www.oneindia.com/india/strong-earthquake-of-6-4-magnitude-hits-pakistan-tremors-felt-in-parts-of-delhi-ncr-3000809.html" ;
+    sws:title "6.4 magnitude earthquake jolts Pakistan; tremors felt in Delhi-NCR" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.69034e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 5.1781e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Azad_Kashmir ;
+            sws:relevance 5.03996e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 5.229e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 7.67479e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.03863e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 5.57873e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.32898e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.61745e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Peshawar ;
+            sws:relevance 7.29288e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 6.54858e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.68269e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "medialinepakistan.com" ;
+    sws:publicationDate "2019-12-20T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.91847e-01 ;
+    sws:sourceUrl "https://medialinepakistan.com/6-4-magnitude-earthquake-jolts-different-parts-of-country/" ;
+    sws:title "6.4 magnitude earthquake jolts different parts of country" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 9.40372e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
             sws:relevance 9.77151e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Indian_subcontinent ;
-            sws:relevance 8.32182e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Indo-Pakistani_War_of_1965 ;
-            sws:relevance 5.37917e-01 ],
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.40853e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
             sws:relevance 7.74059e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:History_of_Pakistan ;
-            sws:relevance 5.40853e-01 ],
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.21998e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 9.84435e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indo-Pakistani_War_of_1965 ;
+            sws:relevance 5.37917e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.75974e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 8.32182e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 5.90145e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:British_Raj ;
             sws:relevance 8.02654e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.11444e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 8.20621e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.09504e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 9.65623e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:South_Asia ;
             sws:relevance 6.8405e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "envirolink.org" ;
     sws:publicationDate "2019-12-20T14:24:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -7.55496e-01 ;
     sws:sourceUrl "http://www.envirolink.org/2019/12/20/earthquake-rattles-afghanistan-pakistan-and-indian-kashmir/" ;
     sws:title "Earthquake rattles Afghanistan, Pakistan and Indian Kashmir" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Delhi ;
-            sws:relevance 5.44925e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Badakhshan_Province ;
-            sws:relevance 5.47231e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:South_Asia ;
-            sws:relevance 5.62424e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Lahore ;
-            sws:relevance 6.0321e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
-            sws:relevance 5.55363e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:British_Raj ;
-            sws:relevance 7.29424e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 9.77144e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
-            sws:relevance 5.15939e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Richter_magnitude_scale ;
-            sws:relevance 5.39031e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Epicenter ;
-            sws:relevance 5.07492e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Mughal_Empire ;
-            sws:relevance 7.62046e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Pakistan ;
-            sws:relevance 8.92204e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Turkey ;
-            sws:relevance 5.92287e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Punjabi_language ;
-            sws:relevance 5.73804e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Mercury_Prize ;
-            sws:relevance 5.28772e-01 ],
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 6.3105e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 8.20659e-01 ],
+            sws:relevance 7.35046e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:United_States_Geological_Survey ;
-            sws:relevance 6.43737e-01 ],
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.47164e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.85225e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Urdu ;
-            sws:relevance 5.80425e-01 ] ;
+            sws:relevance 6.81936e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.17115e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.61992e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.39749e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.20679e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.21662e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.85901e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.24591e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.0082e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.10159e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.4317e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.52651e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.22568e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
-    sws:origin "moneycontrol.com" ;
-    sws:publicationDate "2019-12-20T18:33:00+05:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
-    sws:sourceUrl "https://www.moneycontrol.com/news/world/afghanistan-and-pakistan-jolted-by-strong-6-1-quake-usgs-4750391.html" ;
-    sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake: USGS" .
+    sws:origin "newsroompost.com" ;
+    sws:publicationDate "2019-12-20T11:52:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.70156e-01 ;
+    sws:sourceUrl "https://newsroompost.com/india/earthquake-felt-across-north-india-pakistan-and-afghanistan/494958.html" ;
+    sws:title "Tremors felt in Delhi-NCR, as 6.3 earthquake hits Afghanistan" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.71041e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.31228e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 6.61943e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.52205e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Waseem_Ahmad ;
+            sws:relevance 5.26018e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.63125e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.77347e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.51582e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:The_Hindu ;
+            sws:relevance 5.55119e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 8.22707e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.56221e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.805e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.15802e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.36209e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 7.63678e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "thehindu.com" ;
+    sws:publicationDate "2019-12-20T12:59:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.28836e-01 ;
+    sws:sourceUrl "https://www.thehindu.com/news/national/earthquake-rattles-afghanistan-pakistan-and-kashmir/article30359678.ece" ;
+    sws:title "Earthquake rattles Afghanistan, Pakistan and Kashmir" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.21809e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 6.59047e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 6.47886e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.72392e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.87704e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 8.22523e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 7.06414e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.79346e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 6.74575e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 9.71419e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Twitter ;
+            sws:relevance 7.70771e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 7.24739e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "ianslive.in" ;
+    sws:publicationDate "2019-12-20T16:19:00+00:00"^^xsd:dateTime ;
+    sws:sentiment 8.28942e-01 ;
+    sws:sourceUrl "http://www.ianslive.in/index.php?param=news/-649340" ;
+    sws:title "Twitter abuzz after tremors jolt northern India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.71607e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Ashkasham ;
             sws:relevance 5.50981e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Tsunami ;
-            sws:relevance 6.90364e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
             sws:relevance 5.20333e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.71607e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Richter_magnitude_scale ;
             sws:relevance 5.06372e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.90364e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
             sws:relevance 7.89739e-01 ],
@@ -165,18 +995,12 @@
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "earthquakenewstoday.com" ;
     sws:publicationDate "2019-12-06T10:29:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -6.8615e-01 ;
     sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/06/light-earthquake-4-mag-44-km-wsw-of-ashkasham-afghanistan/" ;
     sws:title "Light earthquake 4 mag, 44 km WSW of Ashkasham, Afghanistan" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.83931e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
-            sws:relevance 5.27038e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Tsunami ;
             sws:relevance 7.06483e-01 ],
         [ a sws:ArticleMention ;
@@ -184,127 +1008,797 @@
             sws:relevance 7.6953e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Seismic_wave ;
-            sws:relevance 5.07869e-01 ] ;
+            sws:relevance 5.07869e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.83931e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
+            sws:relevance 5.27038e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "earthquakenewstoday.com" ;
     sws:publicationDate "2019-12-04T04:49:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -7.16267e-01 ;
     sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/04/light-earthquake-m4-5-quake-has-struck-near-jarm-in-afghanistan-4/" ;
     sws:title "Light earthquake: M4.5 quake has struck near Jarm in Afghanistan" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Kabul ;
-            sws:relevance 6.10487e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:India ;
-            sws:relevance 5.49921e-01 ],
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.65992e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.66747e-01 ],
+            sws:relevance 8.88547e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Indus_River ;
-            sws:relevance 5.96057e-01 ],
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 5.74298e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Richter_magnitude_scale ;
-            sws:relevance 5.87524e-01 ],
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 8.77836e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Himalayas ;
-            sws:relevance 5.05958e-01 ],
+            sws:mentionsResource dbp:Districts_of_Pakistan ;
+            sws:relevance 5.47351e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Haryana ;
-            sws:relevance 6.96058e-01 ],
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 5.71151e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 6.22732e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Durrani_Empire ;
+            sws:relevance 5.47627e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.07912e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Uttar_Pradesh ;
+            sws:relevance 6.00766e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Central_Asia ;
+            sws:relevance 5.11948e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Azad_Kashmir ;
+            sws:relevance 6.30714e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Rawalpindi ;
+            sws:relevance 5.42114e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 7.18885e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 9.03378e-01 ],
+            sws:relevance 8.04223e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.78975e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 8.75495e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 6.8312e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Partition_of_India ;
+            sws:relevance 5.03578e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Jammu_and_Kashmir ;
+            sws:relevance 5.87635e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Ranjit_Singh ;
+            sws:relevance 5.30627e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.21664e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.60747e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 5.46844e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.06835e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "indiatoday.in" ;
+    sws:publicationDate "2019-12-20T00:00:00+05:30"^^xsd:dateTime ;
+    sws:sentiment -6.24889e-01 ;
+    sws:sourceUrl "https://www.indiatoday.in/india/story/earthquake-tremors-delhi-ncr-north-india-richter-scale-1630148-2019-12-20" ;
+    sws:title "Earthquake felt in Delhi-NCR, strong tremors felt across North India - India News" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.77522e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.4777e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 7.65117e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "earthquakenewstoday.com" ;
+    sws:publicationDate "2019-12-04T09:08:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.81862e-01 ;
+    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/04/moderate-earthquake-5-mag-has-occurred-near-jarm-in-afghanistan/" ;
+    sws:title "Moderate earthquake, 5 mag has occurred near Jarm in Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 5.72241e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 5.5633e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 5.44882e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.24161e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.32958e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.87228e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.45283e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "gdacs.org" ;
+    sws:publicationDate "2019-12-20T11:39:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.45141e-01 ;
+    sws:sourceUrl "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1198962" ;
+    sws:title "Green earthquake alert (Magnitude 6.1M, Depth:210.22km) in Afghanistan 20/12/2019 11:39 UTC, 1670000 people within 100km." .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 5.05958e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Hindu_Kush ;
             sws:relevance 6.16321e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
-            sws:relevance 5.54779e-01 ],
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.03378e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.66747e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.49921e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Hindi ;
             sws:relevance 5.35997e-01 ],
         [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.10487e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 5.54779e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.87524e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.76687e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 5.96057e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Punjabi_language ;
             sws:relevance 6.22155e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Delhi ;
-            sws:relevance 6.76687e-01 ] ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 6.96058e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "zeenews.india.com" ;
     sws:publicationDate "2019-12-20T17:19:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -5.09553e-01 ;
     sws:sourceUrl "https://zeenews.india.com/delhi/6-1-magnitude-earthquake-hits-afghanistan-strong-tremors-felt-in-delhi-ncr-northern-india-2253402.html" ;
     sws:title "6.1 magnitude earthquake hits Afghanistan, strong tremors felt in Delhi-NCR, northern India" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Mercury_Prize ;
-            sws:relevance 5.29951e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
-            sws:relevance 5.17916e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 9.80683e-01 ],
+            sws:relevance 9.61407e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Turkey ;
-            sws:relevance 5.95125e-01 ],
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 6.38461e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
-            sws:relevance 5.56718e-01 ],
+            sws:mentionsResource dbp:Badakhshan ;
+            sws:relevance 5.00256e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Mughal_Empire ;
-            sws:relevance 7.66396e-01 ],
+            sws:mentionsResource dbp:Tremor ;
+            sws:relevance 5.04696e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.07542e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.51358e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.11461e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.77476e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 6.20634e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 6.69904e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:South_Asia ;
-            sws:relevance 5.64401e-01 ],
+            sws:relevance 5.1079e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Lahore ;
-            sws:relevance 6.04945e-01 ],
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.40656e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.15309e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Karakoram ;
+            sws:relevance 5.03528e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.42175e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.58415e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 8.20689e-01 ],
+            sws:relevance 7.30114e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:British_Raj ;
-            sws:relevance 7.33292e-01 ],
+            sws:mentionsResource dbp:Pamir_Mountains ;
+            sws:relevance 5.03415e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:United_States_Geological_Survey ;
-            sws:relevance 6.43759e-01 ],
+            sws:mentionsResource dbp:United_States ;
+            sws:relevance 5.96424e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.36872e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "business-standard.com" ;
+    sws:publicationDate "2019-12-20T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -8.00379e-01 ;
+    sws:sourceUrl "https://www.business-standard.com/article/pti-stories/6-4-magnitude-earthquake-jolts-pakistan-119122001082_1.html" ;
+    sws:title "6.4 magnitude earthquake jolts Pakistan | Business Standard News" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 9.82777e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 6.74575e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States ;
+            sws:relevance 7.28154e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.32356e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 7.24739e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.63958e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.21809e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 6.47886e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 8.50028e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "sputniknews.com" ;
+    sws:publicationDate "2019-12-20T12:05:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.58303e-01 ;
+    sws:sourceUrl "https://sputniknews.com/asia/201912201077674503-63-magnitude-quake-hits-afghanistans-hindu-kush-region---indian-weather-office/" ;
+    sws:title "6.3-Magnitude Quake Hits Afghanistan's Hindu Kush Region - Indian Weather Office" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.05222e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Urdu ;
-            sws:relevance 5.84558e-01 ],
+            sws:relevance 5.8027e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.63971e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.66239e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 5.63425e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.08549e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Peshawar ;
+            sws:relevance 6.28121e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.27241e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 5.52949e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 7.00717e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.80902e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.02795e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.45088e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.67808e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "upi.com" ;
+    sws:publicationDate "2019-12-20T16:12:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.90692e-01 ;
+    sws:sourceUrl "https://www.upi.com/Top_News/World-News/2019/12/20/61-magnitude-earthquake-shakes-Pakistan-Afghanistan-India/1301576853402/" ;
+    sws:title "6.1-magnitude earthquake shakes Pakistan, Afghanistan, India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.66396e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Pakistan ;
             sws:relevance 8.9223e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Epicenter ;
-            sws:relevance 5.09324e-01 ],
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.33292e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Delhi ;
-            sws:relevance 5.44956e-01 ],
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.64401e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.56718e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Punjabi_language ;
             sws:relevance 5.77662e-01 ],
         [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Badakhshan_Province ;
+            sws:relevance 5.48481e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mercury_Prize ;
+            sws:relevance 5.29951e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.84558e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.20689e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.80683e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.17916e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.44956e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.95125e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 6.43759e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Epicenter ;
+            sws:relevance 5.09324e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Richter_magnitude_scale ;
             sws:relevance 5.41018e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Badakhshan_Province ;
-            sws:relevance 5.48481e-01 ] ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.04945e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "thedailystar.net" ;
     sws:publicationDate "2019-12-20T12:42:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -8.55557e-01 ;
     sws:sourceUrl "https://www.thedailystar.net/southeast-asia/news/afghanistan-and-pakistan-jolted-strong-61-quake-usgs-1842943" ;
     sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake: USGS" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.46266e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 7.93882e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:New_Delhi ;
+            sws:relevance 6.07866e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.5043e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 5.28019e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Twitter ;
+            sws:relevance 7.98019e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.94759e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 5.99681e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.7775e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.08566e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.59142e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 9.82689e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 7.04075e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.42212e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.8968e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 5.28373e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.40082e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.62458e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "newkerala.com" ;
+    sws:publicationDate "2019-12-20T23:42:00+00:00"^^xsd:dateTime ;
+    sws:sentiment 3.65763e-01 ;
+    sws:sourceUrl "https://www.newkerala.com/news/read/267698/twitter-abuzz-after-tremors-jolt-northern-india.html" ;
+    sws:title "Twitter abuzz after tremors jolt northern India" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.57864e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 7.54116e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Epicenter ;
+            sws:relevance 6.14466e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.68534e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "earthquakenewstoday.com" ;
+    sws:publicationDate "2019-12-20T12:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.0101e-01 ;
+    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/20/strong-earthquake-6-1-mag-was-detected-near-jarm-in-afghanistan/" ;
+    sws:title "Strong earthquake, 6.1 mag was detected near Jarm in Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.31755e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Taliban ;
+            sws:relevance 5.21021e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.80881e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 7.00337e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 5.76899e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Karachi ;
+            sws:relevance 5.01635e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.47645e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.51837e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 8.48454e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 7.78962e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.90433e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 5.35443e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asian_Association_for_Regional_Cooperation ;
+            sws:relevance 5.21891e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 5.03819e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.67237e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 6.8821e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Durrani_Empire ;
+            sws:relevance 5.07464e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "novinite.com" ;
+    sws:publicationDate "2019-12-20T16:56:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.71441e-01 ;
+    sws:sourceUrl "https://www.novinite.com/articles/202351/A+Powerful+Earthquake+Hit+Afghanistan" ;
+    sws:title "A Powerful Earthquake Hit Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.29993e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.78478e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 5.8606e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.50885e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.84771e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 6.57773e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.77938e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 6.16308e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 7.46951e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.02205e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "theweek.in" ;
+    sws:publicationDate "2019-12-20T00:00:00+05:30"^^xsd:dateTime ;
+    sws:sentiment -8.42117e-01 ;
+    sws:sourceUrl "https://www.theweek.in/wire-updates/international/2019/12/20/fgn32-afghan-pak-ld%20quake.html" ;
+    sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake USGS - The Week" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 8.66552e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kolkata ;
+            sws:relevance 5.02541e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.80097e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.80948e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.02184e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.03416e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.05931e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:New_Delhi ;
+            sws:relevance 5.80043e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.59063e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.44203e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.43554e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 8.25439e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.04709e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 7.69882e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 6.84332e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "canindia.com" ;
+    sws:publicationDate "2019-12-20T11:58:00+00:00"^^xsd:dateTime ;
+    sws:sourceUrl "http://www.canindia.com/massive-quake-in-afghanistan-tremors-felt-in-delhi-ncr/" ;
+    sws:title "Massive quake in Afghanistan, tremors felt in Delhi-NCR" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.40867e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 8.36379e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.50451e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sistan_Basin ;
+            sws:relevance 5.1021e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.54956e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.70732e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.12097e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 8.80291e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yasin_Valley ;
+            sws:relevance 5.20927e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 5.71843e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.00257e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.54155e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 6.20929e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.16041e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.07885e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.31228e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Karakoram ;
+            sws:relevance 5.50367e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 5.46989e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.28851e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.52803e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "incpak.com" ;
+    sws:publicationDate "2019-12-20T11:49:00+00:00"^^xsd:dateTime ;
+    sws:sentiment 2.47098e-01 ;
+    sws:sourceUrl "https://www.incpak.com/national/earthquake-jolts-lahore-and-islamabad/" ;
+    sws:title "Earthquake Jolts Lahore and Islamabad" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.73238e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Reuters ;
+            sws:relevance 6.0343e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.60958e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 5.98296e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.76919e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.36541e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 7.48289e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.43836e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.2215e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 7.04639e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "aljazeera.com" ;
+    sws:publicationDate "2019-12-20T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -7.55106e-01 ;
+    sws:sourceUrl "https://www.aljazeera.com/news/2019/12/afghanistan-jolted-strong-earthquake-felt-pakistan-191220122352671.html" ;
+    sws:title "Afghanistan jolted by strong earthquake also felt in Pakistan | Afghanistan News | Al Jazeera" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Reston,_Virginia> ;
+            sws:relevance 5.27415e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.46363e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.18005e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.82399e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.1657e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Taliban ;
+            sws:relevance 5.45617e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.74055e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.85072e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.17477e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earth ;
+            sws:relevance 5.55908e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Kabul ;
             sws:relevance 5.32715e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 6.04508e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Epicenter ;
+            sws:relevance 5.58925e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.51382e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.4734e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.94789e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Punjabi_language ;
             sws:relevance 5.43394e-01 ],
@@ -312,121 +1806,752 @@
             sws:mentionsResource dbp:Moment_magnitude_scale ;
             sws:relevance 5.39162e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Richter_magnitude_scale ;
-            sws:relevance 5.94789e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Karachi ;
-            sws:relevance 5.23043e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 9.85072e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Urdu ;
-            sws:relevance 5.51382e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Delhi ;
-            sws:relevance 5.69273e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Reston,_Virginia> ;
-            sws:relevance 5.27415e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:British_Raj ;
-            sws:relevance 7.18005e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
-            sws:relevance 5.4734e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Taliban ;
-            sws:relevance 5.45617e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.1657e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:South_Asia ;
-            sws:relevance 6.04508e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Lahore ;
-            sws:relevance 6.82399e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Earth ;
-            sws:relevance 5.55908e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
-            sws:relevance 5.46363e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Pakistan ;
-            sws:relevance 8.74055e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Epicenter ;
-            sws:relevance 5.58925e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Mughal_Empire ;
-            sws:relevance 7.17477e-01 ],
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.85698e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Mercury_Prize ;
             sws:relevance 5.23552e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:United_States_Geological_Survey ;
-            sws:relevance 6.74966e-01 ],
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.69273e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Turkey ;
-            sws:relevance 5.85698e-01 ] ;
+            sws:mentionsResource dbp:Karachi ;
+            sws:relevance 5.23043e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 6.74966e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "eaglenews.ph" ;
     sws:publicationDate "2019-12-20T13:23:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -8.41369e-01 ;
     sws:sourceUrl "https://www.eaglenews.ph/afghanistan-and-pakistan-jolted-by-strong-6-1-quake-usgs/" ;
     sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake: USGS" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Seismic_wave ;
-            sws:relevance 5.15369e-01 ],
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 8.09562e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource <http://dbpedia.org/resource/Kholm,_Afghanistan> ;
-            sws:relevance 5.18184e-01 ],
-        [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.69126e-01 ],
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 8.07743e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Richter_magnitude_scale ;
-            sws:relevance 5.23539e-01 ],
+            sws:relevance 5.09506e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Tsunami ;
-            sws:relevance 6.94914e-01 ],
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.55965e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Afghanistan ;
-            sws:relevance 7.55078e-01 ],
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.45489e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Qarchi_Gak ;
-            sws:relevance 7.4245e-01 ] ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 5.36208e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 5.51377e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 5.38357e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 5.42178e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 5.51605e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.69002e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 6.48359e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 6.36369e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.91061e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 5.21594e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 7.61389e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.80416e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
-    sws:origin "earthquakenewstoday.com" ;
-    sws:publicationDate "2019-12-03T07:00:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
-    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/03/light-earthquake-4-7-mag-strikes-near-qarchi-gak-in-afghanistan/" ;
-    sws:title "Light earthquake, 4.7 mag strikes near Qarchi Gak in Afghanistan" .
+    sws:origin "gulfnews.com" ;
+    sws:publicationDate "2019-12-20T16:10:00+04:00"^^xsd:dateTime ;
+    sws:sentiment -8.67085e-01 ;
+    sws:sourceUrl "https://gulfnews.com/world/asia/india/massive-quake-hits-afghanistan-tremors-in-india-pakistan-1.1576844572473" ;
+    sws:title "Massive quake hits Afghanistan, tremors in India, Pakistan | India" .
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.25992e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Uttar_Pradesh ;
+            sws:relevance 6.33381e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himachal_Pradesh ;
+            sws:relevance 6.28682e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.25233e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.45385e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.91174e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 9.13945e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 9.28834e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 6.61387e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 6.47712e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 9.51149e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 5.98515e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.20818e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 7.10239e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.09013e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.72807e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 7.91553e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 7.26358e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 7.72135e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:States_and_territories_of_India ;
+            sws:relevance 7.9089e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.75442e-01 ],
+        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Earthquake ;
-            sws:relevance 9.6428e-01 ],
+            sws:relevance 6.24825e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.14859e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 6.13012e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:New_Delhi ;
+            sws:relevance 5.85094e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.10449e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjab_region ;
+            sws:relevance 5.77068e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "bangaloremirror.com" ;
+    sws:publicationDate "2019-12-20T17:35:00+05:00"^^xsd:dateTime ;
+    sws:sentiment -7.41255e-01 ;
+    sws:sourceUrl "http://www.bangaloremirror.com/news/india/massive-quake-in-afghanistan-tremors-felt-in-delhi-ncr/articleshow/72903674.cms" ;
+    sws:title "Massive quake in Afghanistan, tremors felt in Delhi-NCR" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.19012e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.57785e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Reuters ;
+            sws:relevance 6.7229e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indian_subcontinent ;
+            sws:relevance 6.97337e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.7594e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 7.39387e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States ;
+            sws:relevance 5.28488e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Taliban ;
+            sws:relevance 5.43248e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Al_Jazeera ;
+            sws:relevance 5.35955e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.58158e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.7428e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "aljazeera.com" ;
+    sws:publicationDate "2019-12-20T13:33:00-05:00"^^xsd:dateTime ;
+    sws:sentiment -7.63246e-01 ;
+    sws:sourceUrl "http://www.aljazeera.com/news/2019/12/afghanistan-jolted-strong-earthquake-felt-pakistan-191220122352671.html" ;
+    sws:title "Afghanistan jolted by strong earthquake also felt in Pakistan | Afghanistan News" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 7.04005e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Durrani_Empire ;
+            sws:relevance 6.77688e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.23449e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.38669e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.28778e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 8.00992e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 6.51153e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.5919e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.09146e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Life ;
+            sws:relevance 6.7548e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "newsr.in" ;
+    sws:publicationDate "2019-12-20T12:59:00+06:00"^^xsd:dateTime ;
+    sws:sentiment -9.46225e-01 ;
+    sws:sourceUrl "https://www.newsr.in/n/Front+Page/1zkl5719rc/Earthquake-rattles-Afghanistan-Pakistan-and-Kashmir.htm" ;
+    sws:title "Earthquake rattles Afghanistan, Pakistan and Kashmir" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 8.73257e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 7.99377e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 7.95488e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 8.64841e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tiananmen_Square_protests_of_1989 ;
+            sws:relevance 5.22738e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.07375e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.97272e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.48258e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Xinhua_News_Agency ;
+            sws:relevance 6.42063e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjab_region ;
+            sws:relevance 5.75996e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 7.77347e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 7.19819e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:States_and_territories_of_India ;
+            sws:relevance 7.05782e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 6.25121e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 6.00347e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 6.82742e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.59212e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.06533e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Uttar_Pradesh ;
+            sws:relevance 5.4109e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 8.84368e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.10127e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 5.59663e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.35587e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himachal_Pradesh ;
+            sws:relevance 6.19431e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.43209e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.85184e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "canindia.com" ;
+    sws:publicationDate "2019-12-20T13:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -6.5882e-01 ;
+    sws:sourceUrl "http://www.canindia.com/strong-quake-hits-afghanistan-pak-tremors-felt-in-india-2nd-lead/" ;
+    sws:title "Strong quake hits Afghanistan, Pak; tremors felt in India (2nd Lead)" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.55363e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.77144e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Badakhshan_Province ;
+            sws:relevance 5.47231e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.29424e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 6.43737e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.62046e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.20659e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.92287e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.62424e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.92204e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.39031e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.80425e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.73804e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.15939e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.0321e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.44925e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mercury_Prize ;
+            sws:relevance 5.28772e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Epicenter ;
+            sws:relevance 5.07492e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "moneycontrol.com" ;
+    sws:publicationDate "2019-12-20T18:33:00+05:00"^^xsd:dateTime ;
+    sws:sentiment -8.17717e-01 ;
+    sws:sourceUrl "https://www.moneycontrol.com/news/world/afghanistan-and-pakistan-jolted-by-strong-6-1-quake-usgs-4750391.html" ;
+    sws:title "Afghanistan and Pakistan jolted by strong 6.1 quake: USGS" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
+            sws:relevance 5.19468e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.57497e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.65984e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Ashkasham ;
+            sws:relevance 5.38345e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 7.79049e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "earthquakenewstoday.com" ;
+    sws:publicationDate "2019-12-20T19:42:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.86084e-01 ;
+    sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/20/light-earthquake-4-3-mag-was-detected-near-ashkasham-in-afghanistan-4/" ;
+    sws:title "Light earthquake, 4.3 mag was detected near Ashkasham in Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Tsunami ;
+            sws:relevance 6.5604e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Afghanistan ;
             sws:relevance 7.76472e-01 ],
         [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Tsunami ;
-            sws:relevance 6.5604e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Ashkasham ;
             sws:relevance 5.48208e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 9.6428e-01 ],
         [ a sws:ArticleMention ;
             sws:mentionsResource <http://dbpedia.org/resource/Fayzabad,_Badakhshan> ;
             sws:relevance 5.23392e-01 ] ;
     sws:mentionsCountry dbp:Afghanistan ;
     sws:origin "earthquakenewstoday.com" ;
     sws:publicationDate "2019-12-11T18:49:00+00:00"^^xsd:dateTime ;
-    sws:sentiment "None" ;
+    sws:sentiment -6.95785e-01 ;
     sws:sourceUrl "http://www.earthquakenewstoday.com/2019/12/11/light-earthquake-4-3-mag-has-occurred-near-ashkasham-in-afghanistan-2/" ;
     sws:title "Light earthquake, 4.3 mag has occurred near Ashkasham in Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjab_region ;
+            sws:relevance 5.46864e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Sindh ;
+            sws:relevance 5.06316e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kashmir ;
+            sws:relevance 5.03176e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 8.48901e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.23379e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 6.41174e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 5.3575e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(Pakistan)> ;
+            sws:relevance 5.13917e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.10498e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 5.52008e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.3338e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Central_Asia ;
+            sws:relevance 5.66216e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Peshawar ;
+            sws:relevance 6.4314e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 6.81665e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.90615e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geology ;
+            sws:relevance 5.13039e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 7.06842e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 7.10094e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asian_Association_for_Regional_Cooperation ;
+            sws:relevance 5.37487e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 6.44746e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.75349e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 5.81287e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 9.7888e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "breakingnewspak.com" ;
+    sws:publicationDate "2019-12-20T12:06:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -5.13708e-01 ;
+    sws:sourceUrl "https://breakingnewspak.com/severe-earthquake-jolts-pakistan-india-afghanistan/" ;
+    sws:title "Severe Earthquake Jolts Pakistan, India & Afghanistan" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.17687e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 5.42169e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 6.55976e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.39201e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.7716e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 6.56494e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.81364e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Plate_tectonics ;
+            sws:relevance 5.63391e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.41846e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 6.67375e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 5.33265e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.35086e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.18445e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "netnewspike.club" ;
+    sws:publicationDate "2019-12-06T00:00:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -8.57011e-01 ;
+    sws:sourceUrl "https://www.netnewspike.club/6-1-magnitude-earthquake-shakes-afghanistan-and-pakistan/" ;
+    sws:title "6.1 magnitude earthquake shakes Afghanistan and Pakistan | NetNewsPike" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Srinagar ;
+            sws:relevance 5.48228e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 7.36259e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Haryana ;
+            sws:relevance 7.54357e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 7.16571e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Yamuna ;
+            sws:relevance 6.39522e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource <http://dbpedia.org/resource/Punjab_(India)> ;
+            sws:relevance 6.59142e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 6.9446e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himalayas ;
+            sws:relevance 6.00922e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Chandigarh ;
+            sws:relevance 5.4391e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindi ;
+            sws:relevance 6.75023e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 5.27955e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 8.07745e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Jammu_and_Kashmir ;
+            sws:relevance 5.73728e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India_Meteorological_Department ;
+            sws:relevance 7.9364e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Uttar_Pradesh ;
+            sws:relevance 5.83588e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.79283e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Himachal_Pradesh ;
+            sws:relevance 5.59192e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:States_and_territories_of_India ;
+            sws:relevance 6.4619e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 6.56171e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 5.16811e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:India ;
+            sws:relevance 6.10935e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 6.77602e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "kashmirlife.net" ;
+    sws:publicationDate "2019-12-20T17:36:00+00:00"^^xsd:dateTime ;
+    sws:sentiment -8.25379e-01 ;
+    sws:sourceUrl "https://kashmirlife.net/earthquake-hits-afghanistan-tremors-felt-in-kashmir-220811/" ;
+    sws:title "Earthquake Hits Afghanistan, Tremors Felt In Kashmir" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 7.46961e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:North-West_Frontier_Province ;
+            sws:relevance 6.68902e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.49475e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mountain_ranges_of_Pakistan ;
+            sws:relevance 5.7042e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Indus_River ;
+            sws:relevance 8.02667e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake_engineering ;
+            sws:relevance 5.65665e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Khyber_Pass ;
+            sws:relevance 5.43554e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.04035e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Islamabad ;
+            sws:relevance 5.33436e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Geography_of_Afghanistan ;
+            sws:relevance 5.05931e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:History_of_Pakistan ;
+            sws:relevance 6.33991e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Kabul ;
+            sws:relevance 8.60375e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.23578e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Wakhan_Corridor ;
+            sws:relevance 5.76087e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Hindu_Kush ;
+            sws:relevance 8.20346e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "htsyndication.com" ;
+    sws:publicationDate "2019-12-20T00:00:00+05:00"^^xsd:dateTime ;
+    sws:sentiment -7.29439e-01 ;
+    sws:sourceUrl "https://www.htsyndication.com/india-blooms/article/strong-earthquake-hits-afghanistan%2C-pakistan/39618542" ;
+    sws:title "Kabul, 20 -- A strong earthquake struck Afghanistan a" .
+
+[] a sws:NewsArticle ;
+    sws:hasMention [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mughal_Empire ;
+            sws:relevance 7.49438e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Turkey ;
+            sws:relevance 5.57714e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:United_States_Geological_Survey ;
+            sws:relevance 6.7397e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Punjabi_language ;
+            sws:relevance 5.52392e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Urdu ;
+            sws:relevance 5.56057e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Provinces_of_Afghanistan ;
+            sws:relevance 5.55858e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Afghanistan ;
+            sws:relevance 9.83306e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Earthquake ;
+            sws:relevance 8.58994e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Mercury_Prize ;
+            sws:relevance 5.31518e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:British_Raj ;
+            sws:relevance 7.22754e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Richter_magnitude_scale ;
+            sws:relevance 5.26691e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Delhi ;
+            sws:relevance 5.71296e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Lahore ;
+            sws:relevance 5.90374e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:South_Asia ;
+            sws:relevance 5.13435e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Pakistan ;
+            sws:relevance 8.93384e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Badakhshan_Province ;
+            sws:relevance 6.07946e-01 ] ;
+    sws:mentionsCountry dbp:Afghanistan ;
+    sws:origin "asianage.com" ;
+    sws:publicationDate "2019-12-21T00:00:00+02:00"^^xsd:dateTime ;
+    sws:sentiment -8.08777e-01 ;
+    sws:sourceUrl "http://www.asianage.com/world/middle-east/201219/afghanistan-and-pakistan-jolted-by-strong-61-quake-usgs.html" ;
+    sws:title "'Afghanistan and Pakistan jolted by strong 6.1 quake': USGS" .
 

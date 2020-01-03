@@ -38,6 +38,15 @@ def extract_resources(news_result):
 
     return list(res_dict.items())
 
+def extract_sentiment(news_result):
+    if not news_result.get('enriched_text'):
+        return None
+    elif not news_result.get('enriched_text').get('sentiment'):
+        return None
+    elif not news_result.get('enriched_text').get('sentiment').get('document'):
+        return None
+    return  news_result.get('enriched_text').get('sentiment').get('document').get('score')
+
 
 def extract_info(news_result):
     return {
@@ -45,7 +54,7 @@ def extract_info(news_result):
         "url": news_result.get('url'),
         "host": news_result.get('host'),
         "title": news_result.get('title'),
-        "sentiment": news_result.get('enriched_text').get('sentiment').get('score') if news_result.get('enriched_text') else None,
+        "sentiment":extract_sentiment(news_result),
         "related_res": extract_resources(news_result)
     }
 
@@ -56,6 +65,7 @@ def load_disaster_news(country_name):
                                 f'disambiguation:(subtype:Country, name:"{country_name}"),relevance>0.5),'
                                 f'enriched_text.categories:(label:"/science/weather/meteorological disaster/", score>0.75),'
                                 f'publication_date>={START_DATE},'
-                                f'publication_date<={END_DATE}')
+                                f'publication_date<={END_DATE}',
+                          count=50)
     news_results = [extract_info(r) for r in res.result.get('results')]
     return news_results

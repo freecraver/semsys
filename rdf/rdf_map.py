@@ -12,7 +12,7 @@ def write_to_turtle(news_results, country_str):
     namespace_manager.bind('sws', n_custom, override=False)
     g.namespace_manager = namespace_manager
 
-    country = n_dbpedia_res[country_str]
+    country = n_dbpedia_res[country_str.replace(" ", "_")]
 
     for news_entity in news_results:
         article = BNode()
@@ -24,7 +24,8 @@ def write_to_turtle(news_results, country_str):
         g.add((article, n_custom['sourceUrl'], Literal(news_entity['url'])))
         g.add((article, n_custom['publicationDate'], Literal(news_entity['publication_date'], datatype=XSD.dateTime)))
         g.add((article, n_custom['title'], Literal(news_entity['title'])))
-        g.add((article, n_custom['sentiment'], Literal(news_entity['sentiment'])))
+        if news_entity['sentiment']:
+            g.add((article, n_custom['sentiment'], Literal(news_entity['sentiment'])))
 
         # object properties
         g.add((article, n_custom['mentionsCountry'], country))
