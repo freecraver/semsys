@@ -7,11 +7,11 @@
 
 [] a sws:NewsArticle ;
     sws:hasMention [ a sws:ArticleMention ;
-            sws:mentionsResource dbp:Bad_Gastein ;
-            sws:relevance 5.18708e-01 ],
-        [ a sws:ArticleMention ;
             sws:mentionsResource dbp:Salzburg ;
-            sws:relevance 5.77873e-01 ] ;
+            sws:relevance 5.77873e-01 ],
+        [ a sws:ArticleMention ;
+            sws:mentionsResource dbp:Bad_Gastein ;
+            sws:relevance 5.18708e-01 ] ;
     sws:mentionsCountry dbp:Austria ;
     sws:origin "urdupoint.com" ;
     sws:publicationDate "2019-11-18T16:28:00+00:00"^^xsd:dateTime ;
