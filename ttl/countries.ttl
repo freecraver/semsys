@@ -1,0 +1,582 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sws: <http://www.semanticweb.org/sws/group4/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbp:Afghanistan a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Albania a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Algeria a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Andorra a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Angola a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Antigua_and_Barbuda a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Argentina a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Armenia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Australia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Austria a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Azerbaijan a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Bahamas a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Bahrain a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Bangladesh a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Barbados a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Belarus a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Belgium a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Belize a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Benin a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Bhutan a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Bolivia a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Bosnia_and_Herzegovina a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Botswana a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Brazil a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Brunei a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Bulgaria a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Burkina_Faso a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Burundi a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Cabo_Verde a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Cambodia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Cameroon a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Canada a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Central_African_Republic a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Chad a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Chile a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:China a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Colombia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Comoros a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Congo_Republic a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Costa_Rica a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Croatia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Cuba a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Cyprus a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Czechia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Denmark a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Djibouti a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Dominica a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Dominican_Republic a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Ecuador a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Egypt a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:El_Salvador a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Equatorial_Guinea a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Eritrea a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Estonia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Eswatini a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Ethiopia a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Fiji a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Finland a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:France a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Gabon a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Gambia a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Georgia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Germany a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Ghana a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Greece a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Grenada a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Guatemala a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Guinea a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Guinea-Bissau a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Guyana a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Haiti a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Honduras a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Hungary a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Iceland a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:India a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Indonesia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Iran a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Iraq a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Ireland a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Israel a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Italy a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Ivory_Coast a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Jamaica a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Japan a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Jordan a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Kazakhstan a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Kenya a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Kiribati a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Kosovo a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Kuwait a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Kyrgyzstan a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Laos a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Latvia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Lebanon a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Lesotho a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Liberia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Libya a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Liechtenstein a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Lithuania a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Luxembourg a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Madagascar a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Malawi a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Malaysia a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Maldives a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Mali a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Malta a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Marshall_Islands a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Mauritania a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Mauritius a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Mexico a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Micronesia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Moldova a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Monaco a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Mongolia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Montenegro a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Morocco a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Mozambique a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Myanmar a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Namibia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Nauru a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Nepal a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Netherlands a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:New_Zealand a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Nicaragua a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Niger a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Nigeria a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:North_Macedonia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Norway a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Oman a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Pakistan a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Palau a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Panama a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Papua_New_Guinea a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Paraguay a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Peru a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Philippines a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Poland a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Portugal a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Qatar a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Romania a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Russia a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Rwanda a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Saint_Lucia a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Samoa a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:San_Marino a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Saudi_Arabia a owl:NamedIndividual ;
+    sws:Risk_Level 4 .
+
+dbp:Senegal a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Serbia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Seychelles a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Sierra_Leone a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Singapore a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Slovakia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Slovenia a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Solomon_Islands a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Somalia a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:South_Africa a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:South_Sudan a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Spain a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Sri_Lanka a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:St_Kitts_and_Nevis a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:St_Vincent_and_Grenadines a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Sudan a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Suriname a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Sweden a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Switzerland a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Syria a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:São_Tomé_and_Príncipe a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Tajikistan a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Tanzania a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Thailand a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Timor-Leste a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Togo a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Tonga a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Trinidad_and_Tobago a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Tunisia a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Turkey a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Turkmenistan a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Tuvalu a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Uganda a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Ukraine a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:United_Arab_Emirates a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:United_Kingdom a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:United_States a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Uruguay a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Uzbekistan a owl:NamedIndividual ;
+    sws:Risk_Level 3 .
+
+dbp:Vanuatu a owl:NamedIndividual ;
+    sws:Risk_Level 1 .
+
+dbp:Venezuela a owl:NamedIndividual ;
+    sws:Risk_Level 5 .
+
+dbp:Vietnam a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Yemen a owl:NamedIndividual ;
+    sws:Risk_Level 6 .
+
+dbp:Zambia a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+
+dbp:Zimbabwe a owl:NamedIndividual ;
+    sws:Risk_Level 2 .
+

@@ -1,0 +1,190 @@
+@prefix : <http://www.semanticweb.org/sws/group4/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/sws/group4/> .
+
+<http://www.semanticweb.org/sws/group4/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/sws/group4/hasMention
+:hasMention rdf:type owl:ObjectProperty ;
+            owl:inverseOf :mentionedIn ;
+            rdf:type owl:InverseFunctionalProperty ;
+            rdfs:domain :NewsArticle ;
+            rdfs:range :ArticleMention ;
+            rdfs:comment "An Article can have multiple mentions of resources. Each of them has a relevance associated"@en ;
+            rdfs:label "Has Mention"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/mentionedIn
+:mentionedIn rdf:type owl:ObjectProperty ;
+             rdfs:comment "A ArticleMention is mentioned in exactly one NewsArticle"@en ;
+             rdfs:label "Mentioned in Article"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/mentionsCountry
+:mentionsCountry rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :NewsArticle ;
+                 rdfs:range <http://schema.org/Country> ;
+                 rdfs:comment "The ontology is modelled in a way where one news article only mentions one main country (i.e. the country for which it was found via Discovery)."@en ;
+                 rdfs:label "Mention of Country"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/mentionsResource
+:mentionsResource rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :ArticleMention ;
+                  rdfs:range owl:Thing ;
+                  rdfs:comment """A news article can mention any possible resource. Only those above a certain relevance-score are included.
+A country can be related to a NewsArticle via mentionsResource and mentionsCountry"""@en ;
+                  rdfs:label "Mention of Resource"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/sws/group4/Risk_Level
+:Risk_Level rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://schema.org/Country> ;
+            rdfs:range [ rdf:type rdfs:Datatype ;
+                         owl:onDatatype xsd:integer ;
+                         owl:withRestrictions ( [ xsd:minExclusive 0
+                                                ]
+                                                [ xsd:maxExclusive 7
+                                                ]
+                                              )
+                       ] ;
+            rdfs:comment "A country's risk level as defined by the Austrian government. 1 is very safe, 6 is very dangerous"@en ;
+            rdfs:label "Risk Level"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/origin
+:origin rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :NewsArticle ;
+        rdfs:range xsd:string ;
+        rdfs:comment "Host address of website where article was crawled from"@en ;
+        rdfs:label "Origin of Article"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/publicationDate
+:publicationDate rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :relevance ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :NewsArticle ;
+                 rdfs:range xsd:dateTime ;
+                 rdfs:comment "fetched from Discovery"@en ;
+                 rdfs:label "Publication Date"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/relevance
+:relevance rdf:type owl:DatatypeProperty ;
+           rdfs:domain :ArticleMention ;
+           rdfs:range [ rdf:type rdfs:Datatype ;
+                        owl:onDatatype xsd:double ;
+                        owl:withRestrictions ( [ xsd:minInclusive "0.0"^^xsd:double
+                                               ]
+                                               [ xsd:maxInclusive "1.0"^^xsd:double
+                                               ]
+                                             )
+                      ] ;
+           rdfs:comment "The relevance score is calculated by Watson Discovery"@en ;
+           rdfs:label "Relevance Score"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/sentiment
+:sentiment rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :NewsArticle ;
+           rdfs:range [ rdf:type rdfs:Datatype ;
+                        owl:onDatatype xsd:double ;
+                        owl:withRestrictions ( [ xsd:minInclusive "-1.0"^^xsd:double
+                                               ]
+                                               [ xsd:maxInclusive "1.0"^^xsd:double
+                                               ]
+                                             )
+                      ] ;
+           rdfs:comment "Sentiment Score calculated by Watson Discovery"@en ;
+           rdfs:label "Sentiment Score"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/sourceUrl
+:sourceUrl rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :NewsArticle ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Original URL of news article (may no longer be accessible)"@en ;
+           rdfs:label "Source URL"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdf:type owl:FunctionalProperty ;
+       rdfs:domain :NewsArticle ;
+       rdfs:range xsd:string ;
+       rdfs:comment "Title used within the news article"@en ;
+       rdfs:label "Title"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema.org/Country
+<http://schema.org/Country> rdf:type owl:Class ;
+                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                              owl:onProperty :Risk_Level ;
+                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange owl:rational
+                                            ] .
+
+
+###  http://www.semanticweb.org/sws/group4/ArticleMention
+:ArticleMention rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty :mentionsResource ;
+                                  owl:cardinality "1"^^xsd:nonNegativeInteger
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :relevance ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:float
+                                ] ;
+                rdfs:comment "Link to DBpedia resource mentioned in a news article with a relevance value calculated by Discovery"@en ;
+                rdfs:label "Mention within Article"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/NewsArticle
+:NewsArticle rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :mentionsCountry ;
+                               owl:cardinality "1"^^xsd:nonNegativeInteger
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :sentiment ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:float
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :sourceUrl ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:dateTime
+                             ] ;
+             rdfs:comment "News article retrieved from Watson Discovery API"@en ;
+             rdfs:label "News Article"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
