@@ -6,7 +6,6 @@ first_country_to_load = "Sudan"
 fetch = False
 
 if __name__ == '__main__':
-    """
     print('Initially loading country information...')
     country_names = load_countries()
     for country in country_names:
@@ -23,7 +22,6 @@ if __name__ == '__main__':
         if len(news_res) > 0:
             print(f'Converting to Turtle file {country.replace(" ", "_")}.ttl')
             write_to_turtle(news_res, country)
-    """
     print('Loading countries from resource')
     countries = load_countries_with_risk_level()
     write_countries_to_turtle(countries)
