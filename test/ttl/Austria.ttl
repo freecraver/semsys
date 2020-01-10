@@ -1,0 +1,26 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swo: <http://www.semanticweb.org/sws/group4/ontology/> .
+@prefix sws: <http://www.semanticweb.org/sws/group4/resources/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sws:Article-857455459338080 a swo:NewsArticle ;
+    swo:hasMention sws:ArticleMention-236190909571300,
+        sws:ArticleMention-453654621420142 ;
+    swo:mentionsCountry dbp:Austria ;
+    swo:origin "urdupoint.com" ;
+    swo:publicationDate "2019-11-18T16:28:00+00:00"^^xsd:dateTime ;
+    swo:sentiment 1.324e-01 ;
+    swo:sourceUrl "https://www.urdupoint.com/en/world/man-dies-in-landslide-as-austria-hit-by-heavy-765122.html" ;
+    swo:title "Man dies in landslide as Austria hit by heavy rain and snow" .
+
+sws:ArticleMention-236190909571300 a swo:ArticleMention ;
+    swo:mentionsResource dbp:Salzburg ;
+    swo:relevance 5.77873e-01 .
+
+sws:ArticleMention-453654621420142 a swo:ArticleMention ;
+    swo:mentionsResource dbp:Bad_Gastein ;
+    swo:relevance 5.18708e-01 .
+
