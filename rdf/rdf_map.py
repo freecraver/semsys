@@ -19,9 +19,9 @@ def write_to_turtle(news_results, country_str):
 
     for news_entity in news_results:
         # article = BNode()
-        news_title = news_entity['title']
+        hash_input = news_entity['url'] + news_entity['title'] + news_entity['publication_date']
         # generate 15 digit hash for name
-        news_id = int(hashlib.sha256(news_title.encode('utf-8')).hexdigest(), 16) % 10**15
+        news_id = int(hashlib.sha256(hash_input.encode('utf-8')).hexdigest(), 16) % 10**15
         article = URIRef(n_custom_resources['Article-' + str(news_id)])
 
         g.add((article, RDF.type, n_custom_ontology['NewsArticle']))

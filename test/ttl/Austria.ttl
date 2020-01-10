@@ -6,9 +6,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sws:Article-857455459338080 a swo:NewsArticle ;
-    swo:hasMention sws:ArticleMention-236190909571300,
-        sws:ArticleMention-453654621420142 ;
+sws:Article-589485560191743 a swo:NewsArticle ;
+    swo:hasMention sws:ArticleMention-225738258147434,
+        sws:ArticleMention-57014115099220 ;
     swo:mentionsCountry dbp:Austria ;
     swo:origin "urdupoint.com" ;
     swo:publicationDate "2019-11-18T16:28:00+00:00"^^xsd:dateTime ;
@@ -16,11 +16,11 @@ sws:Article-857455459338080 a swo:NewsArticle ;
     swo:sourceUrl "https://www.urdupoint.com/en/world/man-dies-in-landslide-as-austria-hit-by-heavy-765122.html" ;
     swo:title "Man dies in landslide as Austria hit by heavy rain and snow" .
 
-sws:ArticleMention-236190909571300 a swo:ArticleMention ;
+sws:ArticleMention-225738258147434 a swo:ArticleMention ;
     swo:mentionsResource dbp:Salzburg ;
     swo:relevance 5.77873e-01 .
 
-sws:ArticleMention-453654621420142 a swo:ArticleMention ;
+sws:ArticleMention-57014115099220 a swo:ArticleMention ;
     swo:mentionsResource dbp:Bad_Gastein ;
     swo:relevance 5.18708e-01 .
 
