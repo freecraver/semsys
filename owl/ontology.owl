@@ -33,7 +33,7 @@
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  rdf:type owl:FunctionalProperty ;
                  rdfs:domain :NewsArticle ;
-                 rdfs:range <http://schema.org/Country> ;
+                 rdfs:range <http://dbpedia.org/ontology/Country> ;
                  rdfs:comment "The ontology is modelled in a way where one news article only mentions one main country (i.e. the country for which it was found via Discovery)."@en ;
                  rdfs:label "Mention of Country"@en .
 
@@ -55,7 +55,7 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 
 ###  http://www.semanticweb.org/sws/group4/Risk_Level
 :Risk_Level rdf:type owl:DatatypeProperty ;
-            rdfs:domain <http://schema.org/Country> ;
+            rdfs:domain <http://dbpedia.org/ontology/Country> ;
             rdfs:range [ rdf:type rdfs:Datatype ;
                          owl:onDatatype xsd:integer ;
                          owl:withRestrictions ( [ xsd:minExclusive 0
@@ -143,8 +143,8 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 #    Classes
 #################################################################
 
-###  http://schema.org/Country
-<http://schema.org/Country> rdf:type owl:Class ;
+###  http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> rdf:type owl:Class ;
                             rdfs:subClassOf [ rdf:type owl:Restriction ;
                                               owl:onProperty :Risk_Level ;
                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
