@@ -1,6 +1,6 @@
 import unittest
 
-from rdf.rdf_map import write_to_turtle
+from rdf.rdf_map import write_to_turtle, write_countries_to_turtle
 
 
 class TestRdfMapping(unittest.TestCase):
@@ -18,3 +18,11 @@ class TestRdfMapping(unittest.TestCase):
             ]
         }]
         write_to_turtle(disco_res, 'Austria')
+
+        # add mapping of country
+        countries = [
+            ('Austria', 1),
+            ('Afghanistan', 6),
+            ('Germany', 1)
+        ]
+        write_countries_to_turtle(countries)
