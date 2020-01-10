@@ -2,7 +2,7 @@ from util.load_countries import load_countries, load_countries_with_risk_level
 from disco.disco_queries import load_disaster_news
 from rdf.rdf_map import write_to_turtle, write_countries_to_turtle
 
-first_country_to_load = "Sudan"
+first_country_to_load = "Afghanistan"
 fetch = False
 
 if __name__ == '__main__':

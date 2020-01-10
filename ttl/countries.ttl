@@ -2,581 +2,581 @@
 @prefix dbp: <http://dbpedia.org/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org/> .
-@prefix sws: <http://www.semanticweb.org/sws/group4/> .
+@prefix swo: <http://www.semanticweb.org/sws/group4/ontology/> .
+@prefix sws: <http://www.semanticweb.org/sws/group4/resources/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 dbp:Afghanistan a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Albania a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Algeria a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Andorra a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Angola a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Antigua_and_Barbuda a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Argentina a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Armenia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Australia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Austria a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Azerbaijan a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Bahamas a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Bahrain a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Bangladesh a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Barbados a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Belarus a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Belgium a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Belize a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Benin a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Bhutan a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Bolivia a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Bosnia_and_Herzegovina a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Botswana a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Brazil a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Brunei a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Bulgaria a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Burkina_Faso a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Burundi a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Cabo_Verde a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Cambodia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Cameroon a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Canada a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Central_African_Republic a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Chad a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Chile a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:China a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Colombia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Comoros a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Congo_Republic a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Costa_Rica a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Croatia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Cuba a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Cyprus a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Czechia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Denmark a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Djibouti a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Dominica a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Dominican_Republic a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Ecuador a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Egypt a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:El_Salvador a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Equatorial_Guinea a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Eritrea a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Estonia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Eswatini a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Ethiopia a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Fiji a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Finland a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:France a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Gabon a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Gambia a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Georgia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Germany a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Ghana a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Greece a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Grenada a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Guatemala a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Guinea a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Guinea-Bissau a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Guyana a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Haiti a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Honduras a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Hungary a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Iceland a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:India a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Indonesia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Iran a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Iraq a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Ireland a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Israel a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Italy a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Ivory_Coast a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Jamaica a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Japan a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Jordan a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Kazakhstan a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Kenya a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Kiribati a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Kosovo a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Kuwait a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Kyrgyzstan a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Laos a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Latvia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Lebanon a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Lesotho a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Liberia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Libya a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Liechtenstein a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Lithuania a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Luxembourg a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Madagascar a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Malawi a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Malaysia a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Maldives a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Mali a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Malta a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Marshall_Islands a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Mauritania a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Mauritius a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Mexico a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Micronesia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Moldova a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Monaco a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Mongolia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Montenegro a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Morocco a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Mozambique a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Myanmar a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Namibia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Nauru a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Nepal a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Netherlands a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:New_Zealand a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Nicaragua a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Niger a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Nigeria a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:North_Macedonia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Norway a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Oman a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Pakistan a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Palau a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Panama a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Papua_New_Guinea a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Paraguay a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Peru a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Philippines a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Poland a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Portugal a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Qatar a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Romania a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Russia a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Rwanda a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Saint_Lucia a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Samoa a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:San_Marino a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Saudi_Arabia a dbo:Country ;
-    sws:Risk_Level 4 .
+    swo:Risk_Level 4 .
 
 dbp:Senegal a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Serbia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Seychelles a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Sierra_Leone a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Singapore a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Slovakia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Slovenia a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Solomon_Islands a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Somalia a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:South_Africa a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:South_Sudan a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Spain a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Sri_Lanka a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:St_Kitts_and_Nevis a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:St_Vincent_and_Grenadines a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Sudan a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Suriname a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Sweden a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Switzerland a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Syria a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:São_Tomé_and_Príncipe a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Tajikistan a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Tanzania a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Thailand a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Timor-Leste a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Togo a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Tonga a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Trinidad_and_Tobago a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Tunisia a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Turkey a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Turkmenistan a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Tuvalu a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Uganda a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Ukraine a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:United_Arab_Emirates a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:United_Kingdom a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:United_States a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Uruguay a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Uzbekistan a dbo:Country ;
-    sws:Risk_Level 3 .
+    swo:Risk_Level 3 .
 
 dbp:Vanuatu a dbo:Country ;
-    sws:Risk_Level 1 .
+    swo:Risk_Level 1 .
 
 dbp:Venezuela a dbo:Country ;
-    sws:Risk_Level 5 .
+    swo:Risk_Level 5 .
 
 dbp:Vietnam a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Yemen a dbo:Country ;
-    sws:Risk_Level 6 .
+    swo:Risk_Level 6 .
 
 dbp:Zambia a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
 dbp:Zimbabwe a dbo:Country ;
-    sws:Risk_Level 2 .
+    swo:Risk_Level 2 .
 
