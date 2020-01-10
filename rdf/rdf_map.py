@@ -50,13 +50,13 @@ def write_countries_to_turtle(countries):
     namespace_manager = NamespaceManager(Graph())
     n_dbpedia_res = Namespace("http://dbpedia.org/resource/")
     n_schema_res = Namespace("https://schema.org/")
-    n_owl_res = Namespace("http://www.w3.org/2002/07/owl#")
+    n_dbo_res = Namespace("http://dbpedia.org/ontology/")
     n_custom = Namespace("http://www.semanticweb.org/sws/group4/")
 
     namespace_manager.bind('dbp', n_dbpedia_res, override=False)
     namespace_manager.bind('schema', n_schema_res, override=False)
     namespace_manager.bind('sws', n_custom, override=False)
-    namespace_manager.bind('owl', n_owl_res, override=False)
+    namespace_manager.bind('dbo', n_dbo_res, override=False)
     g.namespace_manager = namespace_manager
 
     # country = n_dbpedia_res[country_str.replace(" ", "_")]
@@ -64,7 +64,7 @@ def write_countries_to_turtle(countries):
         c = URIRef(n_dbpedia_res[country.replace(" ", "_")])
 
         # add the country as a named individual
-        g.add((c, RDF.type, n_owl_res.NamedIndividual))
+        g.add((c, RDF.type, n_dbo_res.Country))
 
         # add risk level
         g.add((c, n_custom['Risk_Level'], Literal(risk)))

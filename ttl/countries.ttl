@@ -1,5 +1,5 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbp: <http://dbpedia.org/resource/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
@@ -7,576 +7,576 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dbp:Afghanistan a owl:NamedIndividual ;
+dbp:Afghanistan a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Albania a owl:NamedIndividual ;
+dbp:Albania a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Algeria a owl:NamedIndividual ;
+dbp:Algeria a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Andorra a owl:NamedIndividual ;
+dbp:Andorra a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Angola a owl:NamedIndividual ;
+dbp:Angola a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Antigua_and_Barbuda a owl:NamedIndividual ;
+dbp:Antigua_and_Barbuda a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Argentina a owl:NamedIndividual ;
+dbp:Argentina a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Armenia a owl:NamedIndividual ;
+dbp:Armenia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Australia a owl:NamedIndividual ;
+dbp:Australia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Austria a owl:NamedIndividual ;
+dbp:Austria a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Azerbaijan a owl:NamedIndividual ;
+dbp:Azerbaijan a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Bahamas a owl:NamedIndividual ;
+dbp:Bahamas a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Bahrain a owl:NamedIndividual ;
+dbp:Bahrain a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Bangladesh a owl:NamedIndividual ;
+dbp:Bangladesh a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Barbados a owl:NamedIndividual ;
+dbp:Barbados a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Belarus a owl:NamedIndividual ;
+dbp:Belarus a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Belgium a owl:NamedIndividual ;
+dbp:Belgium a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Belize a owl:NamedIndividual ;
+dbp:Belize a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Benin a owl:NamedIndividual ;
+dbp:Benin a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Bhutan a owl:NamedIndividual ;
+dbp:Bhutan a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Bolivia a owl:NamedIndividual ;
+dbp:Bolivia a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Bosnia_and_Herzegovina a owl:NamedIndividual ;
+dbp:Bosnia_and_Herzegovina a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Botswana a owl:NamedIndividual ;
+dbp:Botswana a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Brazil a owl:NamedIndividual ;
+dbp:Brazil a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Brunei a owl:NamedIndividual ;
+dbp:Brunei a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Bulgaria a owl:NamedIndividual ;
+dbp:Bulgaria a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Burkina_Faso a owl:NamedIndividual ;
+dbp:Burkina_Faso a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Burundi a owl:NamedIndividual ;
+dbp:Burundi a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Cabo_Verde a owl:NamedIndividual ;
+dbp:Cabo_Verde a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Cambodia a owl:NamedIndividual ;
+dbp:Cambodia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Cameroon a owl:NamedIndividual ;
+dbp:Cameroon a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Canada a owl:NamedIndividual ;
+dbp:Canada a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Central_African_Republic a owl:NamedIndividual ;
+dbp:Central_African_Republic a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Chad a owl:NamedIndividual ;
+dbp:Chad a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Chile a owl:NamedIndividual ;
+dbp:Chile a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:China a owl:NamedIndividual ;
+dbp:China a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Colombia a owl:NamedIndividual ;
+dbp:Colombia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Comoros a owl:NamedIndividual ;
+dbp:Comoros a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Congo_Republic a owl:NamedIndividual ;
+dbp:Congo_Republic a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Costa_Rica a owl:NamedIndividual ;
+dbp:Costa_Rica a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Croatia a owl:NamedIndividual ;
+dbp:Croatia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Cuba a owl:NamedIndividual ;
+dbp:Cuba a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Cyprus a owl:NamedIndividual ;
+dbp:Cyprus a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Czechia a owl:NamedIndividual ;
+dbp:Czechia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Denmark a owl:NamedIndividual ;
+dbp:Denmark a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Djibouti a owl:NamedIndividual ;
+dbp:Djibouti a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Dominica a owl:NamedIndividual ;
+dbp:Dominica a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Dominican_Republic a owl:NamedIndividual ;
+dbp:Dominican_Republic a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Ecuador a owl:NamedIndividual ;
+dbp:Ecuador a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Egypt a owl:NamedIndividual ;
+dbp:Egypt a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:El_Salvador a owl:NamedIndividual ;
+dbp:El_Salvador a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Equatorial_Guinea a owl:NamedIndividual ;
+dbp:Equatorial_Guinea a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Eritrea a owl:NamedIndividual ;
+dbp:Eritrea a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Estonia a owl:NamedIndividual ;
+dbp:Estonia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Eswatini a owl:NamedIndividual ;
+dbp:Eswatini a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Ethiopia a owl:NamedIndividual ;
+dbp:Ethiopia a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Fiji a owl:NamedIndividual ;
+dbp:Fiji a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Finland a owl:NamedIndividual ;
+dbp:Finland a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:France a owl:NamedIndividual ;
+dbp:France a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Gabon a owl:NamedIndividual ;
+dbp:Gabon a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Gambia a owl:NamedIndividual ;
+dbp:Gambia a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Georgia a owl:NamedIndividual ;
+dbp:Georgia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Germany a owl:NamedIndividual ;
+dbp:Germany a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Ghana a owl:NamedIndividual ;
+dbp:Ghana a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Greece a owl:NamedIndividual ;
+dbp:Greece a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Grenada a owl:NamedIndividual ;
+dbp:Grenada a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Guatemala a owl:NamedIndividual ;
+dbp:Guatemala a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Guinea a owl:NamedIndividual ;
+dbp:Guinea a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Guinea-Bissau a owl:NamedIndividual ;
+dbp:Guinea-Bissau a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Guyana a owl:NamedIndividual ;
+dbp:Guyana a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Haiti a owl:NamedIndividual ;
+dbp:Haiti a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Honduras a owl:NamedIndividual ;
+dbp:Honduras a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Hungary a owl:NamedIndividual ;
+dbp:Hungary a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Iceland a owl:NamedIndividual ;
+dbp:Iceland a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:India a owl:NamedIndividual ;
+dbp:India a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Indonesia a owl:NamedIndividual ;
+dbp:Indonesia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Iran a owl:NamedIndividual ;
+dbp:Iran a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Iraq a owl:NamedIndividual ;
+dbp:Iraq a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Ireland a owl:NamedIndividual ;
+dbp:Ireland a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Israel a owl:NamedIndividual ;
+dbp:Israel a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Italy a owl:NamedIndividual ;
+dbp:Italy a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Ivory_Coast a owl:NamedIndividual ;
+dbp:Ivory_Coast a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Jamaica a owl:NamedIndividual ;
+dbp:Jamaica a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Japan a owl:NamedIndividual ;
+dbp:Japan a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Jordan a owl:NamedIndividual ;
+dbp:Jordan a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Kazakhstan a owl:NamedIndividual ;
+dbp:Kazakhstan a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Kenya a owl:NamedIndividual ;
+dbp:Kenya a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Kiribati a owl:NamedIndividual ;
+dbp:Kiribati a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Kosovo a owl:NamedIndividual ;
+dbp:Kosovo a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Kuwait a owl:NamedIndividual ;
+dbp:Kuwait a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Kyrgyzstan a owl:NamedIndividual ;
+dbp:Kyrgyzstan a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Laos a owl:NamedIndividual ;
+dbp:Laos a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Latvia a owl:NamedIndividual ;
+dbp:Latvia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Lebanon a owl:NamedIndividual ;
+dbp:Lebanon a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Lesotho a owl:NamedIndividual ;
+dbp:Lesotho a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Liberia a owl:NamedIndividual ;
+dbp:Liberia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Libya a owl:NamedIndividual ;
+dbp:Libya a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Liechtenstein a owl:NamedIndividual ;
+dbp:Liechtenstein a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Lithuania a owl:NamedIndividual ;
+dbp:Lithuania a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Luxembourg a owl:NamedIndividual ;
+dbp:Luxembourg a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Madagascar a owl:NamedIndividual ;
+dbp:Madagascar a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Malawi a owl:NamedIndividual ;
+dbp:Malawi a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Malaysia a owl:NamedIndividual ;
+dbp:Malaysia a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Maldives a owl:NamedIndividual ;
+dbp:Maldives a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Mali a owl:NamedIndividual ;
+dbp:Mali a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Malta a owl:NamedIndividual ;
+dbp:Malta a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Marshall_Islands a owl:NamedIndividual ;
+dbp:Marshall_Islands a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Mauritania a owl:NamedIndividual ;
+dbp:Mauritania a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Mauritius a owl:NamedIndividual ;
+dbp:Mauritius a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Mexico a owl:NamedIndividual ;
+dbp:Mexico a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Micronesia a owl:NamedIndividual ;
+dbp:Micronesia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Moldova a owl:NamedIndividual ;
+dbp:Moldova a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Monaco a owl:NamedIndividual ;
+dbp:Monaco a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Mongolia a owl:NamedIndividual ;
+dbp:Mongolia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Montenegro a owl:NamedIndividual ;
+dbp:Montenegro a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Morocco a owl:NamedIndividual ;
+dbp:Morocco a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Mozambique a owl:NamedIndividual ;
+dbp:Mozambique a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Myanmar a owl:NamedIndividual ;
+dbp:Myanmar a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Namibia a owl:NamedIndividual ;
+dbp:Namibia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Nauru a owl:NamedIndividual ;
+dbp:Nauru a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Nepal a owl:NamedIndividual ;
+dbp:Nepal a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Netherlands a owl:NamedIndividual ;
+dbp:Netherlands a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:New_Zealand a owl:NamedIndividual ;
+dbp:New_Zealand a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Nicaragua a owl:NamedIndividual ;
+dbp:Nicaragua a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Niger a owl:NamedIndividual ;
+dbp:Niger a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Nigeria a owl:NamedIndividual ;
+dbp:Nigeria a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:North_Macedonia a owl:NamedIndividual ;
+dbp:North_Macedonia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Norway a owl:NamedIndividual ;
+dbp:Norway a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Oman a owl:NamedIndividual ;
+dbp:Oman a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Pakistan a owl:NamedIndividual ;
+dbp:Pakistan a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Palau a owl:NamedIndividual ;
+dbp:Palau a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Panama a owl:NamedIndividual ;
+dbp:Panama a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Papua_New_Guinea a owl:NamedIndividual ;
+dbp:Papua_New_Guinea a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Paraguay a owl:NamedIndividual ;
+dbp:Paraguay a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Peru a owl:NamedIndividual ;
+dbp:Peru a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Philippines a owl:NamedIndividual ;
+dbp:Philippines a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Poland a owl:NamedIndividual ;
+dbp:Poland a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Portugal a owl:NamedIndividual ;
+dbp:Portugal a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Qatar a owl:NamedIndividual ;
+dbp:Qatar a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Romania a owl:NamedIndividual ;
+dbp:Romania a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Russia a owl:NamedIndividual ;
+dbp:Russia a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Rwanda a owl:NamedIndividual ;
+dbp:Rwanda a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Saint_Lucia a owl:NamedIndividual ;
+dbp:Saint_Lucia a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Samoa a owl:NamedIndividual ;
+dbp:Samoa a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:San_Marino a owl:NamedIndividual ;
+dbp:San_Marino a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Saudi_Arabia a owl:NamedIndividual ;
+dbp:Saudi_Arabia a dbo:Country ;
     sws:Risk_Level 4 .
 
-dbp:Senegal a owl:NamedIndividual ;
+dbp:Senegal a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Serbia a owl:NamedIndividual ;
+dbp:Serbia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Seychelles a owl:NamedIndividual ;
+dbp:Seychelles a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Sierra_Leone a owl:NamedIndividual ;
+dbp:Sierra_Leone a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Singapore a owl:NamedIndividual ;
+dbp:Singapore a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Slovakia a owl:NamedIndividual ;
+dbp:Slovakia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Slovenia a owl:NamedIndividual ;
+dbp:Slovenia a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Solomon_Islands a owl:NamedIndividual ;
+dbp:Solomon_Islands a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Somalia a owl:NamedIndividual ;
+dbp:Somalia a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:South_Africa a owl:NamedIndividual ;
+dbp:South_Africa a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:South_Sudan a owl:NamedIndividual ;
+dbp:South_Sudan a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Spain a owl:NamedIndividual ;
+dbp:Spain a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Sri_Lanka a owl:NamedIndividual ;
+dbp:Sri_Lanka a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:St_Kitts_and_Nevis a owl:NamedIndividual ;
+dbp:St_Kitts_and_Nevis a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:St_Vincent_and_Grenadines a owl:NamedIndividual ;
+dbp:St_Vincent_and_Grenadines a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Sudan a owl:NamedIndividual ;
+dbp:Sudan a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Suriname a owl:NamedIndividual ;
+dbp:Suriname a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Sweden a owl:NamedIndividual ;
+dbp:Sweden a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Switzerland a owl:NamedIndividual ;
+dbp:Switzerland a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Syria a owl:NamedIndividual ;
+dbp:Syria a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:São_Tomé_and_Príncipe a owl:NamedIndividual ;
+dbp:São_Tomé_and_Príncipe a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Tajikistan a owl:NamedIndividual ;
+dbp:Tajikistan a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Tanzania a owl:NamedIndividual ;
+dbp:Tanzania a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Thailand a owl:NamedIndividual ;
+dbp:Thailand a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Timor-Leste a owl:NamedIndividual ;
+dbp:Timor-Leste a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Togo a owl:NamedIndividual ;
+dbp:Togo a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Tonga a owl:NamedIndividual ;
+dbp:Tonga a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Trinidad_and_Tobago a owl:NamedIndividual ;
+dbp:Trinidad_and_Tobago a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Tunisia a owl:NamedIndividual ;
+dbp:Tunisia a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Turkey a owl:NamedIndividual ;
+dbp:Turkey a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Turkmenistan a owl:NamedIndividual ;
+dbp:Turkmenistan a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Tuvalu a owl:NamedIndividual ;
+dbp:Tuvalu a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Uganda a owl:NamedIndividual ;
+dbp:Uganda a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Ukraine a owl:NamedIndividual ;
+dbp:Ukraine a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:United_Arab_Emirates a owl:NamedIndividual ;
+dbp:United_Arab_Emirates a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:United_Kingdom a owl:NamedIndividual ;
+dbp:United_Kingdom a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:United_States a owl:NamedIndividual ;
+dbp:United_States a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Uruguay a owl:NamedIndividual ;
+dbp:Uruguay a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Uzbekistan a owl:NamedIndividual ;
+dbp:Uzbekistan a dbo:Country ;
     sws:Risk_Level 3 .
 
-dbp:Vanuatu a owl:NamedIndividual ;
+dbp:Vanuatu a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Venezuela a owl:NamedIndividual ;
+dbp:Venezuela a dbo:Country ;
     sws:Risk_Level 5 .
 
-dbp:Vietnam a owl:NamedIndividual ;
+dbp:Vietnam a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Yemen a owl:NamedIndividual ;
+dbp:Yemen a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Zambia a owl:NamedIndividual ;
+dbp:Zambia a dbo:Country ;
     sws:Risk_Level 2 .
 
-dbp:Zimbabwe a owl:NamedIndividual ;
+dbp:Zimbabwe a dbo:Country ;
     sws:Risk_Level 2 .
 

@@ -1,5 +1,5 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbp: <http://dbpedia.org/resource/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
@@ -7,12 +7,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dbp:Afghanistan a owl:NamedIndividual ;
+dbp:Afghanistan a dbo:Country ;
     sws:Risk_Level 6 .
 
-dbp:Austria a owl:NamedIndividual ;
+dbp:Austria a dbo:Country ;
     sws:Risk_Level 1 .
 
-dbp:Germany a owl:NamedIndividual ;
+dbp:Germany a dbo:Country ;
     sws:Risk_Level 1 .
 
