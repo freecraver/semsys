@@ -1,0 +1,8 @@
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+select * {
+    ?a ns1:mentionsCountry dbr:Kazakhstan.
+    ?a ns1:hasMention ?m.
+    ?m ns1:mentionsResource dbr:Earthquake
+}

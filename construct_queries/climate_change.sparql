@@ -1,0 +1,12 @@
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+construct {?c ns1:hasClimateChangeArticle ?a}
+where {
+	?c rdf:type dbo:Country .
+    ?a ns1:mentionsCountry ?c.
+    ?a ns1:hasMention ?m.
+    ?m ns1:mentionsResource dbr:Climate_change
+}
