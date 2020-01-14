@@ -1,0 +1,6 @@
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+
+construct {?c ns1:mentionedInArticle ?a}
+where {
+    ?a ns1:mentionsCountry ?c.
+}
