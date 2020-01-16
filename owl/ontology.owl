@@ -12,12 +12,28 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/sws/group4/ontology/Has_City
+:Has_City rdf:type owl:ObjectProperty ;
+          owl:inverseOf :Located_In ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain <http://dbpedia.org/ontology/Country> ;
+          rdfs:range <http://dbpedia.org/ontology/Town> ;
+          rdfs:comment "A Country has multiple towns" ;
+          rdfs:label "Has Town" .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/Has_Vaccine
 :Has_Vaccine rdf:type owl:ObjectProperty ;
              rdfs:domain <http://dbpedia.org/ontology/Country> ;
              rdfs:range :Vaccine_Relation ;
              rdfs:comment "Denotes if a country vaccinates a certain vaccine"@en ;
              rdfs:label "Has Vaccine"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/Located_In
+:Located_In rdf:type owl:ObjectProperty ;
+            rdfs:comment "A town is located in exactly one country" ;
+            rdfs:label "Located In" .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/Vaccination_Value
@@ -36,6 +52,25 @@
             rdfs:range :ArticleMention ;
             rdfs:comment "An Article can have multiple mentions of resources. Each of them has a relevance associated"@en ;
             rdfs:label "Has Mention"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/has_suggested_Time_Frame
+:has_suggested_Time_Frame rdf:type owl:ObjectProperty ;
+                          owl:inverseOf :is_suggested_for ;
+                          rdfs:domain <http://dbpedia.org/ontology/Town> ;
+                          rdfs:range [ rdf:type owl:Restriction ;
+                                       owl:onProperty :has_suggested_Time_Frame ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass :Time_Frame
+                                     ] ;
+                          rdfs:comment "A Town has max one suggested Time Frame to visit the town in" ;
+                          rdfs:label "Has suggested Time Frame" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/is_suggested_for
+:is_suggested_for rdf:type owl:ObjectProperty ;
+                  rdfs:comment "A time frame is a suggestion for when to visit a town" ;
+                  rdfs:label "Is suggested for" .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/mentionedIn
@@ -71,7 +106,7 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 
 ###  http://www.semanticweb.org/sws/group4/ontology/Continent_Name
 :Continent_Name rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Continent ;
+                rdfs:domain <http://dbpedia.org/ontology/Continent> ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Name of a continent"@en ;
                 rdfs:label "Continent Name"@en .
@@ -129,6 +164,66 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
               rdfs:range xsd:string ;
               rdfs:comment "Name of a vaccine"@en ;
               rdfs:label "Vaccine Name"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/day_from
+:day_from rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Time_Frame ;
+          rdfs:range [ rdf:type rdfs:Datatype ;
+                       owl:onDatatype xsd:integer ;
+                       owl:withRestrictions ( [ xsd:minExclusive 0
+                                              ]
+                                              [ xsd:maxExclusive 32
+                                              ]
+                                            )
+                     ] ;
+          rdfs:comment "The day that marks the start of a suggested Time Frame" ;
+          rdfs:label "Day from" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/day_to
+:day_to rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Time_Frame ;
+        rdfs:range [ rdf:type rdfs:Datatype ;
+                     owl:onDatatype xsd:integer ;
+                     owl:withRestrictions ( [ xsd:minExclusive 0
+                                            ]
+                                            [ xsd:maxExclusive 32
+                                            ]
+                                          )
+                   ] ;
+        rdfs:comment "The day that marks the end of a suggested Time Frame" ;
+        rdfs:label "Day to" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/month_from
+:month_from rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Time_Frame ;
+            rdfs:range [ rdf:type rdfs:Datatype ;
+                         owl:onDatatype xsd:integer ;
+                         owl:withRestrictions ( [ xsd:minExclusive 0
+                                                ]
+                                                [ xsd:maxExclusive 13
+                                                ]
+                                              )
+                       ] ;
+            rdfs:comment "The month that marks the start of a suggested Time Frame" ;
+            rdfs:label "Month from" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/month_to
+:month_to rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Time_Frame ;
+          rdfs:range [ rdf:type rdfs:Datatype ;
+                       owl:onDatatype xsd:integer ;
+                       owl:withRestrictions ( [ xsd:minExclusive 0
+                                              ]
+                                              [ xsd:maxExclusive 13
+                                              ]
+                                            )
+                     ] ;
+          rdfs:comment "The month that marks the end of a suggested Time Frame" ;
+          rdfs:label "Month to" .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/origin
@@ -192,6 +287,22 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
            rdfs:label "Source URL"@en .
 
 
+###  http://www.semanticweb.org/sws/group4/ontology/temp_typical_high
+:temp_typical_high rdf:type owl:DatatypeProperty ;
+                   rdfs:domain <http://dbpedia.org/ontology/Town> ;
+                   rdfs:range xsd:integer ;
+                   rdfs:comment "Typical High Temperature for a Town" ;
+                   rdfs:label "Temp Typical High" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/temp_typical_low
+:temp_typical_low rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://dbpedia.org/ontology/Town> ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Typical Low Temperature for a Town" ;
+                  rdfs:label "Temp Typical Low" .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/title
 :title rdf:type owl:DatatypeProperty ;
        rdfs:subPropertyOf owl:topDataProperty ;
@@ -206,6 +317,10 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 #    Classes
 #################################################################
 
+###  http://dbpedia.org/ontology/Continent
+<http://dbpedia.org/ontology/Continent> rdf:type owl:Class .
+
+
 ###  http://dbpedia.org/ontology/Country
 <http://dbpedia.org/ontology/Country> rdf:type owl:Class ;
                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -213,6 +328,10 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                         owl:onDataRange owl:rational
                                                       ] .
+
+
+###  http://dbpedia.org/ontology/Town
+<http://dbpedia.org/ontology/Town> rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/ArticleMention
@@ -228,12 +347,6 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
                                 ] ;
                 rdfs:comment "Link to DBpedia resource mentioned in a news article with a relevance value calculated by Discovery"@en ;
                 rdfs:label "Mention within Article"@en .
-
-
-###  http://www.semanticweb.org/sws/group4/ontology/Continent
-:Continent rdf:type owl:Class ;
-           rdfs:comment "Continent a country is located in"@en ;
-           rdfs:label "Continent"@en .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/NewsArticle
@@ -256,6 +369,12 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
              rdfs:label "News Article"@en .
 
 
+###  http://www.semanticweb.org/sws/group4/ontology/Time_Frame
+:Time_Frame rdf:type owl:Class ;
+            rdfs:comment "Time Frame suggestion to visit a Location based on weatherspark's tourism score" ;
+            rdfs:label "Time Frame" .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/Vaccine
 :Vaccine rdf:type owl:Class ;
          rdfs:comment "Available vaccines" ;
@@ -271,19 +390,12 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://dbpedia.org/ontology/Country>
+  owl:members ( <http://dbpedia.org/ontology/Continent>
+                <http://dbpedia.org/ontology/Country>
+                <http://dbpedia.org/ontology/Town>
                 :ArticleMention
                 :NewsArticle
-                :Vaccine
-                :Vaccine_Relation
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :ArticleMention
-                :Continent
-                :NewsArticle
+                :Time_Frame
                 :Vaccine
                 :Vaccine_Relation
               )
