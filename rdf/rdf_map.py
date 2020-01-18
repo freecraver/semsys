@@ -135,3 +135,42 @@ def write_vaccine_info_to_turtle(vaccine_df):
 
     # # write to output file
     g.serialize(destination=f'vaccines.ttl', format='turtle')
+
+def write_towns_to_turtle(towns, countryTowns):
+    g = Graph()
+    namespace_manager = NamespaceManager(Graph())
+    n_dbpedia_res = Namespace("http://dbpedia.org/resource/")
+    n_dbo_res = Namespace("http://dbpedia.org/ontology/")
+    n_custom_ontology = Namespace("http://www.semanticweb.org/sws/group4/ontology/")
+    #n_custom_resources = Namespace("http://www.semanticweb.org/sws/group4/resources/")
+
+    namespace_manager.bind('swo', n_custom_ontology, override=False)
+    #namespace_manager.bind('sws', n_custom_resources, override=False)
+    namespace_manager.bind('dbp', n_dbpedia_res, override=False)
+    namespace_manager.bind('dbo', n_dbo_res, override=False)
+    g.namespace_manager = namespace_manager
+    
+    # town = n_dbpedia_res[country_str.replace(" ", "_")]
+    for name, templ, temph, df, dt, mf, mt in towns:
+        t = URIRef(n_dbpedia_res[name.replace(" ", "_")])
+
+        # add the town as a named individual
+        g.add((t, RDF.type, n_dbo_res.Town))
+
+        # add data props
+        g.add((t, n_custom_ontology['tempTypicalLow'], Literal(templ)))
+        g.add((t, n_custom_ontology['tempTypicalHigh'], Literal(temph)))
+        g.add((t, n_custom_ontology['dayFrom'], Literal(df)))
+        g.add((t, n_custom_ontology['dayTo'], Literal(dt)))
+        g.add((t, n_custom_ontology['monthFrom'], Literal(mf)))
+        g.add((t, n_custom_ontology['monthTo'], Literal(mt)))
+
+    for country, town in countryTowns:
+        if (country is not None and town is not None):
+            c = URIRef(n_dbpedia_res[country.replace(" ", "_")])
+            t = URIRef(n_dbpedia_res[town.replace(" ", "_")])
+            g.add((c, n_custom_ontology['hasTown'], t))
+    
+    # write to output file
+    g.serialize(destination=f'ttl/towns.ttl', format='turtle')
+
