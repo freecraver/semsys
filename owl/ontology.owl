@@ -12,6 +12,14 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/sws/group4/ontology/Country_Located_In
+:Country_Located_In rdf:type owl:ObjectProperty ;
+                    rdfs:domain <http://dbpedia.org/ontology/Country> ;
+                    rdfs:range <http://dbpedia.org/ontology/Continent> ;
+                    rdfs:comment "Denotes in which continent a country is located"@en ;
+                    rdfs:label "Country located in"@en .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/Has_City
 :Has_City rdf:type owl:ObjectProperty ;
           owl:inverseOf :Located_In ;

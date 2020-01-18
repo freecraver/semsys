@@ -83,3 +83,55 @@ def write_countries_to_turtle(countries):
 
     # write to output file
     g.serialize(destination=f'ttl/countries.ttl', format='turtle')
+    
+def write_vaccine_info_to_turtle(vaccine_df):
+    g = Graph()
+    namespace_manager = NamespaceManager(Graph())
+    n_dbpedia_res = Namespace("http://dbpedia.org/resource/")
+    n_custom_ontology = Namespace("http://www.semanticweb.org/sws/group4/ontology/")
+    n_custom_resources = Namespace("http://www.semanticweb.org/sws/group4/resources/")
+    n_dbo_res = Namespace("http://dbpedia.org/ontology/")
+
+    namespace_manager.bind('dbp', n_dbpedia_res, override=False)
+    namespace_manager.bind('swo', n_custom_ontology, override=False)
+    namespace_manager.bind('sws', n_custom_resources, override=False)
+    g.namespace_manager = namespace_manager
+
+
+    for v in vaccine_df['Vaccine'].unique():
+
+        # generate 15 digit hash for name
+        #vaccine_id = int(hashlib.sha256(v.encode('utf-8')).hexdigest(), 16) % 10**15
+        #vaccine = URIRef(n_custom_resources['VaccineRel-' + str(vaccine_rel_id)])
+        vaccine = Literal(v)
+        g.add((vaccine, RDF.type, n_custom_ontology['Vaccine']))
+        g.add((vaccine,n_custom_ontology['Vaccine_Name'], Literal(v)))
+
+    for c in vaccine_df['Cname'].unique():
+        country = n_dbpedia_res[c.replace(" ", "_")]
+        continent = n_dbpedia_res[vaccine_df[vaccine_df['Cname']==c]['Continent'].iloc[0].replace(" ","_")]
+        g.add((country,n_custom_ontology['Country_Located_In'], continent))
+
+
+    for ix,row in vaccine_df.iterrows():
+        # article = BNode()
+        hash_input = row['Cname'] + row['Vaccine'] + str(row['Percent_covrage'])
+        # generate 15 digit hash for name
+
+        vaccine_rel_id = int(hashlib.sha256(hash_input.encode('utf-8')).hexdigest(), 16) % 10**15
+        vaccine_rel = URIRef(n_custom_resources['VaccineRel-' + str(vaccine_rel_id)])
+
+        g.add((vaccine_rel, RDF.type, n_custom_ontology['Vaccine_Relation']))
+        
+        country = n_dbpedia_res[row['Cname'].replace(" ", "_")]
+        vaccine = Literal(row['Vaccine'])
+        
+        # data properties
+        g.add((country,n_custom_ontology['Has_Vaccine'], vaccine_rel))
+        g.add((vaccine_rel, n_custom_ontology['Vaccination_Value'], vaccine))
+        g.add((vaccine_rel, n_custom_ontology['Vaccination_Coverage'], Literal(row['Percent_covrage'])))
+
+
+
+    # # write to output file
+    g.serialize(destination=f'vaccines.ttl', format='turtle')

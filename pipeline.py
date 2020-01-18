@@ -1,6 +1,7 @@
 from util.load_countries import load_countries, load_countries_with_risk_level
 from disco.disco_queries import load_disaster_news
 from rdf.rdf_map import write_to_turtle, write_countries_to_turtle
+import pandas as pd
 
 first_country_to_load = "Afghanistan"
 fetch = False
@@ -27,3 +28,8 @@ if __name__ == '__main__':
 
     countries = load_countries_with_risk_level()
     write_countries_to_turtle(countries)
+    
+    print('Loading vaccine related information...')
+    
+    vaccine_df= pd.read_csv("res/vaccine_coverage.csv",delimiter=',',header=0)
+    write_vaccine_info_to_turtle(vaccine_df)

@@ -1,0 +1,3429 @@
+WHO_REGION,ISO_code,Cname,Continent,Vaccine,Percent_covrage
+EMR,AFG,Afghanistan,Asia,BCG,98.0
+EMR,AFG,Afghanistan,Asia,DTP1,99.0
+EMR,AFG,Afghanistan,Asia,DTP3,87.0
+EMR,AFG,Afghanistan,Asia,HepB_BD,38.0
+EMR,AFG,Afghanistan,Asia,HepB3,87.0
+EMR,AFG,Afghanistan,Asia,Hib3,87.0
+EMR,AFG,Afghanistan,Asia,IPV1,86.0
+EMR,AFG,Afghanistan,Asia,MCV1,82.0
+EMR,AFG,Afghanistan,Asia,MCV2,60.0
+EMR,AFG,Afghanistan,Asia,PCV1,97.0
+EMR,AFG,Afghanistan,Asia,PCV2,89.0
+EMR,AFG,Afghanistan,Asia,PCV3,84.0
+EMR,AFG,Afghanistan,Asia,Pol3,86.0
+EMR,AFG,Afghanistan,Asia,Rota1,75.0
+EMR,AFG,Afghanistan,Asia,RotaC,60.0
+EMR,AFG,Afghanistan,Asia,TT2plus,85.0
+EUR,ALB,Albania,Europe,BCG,99.0
+EUR,ALB,Albania,Europe,DiphCV4,97.0
+EUR,ALB,Albania,Europe,DiphCV5,97.0
+EUR,ALB,Albania,Europe,DiphCV6,95.0
+EUR,ALB,Albania,Europe,DTP1,99.0
+EUR,ALB,Albania,Europe,DTP3,99.0
+EUR,ALB,Albania,Europe,HepB_BD,99.0
+EUR,ALB,Albania,Europe,HepB_BDall,99.0
+EUR,ALB,Albania,Europe,HepB3,99.0
+EUR,ALB,Albania,Europe,Hib3,99.0
+EUR,ALB,Albania,Europe,IPV1,99.0
+EUR,ALB,Albania,Europe,MCV1,94.0
+EUR,ALB,Albania,Europe,MCV2,96.0
+EUR,ALB,Albania,Europe,PCV1,99.0
+EUR,ALB,Albania,Europe,PCV2,99.0
+EUR,ALB,Albania,Europe,PCV3,99.0
+EUR,ALB,Albania,Europe,PerCV4,99.0
+EUR,ALB,Albania,Europe,Pol3,99.0
+EUR,ALB,Albania,Europe,RCV1,94.0
+EUR,ALB,Albania,Europe,TTCV4,97.0
+EUR,ALB,Albania,Europe,TTCV5,97.0
+EUR,ALB,Albania,Europe,TTCV6,95.0
+AFR,DZA,Algeria,Africa,BCG,99.0
+AFR,DZA,Algeria,Africa,DTP1,98.0
+AFR,DZA,Algeria,Africa,DTP3,95.0
+AFR,DZA,Algeria,Africa,HepB_BD,99.0
+AFR,DZA,Algeria,Africa,HepB_BDall,99.0
+AFR,DZA,Algeria,Africa,HepB3,95.0
+AFR,DZA,Algeria,Africa,Hib3,95.0
+AFR,DZA,Algeria,Africa,IPV1,98.0
+AFR,DZA,Algeria,Africa,MCV1,80.0
+AFR,DZA,Algeria,Africa,MCV2,77.0
+AFR,DZA,Algeria,Africa,PAB,98.0
+AFR,DZA,Algeria,Africa,PCV1,98.0
+AFR,DZA,Algeria,Africa,PCV2,97.0
+AFR,DZA,Algeria,Africa,PCV3,95.0
+AFR,DZA,Algeria,Africa,Pol3,95.0
+AFR,DZA,Algeria,Africa,RCV1,80.0
+AFR,DZA,Algeria,Africa,TT2plus,40.0
+EUR,AND,Andorra,Europe,DiphCV4,98.0
+EUR,AND,Andorra,Europe,DiphCV5,97.0
+EUR,AND,Andorra,Europe,DTP1,99.0
+EUR,AND,Andorra,Europe,DTP3,99.0
+EUR,AND,Andorra,Europe,HepB3,98.0
+EUR,AND,Andorra,Europe,Hib3,99.0
+EUR,AND,Andorra,Europe,HPVfem,49.0
+EUR,AND,Andorra,Europe,IPV1,99.0
+EUR,AND,Andorra,Europe,MCV1,99.0
+EUR,AND,Andorra,Europe,MCV2,95.0
+EUR,AND,Andorra,Europe,PCV1,99.0
+EUR,AND,Andorra,Europe,PCV2,97.0
+EUR,AND,Andorra,Europe,PCV3,94.0
+EUR,AND,Andorra,Europe,PerCV4,98.0
+EUR,AND,Andorra,Europe,Pol3,99.0
+EUR,AND,Andorra,Europe,RCV1,99.0
+EUR,AND,Andorra,Europe,TTCV4,98.0
+EUR,AND,Andorra,Europe,TTCV5,97.0
+AFR,AGO,Angola,Africa,BCG,95.0
+AFR,AGO,Angola,Africa,DTP1,97.0
+AFR,AGO,Angola,Africa,DTP3,84.0
+AFR,AGO,Angola,Africa,HepB_BDall,58.0
+AFR,AGO,Angola,Africa,HepB3,84.0
+AFR,AGO,Angola,Africa,Hib3,84.0
+AFR,AGO,Angola,Africa,IPV1,65.0
+AFR,AGO,Angola,Africa,MCV1,79.0
+AFR,AGO,Angola,Africa,MCV2,35.0
+AFR,AGO,Angola,Africa,PCV1,96.0
+AFR,AGO,Angola,Africa,PCV2,83.0
+AFR,AGO,Angola,Africa,PCV3,82.0
+AFR,AGO,Angola,Africa,Pol3,82.0
+AFR,AGO,Angola,Africa,RCV1,79.0
+AFR,AGO,Angola,Africa,Rota1,88.0
+AFR,AGO,Angola,Africa,RotaC,75.0
+AFR,AGO,Angola,Africa,TT2plus,66.0
+AFR,AGO,Angola,Africa,VAD1,34.0
+AFR,AGO,Angola,Africa,YFV,74.0
+AMR,ATG,Antigua and Barbuda,North America,DiphCV4,92.0
+AMR,ATG,Antigua and Barbuda,North America,DiphCV5,79.0
+AMR,ATG,Antigua and Barbuda,North America,DTP1,99.0
+AMR,ATG,Antigua and Barbuda,North America,DTP3,95.0
+AMR,ATG,Antigua and Barbuda,North America,HepB3,95.0
+AMR,ATG,Antigua and Barbuda,North America,Hib3,95.0
+AMR,ATG,Antigua and Barbuda,North America,IPV1,99.0
+AMR,ATG,Antigua and Barbuda,North America,MCV1,96.0
+AMR,ATG,Antigua and Barbuda,North America,MCV2,95.0
+AMR,ATG,Antigua and Barbuda,North America,PerCV4,92.0
+AMR,ATG,Antigua and Barbuda,North America,Pol3,94.0
+AMR,ATG,Antigua and Barbuda,North America,RCV1,96.0
+AMR,ATG,Antigua and Barbuda,North America,TTCV4,92.0
+AMR,ATG,Antigua and Barbuda,North America,TTCV5,79.0
+AMR,ARG,Argentina,South America,BCG,93.0
+AMR,ARG,Argentina,South America,DiphCV4,80.0
+AMR,ARG,Argentina,South America,DiphCV5,99.0
+AMR,ARG,Argentina,South America,DTP1,91.0
+AMR,ARG,Argentina,South America,DTP3,86.0
+AMR,ARG,Argentina,South America,HepB_BD,82.0
+AMR,ARG,Argentina,South America,HepB_BDall,82.0
+AMR,ARG,Argentina,South America,HepB3,86.0
+AMR,ARG,Argentina,South America,Hib3,86.0
+AMR,ARG,Argentina,South America,HPVfem,58.0
+AMR,ARG,Argentina,South America,HPVmale,4.0
+AMR,ARG,Argentina,South America,IPV1,90.0
+AMR,ARG,Argentina,South America,MCV1,94.0
+AMR,ARG,Argentina,South America,MCV2,99.0
+AMR,ARG,Argentina,South America,PCV1,92.0
+AMR,ARG,Argentina,South America,PCV2,88.0
+AMR,ARG,Argentina,South America,PCV3,88.0
+AMR,ARG,Argentina,South America,PerCV4,80.0
+AMR,ARG,Argentina,South America,Pol3,84.0
+AMR,ARG,Argentina,South America,RCV1,94.0
+AMR,ARG,Argentina,South America,Rota1,88.0
+AMR,ARG,Argentina,South America,RotaC,80.0
+AMR,ARG,Argentina,South America,TT2plus,69.0
+AMR,ARG,Argentina,South America,TTCV4,80.0
+AMR,ARG,Argentina,South America,TTCV5,99.0
+AMR,ARG,Argentina,South America,YFV,79.0
+EUR,ARM,Armenia,Asia,BCG,99.0
+EUR,ARM,Armenia,Asia,DiphCV4,91.0
+EUR,ARM,Armenia,Asia,DiphCV5,96.0
+EUR,ARM,Armenia,Asia,DiphCV6,85.0
+EUR,ARM,Armenia,Asia,DTP1,96.0
+EUR,ARM,Armenia,Asia,DTP3,92.0
+EUR,ARM,Armenia,Asia,HepB_BD,97.0
+EUR,ARM,Armenia,Asia,HepB_BDall,97.0
+EUR,ARM,Armenia,Asia,HepB3,92.0
+EUR,ARM,Armenia,Asia,Hib3,92.0
+EUR,ARM,Armenia,Asia,HPVfem,8.0
+EUR,ARM,Armenia,Asia,IPV1,93.0
+EUR,ARM,Armenia,Asia,MCV1,95.0
+EUR,ARM,Armenia,Asia,MCV2,96.0
+EUR,ARM,Armenia,Asia,PCV1,96.0
+EUR,ARM,Armenia,Asia,PCV3,92.0
+EUR,ARM,Armenia,Asia,PerCV4,91.0
+EUR,ARM,Armenia,Asia,Pol3,92.0
+EUR,ARM,Armenia,Asia,RCV1,95.0
+EUR,ARM,Armenia,Asia,Rota1,95.0
+EUR,ARM,Armenia,Asia,RotaC,93.0
+EUR,ARM,Armenia,Asia,TTCV4,91.0
+EUR,ARM,Armenia,Asia,TTCV5,96.0
+EUR,ARM,Armenia,Asia,TTCV6,85.0
+WPR,AUS,Australia,Australia,DiphCV4,93.0
+WPR,AUS,Australia,Australia,DiphCV5,95.0
+WPR,AUS,Australia,Australia,DTP3,95.0
+WPR,AUS,Australia,Australia,HepB3,95.0
+WPR,AUS,Australia,Australia,Hib3,94.0
+WPR,AUS,Australia,Australia,HPVfem,80.0
+WPR,AUS,Australia,Australia,HPVmale,76.0
+WPR,AUS,Australia,Australia,MCV2,93.0
+WPR,AUS,Australia,Australia,PCV3,95.0
+WPR,AUS,Australia,Australia,PerCV4,93.0
+WPR,AUS,Australia,Australia,Pol3,95.0
+WPR,AUS,Australia,Australia,TTCV4,93.0
+WPR,AUS,Australia,Australia,TTCV5,95.0
+EUR,AUT,Austria,Europe,DTP1,90.0
+EUR,AUT,Austria,Europe,DTP3,85.0
+EUR,AUT,Austria,Europe,HepB3,85.0
+EUR,AUT,Austria,Europe,Hib3,85.0
+EUR,AUT,Austria,Europe,IPV1,92.0
+EUR,AUT,Austria,Europe,MCV1,94.0
+EUR,AUT,Austria,Europe,MCV2,84.0
+EUR,AUT,Austria,Europe,Pol3,85.0
+EUR,AUT,Austria,Europe,RCV1,94.0
+EUR,AZE,Azerbaijan,Asia,BCG,97.0
+EUR,AZE,Azerbaijan,Asia,DiphCV4,96.0
+EUR,AZE,Azerbaijan,Asia,DiphCV5,96.0
+EUR,AZE,Azerbaijan,Asia,DTP1,96.0
+EUR,AZE,Azerbaijan,Asia,DTP3,95.0
+EUR,AZE,Azerbaijan,Asia,HepB_BD,99.0
+EUR,AZE,Azerbaijan,Asia,HepB3,95.0
+EUR,AZE,Azerbaijan,Asia,Hib3,95.0
+EUR,AZE,Azerbaijan,Asia,IPV1,95.0
+EUR,AZE,Azerbaijan,Asia,MCV1,96.0
+EUR,AZE,Azerbaijan,Asia,MCV2,96.0
+EUR,AZE,Azerbaijan,Asia,PCV1,97.0
+EUR,AZE,Azerbaijan,Asia,PCV2,96.0
+EUR,AZE,Azerbaijan,Asia,PCV3,95.0
+EUR,AZE,Azerbaijan,Asia,PerCV4,96.0
+EUR,AZE,Azerbaijan,Asia,Pol3,96.0
+EUR,AZE,Azerbaijan,Asia,RCV1,96.0
+EUR,AZE,Azerbaijan,Asia,TTCV4,96.0
+EUR,AZE,Azerbaijan,Asia,TTCV5,96.0
+EUR,AZE,Azerbaijan,Asia,VAD1,95.0
+AMR,BHS,Bahamas (the),North America,DiphCV4,67.0
+AMR,BHS,Bahamas (the),North America,DiphCV5,69.0
+AMR,BHS,Bahamas (the),North America,DTP1,94.0
+AMR,BHS,Bahamas (the),North America,DTP3,90.0
+AMR,BHS,Bahamas (the),North America,HepB3,90.0
+AMR,BHS,Bahamas (the),North America,Hib3,90.0
+AMR,BHS,Bahamas (the),North America,IPV1,94.0
+AMR,BHS,Bahamas (the),North America,MCV1,89.0
+AMR,BHS,Bahamas (the),North America,MCV2,69.0
+AMR,BHS,Bahamas (the),North America,PAB,93.0
+AMR,BHS,Bahamas (the),North America,PCV1,94.0
+AMR,BHS,Bahamas (the),North America,PCV2,93.0
+AMR,BHS,Bahamas (the),North America,PCV3,90.0
+AMR,BHS,Bahamas (the),North America,PerCV4,67.0
+AMR,BHS,Bahamas (the),North America,Pol3,90.0
+AMR,BHS,Bahamas (the),North America,RCV1,90.0
+AMR,BHS,Bahamas (the),North America,Rota1,94.0
+AMR,BHS,Bahamas (the),North America,RotaC,70.0
+AMR,BHS,Bahamas (the),North America,TT2plus,93.0
+AMR,BHS,Bahamas (the),North America,TTCV4,67.0
+AMR,BHS,Bahamas (the),North America,TTCV5,69.0
+EMR,BHR,Bahrain,Asia,BCG,99.0
+EMR,BHR,Bahrain,Asia,DiphCV4,98.0
+EMR,BHR,Bahrain,Asia,DiphCV5,99.0
+EMR,BHR,Bahrain,Asia,DiphCV6,99.0
+EMR,BHR,Bahrain,Asia,DTP1,99.0
+EMR,BHR,Bahrain,Asia,DTP3,99.0
+EMR,BHR,Bahrain,Asia,HepB_BD,98.0
+EMR,BHR,Bahrain,Asia,HepB_BDall,99.0
+EMR,BHR,Bahrain,Asia,HepB3,99.0
+EMR,BHR,Bahrain,Asia,Hib3,99.0
+EMR,BHR,Bahrain,Asia,IPV1,99.0
+EMR,BHR,Bahrain,Asia,MCV1,99.0
+EMR,BHR,Bahrain,Asia,MCV2,100.0
+EMR,BHR,Bahrain,Asia,PAB,99.0
+EMR,BHR,Bahrain,Asia,PCV1,99.0
+EMR,BHR,Bahrain,Asia,PCV2,99.0
+EMR,BHR,Bahrain,Asia,PCV3,98.0
+EMR,BHR,Bahrain,Asia,PerCV4,98.0
+EMR,BHR,Bahrain,Asia,Pol3,99.0
+EMR,BHR,Bahrain,Asia,RCV1,99.0
+EMR,BHR,Bahrain,Asia,Rota1,98.0
+EMR,BHR,Bahrain,Asia,RotaC,98.0
+EMR,BHR,Bahrain,Asia,TT2plus,38.0
+EMR,BHR,Bahrain,Asia,TTCV4,98.0
+EMR,BHR,Bahrain,Asia,TTCV5,99.0
+EMR,BHR,Bahrain,Asia,TTCV6,96.0
+SEAR,BGD,Bangladesh,Asia,BCG,99.0
+SEAR,BGD,Bangladesh,Asia,DTP1,98.0
+SEAR,BGD,Bangladesh,Asia,DTP3,90.0
+SEAR,BGD,Bangladesh,Asia,HepB3,90.0
+SEAR,BGD,Bangladesh,Asia,Hib3,90.0
+SEAR,BGD,Bangladesh,Asia,IPV1frac,99.0
+SEAR,BGD,Bangladesh,Asia,IPV2frac,91.0
+SEAR,BGD,Bangladesh,Asia,MCV1,92.0
+SEAR,BGD,Bangladesh,Asia,MCV2,83.0
+SEAR,BGD,Bangladesh,Asia,PCV1,99.0
+SEAR,BGD,Bangladesh,Asia,PCV2,99.0
+SEAR,BGD,Bangladesh,Asia,PCV3,99.0
+SEAR,BGD,Bangladesh,Asia,Pol3,90.0
+SEAR,BGD,Bangladesh,Asia,RCV1,92.0
+SEAR,BGD,Bangladesh,Asia,TT2plus,97.0
+SEAR,BGD,Bangladesh,Asia,VAD1,99.0
+AMR,BRB,Barbados,North America,DiphCV4,73.0
+AMR,BRB,Barbados,North America,DiphCV5,59.0
+AMR,BRB,Barbados,North America,DiphCV6,69.0
+AMR,BRB,Barbados,North America,DTP1,96.0
+AMR,BRB,Barbados,North America,DTP3,95.0
+AMR,BRB,Barbados,North America,HepB3,95.0
+AMR,BRB,Barbados,North America,Hib3,95.0
+AMR,BRB,Barbados,North America,HPVfem,25.0
+AMR,BRB,Barbados,North America,HPVmale,20.0
+AMR,BRB,Barbados,North America,IPV1,95.0
+AMR,BRB,Barbados,North America,MCV1,85.0
+AMR,BRB,Barbados,North America,MCV2,74.0
+AMR,BRB,Barbados,North America,PCV1,92.0
+AMR,BRB,Barbados,North America,PCV2,91.0
+AMR,BRB,Barbados,North America,PCV3,89.0
+AMR,BRB,Barbados,North America,PerCV4,73.0
+AMR,BRB,Barbados,North America,Pol3,94.0
+AMR,BRB,Barbados,North America,RCV1,85.0
+AMR,BRB,Barbados,North America,TTCV4,73.0
+AMR,BRB,Barbados,North America,TTCV5,59.0
+AMR,BRB,Barbados,North America,TTCV6,69.0
+EUR,BEL,Belgium,Europe,DiphCV4,93.0
+EUR,BEL,Belgium,Europe,DiphCV5,93.0
+EUR,BEL,Belgium,Europe,DTP1,99.0
+EUR,BEL,Belgium,Europe,DTP3,98.0
+EUR,BEL,Belgium,Europe,HepB3,97.0
+EUR,BEL,Belgium,Europe,Hib3,97.0
+EUR,BEL,Belgium,Europe,HPVfem,50.0
+EUR,BEL,Belgium,Europe,IPV1,100.0
+EUR,BEL,Belgium,Europe,MCV1,96.0
+EUR,BEL,Belgium,Europe,MCV2,85.0
+EUR,BEL,Belgium,Europe,PCV1,98.0
+EUR,BEL,Belgium,Europe,PCV2,97.0
+EUR,BEL,Belgium,Europe,PCV3,94.0
+EUR,BEL,Belgium,Europe,PerCV4,93.0
+EUR,BEL,Belgium,Europe,Pol3,98.0
+EUR,BEL,Belgium,Europe,RCV1,96.0
+EUR,BEL,Belgium,Europe,Rota1,90.0
+EUR,BEL,Belgium,Europe,RotaC,87.0
+EUR,BEL,Belgium,Europe,TTCV4,93.0
+EUR,BEL,Belgium,Europe,TTCV5,93.0
+AMR,BLZ,Belize,North America,BCG,99.0
+AMR,BLZ,Belize,North America,DiphCV4,80.0
+AMR,BLZ,Belize,North America,DiphCV5,84.0
+AMR,BLZ,Belize,North America,DiphCV6,44.0
+AMR,BLZ,Belize,North America,DTP1,97.0
+AMR,BLZ,Belize,North America,DTP3,96.0
+AMR,BLZ,Belize,North America,HepB_BD,55.0
+AMR,BLZ,Belize,North America,HepB_BDall,95.0
+AMR,BLZ,Belize,North America,HepB3,96.0
+AMR,BLZ,Belize,North America,Hib3,96.0
+AMR,BLZ,Belize,North America,HPVfem,58.0
+AMR,BLZ,Belize,North America,IPV1,97.0
+AMR,BLZ,Belize,North America,MCV1,97.0
+AMR,BLZ,Belize,North America,MCV2,91.0
+AMR,BLZ,Belize,North America,PerCV4,80.0
+AMR,BLZ,Belize,North America,Pol3,96.0
+AMR,BLZ,Belize,North America,RCV1,97.0
+AMR,BLZ,Belize,North America,TT2plus,92.0
+AMR,BLZ,Belize,North America,TTCV4,80.0
+AMR,BLZ,Belize,North America,TTCV5,84.0
+AMR,BLZ,Belize,North America,TTCV6,44.0
+AMR,BLZ,Belize,North America,VAD1,82.0
+AFR,BEN,Benin,Africa,BCG,96.0
+AFR,BEN,Benin,Africa,DiphCV4,86.0
+AFR,BEN,Benin,Africa,DiphCV5,86.0
+AFR,BEN,Benin,Africa,DiphCV6,82.0
+AFR,BEN,Benin,Africa,DTP1,86.0
+AFR,BEN,Benin,Africa,DTP3,82.0
+AFR,BEN,Benin,Africa,HepB3,82.0
+AFR,BEN,Benin,Africa,Hib3,82.0
+AFR,BEN,Benin,Africa,IPV1,62.0
+AFR,BEN,Benin,Africa,MCV1,74.0
+AFR,BEN,Benin,Africa,PCV1,86.0
+AFR,BEN,Benin,Africa,PCV2,86.0
+AFR,BEN,Benin,Africa,PCV3,75.0
+AFR,BEN,Benin,Africa,Pol3,99.0
+AFR,BEN,Benin,Africa,TT2plus,69.0
+AFR,BEN,Benin,Africa,TTCV4,69.0
+AFR,BEN,Benin,Africa,TTCV5,69.0
+AFR,BEN,Benin,Africa,TTCV6,69.0
+AFR,BEN,Benin,Africa,YFV,78.0
+SEAR,BTN,Bhutan,Asia,BCG,99.0
+SEAR,BTN,Bhutan,Asia,DiphCV4,86.0
+SEAR,BTN,Bhutan,Asia,DiphCV5,82.0
+SEAR,BTN,Bhutan,Asia,DiphCV6,52.0
+SEAR,BTN,Bhutan,Asia,DTP1,98.0
+SEAR,BTN,Bhutan,Asia,DTP3,97.0
+SEAR,BTN,Bhutan,Asia,HepB_BD,96.0
+SEAR,BTN,Bhutan,Asia,HepB3,97.0
+SEAR,BTN,Bhutan,Asia,Hib3,97.0
+SEAR,BTN,Bhutan,Asia,HPVfem,97.0
+SEAR,BTN,Bhutan,Asia,IPV1,97.0
+SEAR,BTN,Bhutan,Asia,MCV1,97.0
+SEAR,BTN,Bhutan,Asia,MCV2,91.0
+SEAR,BTN,Bhutan,Asia,PerCV4,86.0
+SEAR,BTN,Bhutan,Asia,Pol3,97.0
+SEAR,BTN,Bhutan,Asia,RCV1,97.0
+SEAR,BTN,Bhutan,Asia,TT2plus,83.0
+SEAR,BTN,Bhutan,Asia,TTCV4,86.0
+SEAR,BTN,Bhutan,Asia,TTCV5,52.0
+SEAR,BTN,Bhutan,Asia,TTCV6,52.0
+SEAR,BTN,Bhutan,Asia,VAD1,91.0
+AMR,BOL,Bolivia (Plurinational State of),South America,BCG,90.0
+AMR,BOL,Bolivia (Plurinational State of),South America,DiphCV4,61.0
+AMR,BOL,Bolivia (Plurinational State of),South America,DiphCV5,55.0
+AMR,BOL,Bolivia (Plurinational State of),South America,DTP1,89.0
+AMR,BOL,Bolivia (Plurinational State of),South America,DTP3,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,HepB3,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,Hib3,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,HPVfem,54.0
+AMR,BOL,Bolivia (Plurinational State of),South America,IPV1,89.0
+AMR,BOL,Bolivia (Plurinational State of),South America,MCV1,89.0
+AMR,BOL,Bolivia (Plurinational State of),South America,MCV2,38.0
+AMR,BOL,Bolivia (Plurinational State of),South America,PCV1,86.0
+AMR,BOL,Bolivia (Plurinational State of),South America,PCV2,87.0
+AMR,BOL,Bolivia (Plurinational State of),South America,PCV3,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,PerCV4,21.0
+AMR,BOL,Bolivia (Plurinational State of),South America,Pol3,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,RCV1,89.0
+AMR,BOL,Bolivia (Plurinational State of),South America,Rota1,88.0
+AMR,BOL,Bolivia (Plurinational State of),South America,RotaC,87.0
+AMR,BOL,Bolivia (Plurinational State of),South America,TT2plus,83.0
+AMR,BOL,Bolivia (Plurinational State of),South America,TTCV4,21.0
+AMR,BOL,Bolivia (Plurinational State of),South America,TTCV5,54.0
+AMR,BOL,Bolivia (Plurinational State of),South America,VAD1,77.0
+AMR,BOL,Bolivia (Plurinational State of),South America,YFV,84.0
+EUR,BIH,Bosnia and Herzegovina,Europe,BCG,95.0
+EUR,BIH,Bosnia and Herzegovina,Europe,DiphCV4,79.0
+EUR,BIH,Bosnia and Herzegovina,Europe,DiphCV5,76.0
+EUR,BIH,Bosnia and Herzegovina,Europe,DiphCV6,92.0
+EUR,BIH,Bosnia and Herzegovina,Europe,DTP1,89.0
+EUR,BIH,Bosnia and Herzegovina,Europe,DTP3,73.0
+EUR,BIH,Bosnia and Herzegovina,Europe,HepB_BD,99.0
+EUR,BIH,Bosnia and Herzegovina,Europe,HepB_BDall,93.0
+EUR,BIH,Bosnia and Herzegovina,Europe,HepB3,80.0
+EUR,BIH,Bosnia and Herzegovina,Europe,Hib3,62.0
+EUR,BIH,Bosnia and Herzegovina,Europe,IPV1,89.0
+EUR,BIH,Bosnia and Herzegovina,Europe,MCV1,68.0
+EUR,BIH,Bosnia and Herzegovina,Europe,MCV2,68.0
+EUR,BIH,Bosnia and Herzegovina,Europe,PerCV4,79.0
+EUR,BIH,Bosnia and Herzegovina,Europe,Pol3,73.0
+EUR,BIH,Bosnia and Herzegovina,Europe,RCV1,68.0
+EUR,BIH,Bosnia and Herzegovina,Europe,TTCV4,79.0
+EUR,BIH,Bosnia and Herzegovina,Europe,TTCV5,76.0
+EUR,BIH,Bosnia and Herzegovina,Europe,TTCV6,92.0
+AFR,BWA,Botswana,Africa,BCG,97.0
+AFR,BWA,Botswana,Africa,DiphCV4,73.0
+AFR,BWA,Botswana,Africa,DTP1,96.0
+AFR,BWA,Botswana,Africa,DTP3,93.0
+AFR,BWA,Botswana,Africa,HepB_BDall,75.0
+AFR,BWA,Botswana,Africa,HepB3,93.0
+AFR,BWA,Botswana,Africa,Hib3,93.0
+AFR,BWA,Botswana,Africa,IPV1,75.0
+AFR,BWA,Botswana,Africa,MCV1,93.0
+AFR,BWA,Botswana,Africa,MCV2,74.0
+AFR,BWA,Botswana,Africa,PCV1,87.0
+AFR,BWA,Botswana,Africa,PCV2,79.0
+AFR,BWA,Botswana,Africa,PCV3,77.0
+AFR,BWA,Botswana,Africa,Pol3,94.0
+AFR,BWA,Botswana,Africa,RCV1,79.0
+AFR,BWA,Botswana,Africa,Rota1,84.0
+AFR,BWA,Botswana,Africa,RotaC,74.0
+AFR,BWA,Botswana,Africa,TT2plus,70.0
+AFR,BWA,Botswana,Africa,TTCV4,73.0
+AFR,BWA,Botswana,Africa,VAD1,96.0
+AMR,BRA,Brazil,South America,BCG,97.0
+AMR,BRA,Brazil,South America,DiphCV4,77.0
+AMR,BRA,Brazil,South America,DiphCV5,97.0
+AMR,BRA,Brazil,South America,DTP1,87.0
+AMR,BRA,Brazil,South America,DTP3,83.0
+AMR,BRA,Brazil,South America,HepB_BD,80.0
+AMR,BRA,Brazil,South America,HepB_BDall,91.0
+AMR,BRA,Brazil,South America,HepB3,83.0
+AMR,BRA,Brazil,South America,Hib3,83.0
+AMR,BRA,Brazil,South America,HPVfem,50.0
+AMR,BRA,Brazil,South America,HPVmale,21.0
+AMR,BRA,Brazil,South America,IPV1,89.0
+AMR,BRA,Brazil,South America,MCV1,84.0
+AMR,BRA,Brazil,South America,MCV2,69.0
+AMR,BRA,Brazil,South America,MenA,84.0
+AMR,BRA,Brazil,South America,PCV1,87.0
+AMR,BRA,Brazil,South America,PCV2,84.0
+AMR,BRA,Brazil,South America,PerCV4,77.0
+AMR,BRA,Brazil,South America,Pol3,85.0
+AMR,BRA,Brazil,South America,RCV1,84.0
+AMR,BRA,Brazil,South America,Rota1,82.0
+AMR,BRA,Brazil,South America,RotaC,80.0
+AMR,BRA,Brazil,South America,TTCV4,77.0
+AMR,BRA,Brazil,South America,TTCV5,97.0
+AMR,BRA,Brazil,South America,VAD1,80.0
+AMR,BRA,Brazil,South America,YFV,51.0
+WPR,BRN,Brunei Darussalam,Asia,BCG,99.0
+WPR,BRN,Brunei Darussalam,Asia,DiphCV4,97.0
+WPR,BRN,Brunei Darussalam,Asia,DTP1,99.0
+WPR,BRN,Brunei Darussalam,Asia,DTP3,99.0
+WPR,BRN,Brunei Darussalam,Asia,HepB_BDall,99.0
+WPR,BRN,Brunei Darussalam,Asia,HepB3,99.0
+WPR,BRN,Brunei Darussalam,Asia,Hib3,99.0
+WPR,BRN,Brunei Darussalam,Asia,HPVfem,94.0
+WPR,BRN,Brunei Darussalam,Asia,IPV1,99.0
+WPR,BRN,Brunei Darussalam,Asia,MCV1,99.0
+WPR,BRN,Brunei Darussalam,Asia,MCV2,98.0
+WPR,BRN,Brunei Darussalam,Asia,PerCV4,97.0
+WPR,BRN,Brunei Darussalam,Asia,Pol3,99.0
+WPR,BRN,Brunei Darussalam,Asia,RCV1,99.0
+WPR,BRN,Brunei Darussalam,Asia,TT2plus,67.0
+WPR,BRN,Brunei Darussalam,Asia,TTCV4,97.0
+EUR,BGR,Bulgaria,Europe,BCG,96.0
+EUR,BGR,Bulgaria,Europe,DiphCV4,88.0
+EUR,BGR,Bulgaria,Europe,DiphCV5,90.0
+EUR,BGR,Bulgaria,Europe,DiphCV6,85.0
+EUR,BGR,Bulgaria,Europe,DTP1,95.0
+EUR,BGR,Bulgaria,Europe,DTP3,92.0
+EUR,BGR,Bulgaria,Europe,HepB_BD,96.0
+EUR,BGR,Bulgaria,Europe,HepB3,85.0
+EUR,BGR,Bulgaria,Europe,Hib3,92.0
+EUR,BGR,Bulgaria,Europe,HPVfem,5.0
+EUR,BGR,Bulgaria,Europe,IPV1,95.0
+EUR,BGR,Bulgaria,Europe,MCV1,93.0
+EUR,BGR,Bulgaria,Europe,MCV2,87.0
+EUR,BGR,Bulgaria,Europe,PCV1,92.0
+EUR,BGR,Bulgaria,Europe,PCV2,92.0
+EUR,BGR,Bulgaria,Europe,PCV3,89.0
+EUR,BGR,Bulgaria,Europe,PerCV4,88.0
+EUR,BGR,Bulgaria,Europe,Pol3,92.0
+EUR,BGR,Bulgaria,Europe,RCV1,93.0
+EUR,BGR,Bulgaria,Europe,Rota1,36.0
+EUR,BGR,Bulgaria,Europe,RotaC,31.0
+EUR,BGR,Bulgaria,Europe,TTCV4,88.0
+EUR,BGR,Bulgaria,Europe,TTCV5,90.0
+EUR,BGR,Bulgaria,Europe,TTCV6,85.0
+AFR,BFA,Burkina Faso,Africa,BCG,98.0
+AFR,BFA,Burkina Faso,Africa,DTP1,95.0
+AFR,BFA,Burkina Faso,Africa,DTP3,91.0
+AFR,BFA,Burkina Faso,Africa,HepB3,91.0
+AFR,BFA,Burkina Faso,Africa,Hib3,91.0
+AFR,BFA,Burkina Faso,Africa,IPV1,45.0
+AFR,BFA,Burkina Faso,Africa,MCV1,88.0
+AFR,BFA,Burkina Faso,Africa,MCV2,50.0
+AFR,BFA,Burkina Faso,Africa,MenA,87.0
+AFR,BFA,Burkina Faso,Africa,PAB,82.0
+AFR,BFA,Burkina Faso,Africa,PCV1,99.0
+AFR,BFA,Burkina Faso,Africa,PCV2,99.0
+AFR,BFA,Burkina Faso,Africa,PCV3,91.0
+AFR,BFA,Burkina Faso,Africa,Pol3,91.0
+AFR,BFA,Burkina Faso,Africa,RCV1,88.0
+AFR,BFA,Burkina Faso,Africa,Rota1,96.0
+AFR,BFA,Burkina Faso,Africa,RotaC,91.0
+AFR,BFA,Burkina Faso,Africa,TT2plus,92.0
+AFR,BFA,Burkina Faso,Africa,VAD1,99.0
+AFR,BFA,Burkina Faso,Africa,YFV,49.0
+AFR,BDI,Burundi,Africa,BCG,91.0
+AFR,BDI,Burundi,Africa,DiphCV4,77.0
+AFR,BDI,Burundi,Africa,DTP1,94.0
+AFR,BDI,Burundi,Africa,DTP3,90.0
+AFR,BDI,Burundi,Africa,HepB3,90.0
+AFR,BDI,Burundi,Africa,Hib3,90.0
+AFR,BDI,Burundi,Africa,IPV1,50.0
+AFR,BDI,Burundi,Africa,MCV1,88.0
+AFR,BDI,Burundi,Africa,MCV2,77.0
+AFR,BDI,Burundi,Africa,PCV1,94.0
+AFR,BDI,Burundi,Africa,PCV2,92.0
+AFR,BDI,Burundi,Africa,PCV3,90.0
+AFR,BDI,Burundi,Africa,PerCV4,77.0
+AFR,BDI,Burundi,Africa,Pol3,90.0
+AFR,BDI,Burundi,Africa,RCV1,88.0
+AFR,BDI,Burundi,Africa,Rota1,94.0
+AFR,BDI,Burundi,Africa,RotaC,92.0
+AFR,BDI,Burundi,Africa,TT2plus,90.0
+AFR,BDI,Burundi,Africa,TTCV4,77.0
+AFR,BDI,Burundi,Africa,VAD1,91.0
+AFR,CPV,Cabo Verde,Africa,BCG,96.0
+AFR,CPV,Cabo Verde,Africa,DiphCV4,91.0
+AFR,CPV,Cabo Verde,Africa,DTP1,97.0
+AFR,CPV,Cabo Verde,Africa,DTP3,98.0
+AFR,CPV,Cabo Verde,Africa,HepB_BD,97.0
+AFR,CPV,Cabo Verde,Africa,HepB_BDall,1.0
+AFR,CPV,Cabo Verde,Africa,HepB3,98.0
+AFR,CPV,Cabo Verde,Africa,Hib3,98.0
+AFR,CPV,Cabo Verde,Africa,IPV1,96.0
+AFR,CPV,Cabo Verde,Africa,MCV1,99.0
+AFR,CPV,Cabo Verde,Africa,MCV2,88.0
+AFR,CPV,Cabo Verde,Africa,Pol3,98.0
+AFR,CPV,Cabo Verde,Africa,RCV1,99.0
+AFR,CPV,Cabo Verde,Africa,TT2plus,63.0
+WPR,KHM,Cambodia,Asia,BCG,90.0
+WPR,KHM,Cambodia,Asia,DTP1,99.0
+WPR,KHM,Cambodia,Asia,DTP3,98.0
+WPR,KHM,Cambodia,Asia,HepB_BD,69.0
+WPR,KHM,Cambodia,Asia,HepB_BDall,76.0
+WPR,KHM,Cambodia,Asia,HepB3,98.0
+WPR,KHM,Cambodia,Asia,Hib3,98.0
+WPR,KHM,Cambodia,Asia,HPVfem,96.0
+WPR,KHM,Cambodia,Asia,HPVmale,95.0
+WPR,KHM,Cambodia,Asia,IPV1,90.0
+WPR,KHM,Cambodia,Asia,JapEnc,86.0
+WPR,KHM,Cambodia,Asia,MCV1,99.0
+WPR,KHM,Cambodia,Asia,MCV2,81.0
+WPR,KHM,Cambodia,Asia,PAB,91.0
+WPR,KHM,Cambodia,Asia,PCV1,97.0
+WPR,KHM,Cambodia,Asia,PCV2,94.0
+WPR,KHM,Cambodia,Asia,PCV3,93.0
+WPR,KHM,Cambodia,Asia,Pol3,96.0
+WPR,KHM,Cambodia,Asia,TT2plus,75.0
+WPR,KHM,Cambodia,Asia,VAD1,51.0
+AFR,CMR,Cameroon,Africa,BCG,88.0
+AFR,CMR,Cameroon,Africa,DTP1,86.0
+AFR,CMR,Cameroon,Africa,DTP3,79.0
+AFR,CMR,Cameroon,Africa,HepB3,79.0
+AFR,CMR,Cameroon,Africa,Hib3,79.0
+AFR,CMR,Cameroon,Africa,IPV1,78.0
+AFR,CMR,Cameroon,Africa,MCV1,71.0
+AFR,CMR,Cameroon,Africa,PCV1,85.0
+AFR,CMR,Cameroon,Africa,PCV2,80.0
+AFR,CMR,Cameroon,Africa,PCV3,79.0
+AFR,CMR,Cameroon,Africa,Pol3,78.0
+AFR,CMR,Cameroon,Africa,RCV1,71.0
+AFR,CMR,Cameroon,Africa,Rota1,89.0
+AFR,CMR,Cameroon,Africa,RotaC,78.0
+AFR,CMR,Cameroon,Africa,TT2plus,66.0
+AFR,CMR,Cameroon,Africa,VAD1,29.0
+AFR,CMR,Cameroon,Africa,YFV,74.0
+AMR,CAN,Canada,North America,DiphCV4,76.0
+AMR,CAN,Canada,North America,DiphCV5,80.0
+AMR,CAN,Canada,North America,DiphCV6,89.0
+AMR,CAN,Canada,North America,DTP1,87.0
+AMR,CAN,Canada,North America,DTP3,91.0
+AMR,CAN,Canada,North America,HepB3,71.0
+AMR,CAN,Canada,North America,Hib3,91.0
+AMR,CAN,Canada,North America,HPVfem,83.0
+AMR,CAN,Canada,North America,HPVmale,41.0
+AMR,CAN,Canada,North America,IPV1,87.0
+AMR,CAN,Canada,North America,MCV1,90.0
+AMR,CAN,Canada,North America,MCV2,87.0
+AMR,CAN,Canada,North America,PCV1,92.0
+AMR,CAN,Canada,North America,PCV2,89.0
+AMR,CAN,Canada,North America,PCV3,81.0
+AMR,CAN,Canada,North America,PerCV4,76.0
+AMR,CAN,Canada,North America,Pol3,91.0
+AMR,CAN,Canada,North America,RCV1,90.0
+AMR,CAN,Canada,North America,RotaC,79.0
+AMR,CAN,Canada,North America,TTCV4,76.0
+AMR,CAN,Canada,North America,TTCV5,80.0
+AMR,CAN,Canada,North America,TTCV6,89.0
+AFR,CAF,Central African Republic (the),Africa,BCG,77.0
+AFR,CAF,Central African Republic (the),Africa,DTP1,95.0
+AFR,CAF,Central African Republic (the),Africa,DTP3,74.0
+AFR,CAF,Central African Republic (the),Africa,HepB3,74.0
+AFR,CAF,Central African Republic (the),Africa,Hib3,74.0
+AFR,CAF,Central African Republic (the),Africa,IPV1,73.0
+AFR,CAF,Central African Republic (the),Africa,MCV1,72.0
+AFR,CAF,Central African Republic (the),Africa,MenA,66.0
+AFR,CAF,Central African Republic (the),Africa,PCV1,95.0
+AFR,CAF,Central African Republic (the),Africa,PCV2,78.0
+AFR,CAF,Central African Republic (the),Africa,PCV3,73.0
+AFR,CAF,Central African Republic (the),Africa,Pol3,73.0
+AFR,CAF,Central African Republic (the),Africa,TT2plus,89.0
+AFR,CAF,Central African Republic (the),Africa,VAD1,15.0
+AFR,CAF,Central African Republic (the),Africa,YFV,70.0
+AFR,TCD,Chad,Africa,BCG,51.0
+AFR,TCD,Chad,Africa,DTP1,86.0
+AFR,TCD,Chad,Africa,DTP3,77.0
+AFR,TCD,Chad,Africa,HepB3,77.0
+AFR,TCD,Chad,Africa,Hib3,77.0
+AFR,TCD,Chad,Africa,IPV1,77.0
+AFR,TCD,Chad,Africa,MCV1,70.0
+AFR,TCD,Chad,Africa,MenA,70.0
+AFR,TCD,Chad,Africa,Pol3,76.0
+AFR,TCD,Chad,Africa,TT2plus,69.0
+AFR,TCD,Chad,Africa,YFV,73.0
+AMR,CHL,Chile,South America,BCG,96.0
+AMR,CHL,Chile,South America,DiphCV4,89.0
+AMR,CHL,Chile,South America,DTP1,99.0
+AMR,CHL,Chile,South America,DTP3,95.0
+AMR,CHL,Chile,South America,HepB3,95.0
+AMR,CHL,Chile,South America,Hib3,95.0
+AMR,CHL,Chile,South America,HPVfem,76.0
+AMR,CHL,Chile,South America,IPV1,98.0
+AMR,CHL,Chile,South America,MCV1,93.0
+AMR,CHL,Chile,South America,MCV2,93.0
+AMR,CHL,Chile,South America,MenA,95.0
+AMR,CHL,Chile,South America,PCV1,98.0
+AMR,CHL,Chile,South America,PCV2,97.0
+AMR,CHL,Chile,South America,PCV3,93.0
+AMR,CHL,Chile,South America,Pol3,95.0
+AMR,CHL,Chile,South America,RCV1,93.0
+AMR,CHL,Chile,South America,TT2plus,71.0
+AMR,CHL,Chile,South America,YFV,71.0
+WPR,CHN,China,Asia,BCG,99.0
+WPR,CHN,China,Asia,DiphCV4,99.0
+WPR,CHN,China,Asia,DiphCV5,99.0
+WPR,CHN,China,Asia,DTP1,99.0
+WPR,CHN,China,Asia,DTP3,99.0
+WPR,CHN,China,Asia,HepB_BD,96.0
+WPR,CHN,China,Asia,HepB_BDall,99.0
+WPR,CHN,China,Asia,HepB3,99.0
+WPR,CHN,China,Asia,IPV1,99.0
+WPR,CHN,China,Asia,JapEnc,99.0
+WPR,CHN,China,Asia,MCV1,99.0
+WPR,CHN,China,Asia,MCV2,99.0
+WPR,CHN,China,Asia,PerCV4,99.0
+WPR,CHN,China,Asia,Pol3,99.0
+WPR,CHN,China,Asia,RCV1,99.0
+WPR,CHN,China,Asia,TTCV4,99.0
+WPR,CHN,China,Asia,TTCV5,99.0
+AMR,COL,Colombia,South America,BCG,89.0
+AMR,COL,Colombia,South America,DiphCV4,85.0
+AMR,COL,Colombia,South America,DiphCV5,88.0
+AMR,COL,Colombia,South America,DTP1,92.0
+AMR,COL,Colombia,South America,DTP3,92.0
+AMR,COL,Colombia,South America,HepB_BD,77.0
+AMR,COL,Colombia,South America,HepB_BDall,87.0
+AMR,COL,Colombia,South America,HepB3,92.0
+AMR,COL,Colombia,South America,Hib3,92.0
+AMR,COL,Colombia,South America,HPVfem,36.0
+AMR,COL,Colombia,South America,IPV1,93.0
+AMR,COL,Colombia,South America,MCV1,95.0
+AMR,COL,Colombia,South America,MCV2,88.0
+AMR,COL,Colombia,South America,PCV1,94.0
+AMR,COL,Colombia,South America,PCV2,94.0
+AMR,COL,Colombia,South America,PCV3,94.0
+AMR,COL,Colombia,South America,PerCV4,85.0
+AMR,COL,Colombia,South America,Pol3,92.0
+AMR,COL,Colombia,South America,RCV1,95.0
+AMR,COL,Colombia,South America,Rota1,89.0
+AMR,COL,Colombia,South America,RotaC,90.0
+AMR,COL,Colombia,South America,TT2plus,60.0
+AMR,COL,Colombia,South America,TTCV5,88.0
+AMR,COL,Colombia,South America,YFV,87.0
+AFR,COM,Comoros (the),Africa,BCG,94.0
+AFR,COM,Comoros (the),Africa,DTP1,96.0
+AFR,COM,Comoros (the),Africa,DTP3,91.0
+AFR,COM,Comoros (the),Africa,HepB3,91.0
+AFR,COM,Comoros (the),Africa,Hib3,91.0
+AFR,COM,Comoros (the),Africa,IPV1,45.0
+AFR,COM,Comoros (the),Africa,MCV1,90.0
+AFR,COM,Comoros (the),Africa,PAB,60.0
+AFR,COM,Comoros (the),Africa,Pol3,94.0
+AFR,COM,Comoros (the),Africa,TT2plus,78.0
+AFR,COM,Comoros (the),Africa,VAD1,64.0
+AFR,COG,Congo (the),Africa,BCG,88.0
+AFR,COG,Congo (the),Africa,DTP1,83.0
+AFR,COG,Congo (the),Africa,DTP3,83.0
+AFR,COG,Congo (the),Africa,HepB3,83.0
+AFR,COG,Congo (the),Africa,Hib3,83.0
+AFR,COG,Congo (the),Africa,IPV1,80.0
+AFR,COG,Congo (the),Africa,MCV1,83.0
+AFR,COG,Congo (the),Africa,MenA,83.0
+AFR,COG,Congo (the),Africa,PCV1,83.0
+AFR,COG,Congo (the),Africa,PCV2,83.0
+AFR,COG,Congo (the),Africa,PCV3,83.0
+AFR,COG,Congo (the),Africa,Pol3,83.0
+AFR,COG,Congo (the),Africa,Rota1,83.0
+AFR,COG,Congo (the),Africa,RotaC,83.0
+AFR,COG,Congo (the),Africa,TT2plus,83.0
+AFR,COG,Congo (the),Africa,VAD1,83.0
+AFR,COG,Congo (the),Africa,YFV,83.0
+WPR,COK,Cook Islands,Australia,BCG,99.0
+WPR,COK,Cook Islands,Australia,DiphCV4,99.0
+WPR,COK,Cook Islands,Australia,DTP1,99.0
+WPR,COK,Cook Islands,Australia,DTP3,99.0
+WPR,COK,Cook Islands,Australia,HepB_BD,99.0
+WPR,COK,Cook Islands,Australia,HepB_BDall,99.0
+WPR,COK,Cook Islands,Australia,HepB3,99.0
+WPR,COK,Cook Islands,Australia,Hib3,99.0
+WPR,COK,Cook Islands,Australia,HPVfem,85.0
+WPR,COK,Cook Islands,Australia,IPV1,99.0
+WPR,COK,Cook Islands,Australia,IPV1frac,99.0
+WPR,COK,Cook Islands,Australia,MCV1,99.0
+WPR,COK,Cook Islands,Australia,MCV2,99.0
+WPR,COK,Cook Islands,Australia,PerCV4,99.0
+WPR,COK,Cook Islands,Australia,Pol3,99.0
+WPR,COK,Cook Islands,Australia,RCV1,99.0
+WPR,COK,Cook Islands,Australia,TTCV4,99.0
+AMR,CRI,Costa Rica,North America,BCG,92.0
+AMR,CRI,Costa Rica,North America,DiphCV4,95.0
+AMR,CRI,Costa Rica,North America,DiphCV5,95.0
+AMR,CRI,Costa Rica,North America,DiphCV6,99.0
+AMR,CRI,Costa Rica,North America,DTP1,95.0
+AMR,CRI,Costa Rica,North America,DTP3,94.0
+AMR,CRI,Costa Rica,North America,HepB_BD,90.0
+AMR,CRI,Costa Rica,North America,HepB_BDall,93.0
+AMR,CRI,Costa Rica,North America,HepB3,98.0
+AMR,CRI,Costa Rica,North America,Hib3,94.0
+AMR,CRI,Costa Rica,North America,MCV1,94.0
+AMR,CRI,Costa Rica,North America,MCV2,99.0
+AMR,CRI,Costa Rica,North America,PCV1,96.0
+AMR,CRI,Costa Rica,North America,PCV2,95.0
+AMR,CRI,Costa Rica,North America,PCV3,96.0
+AMR,CRI,Costa Rica,North America,PerCV4,95.0
+AMR,CRI,Costa Rica,North America,Pol3,94.0
+AMR,CRI,Costa Rica,North America,RCV1,94.0
+AMR,CRI,Costa Rica,North America,TTCV4,95.0
+AMR,CRI,Costa Rica,North America,TTCV5,95.0
+AMR,CRI,Costa Rica,North America,TTCV6,99.0
+AFR,CIV,Côte d'Ivoire,Africa,BCG,98.0
+AFR,CIV,Côte d'Ivoire,Africa,DTP1,99.0
+AFR,CIV,Côte d'Ivoire,Africa,DTP3,94.0
+AFR,CIV,Côte d'Ivoire,Africa,HepB3,94.0
+AFR,CIV,Côte d'Ivoire,Africa,Hib3,94.0
+AFR,CIV,Côte d'Ivoire,Africa,IPV1,79.0
+AFR,CIV,Côte d'Ivoire,Africa,MCV1,90.0
+AFR,CIV,Côte d'Ivoire,Africa,MenA,28.0
+AFR,CIV,Côte d'Ivoire,Africa,PCV1,99.0
+AFR,CIV,Côte d'Ivoire,Africa,PCV2,96.0
+AFR,CIV,Côte d'Ivoire,Africa,PCV3,94.0
+AFR,CIV,Côte d'Ivoire,Africa,Pol3,94.0
+AFR,CIV,Côte d'Ivoire,Africa,RCV1,90.0
+AFR,CIV,Côte d'Ivoire,Africa,Rota1,79.0
+AFR,CIV,Côte d'Ivoire,Africa,RotaC,72.0
+AFR,CIV,Côte d'Ivoire,Africa,TT2plus,85.0
+AFR,CIV,Côte d'Ivoire,Africa,YFV,88.0
+EUR,HRV,Croatia,Europe,BCG,98.0
+EUR,HRV,Croatia,Europe,DiphCV4,88.0
+EUR,HRV,Croatia,Europe,DiphCV5,87.0
+EUR,HRV,Croatia,Europe,DiphCV6,96.0
+EUR,HRV,Croatia,Europe,DTP3,93.0
+EUR,HRV,Croatia,Europe,HepB3,93.0
+EUR,HRV,Croatia,Europe,Hib3,94.0
+EUR,HRV,Croatia,Europe,MCV1,93.0
+EUR,HRV,Croatia,Europe,MCV2,95.0
+EUR,HRV,Croatia,Europe,PerCV4,89.0
+EUR,HRV,Croatia,Europe,Pol3,94.0
+EUR,HRV,Croatia,Europe,RCV1,93.0
+EUR,HRV,Croatia,Europe,TTCV4,89.0
+EUR,HRV,Croatia,Europe,TTCV5,87.0
+EUR,HRV,Croatia,Europe,TTCV6,96.0
+AMR,CUB,Cuba,North America,BCG,99.0
+AMR,CUB,Cuba,North America,DiphCV4,99.0
+AMR,CUB,Cuba,North America,DiphCV5,99.0
+AMR,CUB,Cuba,North America,DTP1,99.0
+AMR,CUB,Cuba,North America,DTP3,99.0
+AMR,CUB,Cuba,North America,HepB_BD,99.0
+AMR,CUB,Cuba,North America,HepB_BDall,99.0
+AMR,CUB,Cuba,North America,HepB3,99.0
+AMR,CUB,Cuba,North America,Hib3,99.0
+AMR,CUB,Cuba,North America,IPV1,99.0
+AMR,CUB,Cuba,North America,IPV1frac,99.0
+AMR,CUB,Cuba,North America,IPV2frac,99.0
+AMR,CUB,Cuba,North America,MCV1,99.0
+AMR,CUB,Cuba,North America,MCV2,99.0
+AMR,CUB,Cuba,North America,PAB,99.0
+AMR,CUB,Cuba,North America,PerCV4,99.0
+AMR,CUB,Cuba,North America,Pol3,99.0
+AMR,CUB,Cuba,North America,RCV1,99.0
+AMR,CUB,Cuba,North America,TTCV4,99.0
+AMR,CUB,Cuba,North America,TTCV5,99.0
+AMR,CUB,Cuba,North America,TTCV6,99.0
+AMR,CUB,Cuba,North America,Typhoid,99.0
+EUR,CYP,Cyprus,Europe,DTP1,99.0
+EUR,CYP,Cyprus,Europe,DTP3,99.0
+EUR,CYP,Cyprus,Europe,HepB3,97.0
+EUR,CYP,Cyprus,Europe,Hib3,97.0
+EUR,CYP,Cyprus,Europe,IPV1,99.0
+EUR,CYP,Cyprus,Europe,MCV1,90.0
+EUR,CYP,Cyprus,Europe,Pol3,97.0
+EUR,CYP,Cyprus,Europe,RCV1,90.0
+EUR,CZE,Czech Republic,Europe,DiphCV4,92.0
+EUR,CZE,Czech Republic,Europe,MCV1,96.0
+EUR,CZE,Czech Republic,Europe,MCV2,84.0
+EUR,CZE,Czech Republic,Europe,PerCV4,92.0
+EUR,CZE,Czech Republic,Europe,RCV1,96.0
+EUR,CZE,Czech Republic,Europe,TTCV4,92.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,BCG,96.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,DTP1,99.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,DTP3,97.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,HepB_BD,98.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,HepB3,97.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,Hib3,97.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,IPV1,65.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,MCV1,98.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,MCV2,99.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,Pol3,99.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,TT2plus,99.0
+SEAR,PRK,Democratic People's Republic of Korea (the),Asia,VAD1,100.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,BCG,95.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,DTP1,99.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,DTP3,94.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,HepB3,94.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,Hib3,94.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,IPV1,92.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,MCV1,92.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,PCV1,99.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,PCV2,96.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,PCV3,94.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,Pol3,93.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,TT2plus,96.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,VAD1,97.0
+AFR,COD,Democratic Republic of the Congo (the),Africa,YFV,92.0
+EUR,DNK,Denmark,Europe,DiphCV4,91.0
+EUR,DNK,Denmark,Europe,DTP1,97.0
+EUR,DNK,Denmark,Europe,DTP3,97.0
+EUR,DNK,Denmark,Europe,Hib3,97.0
+EUR,DNK,Denmark,Europe,HPVfem,54.0
+EUR,DNK,Denmark,Europe,IPV1,97.0
+EUR,DNK,Denmark,Europe,MCV1,95.0
+EUR,DNK,Denmark,Europe,MCV2,90.0
+EUR,DNK,Denmark,Europe,PCV1,97.0
+EUR,DNK,Denmark,Europe,PCV2,97.0
+EUR,DNK,Denmark,Europe,PCV3,96.0
+EUR,DNK,Denmark,Europe,PerCV4,91.0
+EUR,DNK,Denmark,Europe,Pol3,97.0
+EUR,DNK,Denmark,Europe,RCV1,95.0
+EUR,DNK,Denmark,Europe,TTCV4,91.0
+EMR,DJI,Djibouti,Africa,BCG,93.0
+EMR,DJI,Djibouti,Africa,DiphCV4,81.0
+EMR,DJI,Djibouti,Africa,DTP1,91.0
+EMR,DJI,Djibouti,Africa,DTP3,84.0
+EMR,DJI,Djibouti,Africa,HepB_BD,93.0
+EMR,DJI,Djibouti,Africa,HepB_BDall,93.0
+EMR,DJI,Djibouti,Africa,HepB3,84.0
+EMR,DJI,Djibouti,Africa,Hib3,84.0
+EMR,DJI,Djibouti,Africa,IPV1,89.0
+EMR,DJI,Djibouti,Africa,MCV1,86.0
+EMR,DJI,Djibouti,Africa,MCV2,81.0
+EMR,DJI,Djibouti,Africa,PCV1,91.0
+EMR,DJI,Djibouti,Africa,PCV2,87.0
+EMR,DJI,Djibouti,Africa,PCV3,84.0
+EMR,DJI,Djibouti,Africa,PerCV4,81.0
+EMR,DJI,Djibouti,Africa,Pol3,84.0
+EMR,DJI,Djibouti,Africa,Rota1,91.0
+EMR,DJI,Djibouti,Africa,RotaC,87.0
+EMR,DJI,Djibouti,Africa,TT2plus,91.0
+EMR,DJI,Djibouti,Africa,TTCV4,81.0
+EMR,DJI,Djibouti,Africa,VAD1,80.0
+AMR,DMA,Dominica,North America,BCG,95.0
+AMR,DMA,Dominica,North America,DiphCV4,83.0
+AMR,DMA,Dominica,North America,DiphCV5,77.0
+AMR,DMA,Dominica,North America,DiphCV6,96.0
+AMR,DMA,Dominica,North America,DTP1,99.0
+AMR,DMA,Dominica,North America,DTP3,94.0
+AMR,DMA,Dominica,North America,HepB_BD,46.0
+AMR,DMA,Dominica,North America,HepB_BDall,46.0
+AMR,DMA,Dominica,North America,HepB3,94.0
+AMR,DMA,Dominica,North America,Hib3,94.0
+AMR,DMA,Dominica,North America,IPV1,99.0
+AMR,DMA,Dominica,North America,MCV1,84.0
+AMR,DMA,Dominica,North America,MCV2,81.0
+AMR,DMA,Dominica,North America,PAB,59.0
+AMR,DMA,Dominica,North America,PerCV4,83.0
+AMR,DMA,Dominica,North America,Pol3,94.0
+AMR,DMA,Dominica,North America,RCV1,84.0
+AMR,DMA,Dominica,North America,TT2plus,59.0
+AMR,DMA,Dominica,North America,TTCV4,83.0
+AMR,DMA,Dominica,North America,TTCV5,77.0
+AMR,DMA,Dominica,North America,TTCV6,96.0
+AMR,DOM,Dominican Republic (the),North America,BCG,99.0
+AMR,DOM,Dominican Republic (the),North America,DiphCV4,85.0
+AMR,DOM,Dominican Republic (the),North America,DiphCV5,74.0
+AMR,DOM,Dominican Republic (the),North America,DTP1,99.0
+AMR,DOM,Dominican Republic (the),North America,DTP3,94.0
+AMR,DOM,Dominican Republic (the),North America,HepB_BD,80.0
+AMR,DOM,Dominican Republic (the),North America,HepB_BDall,80.0
+AMR,DOM,Dominican Republic (the),North America,HepB3,92.0
+AMR,DOM,Dominican Republic (the),North America,Hib3,90.0
+AMR,DOM,Dominican Republic (the),North America,HPVfem,6.0
+AMR,DOM,Dominican Republic (the),North America,IPV1,99.0
+AMR,DOM,Dominican Republic (the),North America,MCV1,95.0
+AMR,DOM,Dominican Republic (the),North America,MCV2,31.0
+AMR,DOM,Dominican Republic (the),North America,PCV1,97.0
+AMR,DOM,Dominican Republic (the),North America,PCV2,88.0
+AMR,DOM,Dominican Republic (the),North America,PCV3,70.0
+AMR,DOM,Dominican Republic (the),North America,PerCV4,85.0
+AMR,DOM,Dominican Republic (the),North America,Pol3,89.0
+AMR,DOM,Dominican Republic (the),North America,RCV1,95.0
+AMR,DOM,Dominican Republic (the),North America,Rota1,92.0
+AMR,DOM,Dominican Republic (the),North America,RotaC,82.0
+AMR,DOM,Dominican Republic (the),North America,TT2plus,97.0
+AMR,DOM,Dominican Republic (the),North America,TTCV4,85.0
+AMR,DOM,Dominican Republic (the),North America,TTCV5,74.0
+AMR,ECU,Ecuador,South America,BCG,90.0
+AMR,ECU,Ecuador,South America,DiphCV4,76.0
+AMR,ECU,Ecuador,South America,DiphCV5,64.0
+AMR,ECU,Ecuador,South America,DiphCV6,63.0
+AMR,ECU,Ecuador,South America,DTP1,86.0
+AMR,ECU,Ecuador,South America,DTP3,85.0
+AMR,ECU,Ecuador,South America,HepB_BD,70.0
+AMR,ECU,Ecuador,South America,HepB_BDall,70.0
+AMR,ECU,Ecuador,South America,HepB3,85.0
+AMR,ECU,Ecuador,South America,Hib3,85.0
+AMR,ECU,Ecuador,South America,HPVfem,85.0
+AMR,ECU,Ecuador,South America,IPV1frac,86.0
+AMR,ECU,Ecuador,South America,IPV2frac,69.0
+AMR,ECU,Ecuador,South America,MCV1,83.0
+AMR,ECU,Ecuador,South America,MCV2,74.0
+AMR,ECU,Ecuador,South America,PAB,46.0
+AMR,ECU,Ecuador,South America,PCV1,86.0
+AMR,ECU,Ecuador,South America,PCV2,86.0
+AMR,ECU,Ecuador,South America,PCV3,85.0
+AMR,ECU,Ecuador,South America,PerCV4,76.0
+AMR,ECU,Ecuador,South America,Pol3,85.0
+AMR,ECU,Ecuador,South America,RCV1,83.0
+AMR,ECU,Ecuador,South America,Rota1,85.0
+AMR,ECU,Ecuador,South America,RotaC,85.0
+AMR,ECU,Ecuador,South America,TT2plus,37.0
+AMR,ECU,Ecuador,South America,TTCV4,76.0
+AMR,ECU,Ecuador,South America,TTCV5,64.0
+AMR,ECU,Ecuador,South America,TTCV6,63.0
+AMR,ECU,Ecuador,South America,VAD1,21.0
+AMR,ECU,Ecuador,South America,YFV,85.0
+EMR,EGY,Egypt,Africa,BCG,95.0
+EMR,EGY,Egypt,Africa,DiphCV4,94.0
+EMR,EGY,Egypt,Africa,DTP1,96.0
+EMR,EGY,Egypt,Africa,DTP3,95.0
+EMR,EGY,Egypt,Africa,HepB_BD,89.0
+EMR,EGY,Egypt,Africa,HepB_BDall,89.0
+EMR,EGY,Egypt,Africa,HepB3,95.0
+EMR,EGY,Egypt,Africa,Hib3,95.0
+EMR,EGY,Egypt,Africa,MCV1,94.0
+EMR,EGY,Egypt,Africa,MCV2,94.0
+EMR,EGY,Egypt,Africa,PerCV4,94.0
+EMR,EGY,Egypt,Africa,Pol3,95.0
+AMR,SLV,El Salvador,North America,BCG,81.0
+AMR,SLV,El Salvador,North America,DiphCV4,81.0
+AMR,SLV,El Salvador,North America,DiphCV5,87.0
+AMR,SLV,El Salvador,North America,DiphCV6,99.0
+AMR,SLV,El Salvador,North America,DTP1,82.0
+AMR,SLV,El Salvador,North America,DTP3,81.0
+AMR,SLV,El Salvador,North America,HepB_BD,77.0
+AMR,SLV,El Salvador,North America,HepB_BDall,77.0
+AMR,SLV,El Salvador,North America,HepB3,81.0
+AMR,SLV,El Salvador,North America,Hib3,81.0
+AMR,SLV,El Salvador,North America,IPV1,81.0
+AMR,SLV,El Salvador,North America,MCV1,81.0
+AMR,SLV,El Salvador,North America,MCV2,85.0
+AMR,SLV,El Salvador,North America,PCV1,81.0
+AMR,SLV,El Salvador,North America,PCV2,79.0
+AMR,SLV,El Salvador,North America,PCV3,75.0
+AMR,SLV,El Salvador,North America,PerCV4,81.0
+AMR,SLV,El Salvador,North America,Pol3,83.0
+AMR,SLV,El Salvador,North America,RCV1,81.0
+AMR,SLV,El Salvador,North America,Rota1,82.0
+AMR,SLV,El Salvador,North America,RotaC,82.0
+AMR,SLV,El Salvador,North America,TT2plus,56.0
+AMR,SLV,El Salvador,North America,TTCV4,81.0
+AMR,SLV,El Salvador,North America,TTCV5,87.0
+AMR,SLV,El Salvador,North America,TTCV6,99.0
+AMR,SLV,El Salvador,North America,VAD1,53.0
+AFR,GNQ,Equatorial Guinea,Africa,BCG,56.0
+AFR,GNQ,Equatorial Guinea,Africa,DTP1,54.0
+AFR,GNQ,Equatorial Guinea,Africa,DTP3,46.0
+AFR,GNQ,Equatorial Guinea,Africa,HepB_BDall,1.0
+AFR,GNQ,Equatorial Guinea,Africa,HepB3,46.0
+AFR,GNQ,Equatorial Guinea,Africa,Hib3,46.0
+AFR,GNQ,Equatorial Guinea,Africa,IPV1,45.0
+AFR,GNQ,Equatorial Guinea,Africa,MCV1,39.0
+AFR,GNQ,Equatorial Guinea,Africa,Pol3,45.0
+AFR,GNQ,Equatorial Guinea,Africa,TT2plus,41.0
+AFR,GNQ,Equatorial Guinea,Africa,VAD1,45.0
+AFR,GNQ,Equatorial Guinea,Africa,YFV,39.0
+AFR,ERI,Eritrea,Africa,BCG,97.0
+AFR,ERI,Eritrea,Africa,DTP1,97.0
+AFR,ERI,Eritrea,Africa,DTP3,95.0
+AFR,ERI,Eritrea,Africa,HepB3,95.0
+AFR,ERI,Eritrea,Africa,Hib3,95.0
+AFR,ERI,Eritrea,Africa,IPV1,95.0
+AFR,ERI,Eritrea,Africa,MCV1,93.0
+AFR,ERI,Eritrea,Africa,MCV2,85.0
+AFR,ERI,Eritrea,Africa,PAB,96.0
+AFR,ERI,Eritrea,Africa,PCV1,97.0
+AFR,ERI,Eritrea,Africa,PCV2,96.0
+AFR,ERI,Eritrea,Africa,PCV3,95.0
+AFR,ERI,Eritrea,Africa,Pol3,95.0
+AFR,ERI,Eritrea,Africa,RCV1,93.0
+AFR,ERI,Eritrea,Africa,Rota1,97.0
+AFR,ERI,Eritrea,Africa,RotaC,96.0
+AFR,ERI,Eritrea,Africa,TT2plus,65.0
+AFR,ERI,Eritrea,Africa,VAD1,95.0
+EUR,EST,Estonia,Europe,BCG,92.0
+EUR,EST,Estonia,Europe,DiphCV4,91.0
+EUR,EST,Estonia,Europe,DiphCV5,79.0
+EUR,EST,Estonia,Europe,DiphCV6,77.0
+EUR,EST,Estonia,Europe,DTP1,93.0
+EUR,EST,Estonia,Europe,DTP3,92.0
+EUR,EST,Estonia,Europe,HepB3,93.0
+EUR,EST,Estonia,Europe,Hib3,92.0
+EUR,EST,Estonia,Europe,HPVfem,47.0
+EUR,EST,Estonia,Europe,IPV1,93.0
+EUR,EST,Estonia,Europe,MCV1,87.0
+EUR,EST,Estonia,Europe,MCV2,88.0
+EUR,EST,Estonia,Europe,PerCV4,91.0
+EUR,EST,Estonia,Europe,Pol3,92.0
+EUR,EST,Estonia,Europe,RCV1,93.0
+EUR,EST,Estonia,Europe,Rota1,88.0
+EUR,EST,Estonia,Europe,RotaC,87.0
+EUR,EST,Estonia,Europe,TTCV4,91.0
+EUR,EST,Estonia,Europe,TTCV5,79.0
+EUR,EST,Estonia,Europe,TTCV6,77.0
+AFR,SWZ,Eswatini,Africa,BCG,92.0
+AFR,SWZ,Eswatini,Africa,DTP1,92.0
+AFR,SWZ,Eswatini,Africa,DTP3,90.0
+AFR,SWZ,Eswatini,Africa,HepB3,87.0
+AFR,SWZ,Eswatini,Africa,Hib3,87.0
+AFR,SWZ,Eswatini,Africa,IPV1,90.0
+AFR,SWZ,Eswatini,Africa,MCV1,82.0
+AFR,SWZ,Eswatini,Africa,MCV2,75.0
+AFR,SWZ,Eswatini,Africa,PCV1,92.0
+AFR,SWZ,Eswatini,Africa,PCV2,90.0
+AFR,SWZ,Eswatini,Africa,PCV3,88.0
+AFR,SWZ,Eswatini,Africa,Pol3,90.0
+AFR,SWZ,Eswatini,Africa,RCV1,82.0
+AFR,SWZ,Eswatini,Africa,Rota1,92.0
+AFR,SWZ,Eswatini,Africa,RotaC,90.0
+AFR,SWZ,Eswatini,Africa,TT2plus,76.0
+AFR,SWZ,Eswatini,Africa,TTCV4,2.0
+AFR,SWZ,Eswatini,Africa,TTCV5,1.0
+AFR,SWZ,Eswatini,Africa,VAD1,92.0
+AFR,ETH,Ethiopia,Africa,BCG,82.0
+AFR,ETH,Ethiopia,Africa,DTP1,99.0
+AFR,ETH,Ethiopia,Africa,DTP3,95.0
+AFR,ETH,Ethiopia,Africa,HepB3,95.0
+AFR,ETH,Ethiopia,Africa,Hib3,95.0
+AFR,ETH,Ethiopia,Africa,HPVfem,95.0
+AFR,ETH,Ethiopia,Africa,IPV1,74.0
+AFR,ETH,Ethiopia,Africa,MCV1,88.0
+AFR,ETH,Ethiopia,Africa,PAB,87.0
+AFR,ETH,Ethiopia,Africa,PCV1,99.0
+AFR,ETH,Ethiopia,Africa,PCV3,94.0
+AFR,ETH,Ethiopia,Africa,Pol3,83.0
+AFR,ETH,Ethiopia,Africa,Rota1,99.0
+AFR,ETH,Ethiopia,Africa,RotaC,93.0
+AFR,ETH,Ethiopia,Africa,TT2plus,87.0
+AFR,ETH,Ethiopia,Africa,VAD1,52.0
+WPR,FJI,Fiji,Australia,BCG,76.0
+WPR,FJI,Fiji,Australia,DTP1,89.0
+WPR,FJI,Fiji,Australia,DTP3,85.0
+WPR,FJI,Fiji,Australia,HepB_BD,77.0
+WPR,FJI,Fiji,Australia,HepB_BDall,78.0
+WPR,FJI,Fiji,Australia,HepB3,85.0
+WPR,FJI,Fiji,Australia,Hib3,85.0
+WPR,FJI,Fiji,Australia,HPVfem,57.0
+WPR,FJI,Fiji,Australia,IPV1,86.0
+WPR,FJI,Fiji,Australia,MCV1,81.0
+WPR,FJI,Fiji,Australia,MCV2,95.0
+WPR,FJI,Fiji,Australia,PAB,73.0
+WPR,FJI,Fiji,Australia,PCV1,89.0
+WPR,FJI,Fiji,Australia,PCV2,87.0
+WPR,FJI,Fiji,Australia,PCV3,86.0
+WPR,FJI,Fiji,Australia,Pol3,86.0
+WPR,FJI,Fiji,Australia,RCV1,81.0
+WPR,FJI,Fiji,Australia,Rota1,90.0
+WPR,FJI,Fiji,Australia,RotaC,86.0
+WPR,FJI,Fiji,Australia,TT2plus,71.0
+WPR,FJI,Fiji,Australia,TTCV4,99.0
+WPR,FJI,Fiji,Australia,TTCV5,98.0
+WPR,FJI,Fiji,Australia,VAD1,10.0
+EUR,FIN,Finland,Europe,DiphCV4,95.0
+EUR,FIN,Finland,Europe,DTP1,99.0
+EUR,FIN,Finland,Europe,DTP3,91.0
+EUR,FIN,Finland,Europe,Hib3,91.0
+EUR,FIN,Finland,Europe,HPVfem,62.0
+EUR,FIN,Finland,Europe,IPV1,99.0
+EUR,FIN,Finland,Europe,MCV1,96.0
+EUR,FIN,Finland,Europe,MCV2,93.0
+EUR,FIN,Finland,Europe,PCV1,96.0
+EUR,FIN,Finland,Europe,PCV2,95.0
+EUR,FIN,Finland,Europe,PCV3,88.0
+EUR,FIN,Finland,Europe,Pol3,91.0
+EUR,FIN,Finland,Europe,RCV1,96.0
+EUR,FIN,Finland,Europe,Rota1,93.0
+EUR,FIN,Finland,Europe,RotaC,82.0
+EUR,FIN,Finland,Europe,TTCV4,95.0
+AFR,GAB,Gabon,Africa,BCG,69.0
+AFR,GAB,Gabon,Africa,DTP1,78.0
+AFR,GAB,Gabon,Africa,DTP3,70.0
+AFR,GAB,Gabon,Africa,HepB3,70.0
+AFR,GAB,Gabon,Africa,Hib3,70.0
+AFR,GAB,Gabon,Africa,IPV1,70.0
+AFR,GAB,Gabon,Africa,MCV1,59.0
+AFR,GAB,Gabon,Africa,Pol3,64.0
+AFR,GAB,Gabon,Africa,TT2plus,50.0
+AFR,GAB,Gabon,Africa,YFV,59.0
+AFR,GMB,Gambia,Africa,BCG,94.0
+AFR,GMB,Gambia,Africa,DiphCV4,72.0
+AFR,GMB,Gambia,Africa,DTP1,94.0
+AFR,GMB,Gambia,Africa,DTP3,93.0
+AFR,GMB,Gambia,Africa,HepB_BDall,94.0
+AFR,GMB,Gambia,Africa,HepB3,93.0
+AFR,GMB,Gambia,Africa,Hib3,93.0
+AFR,GMB,Gambia,Africa,IPV1,61.0
+AFR,GMB,Gambia,Africa,MCV1,91.0
+AFR,GMB,Gambia,Africa,MCV2,71.0
+AFR,GMB,Gambia,Africa,PCV1,94.0
+AFR,GMB,Gambia,Africa,PCV2,93.0
+AFR,GMB,Gambia,Africa,PCV3,93.0
+AFR,GMB,Gambia,Africa,Pol3,93.0
+AFR,GMB,Gambia,Africa,RCV1,91.0
+AFR,GMB,Gambia,Africa,Rota1,94.0
+AFR,GMB,Gambia,Africa,RotaC,93.0
+AFR,GMB,Gambia,Africa,TT2plus,61.0
+AFR,GMB,Gambia,Africa,VAD1,67.0
+AFR,GMB,Gambia,Africa,YFV,91.0
+EUR,GEO,Georgia,Asia,BCG,97.0
+EUR,GEO,Georgia,Asia,DiphCV4,92.0
+EUR,GEO,Georgia,Asia,DiphCV5,92.0
+EUR,GEO,Georgia,Asia,DiphCV6,88.0
+EUR,GEO,Georgia,Asia,DTP1,99.0
+EUR,GEO,Georgia,Asia,DTP3,93.0
+EUR,GEO,Georgia,Asia,HepB_BD,97.0
+EUR,GEO,Georgia,Asia,HepB_BDall,97.0
+EUR,GEO,Georgia,Asia,HepB3,93.0
+EUR,GEO,Georgia,Asia,Hib3,93.0
+EUR,GEO,Georgia,Asia,HPVfem,20.0
+EUR,GEO,Georgia,Asia,IPV1,99.0
+EUR,GEO,Georgia,Asia,MCV1,98.0
+EUR,GEO,Georgia,Asia,MCV2,96.0
+EUR,GEO,Georgia,Asia,PCV1,97.0
+EUR,GEO,Georgia,Asia,PCV2,93.0
+EUR,GEO,Georgia,Asia,PCV3,81.0
+EUR,GEO,Georgia,Asia,PerCV4,92.0
+EUR,GEO,Georgia,Asia,Pol3,93.0
+EUR,GEO,Georgia,Asia,RCV1,98.0
+EUR,GEO,Georgia,Asia,Rota1,85.0
+EUR,GEO,Georgia,Asia,RotaC,79.0
+EUR,GEO,Georgia,Asia,TTCV4,92.0
+EUR,GEO,Georgia,Asia,TTCV5,92.0
+EUR,GEO,Georgia,Asia,TTCV6,88.0
+EUR,DEU,Germany,Europe,DiphCV4,94.0
+EUR,DEU,Germany,Europe,DTP1,99.0
+EUR,DEU,Germany,Europe,HepB3,87.0
+EUR,DEU,Germany,Europe,Hib3,92.0
+EUR,DEU,Germany,Europe,IPV1,98.0
+EUR,DEU,Germany,Europe,MCV1,97.0
+EUR,DEU,Germany,Europe,MCV2,93.0
+EUR,DEU,Germany,Europe,PCV1,90.0
+EUR,DEU,Germany,Europe,PCV3,84.0
+EUR,DEU,Germany,Europe,PerCV4,93.0
+EUR,DEU,Germany,Europe,Pol3,93.0
+EUR,DEU,Germany,Europe,RCV1,97.0
+EUR,DEU,Germany,Europe,TTCV4,94.0
+AFR,GHA,Ghana,Africa,BCG,98.0
+AFR,GHA,Ghana,Africa,DTP1,97.0
+AFR,GHA,Ghana,Africa,DTP3,97.0
+AFR,GHA,Ghana,Africa,HepB3,97.0
+AFR,GHA,Ghana,Africa,Hib3,97.0
+AFR,GHA,Ghana,Africa,IPV1,55.0
+AFR,GHA,Ghana,Africa,MCV1,92.0
+AFR,GHA,Ghana,Africa,MCV2,83.0
+AFR,GHA,Ghana,Africa,MenA,83.0
+AFR,GHA,Ghana,Africa,PCV1,98.0
+AFR,GHA,Ghana,Africa,PCV2,96.0
+AFR,GHA,Ghana,Africa,PCV3,96.0
+AFR,GHA,Ghana,Africa,Pol3,98.0
+AFR,GHA,Ghana,Africa,RCV1,92.0
+AFR,GHA,Ghana,Africa,Rota1,96.0
+AFR,GHA,Ghana,Africa,RotaC,94.0
+AFR,GHA,Ghana,Africa,TT2plus,64.0
+AFR,GHA,Ghana,Africa,VAD1,91.0
+AFR,GHA,Ghana,Africa,YFV,91.0
+EUR,GRC,Greece,Europe,DiphCV4,96.0
+EUR,GRC,Greece,Europe,DTP1,99.0
+EUR,GRC,Greece,Europe,DTP3,100.0
+EUR,GRC,Greece,Europe,HepB3,96.0
+EUR,GRC,Greece,Europe,Hib3,99.0
+EUR,GRC,Greece,Europe,IPV1,99.0
+EUR,GRC,Greece,Europe,MCV1,97.0
+EUR,GRC,Greece,Europe,PCV1,99.0
+EUR,GRC,Greece,Europe,PCV2,99.0
+EUR,GRC,Greece,Europe,PCV3,96.0
+EUR,GRC,Greece,Europe,Pol3,100.0
+EUR,GRC,Greece,Europe,RCV1,97.0
+EUR,GRC,Greece,Europe,Rota1,25.0
+EUR,GRC,Greece,Europe,RotaC,20.0
+AMR,GRD,Grenada,North America,DiphCV4,75.0
+AMR,GRD,Grenada,North America,DiphCV5,70.0
+AMR,GRD,Grenada,North America,DTP1,96.0
+AMR,GRD,Grenada,North America,DTP3,95.0
+AMR,GRD,Grenada,North America,HepB_BD,95.0
+AMR,GRD,Grenada,North America,HepB_BDall,95.0
+AMR,GRD,Grenada,North America,HepB3,95.0
+AMR,GRD,Grenada,North America,Hib3,95.0
+AMR,GRD,Grenada,North America,IPV1,96.0
+AMR,GRD,Grenada,North America,MCV1,84.0
+AMR,GRD,Grenada,North America,MCV2,74.0
+AMR,GRD,Grenada,North America,PerCV4,75.0
+AMR,GRD,Grenada,North America,Pol3,96.0
+AMR,GRD,Grenada,North America,RCV1,84.0
+AMR,GRD,Grenada,North America,TTCV4,75.0
+AMR,GRD,Grenada,North America,TTCV5,70.0
+AMR,GTM,Guatemala,North America,BCG,88.0
+AMR,GTM,Guatemala,North America,DiphCV4,77.0
+AMR,GTM,Guatemala,North America,DiphCV5,73.0
+AMR,GTM,Guatemala,North America,DTP1,94.0
+AMR,GTM,Guatemala,North America,DTP3,86.0
+AMR,GTM,Guatemala,North America,HepB_BD,48.0
+AMR,GTM,Guatemala,North America,HepB3,86.0
+AMR,GTM,Guatemala,North America,Hib3,86.0
+AMR,GTM,Guatemala,North America,HPVfem,13.0
+AMR,GTM,Guatemala,North America,IPV1,94.0
+AMR,GTM,Guatemala,North America,MCV1,87.0
+AMR,GTM,Guatemala,North America,MCV2,76.0
+AMR,GTM,Guatemala,North America,PCV1,95.0
+AMR,GTM,Guatemala,North America,PCV2,90.0
+AMR,GTM,Guatemala,North America,PCV3,85.0
+AMR,GTM,Guatemala,North America,PerCV4,77.0
+AMR,GTM,Guatemala,North America,Pol3,85.0
+AMR,GTM,Guatemala,North America,RCV1,87.0
+AMR,GTM,Guatemala,North America,Rota1,94.0
+AMR,GTM,Guatemala,North America,RotaC,87.0
+AMR,GTM,Guatemala,North America,TT2plus,49.0
+AMR,GTM,Guatemala,North America,TTCV4,77.0
+AMR,GTM,Guatemala,North America,TTCV5,73.0
+AMR,GTM,Guatemala,North America,VAD1,50.0
+AMR,GTM,Guatemala,North America,YFV,53.0
+AFR,GIN,Guinea,Africa,BCG,91.0
+AFR,GIN,Guinea,Africa,DTP1,80.0
+AFR,GIN,Guinea,Africa,DTP3,75.0
+AFR,GIN,Guinea,Africa,HepB3,75.0
+AFR,GIN,Guinea,Africa,Hib3,75.0
+AFR,GIN,Guinea,Africa,IPV1,75.0
+AFR,GIN,Guinea,Africa,MCV1,75.0
+AFR,GIN,Guinea,Africa,PAB,71.0
+AFR,GIN,Guinea,Africa,Pol3,75.0
+AFR,GIN,Guinea,Africa,TT2plus,70.0
+AFR,GIN,Guinea,Africa,YFV,75.0
+AFR,GNB,Guinea-Bissau,Africa,BCG,89.0
+AFR,GNB,Guinea-Bissau,Africa,DTP1,92.0
+AFR,GNB,Guinea-Bissau,Africa,DTP3,82.0
+AFR,GNB,Guinea-Bissau,Africa,HepB3,82.0
+AFR,GNB,Guinea-Bissau,Africa,Hib3,82.0
+AFR,GNB,Guinea-Bissau,Africa,IPV1,3.0
+AFR,GNB,Guinea-Bissau,Africa,MCV1,79.0
+AFR,GNB,Guinea-Bissau,Africa,PCV1,92.0
+AFR,GNB,Guinea-Bissau,Africa,PCV2,86.0
+AFR,GNB,Guinea-Bissau,Africa,PCV3,82.0
+AFR,GNB,Guinea-Bissau,Africa,Pol3,82.0
+AFR,GNB,Guinea-Bissau,Africa,Rota1,92.0
+AFR,GNB,Guinea-Bissau,Africa,RotaC,85.0
+AFR,GNB,Guinea-Bissau,Africa,TT2plus,47.0
+AFR,GNB,Guinea-Bissau,Africa,YFV,80.0
+AMR,GUY,Guyana,South America,BCG,99.0
+AMR,GUY,Guyana,South America,DTP1,99.0
+AMR,GUY,Guyana,South America,DTP3,95.0
+AMR,GUY,Guyana,South America,HepB3,95.0
+AMR,GUY,Guyana,South America,Hib3,95.0
+AMR,GUY,Guyana,South America,HPVfem,12.0
+AMR,GUY,Guyana,South America,IPV1,97.0
+AMR,GUY,Guyana,South America,MCV1,98.0
+AMR,GUY,Guyana,South America,MCV2,84.0
+AMR,GUY,Guyana,South America,PCV1,91.0
+AMR,GUY,Guyana,South America,PCV2,93.0
+AMR,GUY,Guyana,South America,PCV3,91.0
+AMR,GUY,Guyana,South America,Pol3,94.0
+AMR,GUY,Guyana,South America,RCV1,98.0
+AMR,GUY,Guyana,South America,Rota1,93.0
+AMR,GUY,Guyana,South America,RotaC,91.0
+AMR,GUY,Guyana,South America,TT2plus,99.0
+AMR,GUY,Guyana,South America,YFV,96.0
+AMR,HTI,Haiti,North America,BCG,76.0
+AMR,HTI,Haiti,North America,DiphCV4,24.0
+AMR,HTI,Haiti,North America,DTP1,91.0
+AMR,HTI,Haiti,North America,DTP3,79.0
+AMR,HTI,Haiti,North America,HepB3,79.0
+AMR,HTI,Haiti,North America,Hib3,79.0
+AMR,HTI,Haiti,North America,IPV1,78.0
+AMR,HTI,Haiti,North America,MCV1,74.0
+AMR,HTI,Haiti,North America,MCV2,38.0
+AMR,HTI,Haiti,North America,PCV1,27.0
+AMR,HTI,Haiti,North America,PCV2,7.0
+AMR,HTI,Haiti,North America,PCV3,1.0
+AMR,HTI,Haiti,North America,PerCV4,24.0
+AMR,HTI,Haiti,North America,Pol3,66.0
+AMR,HTI,Haiti,North America,RCV1,74.0
+AMR,HTI,Haiti,North America,Rota1,81.0
+AMR,HTI,Haiti,North America,RotaC,73.0
+AMR,HTI,Haiti,North America,TT2plus,51.0
+AMR,HTI,Haiti,North America,TTCV4,24.0
+AMR,HND,Honduras,North America,BCG,93.0
+AMR,HND,Honduras,North America,DiphCV4,92.0
+AMR,HND,Honduras,North America,DiphCV5,86.0
+AMR,HND,Honduras,North America,DTP1,93.0
+AMR,HND,Honduras,North America,DTP3,91.0
+AMR,HND,Honduras,North America,HepB_BD,82.0
+AMR,HND,Honduras,North America,HepB_BDall,82.0
+AMR,HND,Honduras,North America,HepB3,91.0
+AMR,HND,Honduras,North America,Hib3,91.0
+AMR,HND,Honduras,North America,HPVfem,55.0
+AMR,HND,Honduras,North America,IPV1,93.0
+AMR,HND,Honduras,North America,MCV1,91.0
+AMR,HND,Honduras,North America,MCV2,94.0
+AMR,HND,Honduras,North America,PCV1,93.0
+AMR,HND,Honduras,North America,PCV2,92.0
+AMR,HND,Honduras,North America,PCV3,91.0
+AMR,HND,Honduras,North America,PerCV4,92.0
+AMR,HND,Honduras,North America,Pol3,91.0
+AMR,HND,Honduras,North America,RCV1,91.0
+AMR,HND,Honduras,North America,Rota1,93.0
+AMR,HND,Honduras,North America,RotaC,92.0
+AMR,HND,Honduras,North America,TT2plus,99.0
+AMR,HND,Honduras,North America,TTCV4,92.0
+AMR,HND,Honduras,North America,TTCV5,86.0
+AMR,HND,Honduras,North America,VAD1,91.0
+AMR,HND,Honduras,North America,YFV,99.0
+EUR,HUN,Hungary,Europe,BCG,99.0
+EUR,HUN,Hungary,Europe,DiphCV4,99.0
+EUR,HUN,Hungary,Europe,DiphCV5,99.0
+EUR,HUN,Hungary,Europe,DTP1,99.0
+EUR,HUN,Hungary,Europe,DTP3,99.0
+EUR,HUN,Hungary,Europe,Hib3,99.0
+EUR,HUN,Hungary,Europe,IPV1,99.0
+EUR,HUN,Hungary,Europe,MCV1,99.0
+EUR,HUN,Hungary,Europe,MCV2,99.0
+EUR,HUN,Hungary,Europe,PCV1,99.0
+EUR,HUN,Hungary,Europe,PCV2,99.0
+EUR,HUN,Hungary,Europe,PCV3,99.0
+EUR,HUN,Hungary,Europe,Pol3,99.0
+EUR,HUN,Hungary,Europe,RCV1,99.0
+EUR,ISL,Iceland,Europe,DiphCV4,94.0
+EUR,ISL,Iceland,Europe,DiphCV5,96.0
+EUR,ISL,Iceland,Europe,DTP1,97.0
+EUR,ISL,Iceland,Europe,DTP3,91.0
+EUR,ISL,Iceland,Europe,Hib3,91.0
+EUR,ISL,Iceland,Europe,HPVfem,91.0
+EUR,ISL,Iceland,Europe,IPV1,97.0
+EUR,ISL,Iceland,Europe,MCV1,93.0
+EUR,ISL,Iceland,Europe,MCV2,95.0
+EUR,ISL,Iceland,Europe,PCV1,97.0
+EUR,ISL,Iceland,Europe,PCV2,96.0
+EUR,ISL,Iceland,Europe,PCV3,90.0
+EUR,ISL,Iceland,Europe,PerCV4,94.0
+EUR,ISL,Iceland,Europe,Pol3,91.0
+EUR,ISL,Iceland,Europe,RCV1,93.0
+EUR,ISL,Iceland,Europe,TTCV4,94.0
+EUR,ISL,Iceland,Europe,TTCV5,96.0
+SEAR,IND,India,Asia,BCG,98.0
+SEAR,IND,India,Asia,DiphCV4,88.0
+SEAR,IND,India,Asia,DiphCV5,68.0
+SEAR,IND,India,Asia,DTP1,99.0
+SEAR,IND,India,Asia,DTP3,99.0
+SEAR,IND,India,Asia,HepB_BD,60.0
+SEAR,IND,India,Asia,HepB3,99.0
+SEAR,IND,India,Asia,Hib3,97.0
+SEAR,IND,India,Asia,IPV1frac,90.0
+SEAR,IND,India,Asia,IPV2frac,85.0
+SEAR,IND,India,Asia,JapEnc,69.0
+SEAR,IND,India,Asia,MCV1,99.0
+SEAR,IND,India,Asia,MCV2,82.0
+SEAR,IND,India,Asia,PCV1,73.0
+SEAR,IND,India,Asia,PCV2,62.0
+SEAR,IND,India,Asia,PCV3,44.0
+SEAR,IND,India,Asia,Pol3,97.0
+SEAR,IND,India,Asia,RCV1,99.0
+SEAR,IND,India,Asia,Rota1,79.0
+SEAR,IND,India,Asia,RotaC,73.0
+SEAR,IND,India,Asia,TT2plus,81.0
+SEAR,IND,India,Asia,VAD1,71.0
+SEAR,IDN,Indonesia,Asia,BCG,89.0
+SEAR,IDN,Indonesia,Asia,DiphCV4,72.0
+SEAR,IDN,Indonesia,Asia,DiphCV5,80.0
+SEAR,IDN,Indonesia,Asia,DiphCV6,83.0
+SEAR,IDN,Indonesia,Asia,DTP1,79.0
+SEAR,IDN,Indonesia,Asia,DTP3,76.0
+SEAR,IDN,Indonesia,Asia,HepB_BD,54.0
+SEAR,IDN,Indonesia,Asia,HepB_BDall,86.0
+SEAR,IDN,Indonesia,Asia,HepB3,79.0
+SEAR,IDN,Indonesia,Asia,Hib3,79.0
+SEAR,IDN,Indonesia,Asia,HPVfem,10.0
+SEAR,IDN,Indonesia,Asia,IPV1,66.0
+SEAR,IDN,Indonesia,Asia,JapEnc,71.0
+SEAR,IDN,Indonesia,Asia,MCV1,85.0
+SEAR,IDN,Indonesia,Asia,MCV2,52.0
+SEAR,IDN,Indonesia,Asia,PCV1,57.0
+SEAR,IDN,Indonesia,Asia,PCV2,53.0
+SEAR,IDN,Indonesia,Asia,PCV3,8.0
+SEAR,IDN,Indonesia,Asia,PerCV4,72.0
+SEAR,IDN,Indonesia,Asia,Pol3,79.0
+SEAR,IDN,Indonesia,Asia,RCV1,57.0
+SEAR,IDN,Indonesia,Asia,TT2plus,47.0
+SEAR,IDN,Indonesia,Asia,TTCV4,72.0
+SEAR,IDN,Indonesia,Asia,TTCV5,80.0
+SEAR,IDN,Indonesia,Asia,TTCV6,83.0
+EMR,IRN,Iran (Islamic Republic of),Asia,BCG,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,DiphCV4,98.0
+EMR,IRN,Iran (Islamic Republic of),Asia,DiphCV5,97.0
+EMR,IRN,Iran (Islamic Republic of),Asia,DiphCV6,95.0
+EMR,IRN,Iran (Islamic Republic of),Asia,DTP1,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,DTP3,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,HepB_BD,95.0
+EMR,IRN,Iran (Islamic Republic of),Asia,HepB_BDall,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,HepB3,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,Hib3,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,IPV1,43.0
+EMR,IRN,Iran (Islamic Republic of),Asia,MCV1,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,MCV2,98.0
+EMR,IRN,Iran (Islamic Republic of),Asia,PerCV4,98.0
+EMR,IRN,Iran (Islamic Republic of),Asia,Pol3,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,RCV1,99.0
+EMR,IRN,Iran (Islamic Republic of),Asia,TT2plus,25.0
+EMR,IRN,Iran (Islamic Republic of),Asia,TTCV4,98.0
+EMR,IRN,Iran (Islamic Republic of),Asia,TTCV5,97.0
+EMR,IRN,Iran (Islamic Republic of),Asia,TTCV6,95.0
+EMR,IRQ,Iraq,Asia,BCG,95.0
+EMR,IRQ,Iraq,Asia,DiphCV4,64.0
+EMR,IRQ,Iraq,Asia,DiphCV5,39.0
+EMR,IRQ,Iraq,Asia,DTP1,92.0
+EMR,IRQ,Iraq,Asia,DTP3,84.0
+EMR,IRQ,Iraq,Asia,HepB_BD,41.0
+EMR,IRQ,Iraq,Asia,HepB_BDall,84.0
+EMR,IRQ,Iraq,Asia,HepB3,84.0
+EMR,IRQ,Iraq,Asia,Hib3,84.0
+EMR,IRQ,Iraq,Asia,IPV1,92.0
+EMR,IRQ,Iraq,Asia,MCV1,83.0
+EMR,IRQ,Iraq,Asia,MCV2,81.0
+EMR,IRQ,Iraq,Asia,PAB,28.0
+EMR,IRQ,Iraq,Asia,PCV1,59.0
+EMR,IRQ,Iraq,Asia,PCV2,41.0
+EMR,IRQ,Iraq,Asia,PCV3,32.0
+EMR,IRQ,Iraq,Asia,PerCV4,64.0
+EMR,IRQ,Iraq,Asia,Pol3,71.0
+EMR,IRQ,Iraq,Asia,RCV1,81.0
+EMR,IRQ,Iraq,Asia,Rota1,60.0
+EMR,IRQ,Iraq,Asia,RotaC,60.0
+EMR,IRQ,Iraq,Asia,TT2plus,49.0
+EMR,IRQ,Iraq,Asia,TTCV4,64.0
+EMR,IRQ,Iraq,Asia,TTCV5,39.0
+EMR,IRQ,Iraq,Asia,VAD1,77.0
+EUR,IRL,Ireland,Europe,BCG,
+EUR,IRL,Ireland,Europe,DTP3,94.0
+EUR,IRL,Ireland,Europe,HepB3,94.0
+EUR,IRL,Ireland,Europe,Hib3,94.0
+EUR,IRL,Ireland,Europe,HPVfem,64.0
+EUR,IRL,Ireland,Europe,MCV1,92.0
+EUR,IRL,Ireland,Europe,PCV3,90.0
+EUR,IRL,Ireland,Europe,Pol3,94.0
+EUR,IRL,Ireland,Europe,RCV1,92.0
+EUR,IRL,Ireland,Europe,RotaC,89.0
+EUR,ITA,Italy,Europe,DiphCV4,91.0
+EUR,ITA,Italy,Europe,DiphCV5,70.0
+EUR,ITA,Italy,Europe,DTP3,95.0
+EUR,ITA,Italy,Europe,HepB3,95.0
+EUR,ITA,Italy,Europe,Hib3,94.0
+EUR,ITA,Italy,Europe,HPVfem,40.0
+EUR,ITA,Italy,Europe,HPVmale,21.0
+EUR,ITA,Italy,Europe,MCV1,93.0
+EUR,ITA,Italy,Europe,MCV2,89.0
+EUR,ITA,Italy,Europe,PCV3,92.0
+EUR,ITA,Italy,Europe,PerCV4,91.0
+EUR,ITA,Italy,Europe,Pol3,95.0
+EUR,ITA,Italy,Europe,RCV1,93.0
+EUR,ITA,Italy,Europe,RotaC,19.0
+EUR,ITA,Italy,Europe,TTCV4,91.0
+EUR,ITA,Italy,Europe,TTCV5,70.0
+AMR,JAM,Jamaica,North America,BCG,93.0
+AMR,JAM,Jamaica,North America,DiphCV4,81.0
+AMR,JAM,Jamaica,North America,DiphCV5,77.0
+AMR,JAM,Jamaica,North America,DTP1,95.0
+AMR,JAM,Jamaica,North America,DTP3,97.0
+AMR,JAM,Jamaica,North America,HepB3,97.0
+AMR,JAM,Jamaica,North America,Hib3,98.0
+AMR,JAM,Jamaica,North America,HPVfem,25.0
+AMR,JAM,Jamaica,North America,IPV1,95.0
+AMR,JAM,Jamaica,North America,MCV1,89.0
+AMR,JAM,Jamaica,North America,MCV2,82.0
+AMR,JAM,Jamaica,North America,PCV1,62.0
+AMR,JAM,Jamaica,North America,PCV2,51.0
+AMR,JAM,Jamaica,North America,PCV3,44.0
+AMR,JAM,Jamaica,North America,PerCV4,81.0
+AMR,JAM,Jamaica,North America,Pol3,98.0
+AMR,JAM,Jamaica,North America,RCV1,89.0
+AMR,JAM,Jamaica,North America,TT2plus,56.0
+AMR,JAM,Jamaica,North America,TTCV4,81.0
+AMR,JAM,Jamaica,North America,TTCV5,77.0
+WPR,JPN,Japan,Asia,BCG,99.0
+WPR,JPN,Japan,Asia,DiphCV4,99.0
+WPR,JPN,Japan,Asia,DiphCV5,77.0
+WPR,JPN,Japan,Asia,DTP1,99.0
+WPR,JPN,Japan,Asia,DTP3,99.0
+WPR,JPN,Japan,Asia,Hib3,99.0
+WPR,JPN,Japan,Asia,HPVfem,33.0
+WPR,JPN,Japan,Asia,IPV1,99.0
+WPR,JPN,Japan,Asia,JapEnc,99.0
+WPR,JPN,Japan,Asia,MCV1,97.0
+WPR,JPN,Japan,Asia,MCV2,93.0
+WPR,JPN,Japan,Asia,PCV1,99.0
+WPR,JPN,Japan,Asia,PCV2,99.0
+WPR,JPN,Japan,Asia,PCV3,99.0
+WPR,JPN,Japan,Asia,PerCV4,99.0
+WPR,JPN,Japan,Asia,Pol3,99.0
+WPR,JPN,Japan,Asia,RCV1,97.0
+WPR,JPN,Japan,Asia,TTCV4,99.0
+WPR,JPN,Japan,Asia,TTCV5,77.0
+EMR,JOR,Jordan,Asia,BCG,94.0
+EMR,JOR,Jordan,Asia,DiphCV4,89.0
+EMR,JOR,Jordan,Asia,DTP1,95.0
+EMR,JOR,Jordan,Asia,DTP3,96.0
+EMR,JOR,Jordan,Asia,HepB3,96.0
+EMR,JOR,Jordan,Asia,Hib3,96.0
+EMR,JOR,Jordan,Asia,IPV1,95.0
+EMR,JOR,Jordan,Asia,MCV1,92.0
+EMR,JOR,Jordan,Asia,MCV2,96.0
+EMR,JOR,Jordan,Asia,PerCV4,89.0
+EMR,JOR,Jordan,Asia,Pol3,92.0
+EMR,JOR,Jordan,Asia,RCV1,96.0
+EMR,JOR,Jordan,Asia,Rota1,94.0
+EMR,JOR,Jordan,Asia,RotaC,93.0
+EMR,JOR,Jordan,Asia,TT2plus,32.0
+EMR,JOR,Jordan,Asia,TTCV4,89.0
+EMR,JOR,Jordan,Asia,VAD1,92.0
+EUR,KAZ,Kazakhstan,Asia,BCG,95.0
+EUR,KAZ,Kazakhstan,Asia,DiphCV4,97.0
+EUR,KAZ,Kazakhstan,Asia,DiphCV5,99.0
+EUR,KAZ,Kazakhstan,Asia,DiphCV6,97.0
+EUR,KAZ,Kazakhstan,Asia,DTP1,99.0
+EUR,KAZ,Kazakhstan,Asia,DTP3,98.0
+EUR,KAZ,Kazakhstan,Asia,HepB_BD,95.0
+EUR,KAZ,Kazakhstan,Asia,HepB_BDall,97.0
+EUR,KAZ,Kazakhstan,Asia,HepB3,98.0
+EUR,KAZ,Kazakhstan,Asia,Hib3,98.0
+EUR,KAZ,Kazakhstan,Asia,IPV1,99.0
+EUR,KAZ,Kazakhstan,Asia,MCV1,99.0
+EUR,KAZ,Kazakhstan,Asia,MCV2,98.0
+EUR,KAZ,Kazakhstan,Asia,PCV1,96.0
+EUR,KAZ,Kazakhstan,Asia,PCV2,94.0
+EUR,KAZ,Kazakhstan,Asia,PCV3,95.0
+EUR,KAZ,Kazakhstan,Asia,PerCV4,97.0
+EUR,KAZ,Kazakhstan,Asia,Pol3,98.0
+EUR,KAZ,Kazakhstan,Asia,RCV1,99.0
+EUR,KAZ,Kazakhstan,Asia,TTCV4,97.0
+EUR,KAZ,Kazakhstan,Asia,TTCV5,99.0
+EUR,KAZ,Kazakhstan,Asia,TTCV6,97.0
+EUR,KAZ,Kazakhstan,Asia,Typhoid,93.0
+AFR,KEN,Kenya,Africa,BCG,82.0
+AFR,KEN,Kenya,Africa,DTP1,85.0
+AFR,KEN,Kenya,Africa,DTP3,81.0
+AFR,KEN,Kenya,Africa,HepB3,81.0
+AFR,KEN,Kenya,Africa,Hib3,81.0
+AFR,KEN,Kenya,Africa,IPV1,77.0
+AFR,KEN,Kenya,Africa,MCV1,79.0
+AFR,KEN,Kenya,Africa,MCV2,45.0
+AFR,KEN,Kenya,Africa,PAB,61.0
+AFR,KEN,Kenya,Africa,PCV1,85.0
+AFR,KEN,Kenya,Africa,PCV2,81.0
+AFR,KEN,Kenya,Africa,PCV3,81.0
+AFR,KEN,Kenya,Africa,Pol3,84.0
+AFR,KEN,Kenya,Africa,RCV1,79.0
+AFR,KEN,Kenya,Africa,Rota1,80.0
+AFR,KEN,Kenya,Africa,RotaC,78.0
+AFR,KEN,Kenya,Africa,TT2plus,61.0
+AFR,KEN,Kenya,Africa,YFV,47.0
+WPR,KIR,Kiribati,Australia,BCG,99.0
+WPR,KIR,Kiribati,Australia,DTP1,99.0
+WPR,KIR,Kiribati,Australia,DTP3,95.0
+WPR,KIR,Kiribati,Australia,HepB_BD,98.0
+WPR,KIR,Kiribati,Australia,HepB_BDall,100.0
+WPR,KIR,Kiribati,Australia,HepB3,95.0
+WPR,KIR,Kiribati,Australia,Hib3,95.0
+WPR,KIR,Kiribati,Australia,IPV1,92.0
+WPR,KIR,Kiribati,Australia,MCV1,84.0
+WPR,KIR,Kiribati,Australia,MCV2,99.0
+WPR,KIR,Kiribati,Australia,PCV1,99.0
+WPR,KIR,Kiribati,Australia,PCV2,99.0
+WPR,KIR,Kiribati,Australia,PCV3,94.0
+WPR,KIR,Kiribati,Australia,Pol3,93.0
+WPR,KIR,Kiribati,Australia,RCV1,84.0
+WPR,KIR,Kiribati,Australia,Rota1,99.0
+WPR,KIR,Kiribati,Australia,RotaC,97.0
+WPR,KIR,Kiribati,Australia,TT2plus,66.0
+WPR,KIR,Kiribati,Australia,VAD1,99.0
+EUR,KGZ,Kyrgyzstan,Asia,BCG,97.0
+EUR,KGZ,Kyrgyzstan,Asia,DiphCV4,97.0
+EUR,KGZ,Kyrgyzstan,Asia,DiphCV5,96.0
+EUR,KGZ,Kyrgyzstan,Asia,DiphCV6,96.0
+EUR,KGZ,Kyrgyzstan,Asia,DTP1,98.0
+EUR,KGZ,Kyrgyzstan,Asia,DTP3,94.0
+EUR,KGZ,Kyrgyzstan,Asia,HepB_BD,97.0
+EUR,KGZ,Kyrgyzstan,Asia,IPV1,54.0
+EUR,KGZ,Kyrgyzstan,Asia,MCV1,96.0
+EUR,KGZ,Kyrgyzstan,Asia,MCV2,96.0
+EUR,KGZ,Kyrgyzstan,Asia,PCV1,99.0
+EUR,KGZ,Kyrgyzstan,Asia,PCV2,93.0
+EUR,KGZ,Kyrgyzstan,Asia,PCV3,92.0
+EUR,KGZ,Kyrgyzstan,Asia,PerCV4,97.0
+EUR,KGZ,Kyrgyzstan,Asia,Pol3,92.0
+EUR,KGZ,Kyrgyzstan,Asia,RCV1,96.0
+EUR,KGZ,Kyrgyzstan,Asia,TTCV4,97.0
+EUR,KGZ,Kyrgyzstan,Asia,TTCV5,96.0
+EUR,KGZ,Kyrgyzstan,Asia,TTCV6,96.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,BCG,79.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,DTP1,86.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,DTP3,84.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,HepB_BD,55.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,HepB_BDall,60.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,HepB3,84.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,Hib3,84.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,IPV1,76.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,JapEnc,60.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,MCV1,79.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,MCV2,67.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,PCV1,86.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,PCV2,84.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,PCV3,83.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,Pol3,84.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,RCV1,79.0
+WPR,LAO,Lao People's Democratic Republic (the),Asia,TT2plus,37.0
+EUR,LVA,Latvia,Europe,BCG,95.0
+EUR,LVA,Latvia,Europe,DiphCV4,92.0
+EUR,LVA,Latvia,Europe,DiphCV5,93.0
+EUR,LVA,Latvia,Europe,DiphCV6,89.0
+EUR,LVA,Latvia,Europe,DTP1,97.0
+EUR,LVA,Latvia,Europe,DTP3,96.0
+EUR,LVA,Latvia,Europe,HepB_BD,98.0
+EUR,LVA,Latvia,Europe,HepB3,96.0
+EUR,LVA,Latvia,Europe,Hib3,96.0
+EUR,LVA,Latvia,Europe,HPVfem,48.0
+EUR,LVA,Latvia,Europe,IPV1,97.0
+EUR,LVA,Latvia,Europe,MCV1,98.0
+EUR,LVA,Latvia,Europe,MCV2,94.0
+EUR,LVA,Latvia,Europe,PCV1,93.0
+EUR,LVA,Latvia,Europe,PCV2,93.0
+EUR,LVA,Latvia,Europe,PCV3,84.0
+EUR,LVA,Latvia,Europe,PerCV4,92.0
+EUR,LVA,Latvia,Europe,Pol3,96.0
+EUR,LVA,Latvia,Europe,RCV1,98.0
+EUR,LVA,Latvia,Europe,Rota1,90.0
+EUR,LVA,Latvia,Europe,RotaC,79.0
+EUR,LVA,Latvia,Europe,TTCV4,92.0
+EUR,LVA,Latvia,Europe,TTCV5,99.0
+EUR,LVA,Latvia,Europe,TTCV6,89.0
+EMR,LBN,Lebanon,Asia,DiphCV4,90.0
+EMR,LBN,Lebanon,Asia,DiphCV5,70.0
+EMR,LBN,Lebanon,Asia,DTP1,95.0
+EMR,LBN,Lebanon,Asia,DTP3,94.0
+EMR,LBN,Lebanon,Asia,HepB_BD,98.0
+EMR,LBN,Lebanon,Asia,HepB3,94.0
+EMR,LBN,Lebanon,Asia,Hib3,94.0
+EMR,LBN,Lebanon,Asia,IPV1,97.0
+EMR,LBN,Lebanon,Asia,MCV1,92.0
+EMR,LBN,Lebanon,Asia,MCV2,81.0
+EMR,LBN,Lebanon,Asia,PCV1,93.0
+EMR,LBN,Lebanon,Asia,PCV2,90.0
+EMR,LBN,Lebanon,Asia,PerCV4,90.0
+EMR,LBN,Lebanon,Asia,Pol3,96.0
+EMR,LBN,Lebanon,Asia,RCV1,92.0
+EMR,LBN,Lebanon,Asia,TTCV4,90.0
+EMR,LBN,Lebanon,Asia,TTCV5,70.0
+AFR,LSO,Lesotho,Africa,BCG,86.0
+AFR,LSO,Lesotho,Africa,DTP1,85.0
+AFR,LSO,Lesotho,Africa,DTP3,83.0
+AFR,LSO,Lesotho,Africa,HepB3,83.0
+AFR,LSO,Lesotho,Africa,Hib3,83.0
+AFR,LSO,Lesotho,Africa,IPV1,39.0
+AFR,LSO,Lesotho,Africa,MCV1,61.0
+AFR,LSO,Lesotho,Africa,MCV2,47.0
+AFR,LSO,Lesotho,Africa,PCV1,85.0
+AFR,LSO,Lesotho,Africa,PCV2,85.0
+AFR,LSO,Lesotho,Africa,PCV3,83.0
+AFR,LSO,Lesotho,Africa,Pol3,83.0
+AFR,LSO,Lesotho,Africa,RCV1,61.0
+AFR,LSO,Lesotho,Africa,Rota1,78.0
+AFR,LSO,Lesotho,Africa,RotaC,70.0
+AFR,LSO,Lesotho,Africa,TT2plus,85.0
+AFR,LSO,Lesotho,Africa,VAD1,63.0
+AFR,LBR,Liberia,Africa,BCG,92.0
+AFR,LBR,Liberia,Africa,DTP1,99.0
+AFR,LBR,Liberia,Africa,DTP3,97.0
+AFR,LBR,Liberia,Africa,HepB3,97.0
+AFR,LBR,Liberia,Africa,Hib3,97.0
+AFR,LBR,Liberia,Africa,IPV1,82.0
+AFR,LBR,Liberia,Africa,MCV1,91.0
+AFR,LBR,Liberia,Africa,PCV1,99.0
+AFR,LBR,Liberia,Africa,PCV2,92.0
+AFR,LBR,Liberia,Africa,PCV3,97.0
+AFR,LBR,Liberia,Africa,Pol3,97.0
+AFR,LBR,Liberia,Africa,Rota1,99.0
+AFR,LBR,Liberia,Africa,RotaC,87.0
+AFR,LBR,Liberia,Africa,TT2plus,74.0
+AFR,LBR,Liberia,Africa,TTCV4,2.0
+AFR,LBR,Liberia,Africa,TTCV5,1.0
+AFR,LBR,Liberia,Africa,VAD1,2.0
+AFR,LBR,Liberia,Africa,YFV,84.0
+EMR,LBY,Libya,Africa,BCG,99.0
+EMR,LBY,Libya,Africa,DiphCV4,97.0
+EMR,LBY,Libya,Africa,DiphCV5,97.0
+EMR,LBY,Libya,Africa,DiphCV6,97.0
+EMR,LBY,Libya,Africa,DTP1,98.0
+EMR,LBY,Libya,Africa,DTP3,97.0
+EMR,LBY,Libya,Africa,HepB_BDall,99.0
+EMR,LBY,Libya,Africa,HepB3,97.0
+EMR,LBY,Libya,Africa,Hib3,97.0
+EMR,LBY,Libya,Africa,IPV1,98.0
+EMR,LBY,Libya,Africa,MCV1,97.0
+EMR,LBY,Libya,Africa,MCV2,96.0
+EMR,LBY,Libya,Africa,PCV1,98.0
+EMR,LBY,Libya,Africa,PCV2,97.0
+EMR,LBY,Libya,Africa,PCV3,96.0
+EMR,LBY,Libya,Africa,PerCV4,97.0
+EMR,LBY,Libya,Africa,Pol3,97.0
+EMR,LBY,Libya,Africa,RCV1,97.0
+EMR,LBY,Libya,Africa,Rota1,98.0
+EMR,LBY,Libya,Africa,RotaC,97.0
+EMR,LBY,Libya,Africa,TTCV4,97.0
+EMR,LBY,Libya,Africa,TTCV5,97.0
+EMR,LBY,Libya,Africa,TTCV6,97.0
+EUR,LTU,Lithuania,Europe,BCG,96.0
+EUR,LTU,Lithuania,Europe,DiphCV4,90.0
+EUR,LTU,Lithuania,Europe,DiphCV5,92.0
+EUR,LTU,Lithuania,Europe,DiphCV6,94.0
+EUR,LTU,Lithuania,Europe,DTP1,95.0
+EUR,LTU,Lithuania,Europe,DTP3,92.0
+EUR,LTU,Lithuania,Europe,HepB3,93.0
+EUR,LTU,Lithuania,Europe,Hib3,92.0
+EUR,LTU,Lithuania,Europe,HPVfem,65.0
+EUR,LTU,Lithuania,Europe,IPV1,95.0
+EUR,LTU,Lithuania,Europe,MCV1,92.0
+EUR,LTU,Lithuania,Europe,MCV2,92.0
+EUR,LTU,Lithuania,Europe,PCV1,83.0
+EUR,LTU,Lithuania,Europe,PCV2,66.0
+EUR,LTU,Lithuania,Europe,PCV3,82.0
+EUR,LTU,Lithuania,Europe,PerCV4,90.0
+EUR,LTU,Lithuania,Europe,Pol3,92.0
+EUR,LTU,Lithuania,Europe,RCV1,92.0
+EUR,LTU,Lithuania,Europe,Rota1,33.0
+EUR,LTU,Lithuania,Europe,RotaC,1.0
+EUR,LTU,Lithuania,Europe,TTCV4,90.0
+EUR,LTU,Lithuania,Europe,TTCV5,92.0
+EUR,LTU,Lithuania,Europe,TTCV6,94.0
+EUR,LUX,Luxembourg,Europe,DTP1,99.0
+EUR,LUX,Luxembourg,Europe,DTP3,99.0
+EUR,LUX,Luxembourg,Europe,HepB3,96.0
+EUR,LUX,Luxembourg,Europe,Hib3,99.0
+EUR,LUX,Luxembourg,Europe,IPV1,99.0
+EUR,LUX,Luxembourg,Europe,MCV1,99.0
+EUR,LUX,Luxembourg,Europe,MCV2,90.0
+EUR,LUX,Luxembourg,Europe,PCV3,96.0
+EUR,LUX,Luxembourg,Europe,Pol3,99.0
+EUR,LUX,Luxembourg,Europe,RCV1,99.0
+EUR,LUX,Luxembourg,Europe,rotac,89.0
+AFR,MDG,Madagascar,Africa,BCG,91.0
+AFR,MDG,Madagascar,Africa,DTP1,97.0
+AFR,MDG,Madagascar,Africa,DTP3,91.0
+AFR,MDG,Madagascar,Africa,HepB3,91.0
+AFR,MDG,Madagascar,Africa,Hib3,91.0
+AFR,MDG,Madagascar,Africa,IPV1,86.0
+AFR,MDG,Madagascar,Africa,MCV1,85.0
+AFR,MDG,Madagascar,Africa,PCV1,96.0
+AFR,MDG,Madagascar,Africa,PCV2,91.0
+AFR,MDG,Madagascar,Africa,PCV3,91.0
+AFR,MDG,Madagascar,Africa,Pol3,91.0
+AFR,MDG,Madagascar,Africa,Rota1,95.0
+AFR,MDG,Madagascar,Africa,RotaC,89.0
+AFR,MDG,Madagascar,Africa,TT2plus,51.0
+AFR,MDG,Madagascar,Africa,VAD1,95.0
+AFR,MWI,Malawi,Africa,BCG,92.0
+AFR,MWI,Malawi,Africa,DTP1,96.0
+AFR,MWI,Malawi,Africa,DTP3,92.0
+AFR,MWI,Malawi,Africa,HepB3,92.0
+AFR,MWI,Malawi,Africa,Hib3,92.0
+AFR,MWI,Malawi,Africa,MCV1,87.0
+AFR,MWI,Malawi,Africa,MCV2,72.0
+AFR,MWI,Malawi,Africa,PAB,82.0
+AFR,MWI,Malawi,Africa,PCV1,96.0
+AFR,MWI,Malawi,Africa,PCV2,92.0
+AFR,MWI,Malawi,Africa,PCV3,92.0
+AFR,MWI,Malawi,Africa,Pol3,91.0
+AFR,MWI,Malawi,Africa,RCV1,87.0
+AFR,MWI,Malawi,Africa,Rota1,95.0
+AFR,MWI,Malawi,Africa,RotaC,90.0
+AFR,MWI,Malawi,Africa,TT2plus,67.0
+WPR,MYS,Malaysia,Asia,DiphCV4,99.0
+WPR,MYS,Malaysia,Asia,DTP1,95.0
+WPR,MYS,Malaysia,Asia,DTP3,99.0
+WPR,MYS,Malaysia,Asia,HepB_BD,95.0
+WPR,MYS,Malaysia,Asia,HepB_BDall,95.0
+WPR,MYS,Malaysia,Asia,HepB3,99.0
+WPR,MYS,Malaysia,Asia,Hib3,99.0
+WPR,MYS,Malaysia,Asia,HPVfem,98.0
+WPR,MYS,Malaysia,Asia,MCV1,96.0
+WPR,MYS,Malaysia,Asia,MCV2,90.0
+WPR,MYS,Malaysia,Asia,PerCV4,99.0
+WPR,MYS,Malaysia,Asia,Pol3,99.0
+WPR,MYS,Malaysia,Asia,RCV1,96.0
+WPR,MYS,Malaysia,Asia,TT2plus,93.0
+WPR,MYS,Malaysia,Asia,TTCV4,99.0
+SEAR,MDV,Maldives,Asia,BCG,99.0
+SEAR,MDV,Maldives,Asia,DTP1,99.0
+SEAR,MDV,Maldives,Asia,DTP3,99.0
+SEAR,MDV,Maldives,Asia,HepB_BD,99.0
+SEAR,MDV,Maldives,Asia,HepB_BDall,99.0
+SEAR,MDV,Maldives,Asia,HepB3,99.0
+SEAR,MDV,Maldives,Asia,Hib3,99.0
+SEAR,MDV,Maldives,Asia,IPV1,99.0
+SEAR,MDV,Maldives,Asia,MCV1,99.0
+SEAR,MDV,Maldives,Asia,MCV2,99.0
+SEAR,MDV,Maldives,Asia,Pol3,99.0
+SEAR,MDV,Maldives,Asia,RCV1,99.0
+SEAR,MDV,Maldives,Asia,TT2plus,99.0
+SEAR,MDV,Maldives,Asia,VAD1,99.0
+AFR,MLI,Mali,Africa,BCG,77.0
+AFR,MLI,Mali,Africa,DTP1,80.0
+AFR,MLI,Mali,Africa,DTP3,72.0
+AFR,MLI,Mali,Africa,HepB3,72.0
+AFR,MLI,Mali,Africa,Hib3,72.0
+AFR,MLI,Mali,Africa,HPVfem,99.0
+AFR,MLI,Mali,Africa,IPV1,56.0
+AFR,MLI,Mali,Africa,MCV1,72.0
+AFR,MLI,Mali,Africa,MenA,70.0
+AFR,MLI,Mali,Africa,PCV1,99.0
+AFR,MLI,Mali,Africa,PCV2,99.0
+AFR,MLI,Mali,Africa,PCV3,63.0
+AFR,MLI,Mali,Africa,Pol3,54.0
+AFR,MLI,Mali,Africa,Rota1,98.0
+AFR,MLI,Mali,Africa,RotaC,60.0
+AFR,MLI,Mali,Africa,TT2plus,60.0
+AFR,MLI,Mali,Africa,VAD1,20.0
+AFR,MLI,Mali,Africa,YFV,68.0
+EUR,MLT,Malta,Europe,DiphCV4,95.0
+EUR,MLT,Malta,Europe,DiphCV5,70.0
+EUR,MLT,Malta,Europe,DTP1,99.0
+EUR,MLT,Malta,Europe,DTP3,97.0
+EUR,MLT,Malta,Europe,HepB3,98.0
+EUR,MLT,Malta,Europe,Hib3,97.0
+EUR,MLT,Malta,Europe,HPVfem,89.0
+EUR,MLT,Malta,Europe,IPV1,99.0
+EUR,MLT,Malta,Europe,MCV1,96.0
+EUR,MLT,Malta,Europe,MCV2,95.0
+EUR,MLT,Malta,Europe,PerCV4,95.0
+EUR,MLT,Malta,Europe,Pol3,97.0
+EUR,MLT,Malta,Europe,RCV1,96.0
+EUR,MLT,Malta,Europe,TTCV4,95.0
+EUR,MLT,Malta,Europe,TTCV5,70.0
+WPR,MHL,Marshall Islands (the),Australia,BCG,98.0
+WPR,MHL,Marshall Islands (the),Australia,DiphCV4,62.0
+WPR,MHL,Marshall Islands (the),Australia,DiphCV5,36.0
+WPR,MHL,Marshall Islands (the),Australia,DTP1,97.0
+WPR,MHL,Marshall Islands (the),Australia,DTP3,81.0
+WPR,MHL,Marshall Islands (the),Australia,HepB_BD,83.0
+WPR,MHL,Marshall Islands (the),Australia,HepB_BDall,99.0
+WPR,MHL,Marshall Islands (the),Australia,HepB3,84.0
+WPR,MHL,Marshall Islands (the),Australia,Hib3,72.0
+WPR,MHL,Marshall Islands (the),Australia,HPVfem,35.0
+WPR,MHL,Marshall Islands (the),Australia,IPV1,97.0
+WPR,MHL,Marshall Islands (the),Australia,MCV1,83.0
+WPR,MHL,Marshall Islands (the),Australia,MCV2,61.0
+WPR,MHL,Marshall Islands (the),Australia,PCV1,96.0
+WPR,MHL,Marshall Islands (the),Australia,PCV2,85.0
+WPR,MHL,Marshall Islands (the),Australia,PCV3,67.0
+WPR,MHL,Marshall Islands (the),Australia,PerCV4,62.0
+WPR,MHL,Marshall Islands (the),Australia,Pol3,80.0
+WPR,MHL,Marshall Islands (the),Australia,RCV1,83.0
+WPR,MHL,Marshall Islands (the),Australia,Rota1,75.0
+WPR,MHL,Marshall Islands (the),Australia,RotaC,42.0
+WPR,MHL,Marshall Islands (the),Australia,TT2plus,33.0
+WPR,MHL,Marshall Islands (the),Australia,TTCV4,62.0
+WPR,MHL,Marshall Islands (the),Australia,TTCV5,36.0
+AFR,MRT,Mauritania,Africa,BCG,98.0
+AFR,MRT,Mauritania,Africa,DTP1,95.0
+AFR,MRT,Mauritania,Africa,DTP3,90.0
+AFR,MRT,Mauritania,Africa,HepB_BDall,58.0
+AFR,MRT,Mauritania,Africa,HepB3,90.0
+AFR,MRT,Mauritania,Africa,Hib3,90.0
+AFR,MRT,Mauritania,Africa,IPV1,85.0
+AFR,MRT,Mauritania,Africa,MCV1,86.0
+AFR,MRT,Mauritania,Africa,PCV1,95.0
+AFR,MRT,Mauritania,Africa,PCV2,90.0
+AFR,MRT,Mauritania,Africa,PCV3,88.0
+AFR,MRT,Mauritania,Africa,Pol3,87.0
+AFR,MRT,Mauritania,Africa,RCV1,86.0
+AFR,MRT,Mauritania,Africa,Rota1,95.0
+AFR,MRT,Mauritania,Africa,RotaC,89.0
+AFR,MRT,Mauritania,Africa,TT2plus,31.0
+AFR,MUS,Mauritius,Africa,BCG,99.0
+AFR,MUS,Mauritius,Africa,DiphCV4,55.0
+AFR,MUS,Mauritius,Africa,DiphCV5,35.0
+AFR,MUS,Mauritius,Africa,DTP1,98.0
+AFR,MUS,Mauritius,Africa,DTP3,97.0
+AFR,MUS,Mauritius,Africa,HepB3,97.0
+AFR,MUS,Mauritius,Africa,Hib3,97.0
+AFR,MUS,Mauritius,Africa,HPVfem,70.0
+AFR,MUS,Mauritius,Africa,IPV1,98.0
+AFR,MUS,Mauritius,Africa,IPV1frac,55.0
+AFR,MUS,Mauritius,Africa,MCV1,99.0
+AFR,MUS,Mauritius,Africa,MCV2,99.0
+AFR,MUS,Mauritius,Africa,PCV1,98.0
+AFR,MUS,Mauritius,Africa,PCV2,98.0
+AFR,MUS,Mauritius,Africa,PCV3,96.0
+AFR,MUS,Mauritius,Africa,PerCV4,55.0
+AFR,MUS,Mauritius,Africa,Pol3,98.0
+AFR,MUS,Mauritius,Africa,RCV1,99.0
+AFR,MUS,Mauritius,Africa,Rota1,96.0
+AFR,MUS,Mauritius,Africa,RotaC,95.0
+AFR,MUS,Mauritius,Africa,TT2plus,75.0
+AFR,MUS,Mauritius,Africa,TTCV4,55.0
+AFR,MUS,Mauritius,Africa,TTCV5,35.0
+AMR,MEX,Mexico,North America,BCG,96.0
+AMR,MEX,Mexico,North America,DiphCV4,82.0
+AMR,MEX,Mexico,North America,DiphCV5,92.0
+AMR,MEX,Mexico,North America,DTP1,90.0
+AMR,MEX,Mexico,North America,DTP3,88.0
+AMR,MEX,Mexico,North America,HepB_BDall,99.0
+AMR,MEX,Mexico,North America,HepB3,55.0
+AMR,MEX,Mexico,North America,Hib3,88.0
+AMR,MEX,Mexico,North America,HPVfem,98.0
+AMR,MEX,Mexico,North America,IPV1,90.0
+AMR,MEX,Mexico,North America,MCV1,97.0
+AMR,MEX,Mexico,North America,MCV2,99.0
+AMR,MEX,Mexico,North America,PCV1,89.0
+AMR,MEX,Mexico,North America,PCV2,90.0
+AMR,MEX,Mexico,North America,PCV3,88.0
+AMR,MEX,Mexico,North America,PerCV4,82.0
+AMR,MEX,Mexico,North America,Pol3,88.0
+AMR,MEX,Mexico,North America,RCV1,97.0
+AMR,MEX,Mexico,North America,Rota1,89.0
+AMR,MEX,Mexico,North America,RotaC,77.0
+AMR,MEX,Mexico,North America,TT2plus,99.0
+AMR,MEX,Mexico,North America,TTCV4,82.0
+AMR,MEX,Mexico,North America,TTCV5,92.0
+WPR,FSM,Micronesia (Federated States of),Australia,BCG,80.0
+WPR,FSM,Micronesia (Federated States of),Australia,DiphCV4,46.0
+WPR,FSM,Micronesia (Federated States of),Australia,DiphCV5,57.0
+WPR,FSM,Micronesia (Federated States of),Australia,DTP1,97.0
+WPR,FSM,Micronesia (Federated States of),Australia,DTP3,75.0
+WPR,FSM,Micronesia (Federated States of),Australia,HepB_BD,75.0
+WPR,FSM,Micronesia (Federated States of),Australia,HepB_BDall,83.0
+WPR,FSM,Micronesia (Federated States of),Australia,HepB3,83.0
+WPR,FSM,Micronesia (Federated States of),Australia,Hib3,59.0
+WPR,FSM,Micronesia (Federated States of),Australia,HPVfem,65.0
+WPR,FSM,Micronesia (Federated States of),Australia,IPV1,97.0
+WPR,FSM,Micronesia (Federated States of),Australia,MCV1,73.0
+WPR,FSM,Micronesia (Federated States of),Australia,MCV2,48.0
+WPR,FSM,Micronesia (Federated States of),Australia,PCV1,95.0
+WPR,FSM,Micronesia (Federated States of),Australia,PCV2,83.0
+WPR,FSM,Micronesia (Federated States of),Australia,PCV3,67.0
+WPR,FSM,Micronesia (Federated States of),Australia,PerCV4,46.0
+WPR,FSM,Micronesia (Federated States of),Australia,Pol3,75.0
+WPR,FSM,Micronesia (Federated States of),Australia,RCV1,73.0
+WPR,FSM,Micronesia (Federated States of),Australia,Rota1,68.0
+WPR,FSM,Micronesia (Federated States of),Australia,RotaC,52.0
+WPR,FSM,Micronesia (Federated States of),Australia,TTCV4,46.0
+WPR,FSM,Micronesia (Federated States of),Australia,TTCV5,57.0
+EUR,MCO,Monaco,Europe,DiphCV4,99.0
+EUR,MCO,Monaco,Europe,DTP1,99.0
+EUR,MCO,Monaco,Europe,DTP3,99.0
+EUR,MCO,Monaco,Europe,IPV1,99.0
+EUR,MCO,Monaco,Europe,MCV1,88.0
+EUR,MCO,Monaco,Europe,MCV2,79.0
+EUR,MCO,Monaco,Europe,Pol3,99.0
+EUR,MCO,Monaco,Europe,RCV1,88.0
+EUR,MCO,Monaco,Europe,TTCV4,99.0
+WPR,MNG,Mongolia,Asia,BCG,100.0
+WPR,MNG,Mongolia,Asia,DiphCV4,97.0
+WPR,MNG,Mongolia,Asia,DiphCV5,94.0
+WPR,MNG,Mongolia,Asia,DTP1,99.0
+WPR,MNG,Mongolia,Asia,DTP3,99.0
+WPR,MNG,Mongolia,Asia,HepB_BD,98.0
+WPR,MNG,Mongolia,Asia,HepB_BDall,100.0
+WPR,MNG,Mongolia,Asia,HepB3,99.0
+WPR,MNG,Mongolia,Asia,Hib3,99.0
+WPR,MNG,Mongolia,Asia,MCV1,99.0
+WPR,MNG,Mongolia,Asia,MCV2,98.0
+WPR,MNG,Mongolia,Asia,PCV1,99.0
+WPR,MNG,Mongolia,Asia,PCV2,99.0
+WPR,MNG,Mongolia,Asia,PCV3,98.0
+WPR,MNG,Mongolia,Asia,Pol3,99.0
+WPR,MNG,Mongolia,Asia,RCV1,99.0
+WPR,MNG,Mongolia,Asia,TTCV4,97.0
+WPR,MNG,Mongolia,Asia,TTCV5,94.0
+WPR,MNG,Mongolia,Asia,VAD1,90.0
+EMR,MAR,Morocco,Africa,BCG,99.0
+EMR,MAR,Morocco,Africa,DiphCV4,99.0
+EMR,MAR,Morocco,Africa,DiphCV5,80.0
+EMR,MAR,Morocco,Africa,DTP1,99.0
+EMR,MAR,Morocco,Africa,DTP3,99.0
+EMR,MAR,Morocco,Africa,HepB_BD,60.0
+EMR,MAR,Morocco,Africa,HepB_BDall,99.0
+EMR,MAR,Morocco,Africa,HepB3,99.0
+EMR,MAR,Morocco,Africa,Hib3,99.0
+EMR,MAR,Morocco,Africa,IPV1,80.0
+EMR,MAR,Morocco,Africa,MCV1,99.0
+EMR,MAR,Morocco,Africa,MCV2,99.0
+EMR,MAR,Morocco,Africa,PAB,84.0
+EMR,MAR,Morocco,Africa,PCV1,99.0
+EMR,MAR,Morocco,Africa,PCV2,99.0
+EMR,MAR,Morocco,Africa,PCV3,99.0
+EMR,MAR,Morocco,Africa,PerCV4,99.0
+EMR,MAR,Morocco,Africa,Pol3,99.0
+EMR,MAR,Morocco,Africa,RCV1,99.0
+EMR,MAR,Morocco,Africa,Rota1,99.0
+EMR,MAR,Morocco,Africa,RotaC,99.0
+EMR,MAR,Morocco,Africa,TTCV4,99.0
+EMR,MAR,Morocco,Africa,TTCV5,80.0
+EMR,MAR,Morocco,Africa,VAD1,99.0
+AFR,MOZ,Mozambique,Africa,BCG,95.0
+AFR,MOZ,Mozambique,Africa,DTP1,95.0
+AFR,MOZ,Mozambique,Africa,DTP3,90.0
+AFR,MOZ,Mozambique,Africa,HepB3,90.0
+AFR,MOZ,Mozambique,Africa,Hib3,90.0
+AFR,MOZ,Mozambique,Africa,IPV1,90.0
+AFR,MOZ,Mozambique,Africa,MCV1,95.0
+AFR,MOZ,Mozambique,Africa,MCV2,76.0
+AFR,MOZ,Mozambique,Africa,PCV1,95.0
+AFR,MOZ,Mozambique,Africa,PCV2,92.0
+AFR,MOZ,Mozambique,Africa,PCV3,90.0
+AFR,MOZ,Mozambique,Africa,Pol3,90.0
+AFR,MOZ,Mozambique,Africa,RCV1,99.0
+AFR,MOZ,Mozambique,Africa,Rota1,95.0
+AFR,MOZ,Mozambique,Africa,RotaC,90.0
+AFR,MOZ,Mozambique,Africa,TT2plus,85.0
+AFR,MOZ,Mozambique,Africa,VAD1,70.0
+SEAR,MMR,Myanmar,Asia,BCG,90.0
+SEAR,MMR,Myanmar,Asia,DTP1,95.0
+SEAR,MMR,Myanmar,Asia,DTP3,91.0
+SEAR,MMR,Myanmar,Asia,HepB_BD,7.0
+SEAR,MMR,Myanmar,Asia,HepB3,91.0
+SEAR,MMR,Myanmar,Asia,Hib3,91.0
+SEAR,MMR,Myanmar,Asia,IPV1,82.0
+SEAR,MMR,Myanmar,Asia,JapEnc,89.0
+SEAR,MMR,Myanmar,Asia,MCV1,93.0
+SEAR,MMR,Myanmar,Asia,MCV2,87.0
+SEAR,MMR,Myanmar,Asia,PCV1,95.0
+SEAR,MMR,Myanmar,Asia,PCV2,93.0
+SEAR,MMR,Myanmar,Asia,PCV3,91.0
+SEAR,MMR,Myanmar,Asia,Pol3,91.0
+SEAR,MMR,Myanmar,Asia,RCV1,93.0
+SEAR,MMR,Myanmar,Asia,TT2plus,89.0
+SEAR,MMR,Myanmar,Asia,VAD1,93.0
+AFR,NAM,Namibia,Africa,BCG,94.0
+AFR,NAM,Namibia,Africa,DTP1,90.0
+AFR,NAM,Namibia,Africa,DTP3,88.0
+AFR,NAM,Namibia,Africa,HepB_BD,86.0
+AFR,NAM,Namibia,Africa,HepB_BDall,99.0
+AFR,NAM,Namibia,Africa,HepB3,92.0
+AFR,NAM,Namibia,Africa,Hib3,92.0
+AFR,NAM,Namibia,Africa,IPV1,82.0
+AFR,NAM,Namibia,Africa,MCV1,86.0
+AFR,NAM,Namibia,Africa,MCV2,32.0
+AFR,NAM,Namibia,Africa,PCV1,64.0
+AFR,NAM,Namibia,Africa,PCV2,63.0
+AFR,NAM,Namibia,Africa,PCV3,81.0
+AFR,NAM,Namibia,Africa,Pol3,88.0
+AFR,NAM,Namibia,Africa,RCV1,82.0
+AFR,NAM,Namibia,Africa,Rota1,86.0
+AFR,NAM,Namibia,Africa,RotaC,92.0
+AFR,NAM,Namibia,Africa,TT2plus,76.0
+AFR,NAM,Namibia,Africa,VAD1,57.0
+WPR,NRU,Nauru,Australia,BCG,99.0
+WPR,NRU,Nauru,Australia,DiphCV4,79.0
+WPR,NRU,Nauru,Australia,DiphCV5,25.0
+WPR,NRU,Nauru,Australia,DTP1,99.0
+WPR,NRU,Nauru,Australia,DTP3,90.0
+WPR,NRU,Nauru,Australia,HepB_BD,99.0
+WPR,NRU,Nauru,Australia,HepB3,90.0
+WPR,NRU,Nauru,Australia,Hib3,90.0
+WPR,NRU,Nauru,Australia,IPV1,99.0
+WPR,NRU,Nauru,Australia,MCV1,99.0
+WPR,NRU,Nauru,Australia,MCV2,94.0
+WPR,NRU,Nauru,Australia,PerCV4,79.0
+WPR,NRU,Nauru,Australia,Pol3,90.0
+WPR,NRU,Nauru,Australia,RCV1,99.0
+WPR,NRU,Nauru,Australia,TT2plus,98.0
+WPR,NRU,Nauru,Australia,TTCV4,79.0
+WPR,NRU,Nauru,Australia,TTCV5,92.0
+SEAR,NPL,Nepal,Asia,BCG,96.0
+SEAR,NPL,Nepal,Asia,DTP1,96.0
+SEAR,NPL,Nepal,Asia,DTP3,91.0
+SEAR,NPL,Nepal,Asia,HepB3,91.0
+SEAR,NPL,Nepal,Asia,Hib3,91.0
+SEAR,NPL,Nepal,Asia,JapEnc,81.0
+SEAR,NPL,Nepal,Asia,MCV1,91.0
+SEAR,NPL,Nepal,Asia,MCV2,69.0
+SEAR,NPL,Nepal,Asia,PCV1,91.0
+SEAR,NPL,Nepal,Asia,PCV2,89.0
+SEAR,NPL,Nepal,Asia,PCV3,82.0
+SEAR,NPL,Nepal,Asia,Pol3,91.0
+SEAR,NPL,Nepal,Asia,RCV1,91.0
+SEAR,NPL,Nepal,Asia,TT2plus,75.0
+EUR,NLD,Netherlands (the),Europe,DiphCV4,92.0
+EUR,NLD,Netherlands (the),Europe,DiphCV5,92.0
+EUR,NLD,Netherlands (the),Europe,DiphCV6,89.0
+EUR,NLD,Netherlands (the),Europe,DTP3,93.0
+EUR,NLD,Netherlands (the),Europe,HepB_BD,98.0
+EUR,NLD,Netherlands (the),Europe,HepB_BDall,99.0
+EUR,NLD,Netherlands (the),Europe,HepB3,92.0
+EUR,NLD,Netherlands (the),Europe,Hib3,93.0
+EUR,NLD,Netherlands (the),Europe,HPVfem,45.0
+EUR,NLD,Netherlands (the),Europe,MCV1,93.0
+EUR,NLD,Netherlands (the),Europe,MCV2,89.0
+EUR,NLD,Netherlands (the),Europe,PCV3,93.0
+EUR,NLD,Netherlands (the),Europe,PerCV4,92.0
+EUR,NLD,Netherlands (the),Europe,Pol3,93.0
+EUR,NLD,Netherlands (the),Europe,RCV1,93.0
+EUR,NLD,Netherlands (the),Europe,TTCV4,92.0
+EUR,NLD,Netherlands (the),Europe,TTCV5,92.0
+EUR,NLD,Netherlands (the),Europe,TTCV6,89.0
+WPR,NZL,New Zealand,Australia,BCG,2.0
+WPR,NZL,New Zealand,Australia,DiphCV4,90.0
+WPR,NZL,New Zealand,Australia,DiphCV5,69.0
+WPR,NZL,New Zealand,Australia,DTP1,95.0
+WPR,NZL,New Zealand,Australia,DTP3,93.0
+WPR,NZL,New Zealand,Australia,HepB_BD,
+WPR,NZL,New Zealand,Australia,HepB_BDall,
+WPR,NZL,New Zealand,Australia,HepB3,93.0
+WPR,NZL,New Zealand,Australia,Hib3,92.0
+WPR,NZL,New Zealand,Australia,HPVfem,61.0
+WPR,NZL,New Zealand,Australia,HPVmale,62.0
+WPR,NZL,New Zealand,Australia,IPV1,95.0
+WPR,NZL,New Zealand,Australia,MCV1,92.0
+WPR,NZL,New Zealand,Australia,MCV2,90.0
+WPR,NZL,New Zealand,Australia,PCV1,99.0
+WPR,NZL,New Zealand,Australia,PCV2,98.0
+WPR,NZL,New Zealand,Australia,PCV3,96.0
+WPR,NZL,New Zealand,Australia,PerCV4,90.0
+WPR,NZL,New Zealand,Australia,Pol3,93.0
+WPR,NZL,New Zealand,Australia,RCV1,92.0
+WPR,NZL,New Zealand,Australia,Rota1,90.0
+WPR,NZL,New Zealand,Australia,RotaC,86.0
+WPR,NZL,New Zealand,Australia,TT2plus,43.0
+WPR,NZL,New Zealand,Australia,TTCV4,90.0
+WPR,NZL,New Zealand,Australia,TTCV5,69.0
+AMR,NIC,Nicaragua,North America,BCG,99.0
+AMR,NIC,Nicaragua,North America,DiphCV4,99.0
+AMR,NIC,Nicaragua,North America,DiphCV5,99.0
+AMR,NIC,Nicaragua,North America,DiphCV6,99.0
+AMR,NIC,Nicaragua,North America,DTP1,99.0
+AMR,NIC,Nicaragua,North America,DTP3,99.0
+AMR,NIC,Nicaragua,North America,HepB3,99.0
+AMR,NIC,Nicaragua,North America,Hib3,99.0
+AMR,NIC,Nicaragua,North America,IPV1,99.0
+AMR,NIC,Nicaragua,North America,MCV1,99.0
+AMR,NIC,Nicaragua,North America,MCV2,95.0
+AMR,NIC,Nicaragua,North America,PCV1,99.0
+AMR,NIC,Nicaragua,North America,PCV2,99.0
+AMR,NIC,Nicaragua,North America,PCV3,99.0
+AMR,NIC,Nicaragua,North America,PerCV4,99.0
+AMR,NIC,Nicaragua,North America,Pol3,99.0
+AMR,NIC,Nicaragua,North America,RCV1,99.0
+AMR,NIC,Nicaragua,North America,Rota1,99.0
+AMR,NIC,Nicaragua,North America,RotaC,99.0
+AMR,NIC,Nicaragua,North America,TT2plus,41.0
+AMR,NIC,Nicaragua,North America,TTCV4,99.0
+AMR,NIC,Nicaragua,North America,TTCV5,99.0
+AMR,NIC,Nicaragua,North America,TTCV6,99.0
+AFR,NER,Niger (the),Africa,BCG,87.0
+AFR,NER,Niger (the),Africa,DTP1,91.0
+AFR,NER,Niger (the),Africa,DTP3,79.0
+AFR,NER,Niger (the),Africa,HepB3,79.0
+AFR,NER,Niger (the),Africa,Hib3,89.0
+AFR,NER,Niger (the),Africa,IPV1,69.0
+AFR,NER,Niger (the),Africa,MCV1,77.0
+AFR,NER,Niger (the),Africa,MCV2,48.0
+AFR,NER,Niger (the),Africa,MenA,80.0
+AFR,NER,Niger (the),Africa,PAB,28.0
+AFR,NER,Niger (the),Africa,PCV1,92.0
+AFR,NER,Niger (the),Africa,PCV2,86.0
+AFR,NER,Niger (the),Africa,PCV3,79.0
+AFR,NER,Niger (the),Africa,Pol3,83.0
+AFR,NER,Niger (the),Africa,Rota1,94.0
+AFR,NER,Niger (the),Africa,RotaC,89.0
+AFR,NER,Niger (the),Africa,TT2plus,94.0
+AFR,NER,Niger (the),Africa,VAD1,35.0
+AFR,NER,Niger (the),Africa,YFV,78.0
+AFR,NGA,Nigeria,Africa,BCG,75.0
+AFR,NGA,Nigeria,Africa,DTP1,72.0
+AFR,NGA,Nigeria,Africa,DTP3,58.0
+AFR,NGA,Nigeria,Africa,HepB_BD,63.0
+AFR,NGA,Nigeria,Africa,HepB_BDall,62.0
+AFR,NGA,Nigeria,Africa,HepB3,58.0
+AFR,NGA,Nigeria,Africa,Hib3,58.0
+AFR,NGA,Nigeria,Africa,IPV1,93.0
+AFR,NGA,Nigeria,Africa,MCV1,63.0
+AFR,NGA,Nigeria,Africa,PCV1,72.0
+AFR,NGA,Nigeria,Africa,PCV2,64.0
+AFR,NGA,Nigeria,Africa,PCV3,58.0
+AFR,NGA,Nigeria,Africa,Pol3,58.0
+AFR,NGA,Nigeria,Africa,TT2plus,62.0
+AFR,NGA,Nigeria,Africa,VAD1,19.0
+AFR,NGA,Nigeria,Africa,YFV,61.0
+WPR,NIU,Niue,Australia,BCG,99.0
+WPR,NIU,Niue,Australia,DiphCV4,99.0
+WPR,NIU,Niue,Australia,DiphCV5,99.0
+WPR,NIU,Niue,Australia,DiphCV6,99.0
+WPR,NIU,Niue,Australia,DTP1,99.0
+WPR,NIU,Niue,Australia,DTP3,99.0
+WPR,NIU,Niue,Australia,HepB_BD,54.0
+WPR,NIU,Niue,Australia,HepB_BDall,54.0
+WPR,NIU,Niue,Australia,HepB3,99.0
+WPR,NIU,Niue,Australia,Hib3,99.0
+WPR,NIU,Niue,Australia,IPV1,99.0
+WPR,NIU,Niue,Australia,MCV1,99.0
+WPR,NIU,Niue,Australia,MCV2,99.0
+WPR,NIU,Niue,Australia,PCV1,99.0
+WPR,NIU,Niue,Australia,PCV2,99.0
+WPR,NIU,Niue,Australia,PCV3,99.0
+WPR,NIU,Niue,Australia,PerCV4,99.0
+WPR,NIU,Niue,Australia,Pol3,99.0
+WPR,NIU,Niue,Australia,RCV1,99.0
+WPR,NIU,Niue,Australia,Rota1,99.0
+WPR,NIU,Niue,Australia,RotaC,99.0
+WPR,NIU,Niue,Australia,TT2plus,99.0
+WPR,NIU,Niue,Australia,TTCV4,99.0
+WPR,NIU,Niue,Australia,TTCV5,99.0
+WPR,NIU,Niue,Australia,TTCV6,99.0
+EUR,NOR,Norway,Europe,DiphCV4,95.0
+EUR,NOR,Norway,Europe,DiphCV5,93.0
+EUR,NOR,Norway,Europe,DTP1,99.0
+EUR,NOR,Norway,Europe,DTP3,96.0
+EUR,NOR,Norway,Europe,Hib3,96.0
+EUR,NOR,Norway,Europe,HPVfem,88.0
+EUR,NOR,Norway,Europe,IPV1,99.0
+EUR,NOR,Norway,Europe,MCV1,96.0
+EUR,NOR,Norway,Europe,MCV2,93.0
+EUR,NOR,Norway,Europe,PCV1,99.0
+EUR,NOR,Norway,Europe,PCV2,99.0
+EUR,NOR,Norway,Europe,PCV3,94.0
+EUR,NOR,Norway,Europe,Pol3,96.0
+EUR,NOR,Norway,Europe,RCV1,96.0
+EUR,NOR,Norway,Europe,Rota1,95.0
+EUR,NOR,Norway,Europe,RotaC,93.0
+EMR,OMN,Oman,Asia,BCG,99.0
+EMR,OMN,Oman,Asia,DiphCV4,99.0
+EMR,OMN,Oman,Asia,DTP1,99.0
+EMR,OMN,Oman,Asia,DTP3,99.0
+EMR,OMN,Oman,Asia,HepB_BD,99.0
+EMR,OMN,Oman,Asia,HepB3,99.0
+EMR,OMN,Oman,Asia,Hib3,99.0
+EMR,OMN,Oman,Asia,IPV1,99.0
+EMR,OMN,Oman,Asia,MCV1,99.0
+EMR,OMN,Oman,Asia,MCV2,99.0
+EMR,OMN,Oman,Asia,PAB,99.0
+EMR,OMN,Oman,Asia,PCV1,99.0
+EMR,OMN,Oman,Asia,PCV2,99.0
+EMR,OMN,Oman,Asia,PCV3,99.0
+EMR,OMN,Oman,Asia,PerCV4,99.0
+EMR,OMN,Oman,Asia,Pol3,99.0
+EMR,OMN,Oman,Asia,RCV1,99.0
+EMR,OMN,Oman,Asia,TT2plus,99.0
+EMR,OMN,Oman,Asia,TTCV4,99.0
+EMR,OMN,Oman,Asia,VAD1,99.0
+EMR,PAK,Pakistan,Asia,BCG,86.0
+EMR,PAK,Pakistan,Asia,DTP1,84.0
+EMR,PAK,Pakistan,Asia,DTP3,72.0
+EMR,PAK,Pakistan,Asia,HepB_BDall,4.0
+EMR,PAK,Pakistan,Asia,HepB3,72.0
+EMR,PAK,Pakistan,Asia,Hib3,72.0
+EMR,PAK,Pakistan,Asia,IPV1,68.0
+EMR,PAK,Pakistan,Asia,MCV1,66.0
+EMR,PAK,Pakistan,Asia,MCV2,58.0
+EMR,PAK,Pakistan,Asia,PCV1,84.0
+EMR,PAK,Pakistan,Asia,PCV2,78.0
+EMR,PAK,Pakistan,Asia,PCV3,72.0
+EMR,PAK,Pakistan,Asia,Pol3,83.0
+EMR,PAK,Pakistan,Asia,Rota1,67.0
+EMR,PAK,Pakistan,Asia,RotaC,58.0
+EMR,PAK,Pakistan,Asia,TT2plus,60.0
+WPR,PLW,Palau,Australia,DiphCV4,81.0
+WPR,PLW,Palau,Australia,DTP1,99.0
+WPR,PLW,Palau,Australia,DTP3,95.0
+WPR,PLW,Palau,Australia,HepB_BD,99.0
+WPR,PLW,Palau,Australia,HepB3,98.0
+WPR,PLW,Palau,Australia,Hib3,92.0
+WPR,PLW,Palau,Australia,HPVfem,91.0
+WPR,PLW,Palau,Australia,IPV1,99.0
+WPR,PLW,Palau,Australia,MCV1,90.0
+WPR,PLW,Palau,Australia,MCV2,75.0
+WPR,PLW,Palau,Australia,PCV1,99.0
+WPR,PLW,Palau,Australia,PCV2,95.0
+WPR,PLW,Palau,Australia,Pol3,98.0
+WPR,PLW,Palau,Australia,RCV1,90.0
+WPR,PLW,Palau,Australia,Rota1,98.0
+WPR,PLW,Palau,Australia,RotaC,93.0
+AMR,PAN,Panama,North America,BCG,99.0
+AMR,PAN,Panama,North America,DiphCV4,88.0
+AMR,PAN,Panama,North America,DiphCV5,85.0
+AMR,PAN,Panama,North America,DTP1,99.0
+AMR,PAN,Panama,North America,DTP3,88.0
+AMR,PAN,Panama,North America,HepB_BD,85.0
+AMR,PAN,Panama,North America,HepB_BDall,85.0
+AMR,PAN,Panama,North America,HepB3,88.0
+AMR,PAN,Panama,North America,Hib3,88.0
+AMR,PAN,Panama,North America,HPVfem,69.0
+AMR,PAN,Panama,North America,HPVmale,58.0
+AMR,PAN,Panama,North America,IPV1,99.0
+AMR,PAN,Panama,North America,MCV1,99.0
+AMR,PAN,Panama,North America,MCV2,99.0
+AMR,PAN,Panama,North America,PCV1,99.0
+AMR,PAN,Panama,North America,PCV2,97.0
+AMR,PAN,Panama,North America,PCV3,92.0
+AMR,PAN,Panama,North America,PerCV4,88.0
+AMR,PAN,Panama,North America,Pol3,88.0
+AMR,PAN,Panama,North America,RCV1,99.0
+AMR,PAN,Panama,North America,Rota1,99.0
+AMR,PAN,Panama,North America,RotaC,95.0
+AMR,PAN,Panama,North America,TT2plus,86.0
+AMR,PAN,Panama,North America,TTCV4,88.0
+AMR,PAN,Panama,North America,TTCV5,85.0
+AMR,PAN,Panama,North America,YFV,85.0
+WPR,PNG,Papua New Guinea,Australia,BCG,52.0
+WPR,PNG,Papua New Guinea,Australia,DTP1,67.0
+WPR,PNG,Papua New Guinea,Australia,DTP3,50.0
+WPR,PNG,Papua New Guinea,Australia,HepB_BD,25.0
+WPR,PNG,Papua New Guinea,Australia,HepB_BDall,33.0
+WPR,PNG,Papua New Guinea,Australia,HepB3,50.0
+WPR,PNG,Papua New Guinea,Australia,Hib3,50.0
+WPR,PNG,Papua New Guinea,Australia,IPV1,35.0
+WPR,PNG,Papua New Guinea,Australia,MCV1,42.0
+WPR,PNG,Papua New Guinea,Australia,PCV1,57.0
+WPR,PNG,Papua New Guinea,Australia,PCV2,53.0
+WPR,PNG,Papua New Guinea,Australia,PCV3,43.0
+WPR,PNG,Papua New Guinea,Australia,Pol3,56.0
+WPR,PNG,Papua New Guinea,Australia,RCV1,42.0
+WPR,PNG,Papua New Guinea,Australia,TT2plus,30.0
+AMR,PRY,Paraguay,South America,BCG,79.0
+AMR,PRY,Paraguay,South America,DiphCV4,67.0
+AMR,PRY,Paraguay,South America,DiphCV5,70.0
+AMR,PRY,Paraguay,South America,DiphCV6,59.0
+AMR,PRY,Paraguay,South America,DTP1,79.0
+AMR,PRY,Paraguay,South America,DTP3,76.0
+AMR,PRY,Paraguay,South America,HepB_BDall,76.0
+AMR,PRY,Paraguay,South America,HepB3,76.0
+AMR,PRY,Paraguay,South America,Hib3,76.0
+AMR,PRY,Paraguay,South America,HPVfem,54.0
+AMR,PRY,Paraguay,South America,IPV1,80.0
+AMR,PRY,Paraguay,South America,MCV1,81.0
+AMR,PRY,Paraguay,South America,MCV2,71.0
+AMR,PRY,Paraguay,South America,PCV1,79.0
+AMR,PRY,Paraguay,South America,PCV2,81.0
+AMR,PRY,Paraguay,South America,PCV3,79.0
+AMR,PRY,Paraguay,South America,PerCV4,67.0
+AMR,PRY,Paraguay,South America,Pol3,75.0
+AMR,PRY,Paraguay,South America,RCV1,81.0
+AMR,PRY,Paraguay,South America,Rota1,80.0
+AMR,PRY,Paraguay,South America,RotaC,79.0
+AMR,PRY,Paraguay,South America,TT2plus,58.0
+AMR,PRY,Paraguay,South America,TTCV4,67.0
+AMR,PRY,Paraguay,South America,TTCV5,70.0
+AMR,PRY,Paraguay,South America,TTCV6,59.0
+AMR,PRY,Paraguay,South America,YFV,80.0
+AMR,PER,Peru,South America,BCG,81.0
+AMR,PER,Peru,South America,DiphCV4,69.0
+AMR,PER,Peru,South America,DiphCV5,62.0
+AMR,PER,Peru,South America,DTP1,90.0
+AMR,PER,Peru,South America,DTP3,84.0
+AMR,PER,Peru,South America,HepB_BD,73.0
+AMR,PER,Peru,South America,HepB_BDall,73.0
+AMR,PER,Peru,South America,HepB3,84.0
+AMR,PER,Peru,South America,Hib3,84.0
+AMR,PER,Peru,South America,HPVfem,97.0
+AMR,PER,Peru,South America,IPV1,89.0
+AMR,PER,Peru,South America,MCV1,85.0
+AMR,PER,Peru,South America,MCV2,66.0
+AMR,PER,Peru,South America,PCV1,90.0
+AMR,PER,Peru,South America,PCV2,89.0
+AMR,PER,Peru,South America,PCV3,82.0
+AMR,PER,Peru,South America,PerCV4,69.0
+AMR,PER,Peru,South America,Pol3,83.0
+AMR,PER,Peru,South America,RCV1,85.0
+AMR,PER,Peru,South America,Rota1,89.0
+AMR,PER,Peru,South America,RotaC,85.0
+AMR,PER,Peru,South America,TT2plus,45.0
+AMR,PER,Peru,South America,TTCV4,69.0
+AMR,PER,Peru,South America,TTCV5,62.0
+AMR,PER,Peru,South America,YFV,65.0
+WPR,PHL,Philippines (the),Asia,BCG,61.0
+WPR,PHL,Philippines (the),Asia,DTP1,66.0
+WPR,PHL,Philippines (the),Asia,DTP3,65.0
+WPR,PHL,Philippines (the),Asia,HepB_BD,50.0
+WPR,PHL,Philippines (the),Asia,HepB_BDall,53.0
+WPR,PHL,Philippines (the),Asia,HepB3,65.0
+WPR,PHL,Philippines (the),Asia,Hib3,65.0
+WPR,PHL,Philippines (the),Asia,MCV1,67.0
+WPR,PHL,Philippines (the),Asia,MCV2,59.0
+WPR,PHL,Philippines (the),Asia,PAB,86.0
+WPR,PHL,Philippines (the),Asia,PCV1,62.0
+WPR,PHL,Philippines (the),Asia,PCV2,62.0
+WPR,PHL,Philippines (the),Asia,PCV3,60.0
+WPR,PHL,Philippines (the),Asia,Pol3,66.0
+WPR,PHL,Philippines (the),Asia,RCV1,67.0
+WPR,PHL,Philippines (the),Asia,TT2plus,48.0
+EUR,POL,Poland,Europe,BCG,92.0
+EUR,POL,Poland,Europe,DiphCV4,90.0
+EUR,POL,Poland,Europe,DiphCV5,92.0
+EUR,POL,Poland,Europe,DiphCV6,69.0
+EUR,POL,Poland,Europe,DTP3,95.0
+EUR,POL,Poland,Europe,HepB3,91.0
+EUR,POL,Poland,Europe,Hib3,95.0
+EUR,POL,Poland,Europe,MCV1,93.0
+EUR,POL,Poland,Europe,MCV2,92.0
+EUR,POL,Poland,Europe,PCV3,60.0
+EUR,POL,Poland,Europe,PerCV4,90.0
+EUR,POL,Poland,Europe,Pol3,87.0
+EUR,POL,Poland,Europe,RCV1,93.0
+EUR,POL,Poland,Europe,TTCV4,90.0
+EUR,POL,Poland,Europe,TTCV5,92.0
+EUR,POL,Poland,Europe,TTCV6,69.0
+EUR,PRT,Portugal,Europe,BCG,21.0
+EUR,PRT,Portugal,Europe,DiphCV4,97.0
+EUR,PRT,Portugal,Europe,DiphCV5,95.0
+EUR,PRT,Portugal,Europe,DTP3,99.0
+EUR,PRT,Portugal,Europe,HepB_BDall,97.0
+EUR,PRT,Portugal,Europe,HepB3,98.0
+EUR,PRT,Portugal,Europe,Hib3,99.0
+EUR,PRT,Portugal,Europe,HPVfem,80.0
+EUR,PRT,Portugal,Europe,MCV1,99.0
+EUR,PRT,Portugal,Europe,MCV2,96.0
+EUR,PRT,Portugal,Europe,PCV2,99.0
+EUR,PRT,Portugal,Europe,PCV3,98.0
+EUR,PRT,Portugal,Europe,PerCV4,97.0
+EUR,PRT,Portugal,Europe,Pol3,99.0
+EUR,PRT,Portugal,Europe,RCV1,99.0
+EUR,PRT,Portugal,Europe,TTCV4,97.0
+EUR,PRT,Portugal,Europe,TTCV5,95.0
+EUR,PRT,Portugal,Europe,TTCV6,91.0
+EMR,QAT,Qatar,Asia,BCG,99.0
+EMR,QAT,Qatar,Asia,DiphCV4,87.0
+EMR,QAT,Qatar,Asia,DTP1,99.0
+EMR,QAT,Qatar,Asia,DTP3,98.0
+EMR,QAT,Qatar,Asia,HepB_BD,97.0
+EMR,QAT,Qatar,Asia,HepB_BDall,97.0
+EMR,QAT,Qatar,Asia,HepB3,98.0
+EMR,QAT,Qatar,Asia,Hib3,98.0
+EMR,QAT,Qatar,Asia,IPV1,99.0
+EMR,QAT,Qatar,Asia,MCV1,99.0
+EMR,QAT,Qatar,Asia,MCV2,95.0
+EMR,QAT,Qatar,Asia,PCV1,99.0
+EMR,QAT,Qatar,Asia,PCV2,98.0
+EMR,QAT,Qatar,Asia,PCV3,98.0
+EMR,QAT,Qatar,Asia,PerCV4,87.0
+EMR,QAT,Qatar,Asia,Pol3,98.0
+EMR,QAT,Qatar,Asia,RCV1,99.0
+EMR,QAT,Qatar,Asia,Rota1,99.0
+EMR,QAT,Qatar,Asia,RotaC,95.0
+EMR,QAT,Qatar,Asia,TTCV4,87.0
+WPR,KOR,Republic of Korea (the),Asia,BCG,98.0
+WPR,KOR,Republic of Korea (the),Asia,DiphCV4,97.0
+WPR,KOR,Republic of Korea (the),Asia,DTP1,98.0
+WPR,KOR,Republic of Korea (the),Asia,DTP3,98.0
+WPR,KOR,Republic of Korea (the),Asia,HepB_BD,91.0
+WPR,KOR,Republic of Korea (the),Asia,HepB_BDall,98.0
+WPR,KOR,Republic of Korea (the),Asia,HepB3,98.0
+WPR,KOR,Republic of Korea (the),Asia,Hib3,98.0
+WPR,KOR,Republic of Korea (the),Asia,HPVfem,70.0
+WPR,KOR,Republic of Korea (the),Asia,IPV1,98.0
+WPR,KOR,Republic of Korea (the),Asia,JapEnc,93.0
+WPR,KOR,Republic of Korea (the),Asia,MCV1,98.0
+WPR,KOR,Republic of Korea (the),Asia,MCV2,97.0
+WPR,KOR,Republic of Korea (the),Asia,PCV1,98.0
+WPR,KOR,Republic of Korea (the),Asia,PCV2,98.0
+WPR,KOR,Republic of Korea (the),Asia,PCV3,97.0
+WPR,KOR,Republic of Korea (the),Asia,PerCV4,97.0
+WPR,KOR,Republic of Korea (the),Asia,Pol3,98.0
+WPR,KOR,Republic of Korea (the),Asia,RCV1,98.0
+WPR,KOR,Republic of Korea (the),Asia,TTCV4,97.0
+EUR,MDA,Republic of Moldova (the),Europe,BCG,96.0
+EUR,MDA,Republic of Moldova (the),Europe,DiphCV4,89.0
+EUR,MDA,Republic of Moldova (the),Europe,DiphCV5,95.0
+EUR,MDA,Republic of Moldova (the),Europe,DiphCV6,97.0
+EUR,MDA,Republic of Moldova (the),Europe,DTP1,96.0
+EUR,MDA,Republic of Moldova (the),Europe,DTP3,93.0
+EUR,MDA,Republic of Moldova (the),Europe,HepB_BD,96.0
+EUR,MDA,Republic of Moldova (the),Europe,HepB_BDall,97.0
+EUR,MDA,Republic of Moldova (the),Europe,HepB3,94.0
+EUR,MDA,Republic of Moldova (the),Europe,Hib3,93.0
+EUR,MDA,Republic of Moldova (the),Europe,HPVfem,44.0
+EUR,MDA,Republic of Moldova (the),Europe,IPV1,90.0
+EUR,MDA,Republic of Moldova (the),Europe,MCV1,93.0
+EUR,MDA,Republic of Moldova (the),Europe,MCV2,96.0
+EUR,MDA,Republic of Moldova (the),Europe,PCV1,96.0
+EUR,MDA,Republic of Moldova (the),Europe,PCV2,92.0
+EUR,MDA,Republic of Moldova (the),Europe,PCV3,94.0
+EUR,MDA,Republic of Moldova (the),Europe,PerCV4,89.0
+EUR,MDA,Republic of Moldova (the),Europe,Pol3,94.0
+EUR,MDA,Republic of Moldova (the),Europe,RCV1,93.0
+EUR,MDA,Republic of Moldova (the),Europe,Rota1,80.0
+EUR,MDA,Republic of Moldova (the),Europe,RotaC,75.0
+EUR,MDA,Republic of Moldova (the),Europe,TTCV4,89.0
+EUR,MDA,Republic of Moldova (the),Europe,TTCV5,95.0
+EUR,MDA,Republic of Moldova (the),Europe,TTCV6,97.0
+EUR,ROU,Romania,Europe,BCG,96.0
+EUR,ROU,Romania,Europe,DiphCV4,83.0
+EUR,ROU,Romania,Europe,DTP1,94.0
+EUR,ROU,Romania,Europe,DTP3,86.0
+EUR,ROU,Romania,Europe,HepB_BDall,94.0
+EUR,ROU,Romania,Europe,HepB3,93.0
+EUR,ROU,Romania,Europe,Hib3,86.0
+EUR,ROU,Romania,Europe,MCV1,90.0
+EUR,ROU,Romania,Europe,MCV2,81.0
+EUR,ROU,Romania,Europe,Pol3,86.0
+EUR,ROU,Romania,Europe,RCV1,90.0
+EUR,RUS,Russian Federation (the),Europe,BCG,95.0
+EUR,RUS,Russian Federation (the),Europe,DiphCV4,97.0
+EUR,RUS,Russian Federation (the),Europe,DiphCV5,97.0
+EUR,RUS,Russian Federation (the),Europe,DiphCV6,97.0
+EUR,RUS,Russian Federation (the),Europe,DTP3,97.0
+EUR,RUS,Russian Federation (the),Europe,HepB3,97.0
+EUR,RUS,Russian Federation (the),Europe,MCV1,98.0
+EUR,RUS,Russian Federation (the),Europe,MCV2,97.0
+EUR,RUS,Russian Federation (the),Europe,PCV2,92.0
+EUR,RUS,Russian Federation (the),Europe,PCV3,82.0
+EUR,RUS,Russian Federation (the),Europe,PerCV4,97.0
+EUR,RUS,Russian Federation (the),Europe,Pol3,96.0
+EUR,RUS,Russian Federation (the),Europe,RCV1,98.0
+EUR,RUS,Russian Federation (the),Europe,TTCV4,97.0
+EUR,RUS,Russian Federation (the),Europe,TTCV5,97.0
+EUR,RUS,Russian Federation (the),Europe,TTCV6,97.0
+AFR,RWA,Rwanda,Africa,BCG,97.0
+AFR,RWA,Rwanda,Africa,DTP1,98.0
+AFR,RWA,Rwanda,Africa,DTP3,97.0
+AFR,RWA,Rwanda,Africa,HepB3,97.0
+AFR,RWA,Rwanda,Africa,Hib3,97.0
+AFR,RWA,Rwanda,Africa,HPVfem,94.0
+AFR,RWA,Rwanda,Africa,IPV1,81.0
+AFR,RWA,Rwanda,Africa,MCV1,99.0
+AFR,RWA,Rwanda,Africa,MCV2,96.0
+AFR,RWA,Rwanda,Africa,PCV1,98.0
+AFR,RWA,Rwanda,Africa,PCV2,98.0
+AFR,RWA,Rwanda,Africa,PCV3,97.0
+AFR,RWA,Rwanda,Africa,Pol3,97.0
+AFR,RWA,Rwanda,Africa,RCV1,99.0
+AFR,RWA,Rwanda,Africa,Rota1,98.0
+AFR,RWA,Rwanda,Africa,RotaC,98.0
+AFR,RWA,Rwanda,Africa,TT2plus,90.0
+AMR,KNA,Saint Kitts and Nevis,North America,BCG,97.0
+AMR,KNA,Saint Kitts and Nevis,North America,DiphCV4,97.0
+AMR,KNA,Saint Kitts and Nevis,North America,DiphCV5,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,DiphCV6,75.0
+AMR,KNA,Saint Kitts and Nevis,North America,DTP1,99.0
+AMR,KNA,Saint Kitts and Nevis,North America,DTP3,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,HepB_BD,96.0
+AMR,KNA,Saint Kitts and Nevis,North America,HepB_BDall,96.0
+AMR,KNA,Saint Kitts and Nevis,North America,HepB3,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,Hib3,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,IPV1,99.0
+AMR,KNA,Saint Kitts and Nevis,North America,MCV1,96.0
+AMR,KNA,Saint Kitts and Nevis,North America,MCV2,96.0
+AMR,KNA,Saint Kitts and Nevis,North America,PerCV4,97.0
+AMR,KNA,Saint Kitts and Nevis,North America,Pol3,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,RCV1,96.0
+AMR,KNA,Saint Kitts and Nevis,North America,TTCV4,97.0
+AMR,KNA,Saint Kitts and Nevis,North America,TTCV5,98.0
+AMR,KNA,Saint Kitts and Nevis,North America,TTCV6,75.0
+AMR,LCA,Saint Lucia,North America,BCG,99.0
+AMR,LCA,Saint Lucia,North America,DiphCV4,74.0
+AMR,LCA,Saint Lucia,North America,DiphCV5,64.0
+AMR,LCA,Saint Lucia,North America,DTP1,99.0
+AMR,LCA,Saint Lucia,North America,DTP3,95.0
+AMR,LCA,Saint Lucia,North America,HepB_BD,95.0
+AMR,LCA,Saint Lucia,North America,HepB_BDall,95.0
+AMR,LCA,Saint Lucia,North America,HepB3,95.0
+AMR,LCA,Saint Lucia,North America,Hib3,95.0
+AMR,LCA,Saint Lucia,North America,IPV1,99.0
+AMR,LCA,Saint Lucia,North America,MCV1,86.0
+AMR,LCA,Saint Lucia,North America,MCV2,68.0
+AMR,LCA,Saint Lucia,North America,PerCV4,74.0
+AMR,LCA,Saint Lucia,North America,Pol3,95.0
+AMR,LCA,Saint Lucia,North America,RCV1,86.0
+AMR,LCA,Saint Lucia,North America,TT2plus,4.0
+AMR,LCA,Saint Lucia,North America,TTCV4,74.0
+AMR,LCA,Saint Lucia,North America,TTCV5,64.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,BCG,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,DiphCV4,89.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,DiphCV5,92.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,DiphCV6,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,DTP1,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,DTP3,97.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,HepB_BD,97.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,HepB_BDall,97.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,HepB3,97.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,Hib3,97.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,HPVfem,4.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,IPV1,84.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,MCV1,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,MCV2,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,PerCV4,89.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,Pol3,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,RCV1,99.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,TTCV4,89.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,TTCV5,92.0
+AMR,VCT,Saint Vincent and the Grenadines,North America,TTCV6,99.0
+WPR,WSM,Samoa,Australia,BCG,68.0
+WPR,WSM,Samoa,Australia,DTP1,67.0
+WPR,WSM,Samoa,Australia,DTP3,44.0
+WPR,WSM,Samoa,Australia,HepB_BD,59.0
+WPR,WSM,Samoa,Australia,HepB_BDall,62.0
+WPR,WSM,Samoa,Australia,HepB3,44.0
+WPR,WSM,Samoa,Australia,Hib3,44.0
+WPR,WSM,Samoa,Australia,IPV1,46.0
+WPR,WSM,Samoa,Australia,MCV1,40.0
+WPR,WSM,Samoa,Australia,MCV2,28.0
+WPR,WSM,Samoa,Australia,Pol3,44.0
+WPR,WSM,Samoa,Australia,RCV1,40.0
+EUR,SMR,San Marino,Europe,DiphCV4,83.0
+EUR,SMR,San Marino,Europe,DiphCV5,81.0
+EUR,SMR,San Marino,Europe,DiphCV6,85.0
+EUR,SMR,San Marino,Europe,DTP1,94.0
+EUR,SMR,San Marino,Europe,DTP3,90.0
+EUR,SMR,San Marino,Europe,HepB3,78.0
+EUR,SMR,San Marino,Europe,Hib3,91.0
+EUR,SMR,San Marino,Europe,HPVfem,52.0
+EUR,SMR,San Marino,Europe,IPV1,94.0
+EUR,SMR,San Marino,Europe,MCV1,89.0
+EUR,SMR,San Marino,Europe,MCV2,84.0
+EUR,SMR,San Marino,Europe,PCV1,69.0
+EUR,SMR,San Marino,Europe,PCV2,67.0
+EUR,SMR,San Marino,Europe,PCV3,58.0
+EUR,SMR,San Marino,Europe,PerCV4,83.0
+EUR,SMR,San Marino,Europe,Pol3,91.0
+EUR,SMR,San Marino,Europe,RCV1,89.0
+EUR,SMR,San Marino,Europe,TTCV4,83.0
+EUR,SMR,San Marino,Europe,TTCV5,81.0
+EUR,SMR,San Marino,Europe,TTCV6,79.0
+AFR,STP,Sao Tome and Principe,Africa,BCG,96.0
+AFR,STP,Sao Tome and Principe,Africa,DTP1,97.0
+AFR,STP,Sao Tome and Principe,Africa,DTP3,95.0
+AFR,STP,Sao Tome and Principe,Africa,HepB3,95.0
+AFR,STP,Sao Tome and Principe,Africa,Hib3,95.0
+AFR,STP,Sao Tome and Principe,Africa,IPV1,97.0
+AFR,STP,Sao Tome and Principe,Africa,MCV1,95.0
+AFR,STP,Sao Tome and Principe,Africa,MCV2,76.0
+AFR,STP,Sao Tome and Principe,Africa,PCV1,97.0
+AFR,STP,Sao Tome and Principe,Africa,PCV2,96.0
+AFR,STP,Sao Tome and Principe,Africa,PCV3,95.0
+AFR,STP,Sao Tome and Principe,Africa,Pol3,95.0
+AFR,STP,Sao Tome and Principe,Africa,RCV1,95.0
+AFR,STP,Sao Tome and Principe,Africa,Rota1,97.0
+AFR,STP,Sao Tome and Principe,Africa,RotaC,95.0
+AFR,STP,Sao Tome and Principe,Africa,TT2plus,91.0
+AFR,STP,Sao Tome and Principe,Africa,YFV,95.0
+EMR,SAU,Saudi Arabia,Asia,BCG,98.0
+EMR,SAU,Saudi Arabia,Asia,DiphCV4,98.0
+EMR,SAU,Saudi Arabia,Asia,DTP1,96.0
+EMR,SAU,Saudi Arabia,Asia,DTP3,96.0
+EMR,SAU,Saudi Arabia,Asia,HepB_BD,98.0
+EMR,SAU,Saudi Arabia,Asia,HepB_BDall,98.0
+EMR,SAU,Saudi Arabia,Asia,HepB3,97.0
+EMR,SAU,Saudi Arabia,Asia,Hib3,96.0
+EMR,SAU,Saudi Arabia,Asia,IPV1,96.0
+EMR,SAU,Saudi Arabia,Asia,MCV1,98.0
+EMR,SAU,Saudi Arabia,Asia,MCV2,97.0
+EMR,SAU,Saudi Arabia,Asia,MenA,98.0
+EMR,SAU,Saudi Arabia,Asia,PCV1,97.0
+EMR,SAU,Saudi Arabia,Asia,PCV2,97.0
+EMR,SAU,Saudi Arabia,Asia,PCV3,98.0
+EMR,SAU,Saudi Arabia,Asia,PerCV4,98.0
+EMR,SAU,Saudi Arabia,Asia,Pol3,98.0
+EMR,SAU,Saudi Arabia,Asia,RCV1,96.0
+EMR,SAU,Saudi Arabia,Asia,Rota1,96.0
+EMR,SAU,Saudi Arabia,Asia,RotaC,97.0
+EMR,SAU,Saudi Arabia,Asia,TTCV4,98.0
+AFR,SEN,Senegal,Africa,BCG,83.0
+AFR,SEN,Senegal,Africa,DTP1,83.0
+AFR,SEN,Senegal,Africa,DTP3,81.0
+AFR,SEN,Senegal,Africa,HepB_BD,63.0
+AFR,SEN,Senegal,Africa,HepB_BDall,75.0
+AFR,SEN,Senegal,Africa,HepB3,82.0
+AFR,SEN,Senegal,Africa,Hib3,82.0
+AFR,SEN,Senegal,Africa,IPV1,72.0
+AFR,SEN,Senegal,Africa,MCV1,82.0
+AFR,SEN,Senegal,Africa,MCV2,63.0
+AFR,SEN,Senegal,Africa,PCV1,83.0
+AFR,SEN,Senegal,Africa,PCV2,80.0
+AFR,SEN,Senegal,Africa,PCV3,81.0
+AFR,SEN,Senegal,Africa,Pol3,81.0
+AFR,SEN,Senegal,Africa,RCV1,82.0
+AFR,SEN,Senegal,Africa,Rota1,82.0
+AFR,SEN,Senegal,Africa,RotaC,63.0
+AFR,SEN,Senegal,Africa,TT2plus,65.0
+AFR,SEN,Senegal,Africa,YFV,75.0
+EUR,SRB,Serbia,Europe,BCG,98.0
+EUR,SRB,Serbia,Europe,DiphCV4,93.0
+EUR,SRB,Serbia,Europe,DiphCV5,93.0
+EUR,SRB,Serbia,Europe,DiphCV6,85.0
+EUR,SRB,Serbia,Europe,DTP3,97.0
+EUR,SRB,Serbia,Europe,HepB3,91.0
+EUR,SRB,Serbia,Europe,Hib3,97.0
+EUR,SRB,Serbia,Europe,MCV1,93.0
+EUR,SRB,Serbia,Europe,MCV2,90.0
+EUR,SRB,Serbia,Europe,PCV3,48.0
+EUR,SRB,Serbia,Europe,PerCV4,93.0
+EUR,SRB,Serbia,Europe,Pol3,97.0
+EUR,SRB,Serbia,Europe,RCV1,93.0
+EUR,SRB,Serbia,Europe,TTCV4,93.0
+EUR,SRB,Serbia,Europe,TTCV5,93.0
+EUR,SRB,Serbia,Europe,TTCV6,85.0
+AFR,SYC,Seychelles,Africa,BCG,97.0
+AFR,SYC,Seychelles,Africa,DiphCV4,95.0
+AFR,SYC,Seychelles,Africa,DiphCV5,97.0
+AFR,SYC,Seychelles,Africa,DTP1,99.0
+AFR,SYC,Seychelles,Africa,DTP3,99.0
+AFR,SYC,Seychelles,Africa,HepB3,99.0
+AFR,SYC,Seychelles,Africa,Hib3,99.0
+AFR,SYC,Seychelles,Africa,HPVfem,97.0
+AFR,SYC,Seychelles,Africa,IPV1,99.0
+AFR,SYC,Seychelles,Africa,MCV1,96.0
+AFR,SYC,Seychelles,Africa,MCV2,97.0
+AFR,SYC,Seychelles,Africa,PCV1,34.0
+AFR,SYC,Seychelles,Africa,PCV2,25.0
+AFR,SYC,Seychelles,Africa,PCV3,16.0
+AFR,SYC,Seychelles,Africa,PerCV4,95.0
+AFR,SYC,Seychelles,Africa,Pol3,99.0
+AFR,SYC,Seychelles,Africa,RCV1,96.0
+AFR,SYC,Seychelles,Africa,Rota1,99.0
+AFR,SYC,Seychelles,Africa,RotaC,99.0
+AFR,SYC,Seychelles,Africa,TTCV4,95.0
+AFR,SYC,Seychelles,Africa,TTCV5,97.0
+AFR,SYC,Seychelles,Africa,TTCV6,99.0
+AFR,SYC,Seychelles,Africa,YFV,99.0
+AFR,SLE,Sierra Leone,Africa,BCG,95.0
+AFR,SLE,Sierra Leone,Africa,DTP1,98.0
+AFR,SLE,Sierra Leone,Africa,DTP3,94.0
+AFR,SLE,Sierra Leone,Africa,HepB3,94.0
+AFR,SLE,Sierra Leone,Africa,Hib3,94.0
+AFR,SLE,Sierra Leone,Africa,IPV1,72.0
+AFR,SLE,Sierra Leone,Africa,MCV1,90.0
+AFR,SLE,Sierra Leone,Africa,MCV2,60.0
+AFR,SLE,Sierra Leone,Africa,PCV1,98.0
+AFR,SLE,Sierra Leone,Africa,PCV2,96.0
+AFR,SLE,Sierra Leone,Africa,PCV3,94.0
+AFR,SLE,Sierra Leone,Africa,Pol3,94.0
+AFR,SLE,Sierra Leone,Africa,Rota1,98.0
+AFR,SLE,Sierra Leone,Africa,RotaC,96.0
+AFR,SLE,Sierra Leone,Africa,TT2plus,90.0
+AFR,SLE,Sierra Leone,Africa,VAD1,97.0
+AFR,SLE,Sierra Leone,Africa,YFV,90.0
+WPR,SGP,Singapore,Asia,BCG,98.0
+WPR,SGP,Singapore,Asia,DTP1,98.0
+WPR,SGP,Singapore,Asia,DTP3,96.0
+WPR,SGP,Singapore,Asia,HepB_BD,91.0
+WPR,SGP,Singapore,Asia,HepB_BDall,98.0
+WPR,SGP,Singapore,Asia,HepB3,96.0
+WPR,SGP,Singapore,Asia,Hib3,96.0
+WPR,SGP,Singapore,Asia,IPV1,98.0
+WPR,SGP,Singapore,Asia,MCV1,95.0
+WPR,SGP,Singapore,Asia,MCV2,84.0
+WPR,SGP,Singapore,Asia,PCV1,90.0
+WPR,SGP,Singapore,Asia,PCV2,88.0
+WPR,SGP,Singapore,Asia,PCV3,82.0
+WPR,SGP,Singapore,Asia,Pol3,96.0
+WPR,SGP,Singapore,Asia,RCV1,95.0
+EUR,SVK,Slovakia,Europe,DiphCV4,97.0
+EUR,SVK,Slovakia,Europe,DiphCV5,98.0
+EUR,SVK,Slovakia,Europe,DTP3,97.0
+EUR,SVK,Slovakia,Europe,HepB_BD,99.0
+EUR,SVK,Slovakia,Europe,HepB3,97.0
+EUR,SVK,Slovakia,Europe,Hib3,97.0
+EUR,SVK,Slovakia,Europe,MCV1,96.0
+EUR,SVK,Slovakia,Europe,MCV2,97.0
+EUR,SVK,Slovakia,Europe,PCV3,96.0
+EUR,SVK,Slovakia,Europe,PerCV4,97.0
+EUR,SVK,Slovakia,Europe,Pol3,97.0
+EUR,SVK,Slovakia,Europe,RCV1,96.0
+EUR,SVK,Slovakia,Europe,TTCV4,97.0
+EUR,SVK,Slovakia,Europe,TTCV5,98.0
+EUR,SVN,Slovenia,Europe,DiphCV5,95.0
+EUR,SVN,Slovenia,Europe,DTP3,93.0
+EUR,SVN,Slovenia,Europe,HepB3,87.0
+EUR,SVN,Slovenia,Europe,Hib3,93.0
+EUR,SVN,Slovenia,Europe,HPVfem,50.0
+EUR,SVN,Slovenia,Europe,MCV1,93.0
+EUR,SVN,Slovenia,Europe,MCV2,94.0
+EUR,SVN,Slovenia,Europe,PCV2,60.0
+EUR,SVN,Slovenia,Europe,Pol3,93.0
+EUR,SVN,Slovenia,Europe,RCV1,93.0
+EUR,SVN,Slovenia,Europe,TTCV5,95.0
+WPR,SLB,Solomon Islands,Australia,BCG,83.0
+WPR,SLB,Solomon Islands,Australia,DTP1,86.0
+WPR,SLB,Solomon Islands,Australia,DTP3,85.0
+WPR,SLB,Solomon Islands,Australia,HepB_BD,66.0
+WPR,SLB,Solomon Islands,Australia,HepB_BDall,76.0
+WPR,SLB,Solomon Islands,Australia,HepB3,85.0
+WPR,SLB,Solomon Islands,Australia,Hib3,85.0
+WPR,SLB,Solomon Islands,Australia,IPV1,88.0
+WPR,SLB,Solomon Islands,Australia,MCV1,93.0
+WPR,SLB,Solomon Islands,Australia,MCV2,54.0
+WPR,SLB,Solomon Islands,Australia,PAB,78.0
+WPR,SLB,Solomon Islands,Australia,PCV1,86.0
+WPR,SLB,Solomon Islands,Australia,PCV2,86.0
+WPR,SLB,Solomon Islands,Australia,PCV3,84.0
+WPR,SLB,Solomon Islands,Australia,Pol3,85.0
+WPR,SLB,Solomon Islands,Australia,RCV1,93.0
+WPR,SLB,Solomon Islands,Australia,TT2plus,99.0
+EMR,SOM,Somalia,Africa,BCG,66.0
+EMR,SOM,Somalia,Africa,DTP1,80.0
+EMR,SOM,Somalia,Africa,DTP3,69.0
+EMR,SOM,Somalia,Africa,HepB3,69.0
+EMR,SOM,Somalia,Africa,Hib3,69.0
+EMR,SOM,Somalia,Africa,IPV1,61.0
+EMR,SOM,Somalia,Africa,MCV1,70.0
+EMR,SOM,Somalia,Africa,Pol3,69.0
+EMR,SOM,Somalia,Africa,TT2plus,59.0
+EMR,SOM,Somalia,Africa,VAD1,17.0
+AFR,ZAF,South Africa,Africa,BCG,70.0
+AFR,ZAF,South Africa,Africa,DiphCV4,64.0
+AFR,ZAF,South Africa,Africa,DiphCV5,31.0
+AFR,ZAF,South Africa,Africa,DiphCV6,16.0
+AFR,ZAF,South Africa,Africa,DTP1,84.0
+AFR,ZAF,South Africa,Africa,DTP3,82.0
+AFR,ZAF,South Africa,Africa,HepB3,82.0
+AFR,ZAF,South Africa,Africa,Hib3,82.0
+AFR,ZAF,South Africa,Africa,HPVfem,56.0
+AFR,ZAF,South Africa,Africa,IPV1,84.0
+AFR,ZAF,South Africa,Africa,MCV1,81.0
+AFR,ZAF,South Africa,Africa,MCV2,75.0
+AFR,ZAF,South Africa,Africa,PCV1,84.0
+AFR,ZAF,South Africa,Africa,PCV2,82.0
+AFR,ZAF,South Africa,Africa,PCV3,83.0
+AFR,ZAF,South Africa,Africa,PerCV4,64.0
+AFR,ZAF,South Africa,Africa,Pol3,82.0
+AFR,ZAF,South Africa,Africa,Rota1,84.0
+AFR,ZAF,South Africa,Africa,RotaC,80.0
+AFR,ZAF,South Africa,Africa,TTCV4,64.0
+AFR,ZAF,South Africa,Africa,TTCV5,31.0
+AFR,ZAF,South Africa,Africa,TTCV6,16.0
+AFR,ZAF,South Africa,Africa,VAD1,57.0
+AFR,SSD,South Sudan,Africa,BCG,52.0
+AFR,SSD,South Sudan,Africa,DTP1,51.0
+AFR,SSD,South Sudan,Africa,DTP3,49.0
+AFR,SSD,South Sudan,Africa,HepB3,49.0
+AFR,SSD,South Sudan,Africa,Hib3,49.0
+AFR,SSD,South Sudan,Africa,IPV1,39.0
+AFR,SSD,South Sudan,Africa,MCV1,49.0
+AFR,SSD,South Sudan,Africa,Pol3,50.0
+AFR,SSD,South Sudan,Africa,TT2plus,44.0
+AFR,SSD,South Sudan,Africa,VAD1,87.0
+EUR,ESP,Spain,Europe,DiphCV4,88.0
+EUR,ESP,Spain,Europe,DiphCV5,80.0
+EUR,ESP,Spain,Europe,DTP1,97.0
+EUR,ESP,Spain,Europe,DTP3,93.0
+EUR,ESP,Spain,Europe,HepB3,94.0
+EUR,ESP,Spain,Europe,Hib3,94.0
+EUR,ESP,Spain,Europe,HPVfem,73.0
+EUR,ESP,Spain,Europe,IPV1,97.0
+EUR,ESP,Spain,Europe,MCV1,97.0
+EUR,ESP,Spain,Europe,MCV2,94.0
+EUR,ESP,Spain,Europe,PCV2,97.0
+EUR,ESP,Spain,Europe,PCV3,90.0
+EUR,ESP,Spain,Europe,PerCV4,88.0
+EUR,ESP,Spain,Europe,Pol3,93.0
+EUR,ESP,Spain,Europe,RCV1,97.0
+EUR,ESP,Spain,Europe,TT2plus,84.0
+EUR,ESP,Spain,Europe,TTCV4,88.0
+EUR,ESP,Spain,Europe,TTCV5,80.0
+SEAR,LKA,Sri Lanka,Asia,BCG,99.0
+SEAR,LKA,Sri Lanka,Asia,DiphCV4,99.0
+SEAR,LKA,Sri Lanka,Asia,DiphCV5,99.0
+SEAR,LKA,Sri Lanka,Asia,DiphCV6,99.0
+SEAR,LKA,Sri Lanka,Asia,DTP1,99.0
+SEAR,LKA,Sri Lanka,Asia,DTP3,99.0
+SEAR,LKA,Sri Lanka,Asia,HepB3,99.0
+SEAR,LKA,Sri Lanka,Asia,Hib3,99.0
+SEAR,LKA,Sri Lanka,Asia,HPVfem,99.0
+SEAR,LKA,Sri Lanka,Asia,IPV1frac,99.0
+SEAR,LKA,Sri Lanka,Asia,IPV2frac,99.0
+SEAR,LKA,Sri Lanka,Asia,JapEnc,99.0
+SEAR,LKA,Sri Lanka,Asia,MCV1,99.0
+SEAR,LKA,Sri Lanka,Asia,MCV2,99.0
+SEAR,LKA,Sri Lanka,Asia,PerCV4,99.0
+SEAR,LKA,Sri Lanka,Asia,Pol3,99.0
+SEAR,LKA,Sri Lanka,Asia,RCV1,99.0
+SEAR,LKA,Sri Lanka,Asia,TT2plus,99.0
+SEAR,LKA,Sri Lanka,Asia,TTCV4,99.0
+SEAR,LKA,Sri Lanka,Asia,TTCV5,99.0
+SEAR,LKA,Sri Lanka,Asia,TTCV6,99.0
+SEAR,LKA,Sri Lanka,Asia,VAD1,99.0
+EMR,SDN,Sudan (the),Africa,BCG,88.0
+EMR,SDN,Sudan (the),Africa,DTP1,99.0
+EMR,SDN,Sudan (the),Africa,DTP3,93.0
+EMR,SDN,Sudan (the),Africa,HepB3,93.0
+EMR,SDN,Sudan (the),Africa,Hib3,93.0
+EMR,SDN,Sudan (the),Africa,IPV1,84.0
+EMR,SDN,Sudan (the),Africa,MCV1,88.0
+EMR,SDN,Sudan (the),Africa,MCV2,72.0
+EMR,SDN,Sudan (the),Africa,MenA,84.0
+EMR,SDN,Sudan (the),Africa,PAB,81.0
+EMR,SDN,Sudan (the),Africa,PCV1,99.0
+EMR,SDN,Sudan (the),Africa,PCV2,95.0
+EMR,SDN,Sudan (the),Africa,PCV3,93.0
+EMR,SDN,Sudan (the),Africa,Pol3,93.0
+EMR,SDN,Sudan (the),Africa,Rota1,99.0
+EMR,SDN,Sudan (the),Africa,RotaC,94.0
+EMR,SDN,Sudan (the),Africa,TT2plus,51.0
+AMR,SUR,Suriname,South America,DiphCV4,60.0
+AMR,SUR,Suriname,South America,DiphCV5,6.0
+AMR,SUR,Suriname,South America,DTP1,95.0
+AMR,SUR,Suriname,South America,DTP3,95.0
+AMR,SUR,Suriname,South America,HepB_BD,79.0
+AMR,SUR,Suriname,South America,HepB_BDall,79.0
+AMR,SUR,Suriname,South America,HepB3,95.0
+AMR,SUR,Suriname,South America,Hib3,95.0
+AMR,SUR,Suriname,South America,HPVfem,47.0
+AMR,SUR,Suriname,South America,IPV1,93.0
+AMR,SUR,Suriname,South America,MCV1,98.0
+AMR,SUR,Suriname,South America,MCV2,39.0
+AMR,SUR,Suriname,South America,PerCV4,60.0
+AMR,SUR,Suriname,South America,Pol3,95.0
+AMR,SUR,Suriname,South America,RCV1,98.0
+AMR,SUR,Suriname,South America,TTCV4,60.0
+AMR,SUR,Suriname,South America,TTCV5,4.0
+AMR,SUR,Suriname,South America,YFV,81.0
+EUR,SWE,Sweden,Europe,BCG,26.0
+EUR,SWE,Sweden,Europe,DiphCV4,97.0
+EUR,SWE,Sweden,Europe,HepB3,92.0
+EUR,SWE,Sweden,Europe,Hib3,97.0
+EUR,SWE,Sweden,Europe,HPVfem,76.0
+EUR,SWE,Sweden,Europe,MCV1,97.0
+EUR,SWE,Sweden,Europe,PCV3,97.0
+EUR,SWE,Sweden,Europe,PerCV4,97.0
+EUR,SWE,Sweden,Europe,Pol3,97.0
+EUR,SWE,Sweden,Europe,RCV1,97.0
+EUR,SWE,Sweden,Europe,TTCV4,97.0
+EUR,CHE,Switzerland,Europe,DiphCV4,89.0
+EUR,CHE,Switzerland,Europe,DiphCV5,83.0
+EUR,CHE,Switzerland,Europe,DiphCV6,63.0
+EUR,CHE,Switzerland,Europe,DTP1,97.0
+EUR,CHE,Switzerland,Europe,DTP3,96.0
+EUR,CHE,Switzerland,Europe,HepB3,72.0
+EUR,CHE,Switzerland,Europe,Hib3,95.0
+EUR,CHE,Switzerland,Europe,HPVfem,56.0
+EUR,CHE,Switzerland,Europe,HPVmale,16.0
+EUR,CHE,Switzerland,Europe,IPV1,97.0
+EUR,CHE,Switzerland,Europe,MCV1,96.0
+EUR,CHE,Switzerland,Europe,MCV2,89.0
+EUR,CHE,Switzerland,Europe,PCV1,88.0
+EUR,CHE,Switzerland,Europe,PCV2,87.0
+EUR,CHE,Switzerland,Europe,PCV3,85.0
+EUR,CHE,Switzerland,Europe,PerCV4,89.0
+EUR,CHE,Switzerland,Europe,Pol3,96.0
+EUR,CHE,Switzerland,Europe,RCV1,95.0
+EUR,CHE,Switzerland,Europe,TTCV4,89.0
+EUR,CHE,Switzerland,Europe,TTCV5,83.0
+EUR,CHE,Switzerland,Europe,TTCV6,63.0
+EMR,SYR,Syrian Arab Republic (the),Asia,BCG,81.0
+EMR,SYR,Syrian Arab Republic (the),Asia,DiphCV4,69.0
+EMR,SYR,Syrian Arab Republic (the),Asia,DTP1,78.0
+EMR,SYR,Syrian Arab Republic (the),Asia,DTP3,66.0
+EMR,SYR,Syrian Arab Republic (the),Asia,HepB_BDall,70.0
+EMR,SYR,Syrian Arab Republic (the),Asia,HepB3,66.0
+EMR,SYR,Syrian Arab Republic (the),Asia,Hib3,66.0
+EMR,SYR,Syrian Arab Republic (the),Asia,IPV1,77.0
+EMR,SYR,Syrian Arab Republic (the),Asia,IPV2frac,70.0
+EMR,SYR,Syrian Arab Republic (the),Asia,MCV1,80.0
+EMR,SYR,Syrian Arab Republic (the),Asia,MCV2,71.0
+EMR,SYR,Syrian Arab Republic (the),Asia,PAB,94.0
+EMR,SYR,Syrian Arab Republic (the),Asia,PerCV4,69.0
+EMR,SYR,Syrian Arab Republic (the),Asia,Pol3,69.0
+EMR,SYR,Syrian Arab Republic (the),Asia,RCV1,80.0
+EMR,SYR,Syrian Arab Republic (the),Asia,TT2plus,10.0
+EMR,SYR,Syrian Arab Republic (the),Asia,TTCV4,69.0
+EMR,SYR,Syrian Arab Republic (the),Asia,VAD1,79.0
+EUR,TJK,Tajikistan,Asia,BCG,99.0
+EUR,TJK,Tajikistan,Asia,DiphCV4,99.0
+EUR,TJK,Tajikistan,Asia,DiphCV5,97.0
+EUR,TJK,Tajikistan,Asia,DTP1,98.0
+EUR,TJK,Tajikistan,Asia,DTP3,96.0
+EUR,TJK,Tajikistan,Asia,HepB_BD,99.0
+EUR,TJK,Tajikistan,Asia,HepB_BDall,98.0
+EUR,TJK,Tajikistan,Asia,HepB3,96.0
+EUR,TJK,Tajikistan,Asia,Hib3,96.0
+EUR,TJK,Tajikistan,Asia,IPV1,51.0
+EUR,TJK,Tajikistan,Asia,MCV1,98.0
+EUR,TJK,Tajikistan,Asia,MCV2,97.0
+EUR,TJK,Tajikistan,Asia,PerCV4,99.0
+EUR,TJK,Tajikistan,Asia,Pol3,96.0
+EUR,TJK,Tajikistan,Asia,RCV1,98.0
+EUR,TJK,Tajikistan,Asia,Rota1,97.0
+EUR,TJK,Tajikistan,Asia,RotaC,96.0
+EUR,TJK,Tajikistan,Asia,TTCV4,99.0
+EUR,TJK,Tajikistan,Asia,TTCV5,97.0
+EUR,TJK,Tajikistan,Asia,VAD1,98.0
+SEAR,THA,Thailand,Asia,BCG,99.0
+SEAR,THA,Thailand,Asia,DiphCV4,95.0
+SEAR,THA,Thailand,Asia,DiphCV5,87.0
+SEAR,THA,Thailand,Asia,DTP3,97.0
+SEAR,THA,Thailand,Asia,HepB_BD,99.0
+SEAR,THA,Thailand,Asia,HepB3,97.0
+SEAR,THA,Thailand,Asia,HPVfem,96.0
+SEAR,THA,Thailand,Asia,IPV1,88.0
+SEAR,THA,Thailand,Asia,JapEnc,95.0
+SEAR,THA,Thailand,Asia,MCV1,96.0
+SEAR,THA,Thailand,Asia,MCV2,87.0
+SEAR,THA,Thailand,Asia,PerCV4,95.0
+SEAR,THA,Thailand,Asia,Pol3,97.0
+SEAR,THA,Thailand,Asia,RCV1,96.0
+SEAR,THA,Thailand,Asia,TT2plus,96.0
+SEAR,THA,Thailand,Asia,TTCV4,95.0
+SEAR,THA,Thailand,Asia,TTCV5,87.0
+SEAR,TLS,Timor-Leste,Asia,BCG,95.0
+SEAR,TLS,Timor-Leste,Asia,DiphCV4,55.0
+SEAR,TLS,Timor-Leste,Asia,DiphCV5,62.0
+SEAR,TLS,Timor-Leste,Asia,DTP1,92.0
+SEAR,TLS,Timor-Leste,Asia,DTP3,83.0
+SEAR,TLS,Timor-Leste,Asia,HepB_BD,66.0
+SEAR,TLS,Timor-Leste,Asia,HepB_BDall,66.0
+SEAR,TLS,Timor-Leste,Asia,HepB3,83.0
+SEAR,TLS,Timor-Leste,Asia,Hib3,83.0
+SEAR,TLS,Timor-Leste,Asia,IPV1,81.0
+SEAR,TLS,Timor-Leste,Asia,MCV1,77.0
+SEAR,TLS,Timor-Leste,Asia,MCV2,54.0
+SEAR,TLS,Timor-Leste,Asia,PAB,38.0
+SEAR,TLS,Timor-Leste,Asia,PerCV4,55.0
+SEAR,TLS,Timor-Leste,Asia,Pol3,83.0
+SEAR,TLS,Timor-Leste,Asia,RCV1,77.0
+SEAR,TLS,Timor-Leste,Asia,TT2plus,68.0
+SEAR,TLS,Timor-Leste,Asia,TTCV4,55.0
+SEAR,TLS,Timor-Leste,Asia,TTCV5,62.0
+SEAR,TLS,Timor-Leste,Asia,VAD1,73.0
+AFR,TGO,Togo,Africa,BCG,83.0
+AFR,TGO,Togo,Africa,DTP1,92.0
+AFR,TGO,Togo,Africa,DTP3,88.0
+AFR,TGO,Togo,Africa,HepB3,88.0
+AFR,TGO,Togo,Africa,Hib3,88.0
+AFR,TGO,Togo,Africa,IPV1,82.0
+AFR,TGO,Togo,Africa,MCV1,85.0
+AFR,TGO,Togo,Africa,PAB,73.0
+AFR,TGO,Togo,Africa,PCV1,92.0
+AFR,TGO,Togo,Africa,PCV2,90.0
+AFR,TGO,Togo,Africa,PCV3,88.0
+AFR,TGO,Togo,Africa,Pol3,66.0
+AFR,TGO,Togo,Africa,RCV1,88.0
+AFR,TGO,Togo,Africa,Rota1,92.0
+AFR,TGO,Togo,Africa,RotaC,89.0
+AFR,TGO,Togo,Africa,TT2plus,76.0
+AFR,TGO,Togo,Africa,VAD1,75.0
+AFR,TGO,Togo,Africa,YFV,86.0
+WPR,TON,Tonga,Australia,BCG,99.0
+WPR,TON,Tonga,Australia,DiphCV4,99.0
+WPR,TON,Tonga,Australia,DiphCV5,99.0
+WPR,TON,Tonga,Australia,DTP1,99.0
+WPR,TON,Tonga,Australia,DTP3,99.0
+WPR,TON,Tonga,Australia,HepB_BD,99.0
+WPR,TON,Tonga,Australia,HepB_BDall,99.0
+WPR,TON,Tonga,Australia,HepB3,99.0
+WPR,TON,Tonga,Australia,Hib3,99.0
+WPR,TON,Tonga,Australia,IPV1,99.0
+WPR,TON,Tonga,Australia,MCV1,99.0
+WPR,TON,Tonga,Australia,MCV2,99.0
+WPR,TON,Tonga,Australia,PerCV4,99.0
+WPR,TON,Tonga,Australia,Pol3,99.0
+WPR,TON,Tonga,Australia,RCV1,99.0
+WPR,TON,Tonga,Australia,TT2plus,99.0
+WPR,TON,Tonga,Australia,TTCV4,99.0
+WPR,TON,Tonga,Australia,TTCV5,99.0
+WPR,TON,Tonga,Australia,TTCV6,99.0
+AMR,TTO,Trinidad and Tobago,North America,DiphCV4,94.0
+AMR,TTO,Trinidad and Tobago,North America,DiphCV5,83.0
+AMR,TTO,Trinidad and Tobago,North America,DiphCV6,24.0
+AMR,TTO,Trinidad and Tobago,North America,DTP1,99.0
+AMR,TTO,Trinidad and Tobago,North America,DTP3,99.0
+AMR,TTO,Trinidad and Tobago,North America,HepB3,99.0
+AMR,TTO,Trinidad and Tobago,North America,Hib3,99.0
+AMR,TTO,Trinidad and Tobago,North America,HPVfem,16.0
+AMR,TTO,Trinidad and Tobago,North America,IPV1,99.0
+AMR,TTO,Trinidad and Tobago,North America,MCV1,90.0
+AMR,TTO,Trinidad and Tobago,North America,MCV2,92.0
+AMR,TTO,Trinidad and Tobago,North America,PCV1,99.0
+AMR,TTO,Trinidad and Tobago,North America,PCV2,99.0
+AMR,TTO,Trinidad and Tobago,North America,PCV3,99.0
+AMR,TTO,Trinidad and Tobago,North America,PerCV4,94.0
+AMR,TTO,Trinidad and Tobago,North America,Pol3,99.0
+AMR,TTO,Trinidad and Tobago,North America,RCV1,90.0
+AMR,TTO,Trinidad and Tobago,North America,TTCV4,94.0
+AMR,TTO,Trinidad and Tobago,North America,TTCV5,83.0
+AMR,TTO,Trinidad and Tobago,North America,TTCV6,24.0
+AMR,TTO,Trinidad and Tobago,North America,YFV,88.0
+EMR,TUN,Tunisia,Africa,BCG,92.0
+EMR,TUN,Tunisia,Africa,DiphCV4,92.0
+EMR,TUN,Tunisia,Africa,DTP1,98.0
+EMR,TUN,Tunisia,Africa,DTP3,97.0
+EMR,TUN,Tunisia,Africa,HepB_BD,81.0
+EMR,TUN,Tunisia,Africa,HepB_BDall,90.0
+EMR,TUN,Tunisia,Africa,HepB3,97.0
+EMR,TUN,Tunisia,Africa,Hib3,97.0
+EMR,TUN,Tunisia,Africa,IPV1,98.0
+EMR,TUN,Tunisia,Africa,MCV1,96.0
+EMR,TUN,Tunisia,Africa,MCV2,99.0
+EMR,TUN,Tunisia,Africa,PAB,95.0
+EMR,TUN,Tunisia,Africa,PerCV4,99.0
+EMR,TUN,Tunisia,Africa,Pol3,97.0
+EMR,TUN,Tunisia,Africa,RCV1,96.0
+EMR,TUN,Tunisia,Africa,TT2plus,90.0
+EUR,TUR,Turkey,Asia,BCG,96.0
+EUR,TUR,Turkey,Asia,DTP1,96.0
+EUR,TUR,Turkey,Asia,DTP3,98.0
+EUR,TUR,Turkey,Asia,HepB_BDall,93.0
+EUR,TUR,Turkey,Asia,HepB3,98.0
+EUR,TUR,Turkey,Asia,Hib3,98.0
+EUR,TUR,Turkey,Asia,IPV1,96.0
+EUR,TUR,Turkey,Asia,MCV1,96.0
+EUR,TUR,Turkey,Asia,MCV2,87.0
+EUR,TUR,Turkey,Asia,PCV1,96.0
+EUR,TUR,Turkey,Asia,PCV2,97.0
+EUR,TUR,Turkey,Asia,PCV3,97.0
+EUR,TUR,Turkey,Asia,Pol3,98.0
+EUR,TUR,Turkey,Asia,RCV1,96.0
+EUR,TUR,Turkey,Asia,TT2plus,55.0
+EUR,TKM,Turkmenistan,Asia,BCG,99.0
+EUR,TKM,Turkmenistan,Asia,DiphCV4,99.0
+EUR,TKM,Turkmenistan,Asia,DiphCV5,99.0
+EUR,TKM,Turkmenistan,Asia,DiphCV6,99.0
+EUR,TKM,Turkmenistan,Asia,DTP1,99.0
+EUR,TKM,Turkmenistan,Asia,DTP3,99.0
+EUR,TKM,Turkmenistan,Asia,HepB_BD,99.0
+EUR,TKM,Turkmenistan,Asia,HepB3,99.0
+EUR,TKM,Turkmenistan,Asia,Hib3,99.0
+EUR,TKM,Turkmenistan,Asia,HPVfem,99.0
+EUR,TKM,Turkmenistan,Asia,HPVmale,99.0
+EUR,TKM,Turkmenistan,Asia,IPV1,96.0
+EUR,TKM,Turkmenistan,Asia,MCV1,99.0
+EUR,TKM,Turkmenistan,Asia,MCV2,99.0
+EUR,TKM,Turkmenistan,Asia,PerCV4,99.0
+EUR,TKM,Turkmenistan,Asia,Pol3,99.0
+EUR,TKM,Turkmenistan,Asia,RCV1,99.0
+EUR,TKM,Turkmenistan,Asia,TTCV4,99.0
+EUR,TKM,Turkmenistan,Asia,TTCV5,99.0
+EUR,TKM,Turkmenistan,Asia,TTCV6,99.0
+WPR,TUV,Tuvalu,Australia,BCG,99.0
+WPR,TUV,Tuvalu,Australia,DTP1,99.0
+WPR,TUV,Tuvalu,Australia,DTP3,89.0
+WPR,TUV,Tuvalu,Australia,HepB_BD,99.0
+WPR,TUV,Tuvalu,Australia,HepB_BDall,99.0
+WPR,TUV,Tuvalu,Australia,HepB3,89.0
+WPR,TUV,Tuvalu,Australia,Hib3,89.0
+WPR,TUV,Tuvalu,Australia,IPV1,99.0
+WPR,TUV,Tuvalu,Australia,MCV1,88.0
+WPR,TUV,Tuvalu,Australia,MCV2,81.0
+WPR,TUV,Tuvalu,Australia,Pol3,89.0
+WPR,TUV,Tuvalu,Australia,RCV1,88.0
+WPR,TUV,Tuvalu,Australia,TT2plus,49.0
+AFR,UGA,Uganda,Africa,BCG,96.0
+AFR,UGA,Uganda,Africa,DTP1,95.0
+AFR,UGA,Uganda,Africa,DTP3,79.0
+AFR,UGA,Uganda,Africa,HepB3,79.0
+AFR,UGA,Uganda,Africa,Hib3,79.0
+AFR,UGA,Uganda,Africa,HPVfem,47.0
+AFR,UGA,Uganda,Africa,IPV1,84.0
+AFR,UGA,Uganda,Africa,MCV1,80.0
+AFR,UGA,Uganda,Africa,PAB,31.0
+AFR,UGA,Uganda,Africa,PCV1,87.0
+AFR,UGA,Uganda,Africa,PCV2,79.0
+AFR,UGA,Uganda,Africa,PCV3,64.0
+AFR,UGA,Uganda,Africa,Pol3,66.0
+AFR,UGA,Uganda,Africa,Rota1,62.0
+AFR,UGA,Uganda,Africa,RotaC,36.0
+AFR,UGA,Uganda,Africa,TT2plus,66.0
+EUR,UKR,Ukraine,Europe,BCG,90.0
+EUR,UKR,Ukraine,Europe,DiphCV4,66.0
+EUR,UKR,Ukraine,Europe,DiphCV5,83.0
+EUR,UKR,Ukraine,Europe,DiphCV6,78.0
+EUR,UKR,Ukraine,Europe,DTP1,65.0
+EUR,UKR,Ukraine,Europe,DTP3,69.0
+EUR,UKR,Ukraine,Europe,HepB_BD,60.0
+EUR,UKR,Ukraine,Europe,HepB_BDall,89.0
+EUR,UKR,Ukraine,Europe,HepB3,67.0
+EUR,UKR,Ukraine,Europe,Hib3,58.0
+EUR,UKR,Ukraine,Europe,IPV1,92.0
+EUR,UKR,Ukraine,Europe,MCV1,91.0
+EUR,UKR,Ukraine,Europe,MCV2,90.0
+EUR,UKR,Ukraine,Europe,PerCV4,66.0
+EUR,UKR,Ukraine,Europe,Pol3,71.0
+EUR,UKR,Ukraine,Europe,RCV1,91.0
+EUR,UKR,Ukraine,Europe,TTCV4,66.0
+EUR,UKR,Ukraine,Europe,TTCV5,83.0
+EUR,UKR,Ukraine,Europe,TTCV6,78.0
+EMR,ARE,United Arab Emirates (the),Asia,BCG,95.0
+EMR,ARE,United Arab Emirates (the),Asia,DiphCV5,88.0
+EMR,ARE,United Arab Emirates (the),Asia,DiphCV6,94.0
+EMR,ARE,United Arab Emirates (the),Asia,DTP1,99.0
+EMR,ARE,United Arab Emirates (the),Asia,DTP3,99.0
+EMR,ARE,United Arab Emirates (the),Asia,HepB_BDall,96.0
+EMR,ARE,United Arab Emirates (the),Asia,HepB3,99.0
+EMR,ARE,United Arab Emirates (the),Asia,Hib3,99.0
+EMR,ARE,United Arab Emirates (the),Asia,IPV1,99.0
+EMR,ARE,United Arab Emirates (the),Asia,MCV1,99.0
+EMR,ARE,United Arab Emirates (the),Asia,PCV1,99.0
+EMR,ARE,United Arab Emirates (the),Asia,PCV2,99.0
+EMR,ARE,United Arab Emirates (the),Asia,PCV3,99.0
+EMR,ARE,United Arab Emirates (the),Asia,Pol3,99.0
+EMR,ARE,United Arab Emirates (the),Asia,RCV1,99.0
+EMR,ARE,United Arab Emirates (the),Asia,Rota1,96.0
+EMR,ARE,United Arab Emirates (the),Asia,RotaC,99.0
+EMR,ARE,United Arab Emirates (the),Asia,TTCV5,88.0
+EMR,ARE,United Arab Emirates (the),Asia,TTCV6,94.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,DiphCV4,87.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,DiphCV5,83.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,DTP3,94.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,Hib3,94.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,HPVfem,84.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,MCV1,92.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,MCV2,88.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,PCV2,94.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,PCV3,92.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,PerCV4,87.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,Pol3,94.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,RCV1,92.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,RotaC,91.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,TTCV4,87.0
+EUR,GBR,United Kingdom of Great Britain and Northern Ireland (the),Europe,TTCV5,83.0
+AFR,TZA,United Republic of Tanzania,Africa,BCG,99.0
+AFR,TZA,United Republic of Tanzania,Africa,DTP1,99.0
+AFR,TZA,United Republic of Tanzania,Africa,DTP3,98.0
+AFR,TZA,United Republic of Tanzania,Africa,HepB3,98.0
+AFR,TZA,United Republic of Tanzania,Africa,Hib3,98.0
+AFR,TZA,United Republic of Tanzania,Africa,HPVfem,40.0
+AFR,TZA,United Republic of Tanzania,Africa,IPV1,75.0
+AFR,TZA,United Republic of Tanzania,Africa,MCV1,99.0
+AFR,TZA,United Republic of Tanzania,Africa,MCV2,84.0
+AFR,TZA,United Republic of Tanzania,Africa,PCV1,99.0
+AFR,TZA,United Republic of Tanzania,Africa,PCV2,99.0
+AFR,TZA,United Republic of Tanzania,Africa,PCV3,98.0
+AFR,TZA,United Republic of Tanzania,Africa,Pol3,91.0
+AFR,TZA,United Republic of Tanzania,Africa,RCV1,99.0
+AFR,TZA,United Republic of Tanzania,Africa,Rota1,99.0
+AFR,TZA,United Republic of Tanzania,Africa,RotaC,98.0
+AFR,TZA,United Republic of Tanzania,Africa,TT2plus,94.0
+AMR,USA,United States of America (the),North America,DiphCV4,83.0
+AMR,USA,United States of America (the),North America,DTP1,97.0
+AMR,USA,United States of America (the),North America,DTP3,94.0
+AMR,USA,United States of America (the),North America,HepB_BD,66.0
+AMR,USA,United States of America (the),North America,HepB_BDall,74.0
+AMR,USA,United States of America (the),North America,HepB3,91.0
+AMR,USA,United States of America (the),North America,Hib3,92.0
+AMR,USA,United States of America (the),North America,HPVfem,46.0
+AMR,USA,United States of America (the),North America,HPVmale,36.0
+AMR,USA,United States of America (the),North America,IPV1,96.0
+AMR,USA,United States of America (the),North America,MCV1,92.0
+AMR,USA,United States of America (the),North America,MCV2,94.0
+AMR,USA,United States of America (the),North America,PCV1,97.0
+AMR,USA,United States of America (the),North America,PCV2,95.0
+AMR,USA,United States of America (the),North America,PCV3,92.0
+AMR,USA,United States of America (the),North America,PerCV4,83.0
+AMR,USA,United States of America (the),North America,Pol3,93.0
+AMR,USA,United States of America (the),North America,RCV1,92.0
+AMR,USA,United States of America (the),North America,Rota1,88.0
+AMR,USA,United States of America (the),North America,RotaC,73.0
+AMR,USA,United States of America (the),North America,TT2plus,54.0
+AMR,USA,United States of America (the),North America,TTCV4,83.0
+AMR,URY,Uruguay,South America,BCG,98.0
+AMR,URY,Uruguay,South America,DiphCV4,93.0
+AMR,URY,Uruguay,South America,DiphCV5,90.0
+AMR,URY,Uruguay,South America,DiphCV6,89.0
+AMR,URY,Uruguay,South America,DTP1,96.0
+AMR,URY,Uruguay,South America,DTP3,91.0
+AMR,URY,Uruguay,South America,HepB3,91.0
+AMR,URY,Uruguay,South America,Hib3,91.0
+AMR,URY,Uruguay,South America,IPV1,96.0
+AMR,URY,Uruguay,South America,MCV1,97.0
+AMR,URY,Uruguay,South America,MCV2,91.0
+AMR,URY,Uruguay,South America,PCV1,96.0
+AMR,URY,Uruguay,South America,PCV2,92.0
+AMR,URY,Uruguay,South America,PCV3,93.0
+AMR,URY,Uruguay,South America,PerCV4,91.0
+AMR,URY,Uruguay,South America,Pol3,91.0
+AMR,URY,Uruguay,South America,RCV1,97.0
+AMR,URY,Uruguay,South America,TTCV4,91.0
+AMR,URY,Uruguay,South America,TTCV5,90.0
+AMR,URY,Uruguay,South America,TTCV6,89.0
+EUR,UZB,Uzbekistan,Asia,BCG,96.0
+EUR,UZB,Uzbekistan,Asia,DiphCV4,99.0
+EUR,UZB,Uzbekistan,Asia,DiphCV5,99.0
+EUR,UZB,Uzbekistan,Asia,DiphCV6,99.0
+EUR,UZB,Uzbekistan,Asia,DTP1,97.0
+EUR,UZB,Uzbekistan,Asia,DTP3,98.0
+EUR,UZB,Uzbekistan,Asia,HepB_BD,95.0
+EUR,UZB,Uzbekistan,Asia,HepB_BDall,95.0
+EUR,UZB,Uzbekistan,Asia,HepB3,98.0
+EUR,UZB,Uzbekistan,Asia,Hib3,98.0
+EUR,UZB,Uzbekistan,Asia,IPV1,96.0
+EUR,UZB,Uzbekistan,Asia,MCV1,96.0
+EUR,UZB,Uzbekistan,Asia,MCV2,99.0
+EUR,UZB,Uzbekistan,Asia,PCV1,94.0
+EUR,UZB,Uzbekistan,Asia,PCV2,92.0
+EUR,UZB,Uzbekistan,Asia,PCV3,96.0
+EUR,UZB,Uzbekistan,Asia,PerCV4,99.0
+EUR,UZB,Uzbekistan,Asia,Pol3,98.0
+EUR,UZB,Uzbekistan,Asia,RCV1,96.0
+EUR,UZB,Uzbekistan,Asia,Rota1,92.0
+EUR,UZB,Uzbekistan,Asia,RotaC,84.0
+EUR,UZB,Uzbekistan,Asia,TTCV4,99.0
+EUR,UZB,Uzbekistan,Asia,TTCV5,99.0
+EUR,UZB,Uzbekistan,Asia,TTCV6,99.0
+WPR,VUT,Vanuatu,Australia,BCG,94.0
+WPR,VUT,Vanuatu,Australia,DTP1,94.0
+WPR,VUT,Vanuatu,Australia,DTP3,85.0
+WPR,VUT,Vanuatu,Australia,HepB_BD,80.0
+WPR,VUT,Vanuatu,Australia,HepB_BDall,90.0
+WPR,VUT,Vanuatu,Australia,HepB3,85.0
+WPR,VUT,Vanuatu,Australia,Hib3,85.0
+WPR,VUT,Vanuatu,Australia,IPV1,84.0
+WPR,VUT,Vanuatu,Australia,IPV1frac,82.0
+WPR,VUT,Vanuatu,Australia,MCV1,75.0
+WPR,VUT,Vanuatu,Australia,Pol3,85.0
+WPR,VUT,Vanuatu,Australia,RCV1,77.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,BCG,92.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,DiphCV4,31.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,DiphCV5,48.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,DTP1,84.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,DTP3,60.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,HepB_BD,55.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,HepB_BDall,59.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,HepB3,60.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,Hib3,60.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,IPV1,32.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,MCV1,74.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,MCV2,39.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,PerCV4,31.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,Pol3,53.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,RCV1,74.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,TT2plus,32.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,TTCV4,31.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,TTCV5,48.0
+AMR,VEN,Venezuela (Bolivarian Republic of),South America,YFV,35.0
+WPR,VNM,Viet Nam,Asia,BCG,95.0
+WPR,VNM,Viet Nam,Asia,DiphCV4,86.0
+WPR,VNM,Viet Nam,Asia,DTP1,78.0
+WPR,VNM,Viet Nam,Asia,DTP3,75.0
+WPR,VNM,Viet Nam,Asia,HepB_BD,74.0
+WPR,VNM,Viet Nam,Asia,HepB_BDall,80.0
+WPR,VNM,Viet Nam,Asia,HepB3,75.0
+WPR,VNM,Viet Nam,Asia,Hib3,75.0
+WPR,VNM,Viet Nam,Asia,IPV1,72.0
+WPR,VNM,Viet Nam,Asia,JapEnc,92.0
+WPR,VNM,Viet Nam,Asia,MCV1,97.0
+WPR,VNM,Viet Nam,Asia,MCV2,90.0
+WPR,VNM,Viet Nam,Asia,PAB,88.0
+WPR,VNM,Viet Nam,Asia,Pol3,90.0
+WPR,VNM,Viet Nam,Asia,RCV1,90.0
+WPR,VNM,Viet Nam,Asia,TT2plus,88.0
+WPR,VNM,Viet Nam,Asia,VAD1,80.0
+EMR,YEM,Yemen,Asia,BCG,64.0
+EMR,YEM,Yemen,Asia,DTP1,87.0
+EMR,YEM,Yemen,Asia,DTP3,80.0
+EMR,YEM,Yemen,Asia,HepB3,80.0
+EMR,YEM,Yemen,Asia,Hib3,80.0
+EMR,YEM,Yemen,Asia,IPV1,74.0
+EMR,YEM,Yemen,Asia,MCV1,72.0
+EMR,YEM,Yemen,Asia,MCV2,54.0
+EMR,YEM,Yemen,Asia,PCV1,86.0
+EMR,YEM,Yemen,Asia,PCV2,81.0
+EMR,YEM,Yemen,Asia,PCV3,79.0
+EMR,YEM,Yemen,Asia,Pol3,80.0
+EMR,YEM,Yemen,Asia,RCV1,72.0
+EMR,YEM,Yemen,Asia,Rota1,84.0
+EMR,YEM,Yemen,Asia,RotaC,79.0
+EMR,YEM,Yemen,Asia,TT2plus,22.0
+EMR,YEM,Yemen,Asia,VAD1,44.0
+AFR,ZMB,Zambia,Africa,BCG,91.0
+AFR,ZMB,Zambia,Africa,DTP1,94.0
+AFR,ZMB,Zambia,Africa,DTP3,90.0
+AFR,ZMB,Zambia,Africa,HepB3,90.0
+AFR,ZMB,Zambia,Africa,Hib3,90.0
+AFR,ZMB,Zambia,Africa,IPV1,73.0
+AFR,ZMB,Zambia,Africa,MCV1,94.0
+AFR,ZMB,Zambia,Africa,MCV2,65.0
+AFR,ZMB,Zambia,Africa,PCV1,95.0
+AFR,ZMB,Zambia,Africa,PCV2,92.0
+AFR,ZMB,Zambia,Africa,PCV3,90.0
+AFR,ZMB,Zambia,Africa,Pol3,90.0
+AFR,ZMB,Zambia,Africa,RCV1,94.0
+AFR,ZMB,Zambia,Africa,Rota1,94.0
+AFR,ZMB,Zambia,Africa,RotaC,91.0
+AFR,ZMB,Zambia,Africa,TT2plus,76.0
+AFR,ZWE,Zimbabwe,Africa,BCG,95.0
+AFR,ZWE,Zimbabwe,Africa,DiphCV4,77.0
+AFR,ZWE,Zimbabwe,Africa,DTP1,94.0
+AFR,ZWE,Zimbabwe,Africa,DTP3,89.0
+AFR,ZWE,Zimbabwe,Africa,HepB3,89.0
+AFR,ZWE,Zimbabwe,Africa,Hib3,89.0
+AFR,ZWE,Zimbabwe,Africa,MCV1,88.0
+AFR,ZWE,Zimbabwe,Africa,MCV2,78.0
+AFR,ZWE,Zimbabwe,Africa,PAB,74.0
+AFR,ZWE,Zimbabwe,Africa,PCV1,94.0
+AFR,ZWE,Zimbabwe,Africa,PCV2,90.0
+AFR,ZWE,Zimbabwe,Africa,PCV3,89.0
+AFR,ZWE,Zimbabwe,Africa,Pol3,89.0
+AFR,ZWE,Zimbabwe,Africa,RCV1,88.0
+AFR,ZWE,Zimbabwe,Africa,Rota1,94.0
+AFR,ZWE,Zimbabwe,Africa,RotaC,90.0
+AFR,ZWE,Zimbabwe,Africa,TT2plus,75.0
