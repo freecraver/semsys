@@ -134,7 +134,7 @@ def write_vaccine_info_to_turtle(vaccine_df):
 
 
     # # write to output file
-    g.serialize(destination=f'vaccines.ttl', format='turtle')
+    g.serialize(destination=f'ttl/vaccines.ttl', format='turtle')
 
 def write_towns_to_turtle(towns, countryTowns):
     g = Graph()
