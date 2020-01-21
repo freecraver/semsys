@@ -124,7 +124,7 @@ def write_vaccine_info_to_turtle(vaccine_df):
         g.add((vaccine_rel, RDF.type, n_custom_ontology['Vaccine_Relation']))
         
         country = n_dbpedia_res[row['Cname'].replace(" ", "_")]
-        vaccine = Literal(row['Vaccine'])
+        vaccine = URIRef(row['Vaccine'])
         
         # data properties
         g.add((country,n_custom_ontology['Has_Vaccine'], vaccine_rel))
