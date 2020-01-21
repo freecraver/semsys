@@ -2,6 +2,7 @@ import json
 from util.load_countries import get_geonames_country_name
 
 RES_FILE_PATH = "res/cities.json"
+d={}
 
 def putD(iso, countryName):
     d[iso]=get_geonames_country_name(countryName)
