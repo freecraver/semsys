@@ -103,7 +103,7 @@ def write_vaccine_info_to_turtle(vaccine_df):
         # generate 15 digit hash for name
         #vaccine_id = int(hashlib.sha256(v.encode('utf-8')).hexdigest(), 16) % 10**15
         #vaccine = URIRef(n_custom_resources['VaccineRel-' + str(vaccine_rel_id)])
-        vaccine = Literal(v)
+        vaccine = URIRef(v)
         g.add((vaccine, RDF.type, n_custom_ontology['Vaccine']))
         g.add((vaccine,n_custom_ontology['Vaccine_Name'], Literal(v)))
 
