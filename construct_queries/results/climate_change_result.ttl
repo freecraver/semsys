@@ -1,0 +1,167 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix ns1: <http://www.semanticweb.org/sws/group4/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Rwanda ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-10066181521088>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-124500701968119>, <http://www.semanticweb.org/sws/group4/resources/Article-137597067113187> .
+
+dbr:India ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-10816314951926>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-193734028595690>, <http://www.semanticweb.org/sws/group4/resources/Article-197494143776888>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-250809965491765>, <http://www.semanticweb.org/sws/group4/resources/Article-384057021574338>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-43769548956710>, <http://www.semanticweb.org/sws/group4/resources/Article-677247385826700> .
+
+dbr:Russia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-110446903750104> .
+
+dbr:Mozambique ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-122296462145406>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-236515329806488>, <http://www.semanticweb.org/sws/group4/resources/Article-310965226259420>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-321472336542408>, <http://www.semanticweb.org/sws/group4/resources/Article-429801372091248>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-441974865123886>, <http://www.semanticweb.org/sws/group4/resources/Article-483591765752859>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-487553276031588>, <http://www.semanticweb.org/sws/group4/resources/Article-505646942902100>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-524082588465857>, <http://www.semanticweb.org/sws/group4/resources/Article-612359982500879>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-710428516343297>, <http://www.semanticweb.org/sws/group4/resources/Article-72078514574769>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-796504235493401> .
+
+dbr:Pakistan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-127224164786493>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-179564245576621>, <http://www.semanticweb.org/sws/group4/resources/Article-422275865235418>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-79260980956574> .
+
+dbr:Zimbabwe ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-129087443286085>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-29311004906709>, <http://www.semanticweb.org/sws/group4/resources/Article-324681559374296>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-33833520427628>, <http://www.semanticweb.org/sws/group4/resources/Article-370046066593746>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-484174475007693>, <http://www.semanticweb.org/sws/group4/resources/Article-66122176123063>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-723138376325940>, <http://www.semanticweb.org/sws/group4/resources/Article-742591484575554>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-830599331693063>, <http://www.semanticweb.org/sws/group4/resources/Article-840092789010578>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-895704708325968> .
+
+dbr:Somalia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-142612509915961>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-152691811716263>, <http://www.semanticweb.org/sws/group4/resources/Article-274904049191338>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-274910848839442>, <http://www.semanticweb.org/sws/group4/resources/Article-49746636931522>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-52029534039708>, <http://www.semanticweb.org/sws/group4/resources/Article-52382971289677>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-661207792897525>, <http://www.semanticweb.org/sws/group4/resources/Article-710379564008323>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-73568313795124>, <http://www.semanticweb.org/sws/group4/resources/Article-796254253000251>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-817707466964073>, <http://www.semanticweb.org/sws/group4/resources/Article-833116080431517>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-908670630307909>, <http://www.semanticweb.org/sws/group4/resources/Article-957859251518512> .
+
+dbr:Australia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-143213253110593>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-199338664871093>, <http://www.semanticweb.org/sws/group4/resources/Article-228332877016884>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-292419805854945>, <http://www.semanticweb.org/sws/group4/resources/Article-412245423588416>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-474641131706490>, <http://www.semanticweb.org/sws/group4/resources/Article-753558574790299> .
+
+dbr:Haiti ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-155881350434073>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-232475869532662>, <http://www.semanticweb.org/sws/group4/resources/Article-35818231560477>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-373027533955561>, <http://www.semanticweb.org/sws/group4/resources/Article-657159629144535>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-684542699561502>, <http://www.semanticweb.org/sws/group4/resources/Article-843695171982572>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-929852116640635> .
+
+dbr:Germany ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-180354525903316>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-39095549578160>, <http://www.semanticweb.org/sws/group4/resources/Article-535313887631893>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-596055146793716>, <http://www.semanticweb.org/sws/group4/resources/Article-596968953824127>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-63769684043217>, <http://www.semanticweb.org/sws/group4/resources/Article-657159629144535>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-712642886048241>, <http://www.semanticweb.org/sws/group4/resources/Article-785597763672612>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-802250536627678>, <http://www.semanticweb.org/sws/group4/resources/Article-962452312273286> .
+
+dbr:Brazil ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-245795175377829>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-535475334446388> .
+
+dbr:Bangladesh ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-24595019727506>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-499004433197710>, <http://www.semanticweb.org/sws/group4/resources/Article-759556194985466>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-890110262142705> .
+
+dbr:Tanzania ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-247698283897012>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-872452929116442> .
+
+dbr:United_Kingdom ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-26362775728378>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-316532186883074>, <http://www.semanticweb.org/sws/group4/resources/Article-525567990733173> .
+
+dbr:Kenya ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-310965226259420>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-636456991346129>, <http://www.semanticweb.org/sws/group4/resources/Article-79037624720588> .
+
+dbr:Sudan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-310965226259420>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-636456991346129>, <http://www.semanticweb.org/sws/group4/resources/Article-908670630307909> .
+
+dbr:South_Sudan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-310965226259420>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-636456991346129>, <http://www.semanticweb.org/sws/group4/resources/Article-908670630307909> .
+
+dbr:Iceland ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-324098723484121> .
+
+dbr:Kazakhstan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-369500244518002> .
+
+dbr:Netherlands ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-385947306121647>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-394345174555633>, <http://www.semanticweb.org/sws/group4/resources/Article-489911313102358>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-517074713501000>, <http://www.semanticweb.org/sws/group4/resources/Article-524085901453269>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-895704708325968>, <http://www.semanticweb.org/sws/group4/resources/Article-973522930978389> .
+
+dbr:Morocco ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-399618184581310> .
+
+dbr:Uganda ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-403052425078364>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-533401822279335>, <http://www.semanticweb.org/sws/group4/resources/Article-625887409617163>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-821830744029353> .
+
+dbr:Singapore ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-407393112829823> .
+
+dbr:Bahamas ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-412245423588416>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-840194654886290> .
+
+dbr:Yemen ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-417484779008234> .
+
+dbr:Dominica ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-435912781732805>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-70683313186668>, <http://www.semanticweb.org/sws/group4/resources/Article-780206095703155> .
+
+dbr:Ethiopia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-444404263169651>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-643498278416251>, <http://www.semanticweb.org/sws/group4/resources/Article-782883486889581> .
+
+dbr:Malaysia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-458372762925109> .
+
+dbr:Ghana ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-470443684777153> .
+
+dbr:New_Zealand ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-479301446844548> .
+
+dbr:Madagascar ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-531180649905666>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-657159629144535> .
+
+dbr:Lebanon ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-535475334446388> .
+
+dbr:Israel ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-535475334446388>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-96792357776535> .
+
+dbr:Vietnam ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-577158595568484> .
+
+dbr:Bhutan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-629143789165873> .
+
+dbr:Peru ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-630894339946451> .
+
+dbr:Italy ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-636456991346129> .
+
+dbr:Japan ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-681882006677721> .
+
+dbr:Seychelles ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-708798768007426> .
+
+dbr:Malta ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-746419018787260> .
+
+dbr:India ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-757342634853313>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-852307937090960> .
+
+dbr:France ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-757342634853313> .
+
+dbr:Jamaica ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-760702310078282> .
+
+dbr:Indonesia ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-803595246312655>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-999683568769835> .
+
+dbr:Mozambique ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-804556871922480>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-850071148321071>, <http://www.semanticweb.org/sws/group4/resources/Article-908670630307909> .
+
+dbr:Maldives ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-807930938163472> .
+
+dbr:Zimbabwe ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-920872641101860>,
+    <http://www.semanticweb.org/sws/group4/resources/Article-929814735789086> .
+
+dbr:Guinea ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-999683568769835> .
+
+dbr:Papua_New_Guinea ns1:hasClimateChangeArticle <http://www.semanticweb.org/sws/group4/resources/Article-999683568769835> .

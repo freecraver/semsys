@@ -1,0 +1,383 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbprop: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix ns1: <http://www.semanticweb.org/sws/group4/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Belarus ns1:hasBorder dbr:Latvia, dbr:Lithuania, dbr:Poland, dbr:Russia, dbr:Ukraine .
+
+dbr:Brunei ns1:hasBorder dbr:Malaysia .
+
+dbr:Guinea-Bissau ns1:hasBorder dbr:Guinea, dbr:Senegal .
+
+dbr:Ivory_Coast ns1:hasBorder dbr:Burkina_Faso, dbr:Ghana, dbr:Guinea, dbr:Liberia,
+    dbr:Mali .
+
+dbr:Kiribati ns1:hasBorder dbr:United_States .
+
+dbr:Liechtenstein ns1:hasBorder dbr:Austria, dbr:Switzerland .
+
+dbr:Moldova ns1:hasBorder dbr:Romania, dbr:Ukraine .
+
+dbr:Myanmar ns1:hasBorder dbr:Bangladesh, dbr:China, dbr:India, dbr:Laos, dbr:Thailand .
+
+dbr:Palau ns1:hasBorder dbr:Indonesia, dbr:Philippines .
+
+dbr:Paraguay ns1:hasBorder dbr:Argentina, dbr:Bolivia, dbr:Brazil .
+
+dbr:San_Marino ns1:hasBorder dbr:Italy .
+
+dbr:Senegal ns1:hasBorder dbr:Guinea, dbr:Guinea-Bissau, dbr:Mali, dbr:Mauritania .
+
+dbr:Sierra_Leone ns1:hasBorder dbr:Guinea, dbr:Liberia .
+
+dbr:Slovakia ns1:hasBorder dbr:Austria, dbr:Hungary, dbr:Poland, dbr:Ukraine .
+
+dbr:Suriname ns1:hasBorder dbr:Brazil, dbr:France, dbr:Guyana .
+
+dbr:Uruguay ns1:hasBorder dbr:Argentina, dbr:Brazil .
+
+dbr:Somalia ns1:hasBorder dbr:Djibouti, dbr:Ethiopia, dbr:Kenya .
+
+dbr:Rwanda ns1:hasBorder dbr:Burundi, dbr:Tanzania, dbr:Uganda .
+
+dbr:Canada ns1:hasBorder dbr:United_States .
+
+dbr:Pakistan ns1:hasBorder dbr:Afghanistan, dbr:China, dbr:India, dbr:Iran .
+
+dbr:Tajikistan ns1:hasBorder dbr:Afghanistan, dbr:China, dbr:Kyrgyzstan, dbr:Uzbekistan .
+
+dbr:Trinidad_and_Tobago ns1:hasBorder dbr:Venezuela .
+
+dbr:Burundi ns1:hasBorder dbr:Rwanda, dbr:Tanzania .
+
+dbr:Lebanon ns1:hasBorder dbr:Israel, dbr:Syria .
+
+dbr:Portugal ns1:hasBorder dbr:Spain .
+
+dbr:Spain ns1:hasBorder dbr:Andorra, dbr:France, dbr:Morocco, dbr:Portugal .
+
+dbr:Chile ns1:hasBorder dbr:Argentina, dbr:Bolivia, dbr:Peru .
+
+dbr:United_Arab_Emirates ns1:hasBorder dbr:Oman, dbr:Saudi_Arabia .
+
+dbr:Djibouti ns1:hasBorder dbr:Eritrea, dbr:Ethiopia, dbr:Somalia .
+
+dbr:Japan ns1:hasBorder dbr:China, dbr:Russia, dbr:United_States .
+
+dbr:United_States ns1:hasBorder dbr:Canada, dbr:Mexico .
+
+dbr:Argentina ns1:hasBorder dbr:Bolivia, dbr:Brazil, dbr:Chile, dbr:Paraguay, dbr:Uruguay .
+
+dbr:Italy ns1:hasBorder dbr:Austria, dbr:France, dbr:Malta, dbr:San_Marino, dbr:Slovenia,
+    dbr:Switzerland .
+
+dbr:India ns1:hasBorder dbr:Bangladesh, dbr:Bhutan, dbr:China, dbr:Myanmar, dbr:Nepal,
+    dbr:Pakistan .
+
+dbr:Egypt ns1:hasBorder dbr:Israel, dbr:Libya, dbr:Sudan .
+
+dbr:Iraq ns1:hasBorder dbr:Iran, dbr:Jordan, dbr:Kuwait, dbr:Saudi_Arabia, dbr:Syria,
+    dbr:Turkey .
+
+dbr:Syria ns1:hasBorder dbr:Iraq, dbr:Israel, dbr:Jordan, dbr:Lebanon, dbr:Turkey .
+
+dbr:Russia ns1:hasBorder dbr:Azerbaijan, dbr:Belarus, dbr:China, dbr:Estonia, dbr:Finland,
+    dbr:Japan, dbr:Kazakhstan, dbr:Latvia, dbr:Lithuania, dbr:Mongolia, dbr:Norway, dbr:Poland,
+    dbr:Ukraine, dbr:United_States .
+
+dbr:France ns1:hasBorder dbr:Andorra, dbr:Belgium, dbr:Brazil, dbr:Germany, dbr:Italy,
+    dbr:Luxembourg, dbr:Monaco, dbr:Spain, dbr:Suriname, dbr:Switzerland .
+
+dbr:Greece ns1:hasBorder dbr:Albania, dbr:Bulgaria, dbr:Turkey .
+
+dbr:China ns1:hasBorder dbr:Afghanistan, dbr:Bhutan, dbr:India, dbr:Japan, dbr:Kazakhstan,
+    dbr:Kyrgyzstan, dbr:Laos, dbr:Mongolia, dbr:Myanmar, dbr:Nepal, dbr:Pakistan, dbr:Russia,
+    dbr:Tajikistan, dbr:Vietnam .
+
+dbr:Ghana ns1:hasBorder dbr:Burkina_Faso, dbr:Ivory_Coast, dbr:Togo .
+
+dbr:Albania ns1:hasBorder dbr:Greece, dbr:Kosovo, dbr:Montenegro, dbr:Serbia .
+
+dbr:Indonesia ns1:hasBorder dbr:Australia, dbr:India, dbr:Malaysia, dbr:Palau, dbr:Papua_New_Guinea,
+    dbr:Philippines, dbr:Singapore, dbr:Thailand, dbr:Vietnam .
+
+dbr:Oman ns1:hasBorder dbr:Saudi_Arabia, dbr:United_Arab_Emirates, dbr:Yemen .
+
+dbr:Zimbabwe ns1:hasBorder dbr:Botswana, dbr:Mozambique, dbr:South_Africa, dbr:Zambia .
+
+dbr:Dominican_Republic ns1:hasBorder dbr:Haiti, dbr:United_States, dbr:Venezuela .
+
+dbr:Mexico ns1:hasBorder dbr:Belize, dbr:Guatemala, dbr:United_States .
+
+dbr:New_Zealand ns1:hasBorder dbr:Australia .
+
+dbr:Lesotho ns1:hasBorder dbr:South_Africa .
+
+dbr:Uganda ns1:hasBorder dbr:Kenya, dbr:Rwanda, dbr:South_Sudan, dbr:Sudan, dbr:Tanzania .
+
+dbr:Kenya ns1:hasBorder dbr:Ethiopia, dbr:Somalia, dbr:South_Sudan, dbr:Sudan, dbr:Tanzania,
+    dbr:Uganda .
+
+dbr:Tunisia ns1:hasBorder dbr:Algeria, dbr:Libya .
+
+dbr:Mozambique ns1:hasBorder dbr:Comoros, dbr:Malawi, dbr:South_Africa, dbr:Tanzania,
+    dbr:Zambia, dbr:Zimbabwe .
+
+dbr:Iran ns1:hasBorder dbr:Afghanistan, dbr:Armenia, dbr:Azerbaijan, dbr:Iraq, dbr:Pakistan,
+    dbr:Turkey, dbr:Turkmenistan .
+
+dbr:Switzerland ns1:hasBorder dbr:Austria, dbr:France, dbr:Germany, dbr:Italy, dbr:Liechtenstein .
+
+dbr:Morocco ns1:hasBorder dbr:Algeria, dbr:Mauritania, dbr:Spain .
+
+dbr:Thailand ns1:hasBorder dbr:Cambodia, dbr:Laos, dbr:Malaysia, dbr:Myanmar .
+
+dbr:Australia ns1:hasBorder dbr:Indonesia, dbr:New_Zealand, dbr:Papua_New_Guinea .
+
+dbr:Israel ns1:hasBorder dbr:Egypt, dbr:Jordan, dbr:Lebanon, dbr:Syria .
+
+dbr:Germany ns1:hasBorder dbr:Austria, dbr:Belgium, dbr:Denmark, dbr:France, dbr:Luxembourg,
+    dbr:Netherlands, dbr:Poland, dbr:Switzerland .
+
+dbr:South_Africa ns1:hasBorder dbr:Botswana, dbr:Lesotho, dbr:Mozambique, dbr:Namibia,
+    dbr:Zimbabwe .
+
+dbr:Malaysia ns1:hasBorder dbr:Brunei, dbr:Indonesia, dbr:Philippines, dbr:Singapore,
+    dbr:Thailand .
+
+dbr:Zambia ns1:hasBorder dbr:Angola, dbr:Botswana, dbr:Malawi, dbr:Mozambique, dbr:Namibia,
+    dbr:Tanzania, dbr:Zimbabwe .
+
+dbr:Tonga ns1:hasBorder dbr:United_States .
+
+dbr:Ecuador ns1:hasBorder dbr:Colombia, dbr:Peru .
+
+dbr:Haiti ns1:hasBorder dbr:Dominican_Republic, dbr:United_States .
+
+dbr:Bhutan ns1:hasBorder dbr:China, dbr:India .
+
+dbr:Colombia ns1:hasBorder dbr:Brazil, dbr:Ecuador, dbr:Nicaragua, dbr:Panama, dbr:Peru,
+    dbr:Venezuela .
+
+dbr:Philippines ns1:hasBorder dbr:Indonesia, dbr:Malaysia, dbr:Palau .
+
+dbr:Peru ns1:hasBorder dbr:Bolivia, dbr:Brazil, dbr:Chile, dbr:Colombia, dbr:Ecuador .
+
+dbr:Bulgaria ns1:hasBorder dbr:Greece, dbr:Romania, dbr:Serbia, dbr:Turkey .
+
+dbr:Afghanistan ns1:hasBorder dbr:China, dbr:Iran, dbr:Pakistan, dbr:Tajikistan, dbr:Turkmenistan,
+    dbr:Uzbekistan .
+
+dbr:Malta ns1:hasBorder dbr:Italy .
+
+dbr:Nepal ns1:hasBorder dbr:China, dbr:India .
+
+dbr:Kazakhstan ns1:hasBorder dbr:China, dbr:Kyrgyzstan, dbr:Russia, dbr:Turkmenistan,
+    dbr:Uzbekistan .
+
+dbr:Samoa ns1:hasBorder dbr:United_States .
+
+dbr:Cambodia ns1:hasBorder dbr:Laos, dbr:Thailand, dbr:Vietnam .
+
+dbr:Netherlands ns1:hasBorder dbr:Belgium, dbr:Germany .
+
+dbr:Norway ns1:hasBorder dbr:Finland, dbr:Russia, dbr:Sweden .
+
+dbr:Ethiopia ns1:hasBorder dbr:Djibouti, dbr:Eritrea, dbr:Kenya, dbr:Somalia, dbr:South_Sudan,
+    dbr:Sudan .
+
+dbr:Gabon ns1:hasBorder dbr:Cameroon, dbr:Equatorial_Guinea .
+
+dbr:Sudan ns1:hasBorder dbr:Central_African_Republic, dbr:Chad, dbr:Egypt, dbr:Eritrea,
+    dbr:Ethiopia, dbr:Kenya, dbr:Libya, dbr:South_Sudan, dbr:Uganda .
+
+dbr:Slovenia ns1:hasBorder dbr:Austria, dbr:Croatia, dbr:Hungary, dbr:Italy .
+
+dbr:Algeria ns1:hasBorder dbr:Libya, dbr:Mali, dbr:Mauritania, dbr:Morocco, dbr:Niger,
+    dbr:Tunisia .
+
+dbr:Bolivia ns1:hasBorder dbr:Argentina, dbr:Brazil, dbr:Chile, dbr:Paraguay, dbr:Peru .
+
+dbr:Dominica ns1:hasBorder dbr:Venezuela .
+
+dbr:Laos ns1:hasBorder dbr:Cambodia, dbr:China, dbr:Myanmar, dbr:Thailand, dbr:Vietnam .
+
+dbr:Bangladesh ns1:hasBorder dbr:India, dbr:Myanmar .
+
+dbr:Turkey ns1:hasBorder dbr:Armenia, dbr:Azerbaijan, dbr:Bulgaria, dbr:Greece, dbr:Iran,
+    dbr:Iraq, dbr:Syria .
+
+dbr:Brazil ns1:hasBorder dbr:Argentina, dbr:Bolivia, dbr:Colombia, dbr:France, dbr:Guyana,
+    dbr:Paraguay, dbr:Peru, dbr:Suriname, dbr:Uruguay, dbr:Venezuela .
+
+dbr:Qatar ns1:hasBorder dbr:Saudi_Arabia .
+
+dbr:Singapore ns1:hasBorder dbr:Indonesia, dbr:Malaysia .
+
+dbr:Namibia ns1:hasBorder dbr:Angola, dbr:Botswana, dbr:South_Africa, dbr:Zambia .
+
+dbr:Romania ns1:hasBorder dbr:Bulgaria, dbr:Hungary, dbr:Moldova, dbr:Serbia, dbr:Ukraine .
+
+dbr:Denmark ns1:hasBorder dbr:Germany, dbr:Norway, dbr:Sweden .
+
+dbr:Angola ns1:hasBorder dbr:Namibia, dbr:Zambia .
+
+dbr:Niger ns1:hasBorder dbr:Algeria, dbr:Benin, dbr:Burkina_Faso, dbr:Chad, dbr:Libya,
+    dbr:Mali, dbr:Nigeria .
+
+dbr:Guatemala ns1:hasBorder dbr:Belize, dbr:El_Salvador, dbr:Honduras, dbr:Mexico .
+
+dbr:Tanzania ns1:hasBorder dbr:Burundi, dbr:Kenya, dbr:Malawi, dbr:Mozambique, dbr:Rwanda,
+    dbr:Uganda, dbr:Zambia .
+
+dbr:Armenia ns1:hasBorder dbr:Azerbaijan, dbr:Iran, dbr:Turkey .
+
+dbr:South_Sudan ns1:hasBorder dbr:Central_African_Republic, dbr:Ethiopia, dbr:Kenya,
+    dbr:Sudan, dbr:Uganda .
+
+dbr:Togo ns1:hasBorder dbr:Benin, dbr:Burkina_Faso, dbr:Ghana .
+
+dbr:Mali ns1:hasBorder dbr:Algeria, dbr:Burkina_Faso, dbr:Guinea, dbr:Ivory_Coast,
+    dbr:Mauritania, dbr:Niger, dbr:Senegal .
+
+dbr:Vietnam ns1:hasBorder dbr:Cambodia, dbr:China, dbr:Laos .
+
+dbr:Malawi ns1:hasBorder dbr:Mozambique, dbr:Tanzania, dbr:Zambia .
+
+dbr:Grenada ns1:hasBorder dbr:Venezuela .
+
+dbr:Guyana ns1:hasBorder dbr:Brazil, dbr:Suriname, dbr:Venezuela .
+
+dbr:Austria ns1:hasBorder dbr:Germany, dbr:Hungary, dbr:Italy, dbr:Liechtenstein,
+    dbr:Slovakia, dbr:Slovenia, dbr:Switzerland .
+
+dbr:Libya ns1:hasBorder dbr:Algeria, dbr:Chad, dbr:Egypt, dbr:Niger, dbr:Sudan, dbr:Tunisia .
+
+dbr:Kyrgyzstan ns1:hasBorder dbr:China, dbr:Kazakhstan, dbr:Tajikistan, dbr:Uzbekistan .
+
+dbr:Latvia ns1:hasBorder dbr:Belarus, dbr:Estonia, dbr:Lithuania, dbr:Russia, dbr:Sweden .
+
+dbr:Comoros ns1:hasBorder dbr:France, dbr:Madagascar, dbr:Mozambique, dbr:Seychelles,
+    dbr:Tanzania .
+
+dbr:Cuba ns1:hasBorder dbr:United_States .
+
+dbr:Honduras ns1:hasBorder dbr:El_Salvador, dbr:Guatemala, dbr:Nicaragua .
+
+dbr:Nigeria ns1:hasBorder dbr:Benin, dbr:Cameroon, dbr:Chad, dbr:Niger .
+
+dbr:Cameroon ns1:hasBorder dbr:Central_African_Republic, dbr:Chad, dbr:Equatorial_Guinea,
+    dbr:Gabon, dbr:Nigeria .
+
+dbr:Yemen ns1:hasBorder dbr:Oman, dbr:Saudi_Arabia .
+
+dbr:Bosnia_and_Herzegovina ns1:hasBorder dbr:Croatia, dbr:Montenegro, dbr:Serbia .
+
+dbr:Croatia ns1:hasBorder dbr:Bosnia_and_Herzegovina, dbr:Hungary, dbr:Montenegro,
+    dbr:Serbia, dbr:Slovenia .
+
+dbr:Nicaragua ns1:hasBorder dbr:Colombia, dbr:Costa_Rica, dbr:Honduras .
+
+dbr:Cyprus ns1:hasBorder dbr:Israel .
+
+dbr:Lithuania ns1:hasBorder dbr:Belarus, dbr:Latvia, dbr:Poland, dbr:Russia .
+
+dbr:Poland ns1:hasBorder dbr:Belarus, dbr:Germany, dbr:Lithuania, dbr:Russia, dbr:Slovakia,
+    dbr:Ukraine .
+
+dbr:Mongolia ns1:hasBorder dbr:China, dbr:Russia .
+
+dbr:Hungary ns1:hasBorder dbr:Austria, dbr:Croatia, dbr:Romania, dbr:Serbia, dbr:Slovakia,
+    dbr:Slovenia, dbr:Ukraine .
+
+dbr:Bahrain ns1:hasBorder dbr:Saudi_Arabia .
+
+dbr:Saudi_Arabia ns1:hasBorder dbr:Bahrain, dbr:Egypt, dbr:Iraq, dbr:Jordan, dbr:Kuwait,
+    dbr:Oman, dbr:Qatar, dbr:United_Arab_Emirates, dbr:Yemen .
+
+dbr:Liberia ns1:hasBorder dbr:Guinea, dbr:Ivory_Coast, dbr:Sierra_Leone .
+
+dbr:Belize ns1:hasBorder dbr:Guatemala, dbr:Mexico .
+
+dbr:Finland ns1:hasBorder dbr:Norway, dbr:Russia, dbr:Sweden .
+
+dbr:Sweden ns1:hasBorder dbr:Denmark, dbr:Finland, dbr:Norway .
+
+dbr:Azerbaijan ns1:hasBorder dbr:Armenia, dbr:Iran, dbr:Russia, dbr:Turkey .
+
+dbr:Turkmenistan ns1:hasBorder dbr:Afghanistan, dbr:Iran, dbr:Kazakhstan, dbr:Uzbekistan .
+
+dbr:Venezuela ns1:hasBorder dbr:Brazil, dbr:Colombia, dbr:Dominica, dbr:Dominican_Republic,
+    dbr:France, dbr:Grenada, dbr:Guyana, dbr:Saint_Lucia, dbr:Trinidad_and_Tobago, dbr:United_Kingdom,
+    dbr:United_States .
+
+dbr:Mauritania ns1:hasBorder dbr:Algeria, dbr:Mali, dbr:Senegal .
+
+dbr:Kuwait ns1:hasBorder dbr:Iraq, dbr:Saudi_Arabia .
+
+dbr:Guinea ns1:hasBorder dbr:Guinea-Bissau, dbr:Ivory_Coast, dbr:Liberia, dbr:Mali,
+    dbr:Senegal, dbr:Sierra_Leone .
+
+dbr:Papua_New_Guinea ns1:hasBorder dbr:Australia, dbr:Indonesia .
+
+dbr:Andorra ns1:hasBorder dbr:France, dbr:Spain .
+
+dbr:Benin ns1:hasBorder dbr:Burkina_Faso, dbr:Niger, dbr:Nigeria, dbr:Togo .
+
+dbr:Burkina_Faso ns1:hasBorder dbr:Benin, dbr:Ghana, dbr:Ivory_Coast, dbr:Mali, dbr:Niger,
+    dbr:Togo .
+
+dbr:Equatorial_Guinea ns1:hasBorder dbr:Cameroon, dbr:Gabon .
+
+dbr:Estonia ns1:hasBorder dbr:Latvia, dbr:Russia .
+
+dbr:Luxembourg ns1:hasBorder dbr:Belgium, dbr:France, dbr:Germany .
+
+dbr:Monaco ns1:hasBorder dbr:France .
+
+dbr:Solomon_Islands ns1:hasBorder dbr:Australia, dbr:Fiji, dbr:France, dbr:Papua_New_Guinea,
+    dbr:Vanuatu .
+
+dbr:Uzbekistan ns1:hasBorder dbr:Afghanistan, dbr:Kazakhstan, dbr:Kyrgyzstan, dbr:Tajikistan,
+    dbr:Turkmenistan .
+
+dbr:Serbia ns1:hasBorder dbr:Albania, dbr:Bosnia_and_Herzegovina, dbr:Bulgaria, dbr:Croatia,
+    dbr:Hungary, dbr:Kosovo, dbr:Montenegro, dbr:Romania .
+
+dbr:Montenegro ns1:hasBorder dbr:Albania, dbr:Bosnia_and_Herzegovina, dbr:Croatia,
+    dbr:Kosovo, dbr:Serbia .
+
+dbr:Kosovo ns1:hasBorder dbr:Albania, dbr:Montenegro, dbr:Serbia .
+
+dbr:Botswana ns1:hasBorder dbr:Namibia, dbr:South_Africa, dbr:Zambia, dbr:Zimbabwe .
+
+dbr:Saint_Lucia ns1:hasBorder dbr:Venezuela .
+
+dbr:Chad ns1:hasBorder dbr:Cameroon, dbr:Central_African_Republic, dbr:Libya, dbr:Niger,
+    dbr:Nigeria, dbr:Sudan .
+
+dbr:Central_African_Republic ns1:hasBorder dbr:Cameroon, dbr:Chad, dbr:South_Sudan,
+    dbr:Sudan .
+
+dbr:Belgium ns1:hasBorder dbr:France, dbr:Germany, dbr:Luxembourg, dbr:Netherlands .
+
+dbr:Jordan ns1:hasBorder dbr:Iraq, dbr:Israel, dbr:Saudi_Arabia, dbr:Syria .
+
+dbr:El_Salvador ns1:hasBorder dbr:Guatemala, dbr:Honduras .
+
+dbr:Panama ns1:hasBorder dbr:Colombia, dbr:Costa_Rica, dbr:United_States .
+
+dbr:Eritrea ns1:hasBorder dbr:Djibouti, dbr:Ethiopia, dbr:Sudan .
+
+dbr:Costa_Rica ns1:hasBorder dbr:Nicaragua, dbr:Panama .
+
+dbr:Ukraine ns1:hasBorder dbr:Belarus, dbr:Hungary, dbr:Moldova, dbr:Poland, dbr:Romania,
+    dbr:Russia, dbr:Slovakia .
