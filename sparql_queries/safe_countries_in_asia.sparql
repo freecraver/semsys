@@ -5,6 +5,6 @@ select ?country where {
 	?country a dbo:Country ;
     		 swo:Country_Located_In dbp:Asia;
        		 swo:Risk_Level ?rl.
-    filter(?rl < 3)
+    filter(?rl = 1)
 
 }
