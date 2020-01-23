@@ -1,0 +1,22 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+
+select ?country ?rl1 ?border_country1 ?rlb1
+where {
+    {select ?country ?rl (min(?rlb) as ?border_rl) where {
+    ?country a dbo:Country ;
+             swo:Risk_Level ?rl ;
+    		 swo:hasBorder ?border_country.
+    ?border_country swo:Risk_Level ?rlb.
+}
+		group by ?country ?rl
+        having(?border_rl < ?rl )}.
+{select ?country ?rl1 ?border_country1 ?rlb1 where {
+	?country a dbo:Country ;
+             swo:Risk_Level ?rl1 ;
+    		 swo:hasBorder ?border_country1.
+    ?border_country1 swo:Risk_Level ?rlb1.
+}}.
+    filter(?rlb1 = ?border_rl).
+}

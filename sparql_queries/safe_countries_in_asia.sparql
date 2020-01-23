@@ -1,0 +1,10 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+select ?country where {
+	?country a dbo:Country ;
+    		 swo:Country_Located_In dbp:Asia;
+       		 swo:Risk_Level ?rl.
+    filter(?rl < 3)
+
+}

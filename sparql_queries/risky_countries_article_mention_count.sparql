@@ -1,0 +1,12 @@
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+select ?country (count(?article) as ?ac)
+where {
+    ?country a dbo:Country ;
+             swo:Risk_Level ?rl.
+    filter(?rl = 6).
+
+    optional {
+        ?country swo:mentionedInArticle ?article
+    }
+} group by ?country

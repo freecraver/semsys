@@ -1,0 +1,29 @@
+PREFIX dbprop: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+
+construct {?country ns1:hasBorder ?border_country} WHERE {
+    ?country a dbo:Country.
+
+    SERVICE <http://dbpedia.org/sparql> {
+        ?country owl:sameAs ?wd_country.
+        ?wd_country rdf:type wd:Q6256.
+
+    }
+    SERVICE <https://query.wikidata.org/bigdata/namespace/wdq/sparql/> {
+        ?wd_country wdt:P47 ?wd_border_country.
+    }
+
+    SERVICE <http://dbpedia.org/sparql> {
+        ?border_country owl:sameAs ?wd_border_country.
+    }
+
+    ?border_country a dbo:Country.
+
+}

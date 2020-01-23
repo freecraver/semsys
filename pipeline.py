@@ -8,6 +8,7 @@ first_country_to_load = "Afghanistan"
 fetch = False
 
 if __name__ == '__main__':
+    """
     print('Initially loading country information...')
 
     country_names = load_countries()
@@ -30,11 +31,13 @@ if __name__ == '__main__':
     countries = load_countries_with_risk_level()
     write_countries_to_turtle(countries)
     
+    """
     print('Loading vaccine related information...')
     
     vaccine_df= pd.read_csv("res/vaccine_coverage.csv",delimiter=',',header=0)
     write_vaccine_info_to_turtle(vaccine_df)
-    
+    """
     print('Loading town and city related information...')
     towns, countryTowns = load_towns()
     write_towns_to_turtle(towns, countryTowns)
+    """
