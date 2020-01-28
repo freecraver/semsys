@@ -31,3 +31,6 @@ urllib3==1.25.7
 wcwidth==0.1.8
 websocket-client==0.48.0
 zipp==0.6.0
+folium==0.10.1
+Flask==1.1.1
+SPARQLWrapper==1.8.5
