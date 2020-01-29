@@ -185,6 +185,22 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
        rdfs:label "Day to" .
 
 
+###  http://www.semanticweb.org/sws/group4/ontology/latitude
+:latitude rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://dbpedia.org/ontology/Town> ;
+          rdfs:range xsd:float ;
+          rdfs:comment "The latitude of a town" ;
+          rdfs:label "Latitude" .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/longitude
+:longitude rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://dbpedia.org/ontology/Town> ;
+           rdfs:range xsd:float ;
+           rdfs:comment "The longitude of a town" ;
+           rdfs:label "Longitude" .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/monthFrom
 :monthFrom rdf:type owl:DatatypeProperty ;
            rdfs:domain <http://dbpedia.org/ontology/Town> ;
@@ -300,6 +316,14 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
        rdfs:range xsd:string ;
        rdfs:comment "Title used within the news article"@en ;
        rdfs:label "Title"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/townName
+:townName rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://dbpedia.org/ontology/Town> ;
+          rdfs:range xsd:string ;
+          rdfs:comment "The name of a town" ;
+          rdfs:label "Town Name" .
 
 
 #################################################################

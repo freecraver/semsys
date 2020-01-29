@@ -151,13 +151,16 @@ def write_towns_to_turtle(towns, countryTowns):
     g.namespace_manager = namespace_manager
     
     # town = n_dbpedia_res[country_str.replace(" ", "_")]
-    for name, templ, temph, df, dt, mf, mt in towns:
-        t = URIRef(n_dbpedia_res[name.replace(" ", "_")])
+    for iso, name, lat, lon, templ, temph, df, dt, mf, mt in towns:
+        t = URIRef(n_dbpedia_res[(name+"_"+iso+"_"+str(lat)+str(lon)).replace(' ','_')])
 
         # add the town as a named individual
         g.add((t, RDF.type, n_dbo_res.Town))
 
         # add data props
+        g.add((t, n_custom_ontology['townName'], Literal(name)))
+        g.add((t, n_custom_ontology['latitude'], Literal(lat)))
+        g.add((t, n_custom_ontology['longitude'], Literal(lon)))
         g.add((t, n_custom_ontology['tempTypicalLow'], Literal(templ)))
         g.add((t, n_custom_ontology['tempTypicalHigh'], Literal(temph)))
         g.add((t, n_custom_ontology['dayFrom'], Literal(df)))

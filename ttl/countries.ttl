@@ -121,7 +121,7 @@ dbp:Colombia a dbo:Country ;
 dbp:Comoros a dbo:Country ;
     swo:Risk_Level 2 .
 
-dbp:Congo_Republic a dbo:Country ;
+dbp:Congo a dbo:Country ;
     swo:Risk_Level 2 .
 
 dbp:Costa_Rica a dbo:Country ;
