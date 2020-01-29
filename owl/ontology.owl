@@ -186,7 +186,8 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/latitude
-:latitude rdf:type owl:DatatypeProperty ;
+:latitude rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
           rdfs:domain <http://dbpedia.org/ontology/Town> ;
           rdfs:range xsd:float ;
           rdfs:comment "The latitude of a town" ;
@@ -194,7 +195,8 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/longitude
-:longitude rdf:type owl:DatatypeProperty ;
+:longitude rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
            rdfs:domain <http://dbpedia.org/ontology/Town> ;
            rdfs:range xsd:float ;
            rdfs:comment "The longitude of a town" ;

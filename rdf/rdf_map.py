@@ -152,7 +152,7 @@ def write_towns_to_turtle(towns, countryTowns):
     
     # town = n_dbpedia_res[country_str.replace(" ", "_")]
     for iso, name, lat, lon, templ, temph, df, dt, mf, mt in towns:
-        t = URIRef(n_dbpedia_res[(name+"_"+iso+"_"+str(lat)+str(lon)).replace(' ','_')])
+        t = URIRef(n_dbpedia_res[name.replace(' ','_')])
 
         # add the town as a named individual
         g.add((t, RDF.type, n_dbo_res.Town))
