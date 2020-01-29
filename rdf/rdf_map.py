@@ -111,6 +111,7 @@ def write_vaccine_info_to_turtle(vaccine_df):
         country = n_dbpedia_res[c.replace(" ", "_")]
         continent = n_dbpedia_res[vaccine_df[vaccine_df['Cname']==c]['Continent'].iloc[0].replace(" ","_")]
         g.add((country,n_custom_ontology['Country_Located_In'], continent))
+		g.add((country,n_custom_ontology['ISO3_Code'], Literal(vaccine_df[vaccine_df['Cname']==c]['ISO_code'].iloc[0])))
 
 
     for ix,row in vaccine_df.iterrows():
