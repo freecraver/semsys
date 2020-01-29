@@ -1,9 +1,15 @@
 from rdflib import Graph, BNode, Literal, URIRef
 from rdflib.namespace import Namespace, NamespaceManager, RDF, XSD
 import hashlib
-
-
+import geocoder
+def get_geonames_country_name(country):
+    res = geocoder.geonames(country, key='freecraver')
+    if len(res):
+        return res[0].country
+    return None
+    
 def write_to_turtle(news_results, country_str):
+    
     g = Graph()
     namespace_manager = NamespaceManager(Graph())
     n_dbpedia_res = Namespace("http://dbpedia.org/resource/")
@@ -84,7 +90,7 @@ def write_countries_to_turtle(countries):
     # write to output file
     g.serialize(destination=f'ttl/countries.ttl', format='turtle')
     
-def write_vaccine_info_to_turtle(vaccine_df):
+def write_vaccine_info_to_turtle(vaccine_df,vaccine_names):
     g = Graph()
     namespace_manager = NamespaceManager(Graph())
     n_dbpedia_res = Namespace("http://dbpedia.org/resource/")
@@ -97,7 +103,7 @@ def write_vaccine_info_to_turtle(vaccine_df):
     namespace_manager.bind('sws', n_custom_resources, override=False)
     g.namespace_manager = namespace_manager
 
-
+    countryNames={}
     for v in vaccine_df['Vaccine'].unique():
 
         # generate 15 digit hash for name
@@ -108,11 +114,21 @@ def write_vaccine_info_to_turtle(vaccine_df):
         g.add((vaccine,n_custom_ontology['Vaccine_Name'], Literal(v)))
 
     for c in vaccine_df['Cname'].unique():
-        country = n_dbpedia_res[c.replace(" ", "_")]
-        continent = n_dbpedia_res[vaccine_df[vaccine_df['Cname']==c]['Continent'].iloc[0].replace(" ","_")]
-        g.add((country,n_custom_ontology['Country_Located_In'], continent))
-		g.add((country,n_custom_ontology['ISO3_Code'], Literal(vaccine_df[vaccine_df['Cname']==c]['ISO_code'].iloc[0])))
+        if c in countryNames:
+            geoName=countryNames[c]
+        else:
+            geoName=get_geonames_country_name(c)
+            countryNames[c]=geoName
+        if geoName is not None:
+            country = n_dbpedia_res[geoName.replace(" ", "_")]
+            continent = n_dbpedia_res[vaccine_df[vaccine_df['Cname']==c]['Continent'].iloc[0].replace(" ","_")]
+            g.add((country,n_custom_ontology['Country_Located_In'], continent))
+            g.add((country,n_custom_ontology['ISO3_Code'], Literal(vaccine_df[vaccine_df['Cname']==c]['ISO_code'].iloc[0])))
 
+
+    for ix,row in vaccine_names.iterrows():
+        vaccine = URIRef(n_custom_resources[row['Vaccine_Code']])
+        g.add((vaccine, n_custom_ontology['Vaccine_Description'], Literal(row['Vaccine_Desc'])))
 
     for ix,row in vaccine_df.iterrows():
         # article = BNode()
@@ -123,14 +139,21 @@ def write_vaccine_info_to_turtle(vaccine_df):
         vaccine_rel = URIRef(n_custom_resources['VaccineRel-' + str(vaccine_rel_id)])
 
         g.add((vaccine_rel, RDF.type, n_custom_ontology['Vaccine_Relation']))
-        
-        country = n_dbpedia_res[row['Cname'].replace(" ", "_")]
-        vaccine = URIRef(n_custom_resources[row['Vaccine']])
-        
-        # data properties
-        g.add((country,n_custom_ontology['Has_Vaccine'], vaccine_rel))
-        g.add((vaccine_rel, n_custom_ontology['Vaccination_Value'], vaccine))
-        g.add((vaccine_rel, n_custom_ontology['Vaccination_Coverage'], Literal(row['Percent_covrage'])))
+        c=row['Cname']
+        if c in countryNames:
+            geoName=countryNames[c]
+        else:
+            geoName=get_geonames_country_name(c)
+            countryNames[c]=geoName
+        if geoName is not None:
+            country = n_dbpedia_res[geoName.replace(" ", "_")]
+            vaccine = URIRef(n_custom_resources[row['Vaccine']])
+
+            # data properties
+            g.add((country,n_custom_ontology['Has_Vaccine'], vaccine_rel))
+            g.add((vaccine_rel, n_custom_ontology['Vaccination_Value'], vaccine))
+            g.add((vaccine_rel, n_custom_ontology['Vaccination_Coverage'], Literal(row['Percent_covrage'])))
+
 
 
 

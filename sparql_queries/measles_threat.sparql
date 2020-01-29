@@ -1,0 +1,19 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX sws: <http://www.semanticweb.org/sws/group4/resources/>
+
+select ?c where {
+    {
+    ?c rdf:type dbo:Country .
+    FILTER NOT EXISTS {
+    ?c swo:hasImmunity sws:MCV1.
+        }
+    }UNION{
+    ?c rdf:type dbo:Country .
+    FILTER NOT EXISTS {
+    ?c swo:Has_Vaccine ?vr.
+    ?vr swo:Vaccination_Value sws:MCV1.
+        }    
+    }
+}

@@ -1,0 +1,12 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+
+construct {?c swo:hasImmunity ?v} 
+where {
+	?c rdf:type dbo:Country .
+    ?c swo:Has_Vaccine ?vr.
+    ?vr swo:Vaccination_Value ?v.
+    ?vr swo:Vaccination_Coverage ?vc.
+	FILTER (?vc > 89) .
+}

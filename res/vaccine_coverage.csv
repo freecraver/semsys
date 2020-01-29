@@ -3263,28 +3263,28 @@ AFR,TZA,United Republic of Tanzania,Africa,RCV1,99.0
 AFR,TZA,United Republic of Tanzania,Africa,Rota1,99.0
 AFR,TZA,United Republic of Tanzania,Africa,RotaC,98.0
 AFR,TZA,United Republic of Tanzania,Africa,TT2plus,94.0
-AMR,USA,United States of America (the),North America,DiphCV4,83.0
-AMR,USA,United States of America (the),North America,DTP1,97.0
-AMR,USA,United States of America (the),North America,DTP3,94.0
-AMR,USA,United States of America (the),North America,HepB_BD,66.0
-AMR,USA,United States of America (the),North America,HepB_BDall,74.0
-AMR,USA,United States of America (the),North America,HepB3,91.0
-AMR,USA,United States of America (the),North America,Hib3,92.0
-AMR,USA,United States of America (the),North America,HPVfem,46.0
-AMR,USA,United States of America (the),North America,HPVmale,36.0
-AMR,USA,United States of America (the),North America,IPV1,96.0
-AMR,USA,United States of America (the),North America,MCV1,92.0
-AMR,USA,United States of America (the),North America,MCV2,94.0
-AMR,USA,United States of America (the),North America,PCV1,97.0
-AMR,USA,United States of America (the),North America,PCV2,95.0
-AMR,USA,United States of America (the),North America,PCV3,92.0
-AMR,USA,United States of America (the),North America,PerCV4,83.0
-AMR,USA,United States of America (the),North America,Pol3,93.0
-AMR,USA,United States of America (the),North America,RCV1,92.0
-AMR,USA,United States of America (the),North America,Rota1,88.0
-AMR,USA,United States of America (the),North America,RotaC,73.0
-AMR,USA,United States of America (the),North America,TT2plus,54.0
-AMR,USA,United States of America (the),North America,TTCV4,83.0
+AMR,USA,United States of America,North America,DiphCV4,83.0
+AMR,USA,United States of America,North America,DTP1,97.0
+AMR,USA,United States of America,North America,DTP3,94.0
+AMR,USA,United States of America,North America,HepB_BD,66.0
+AMR,USA,United States of America,North America,HepB_BDall,74.0
+AMR,USA,United States of America,North America,HepB3,91.0
+AMR,USA,United States of America,North America,Hib3,92.0
+AMR,USA,United States of America,North America,HPVfem,46.0
+AMR,USA,United States of America,North America,HPVmale,36.0
+AMR,USA,United States of America,North America,IPV1,96.0
+AMR,USA,United States of America,North America,MCV1,92.0
+AMR,USA,United States of America,North America,MCV2,94.0
+AMR,USA,United States of America,North America,PCV1,97.0
+AMR,USA,United States of America,North America,PCV2,95.0
+AMR,USA,United States of America,North America,PCV3,92.0
+AMR,USA,United States of America,North America,PerCV4,83.0
+AMR,USA,United States of America,North America,Pol3,93.0
+AMR,USA,United States of America,North America,RCV1,92.0
+AMR,USA,United States of America,North America,Rota1,88.0
+AMR,USA,United States of America,North America,RotaC,73.0
+AMR,USA,United States of America,North America,TT2plus,54.0
+AMR,USA,United States of America,North America,TTCV4,83.0
 AMR,URY,Uruguay,South America,BCG,98.0
 AMR,URY,Uruguay,South America,DiphCV4,93.0
 AMR,URY,Uruguay,South America,DiphCV5,90.0

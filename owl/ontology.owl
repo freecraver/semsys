@@ -110,6 +110,13 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
               rdfs:label "Country Name"@en .
 
 
+###  http://www.semanticweb.org/sws/group4/ontology/ISO3_Code
+:ISO3_Code rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain <http://dbpedia.org/ontology/Country> ;
+           rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/sws/group4/ontology/ISO_Code
 :ISO_Code rdf:type owl:DatatypeProperty ;
           rdfs:domain <http://dbpedia.org/ontology/Country> ;
@@ -146,6 +153,10 @@ A country can be related to a NewsArticle via mentionsResource and mentionsCount
                                  ] ;
                       rdfs:comment "Percentage of population covered by the vaccine in a given country (Property of Vaccination Relation)"@en ;
                       rdfs:label "Vaccination Coverage"@en .
+
+
+###  http://www.semanticweb.org/sws/group4/ontology/Vaccine_Description
+:Vaccine_Description rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.semanticweb.org/sws/group4/ontology/Vaccine_Name
