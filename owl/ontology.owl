@@ -31,6 +31,7 @@
 ###  http://www.semanticweb.org/sws/group4/ontology/Vaccination_Value
 :Vaccination_Value rdf:type owl:ObjectProperty ,
                             owl:FunctionalProperty ;
+                   rdfs:domain :Vaccine_Relation ;
                    rdfs:range :Vaccine ;
                    rdfs:comment "The Vaccine that is vaccinated in the vaccination relation"@en ;
                    rdfs:label "Vaccination Value"@en .
