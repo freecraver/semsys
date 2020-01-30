@@ -22,7 +22,8 @@ dbp:Afghanistan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-781655934981399,
         sws:VaccineRel-810300046478038,
         sws:VaccineRel-840546322691585,
-        sws:VaccineRel-990974260397526 .
+        sws:VaccineRel-990974260397526 ;
+    swo:ISO3_Code "AFG" .
 
 dbp:Albania swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-265476049997025,
@@ -46,7 +47,8 @@ dbp:Albania swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-875259377072805,
         sws:VaccineRel-89308108812634,
         sws:VaccineRel-909330055350312,
-        sws:VaccineRel-960349224109593 .
+        sws:VaccineRel-960349224109593 ;
+    swo:ISO3_Code "ALB" .
 
 dbp:Algeria swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-184596097674065,
@@ -65,7 +67,8 @@ dbp:Algeria swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-827071438134715,
         sws:VaccineRel-847310637863606,
         sws:VaccineRel-91944366218656,
-        sws:VaccineRel-979995959237867 .
+        sws:VaccineRel-979995959237867 ;
+    swo:ISO3_Code "DZA" .
 
 dbp:Andorra swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-121959059723693,
@@ -85,7 +88,8 @@ dbp:Andorra swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-755801531083178,
         sws:VaccineRel-769749757109127,
         sws:VaccineRel-88127137966774,
-        sws:VaccineRel-913166336973029 .
+        sws:VaccineRel-913166336973029 ;
+    swo:ISO3_Code "AND" .
 
 dbp:Angola swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-143651436216681,
@@ -106,7 +110,8 @@ dbp:Angola swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-86188074245212,
         sws:VaccineRel-904950020405342,
         sws:VaccineRel-938400654864338,
-        sws:VaccineRel-976972891377959 .
+        sws:VaccineRel-976972891377959 ;
+    swo:ISO3_Code "AGO" .
 
 dbp:Antigua_and_Barbuda swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-156199727664240,
@@ -122,7 +127,8 @@ dbp:Antigua_and_Barbuda swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-840677985606222,
         sws:VaccineRel-884716512256795,
         sws:VaccineRel-979932770270037,
-        sws:VaccineRel-992083188960065 .
+        sws:VaccineRel-992083188960065 ;
+    swo:ISO3_Code "ATG" .
 
 dbp:Argentina swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-168175228312770,
@@ -150,7 +156,8 @@ dbp:Argentina swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-937365283170707,
         sws:VaccineRel-958310007905843,
         sws:VaccineRel-963473393399122,
-        sws:VaccineRel-978604828013162 .
+        sws:VaccineRel-978604828013162 ;
+    swo:ISO3_Code "ARG" .
 
 dbp:Armenia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-116782477283081,
@@ -176,7 +183,8 @@ dbp:Armenia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-801282732719930,
         sws:VaccineRel-829852409111948,
         sws:VaccineRel-880240240938762,
-        sws:VaccineRel-919256066235075 .
+        sws:VaccineRel-919256066235075 ;
+    swo:ISO3_Code "ARM" .
 
 dbp:Austria swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-219366379421883,
@@ -187,7 +195,8 @@ dbp:Austria swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-672107072133334,
         sws:VaccineRel-69052940822239,
         sws:VaccineRel-860048686444738,
-        sws:VaccineRel-954876437715415 .
+        sws:VaccineRel-954876437715415 ;
+    swo:ISO3_Code "AUT" .
 
 dbp:Azerbaijan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-149299096251317,
@@ -209,9 +218,10 @@ dbp:Azerbaijan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-673937980100896,
         sws:VaccineRel-74737724867500,
         sws:VaccineRel-81725000349238,
-        sws:VaccineRel-859809712319036 .
+        sws:VaccineRel-859809712319036 ;
+    swo:ISO3_Code "AZE" .
 
-<http://dbpedia.org/resource/Bahamas_(the)> swo:Country_Located_In dbp:North_America ;
+dbp:Bahamas swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-109551566643597,
         sws:VaccineRel-146649953084862,
         sws:VaccineRel-158426006461179,
@@ -232,7 +242,8 @@ dbp:Azerbaijan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-782032470269263,
         sws:VaccineRel-810627698288582,
         sws:VaccineRel-834820777353011,
-        sws:VaccineRel-880385175338025 .
+        sws:VaccineRel-880385175338025 ;
+    swo:ISO3_Code "BHS" .
 
 dbp:Bahrain swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-112578574975262,
@@ -260,7 +271,8 @@ dbp:Bahrain swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-931804558710302,
         sws:VaccineRel-940368738939611,
         sws:VaccineRel-974197791661819,
-        sws:VaccineRel-996904142255895 .
+        sws:VaccineRel-996904142255895 ;
+    swo:ISO3_Code "BHR" .
 
 dbp:Bangladesh swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-181320754120876,
@@ -278,7 +290,8 @@ dbp:Bangladesh swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-809420389464715,
         sws:VaccineRel-905174298971269,
         sws:VaccineRel-945099516652678,
-        sws:VaccineRel-975972830485770 .
+        sws:VaccineRel-975972830485770 ;
+    swo:ISO3_Code "BGD" .
 
 dbp:Barbados swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-139966674655211,
@@ -301,7 +314,8 @@ dbp:Barbados swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-803417055705184,
         sws:VaccineRel-807421724621291,
         sws:VaccineRel-878205597784803,
-        sws:VaccineRel-966728109098922 .
+        sws:VaccineRel-966728109098922 ;
+    swo:ISO3_Code "BRB" .
 
 dbp:Belgium swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-197105256780834,
@@ -323,7 +337,8 @@ dbp:Belgium swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-923502632619252,
         sws:VaccineRel-958418626171172,
         sws:VaccineRel-966943876043958,
-        sws:VaccineRel-978836763635902 .
+        sws:VaccineRel-978836763635902 ;
+    swo:ISO3_Code "BEL" .
 
 dbp:Belize swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-122941615121932,
@@ -347,7 +362,8 @@ dbp:Belize swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-879569762617925,
         sws:VaccineRel-915656792423305,
         sws:VaccineRel-932564533781193,
-        sws:VaccineRel-959585210812135 .
+        sws:VaccineRel-959585210812135 ;
+    swo:ISO3_Code "BLZ" .
 
 dbp:Benin swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-1616839331588,
@@ -368,7 +384,8 @@ dbp:Benin swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-877044666254887,
         sws:VaccineRel-879325959744566,
         sws:VaccineRel-900844025804052,
-        sws:VaccineRel-951037864964520 .
+        sws:VaccineRel-951037864964520 ;
+    swo:ISO3_Code "BEN" .
 
 dbp:Bhutan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-105429839158950,
@@ -391,9 +408,10 @@ dbp:Bhutan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-95591445629854,
         sws:VaccineRel-980032068248004,
         sws:VaccineRel-982867381668517,
-        sws:VaccineRel-987121153257496 .
+        sws:VaccineRel-987121153257496 ;
+    swo:ISO3_Code "BTN" .
 
-<http://dbpedia.org/resource/Bolivia_(Plurinational_State_of)> swo:Country_Located_In dbp:South_America ;
+dbp:Bolivia swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-120354420598579,
         sws:VaccineRel-216453255765184,
         sws:VaccineRel-234626076284752,
@@ -417,7 +435,8 @@ dbp:Bhutan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-901303162653417,
         sws:VaccineRel-903445958293311,
         sws:VaccineRel-918598041401925,
-        sws:VaccineRel-981315625262253 .
+        sws:VaccineRel-981315625262253 ;
+    swo:ISO3_Code "BOL" .
 
 dbp:Bosnia_and_Herzegovina swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-110381745747159,
@@ -438,7 +457,8 @@ dbp:Bosnia_and_Herzegovina swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-800324150403551,
         sws:VaccineRel-805236814222204,
         sws:VaccineRel-902346741495084,
-        sws:VaccineRel-920026943487198 .
+        sws:VaccineRel-920026943487198 ;
+    swo:ISO3_Code "BIH" .
 
 dbp:Botswana swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-111992796014727,
@@ -460,7 +480,8 @@ dbp:Botswana swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-831596337285139,
         sws:VaccineRel-834443215607138,
         sws:VaccineRel-928638759676560,
-        sws:VaccineRel-932958120101207 .
+        sws:VaccineRel-932958120101207 ;
+    swo:ISO3_Code "BWA" .
 
 dbp:Brazil swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-109282449880954,
@@ -488,9 +509,10 @@ dbp:Brazil swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-854258464143216,
         sws:VaccineRel-898470485739227,
         sws:VaccineRel-914157717292026,
-        sws:VaccineRel-926311048890151 .
+        sws:VaccineRel-926311048890151 ;
+    swo:ISO3_Code "BRA" .
 
-dbp:Brunei_Darussalam swo:Country_Located_In dbp:Asia ;
+dbp:Brunei swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-129190586072157,
         sws:VaccineRel-147918834012884,
         sws:VaccineRel-15271360228171,
@@ -506,7 +528,8 @@ dbp:Brunei_Darussalam swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-465705057173712,
         sws:VaccineRel-50385197115701,
         sws:VaccineRel-702491017391624,
-        sws:VaccineRel-929198686483686 .
+        sws:VaccineRel-929198686483686 ;
+    swo:ISO3_Code "BRN" .
 
 dbp:Bulgaria swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-131673694662497,
@@ -532,7 +555,8 @@ dbp:Bulgaria swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-803685607971339,
         sws:VaccineRel-819566189107850,
         sws:VaccineRel-862887163847515,
-        sws:VaccineRel-901175558844485 .
+        sws:VaccineRel-901175558844485 ;
+    swo:ISO3_Code "BGR" .
 
 dbp:Burkina_Faso swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-142839708659774,
@@ -554,7 +578,8 @@ dbp:Burkina_Faso swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-814321473169880,
         sws:VaccineRel-842100945134566,
         sws:VaccineRel-880035248873905,
-        sws:VaccineRel-948355499515687 .
+        sws:VaccineRel-948355499515687 ;
+    swo:ISO3_Code "BFA" .
 
 dbp:Burundi swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-105035663540661,
@@ -576,7 +601,8 @@ dbp:Burundi swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-908798936537922,
         sws:VaccineRel-966425903546422,
         sws:VaccineRel-980119818778483,
-        sws:VaccineRel-988635889630259 .
+        sws:VaccineRel-988635889630259 ;
+    swo:ISO3_Code "BDI" .
 
 dbp:Cabo_Verde swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-18262281950718,
@@ -592,7 +618,8 @@ dbp:Cabo_Verde swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-690795222037610,
         sws:VaccineRel-700006332964472,
         sws:VaccineRel-704584268759292,
-        sws:VaccineRel-919169079340337 .
+        sws:VaccineRel-919169079340337 ;
+    swo:ISO3_Code "CPV" .
 
 dbp:Cambodia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-181040733869120,
@@ -614,7 +641,8 @@ dbp:Cambodia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-89102209668622,
         sws:VaccineRel-927946731661273,
         sws:VaccineRel-929929560168506,
-        sws:VaccineRel-976389788485525 .
+        sws:VaccineRel-976389788485525 ;
+    swo:ISO3_Code "KHM" .
 
 dbp:Cameroon swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-122310222637910,
@@ -633,7 +661,8 @@ dbp:Cameroon swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-905405096203386,
         sws:VaccineRel-920217704840678,
         sws:VaccineRel-923837499923131,
-        sws:VaccineRel-937259747641628 .
+        sws:VaccineRel-937259747641628 ;
+    swo:ISO3_Code "CMR" .
 
 dbp:Canada swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-100732737322075,
@@ -657,24 +686,8 @@ dbp:Canada swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-836300301359595,
         sws:VaccineRel-858952968702971,
         sws:VaccineRel-866242132765101,
-        sws:VaccineRel-877616377366354 .
-
-<http://dbpedia.org/resource/Central_African_Republic_(the)> swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-136362301500406,
-        sws:VaccineRel-261637632897891,
-        sws:VaccineRel-332553983259572,
-        sws:VaccineRel-388380291981371,
-        sws:VaccineRel-403405448433350,
-        sws:VaccineRel-465129018608939,
-        sws:VaccineRel-477315635968330,
-        sws:VaccineRel-549926271371135,
-        sws:VaccineRel-564944739566092,
-        sws:VaccineRel-610404818946947,
-        sws:VaccineRel-619218347451589,
-        sws:VaccineRel-679554247829476,
-        sws:VaccineRel-748140336698181,
-        sws:VaccineRel-77651486829956,
-        sws:VaccineRel-942919258953713 .
+        sws:VaccineRel-877616377366354 ;
+    swo:ISO3_Code "CAN" .
 
 dbp:Chad swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-125509779412119,
@@ -687,7 +700,8 @@ dbp:Chad swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-59126389303262,
         sws:VaccineRel-668871738997075,
         sws:VaccineRel-824312270301326,
-        sws:VaccineRel-88384035154263 .
+        sws:VaccineRel-88384035154263 ;
+    swo:ISO3_Code "TCD" .
 
 dbp:Chile swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-102478836758284,
@@ -707,7 +721,8 @@ dbp:Chile swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-854662577802752,
         sws:VaccineRel-86325855389622,
         sws:VaccineRel-89793057174219,
-        sws:VaccineRel-9280557247062 .
+        sws:VaccineRel-9280557247062 ;
+    swo:ISO3_Code "CHL" .
 
 dbp:China swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-105744496900411,
@@ -726,35 +741,54 @@ dbp:China swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-882005723357322,
         sws:VaccineRel-94630881530020,
         sws:VaccineRel-956580172206888,
-        sws:VaccineRel-959207031611833 .
+        sws:VaccineRel-959207031611833 ;
+    swo:ISO3_Code "CHN" .
 
-dbp:Colombia swo:Country_Located_In dbp:South_America ;
-    swo:Has_Vaccine sws:VaccineRel-176447596829821,
+dbp:Colombia swo:Country_Located_In dbp:Africa,
+        dbp:South_America ;
+    swo:Has_Vaccine sws:VaccineRel-136362301500406,
+        sws:VaccineRel-176447596829821,
         sws:VaccineRel-195063094712771,
         sws:VaccineRel-201985547177400,
+        sws:VaccineRel-261637632897891,
         sws:VaccineRel-298974138210220,
         sws:VaccineRel-312860536789731,
         sws:VaccineRel-327330622045286,
+        sws:VaccineRel-332553983259572,
         sws:VaccineRel-355423946915620,
+        sws:VaccineRel-388380291981371,
         sws:VaccineRel-397978039630686,
+        sws:VaccineRel-403405448433350,
         sws:VaccineRel-439115185303245,
+        sws:VaccineRel-465129018608939,
         sws:VaccineRel-472400748073402,
+        sws:VaccineRel-477315635968330,
         sws:VaccineRel-524173246282676,
         sws:VaccineRel-530157157768675,
+        sws:VaccineRel-549926271371135,
+        sws:VaccineRel-564944739566092,
+        sws:VaccineRel-610404818946947,
+        sws:VaccineRel-619218347451589,
         sws:VaccineRel-648152461009144,
+        sws:VaccineRel-679554247829476,
         sws:VaccineRel-685340980879955,
         sws:VaccineRel-695227914008256,
         sws:VaccineRel-725795030460631,
+        sws:VaccineRel-748140336698181,
         sws:VaccineRel-771129734896342,
+        sws:VaccineRel-77651486829956,
         sws:VaccineRel-785747900873192,
         sws:VaccineRel-824980156959590,
         sws:VaccineRel-831695006872648,
         sws:VaccineRel-834773901247497,
         sws:VaccineRel-834920930017312,
         sws:VaccineRel-856817976318725,
-        sws:VaccineRel-972958934146226 .
+        sws:VaccineRel-942919258953713,
+        sws:VaccineRel-972958934146226 ;
+    swo:ISO3_Code "CAF",
+        "COL" .
 
-<http://dbpedia.org/resource/Comoros_(the)> swo:Country_Located_In dbp:Africa ;
+dbp:Comoros swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-184274006197972,
         sws:VaccineRel-238428896336060,
         sws:VaccineRel-247563953503088,
@@ -765,26 +799,8 @@ dbp:Colombia swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-439405902679766,
         sws:VaccineRel-524958764717163,
         sws:VaccineRel-794653954656173,
-        sws:VaccineRel-977646568607025 .
-
-<http://dbpedia.org/resource/Congo_(the)> swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-206254438082047,
-        sws:VaccineRel-223193088340148,
-        sws:VaccineRel-230984813607486,
-        sws:VaccineRel-293618872804362,
-        sws:VaccineRel-359977765392216,
-        sws:VaccineRel-402582081697175,
-        sws:VaccineRel-434629880040648,
-        sws:VaccineRel-621797187034847,
-        sws:VaccineRel-723420619768315,
-        sws:VaccineRel-733065087399123,
-        sws:VaccineRel-757264124440767,
-        sws:VaccineRel-764508352641564,
-        sws:VaccineRel-790628019933385,
-        sws:VaccineRel-791470350978321,
-        sws:VaccineRel-855046128092105,
-        sws:VaccineRel-908222806898542,
-        sws:VaccineRel-937269101688582 .
+        sws:VaccineRel-977646568607025 ;
+    swo:ISO3_Code "COM" .
 
 dbp:Cook_Islands swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-170269778738604,
@@ -803,7 +819,8 @@ dbp:Cook_Islands swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-758012574827373,
         sws:VaccineRel-857005893771511,
         sws:VaccineRel-904414538489258,
-        sws:VaccineRel-976760989978791 .
+        sws:VaccineRel-976760989978791 ;
+    swo:ISO3_Code "COK" .
 
 dbp:Costa_Rica swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-130176908171048,
@@ -826,7 +843,8 @@ dbp:Costa_Rica swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-847470427228319,
         sws:VaccineRel-872849686430734,
         sws:VaccineRel-97557922988537,
-        sws:VaccineRel-977823011675491 .
+        sws:VaccineRel-977823011675491 ;
+    swo:ISO3_Code "CRI" .
 
 dbp:Croatia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-301839765322160,
@@ -843,7 +861,8 @@ dbp:Croatia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-822303679228618,
         sws:VaccineRel-823291294271866,
         sws:VaccineRel-855522769752226,
-        sws:VaccineRel-918143608816070 .
+        sws:VaccineRel-918143608816070 ;
+    swo:ISO3_Code "HRV" .
 
 dbp:Cuba swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-101889774448909,
@@ -867,7 +886,8 @@ dbp:Cuba swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-64755646705542,
         sws:VaccineRel-705149850964314,
         sws:VaccineRel-973660302331892,
-        sws:VaccineRel-98440239626474 .
+        sws:VaccineRel-98440239626474 ;
+    swo:ISO3_Code "CUB" .
 
 dbp:Cyprus swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-140477754713786,
@@ -877,64 +897,52 @@ dbp:Cyprus swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-736946518989477,
         sws:VaccineRel-833679148764167,
         sws:VaccineRel-923161057918422,
-        sws:VaccineRel-96598768792340 .
+        sws:VaccineRel-96598768792340 ;
+    swo:ISO3_Code "CYP" .
 
-dbp:Czech_Republic swo:Country_Located_In dbp:Europe ;
+dbp:Czechia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-305547165575256,
         sws:VaccineRel-34101852137124,
         sws:VaccineRel-373276549345660,
         sws:VaccineRel-545631665240932,
         sws:VaccineRel-726787509611863,
-        sws:VaccineRel-776894488810494 .
+        sws:VaccineRel-776894488810494 ;
+    swo:ISO3_Code "CZE" .
 
-<http://dbpedia.org/resource/Côte_d'Ivoire> swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-13734036913594,
-        sws:VaccineRel-229330938287150,
-        sws:VaccineRel-261420789688755,
-        sws:VaccineRel-265820763642780,
-        sws:VaccineRel-291667138182062,
-        sws:VaccineRel-303417435762124,
-        sws:VaccineRel-322859313279342,
-        sws:VaccineRel-457586333749582,
-        sws:VaccineRel-514518024326449,
-        sws:VaccineRel-604607434094522,
-        sws:VaccineRel-628297940580877,
-        sws:VaccineRel-650380837872371,
-        sws:VaccineRel-771398722491759,
-        sws:VaccineRel-899408003740075,
-        sws:VaccineRel-945394714476803,
-        sws:VaccineRel-974362079100071,
-        sws:VaccineRel-998500838943393 .
-
-<http://dbpedia.org/resource/Democratic_People's_Republic_of_Korea_(the)> swo:Country_Located_In dbp:Asia ;
-    swo:Has_Vaccine sws:VaccineRel-110231535261880,
-        sws:VaccineRel-253401782313582,
-        sws:VaccineRel-28423940890177,
-        sws:VaccineRel-307898973296098,
-        sws:VaccineRel-342821506096079,
-        sws:VaccineRel-407961414492602,
-        sws:VaccineRel-455841564891158,
-        sws:VaccineRel-491257959599840,
-        sws:VaccineRel-588784957811013,
-        sws:VaccineRel-630690537406100,
-        sws:VaccineRel-651633839655569,
-        sws:VaccineRel-947713483261144 .
-
-<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo_(the)> swo:Country_Located_In dbp:Africa ;
+dbp:DR_Congo swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-104699639753021,
         sws:VaccineRel-105022575325264,
+        sws:VaccineRel-206254438082047,
+        sws:VaccineRel-223193088340148,
+        sws:VaccineRel-230984813607486,
         sws:VaccineRel-275212575280152,
+        sws:VaccineRel-293618872804362,
+        sws:VaccineRel-359977765392216,
+        sws:VaccineRel-402582081697175,
+        sws:VaccineRel-434629880040648,
         sws:VaccineRel-441912901697783,
         sws:VaccineRel-527591784345720,
         sws:VaccineRel-580980059230290,
+        sws:VaccineRel-621797187034847,
         sws:VaccineRel-630460783751027,
         sws:VaccineRel-67635337819981,
         sws:VaccineRel-682614330281879,
         sws:VaccineRel-688427743457199,
+        sws:VaccineRel-723420619768315,
+        sws:VaccineRel-733065087399123,
+        sws:VaccineRel-757264124440767,
         sws:VaccineRel-759132833022035,
+        sws:VaccineRel-764508352641564,
         sws:VaccineRel-783672757242873,
+        sws:VaccineRel-790628019933385,
+        sws:VaccineRel-791470350978321,
         sws:VaccineRel-807942646333197,
-        sws:VaccineRel-875120323307642 .
+        sws:VaccineRel-855046128092105,
+        sws:VaccineRel-875120323307642,
+        sws:VaccineRel-908222806898542,
+        sws:VaccineRel-937269101688582 ;
+    swo:ISO3_Code "COD",
+        "COG" .
 
 dbp:Denmark swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-132313583538532,
@@ -951,7 +959,8 @@ dbp:Denmark swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-969062378371078,
         sws:VaccineRel-972321317111147,
         sws:VaccineRel-976654217577341,
-        sws:VaccineRel-986450888900089 .
+        sws:VaccineRel-986450888900089 ;
+    swo:ISO3_Code "DNK" .
 
 dbp:Djibouti swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-122087244175083,
@@ -974,7 +983,8 @@ dbp:Djibouti swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-838452790216341,
         sws:VaccineRel-853687443176589,
         sws:VaccineRel-943400551426961,
-        sws:VaccineRel-98168390557219 .
+        sws:VaccineRel-98168390557219 ;
+    swo:ISO3_Code "DJI" .
 
 dbp:Dominica swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-124923177700561,
@@ -997,65 +1007,67 @@ dbp:Dominica swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-8468768821357,
         sws:VaccineRel-892251135212199,
         sws:VaccineRel-949102814643399,
-        sws:VaccineRel-990980408895376 .
+        sws:VaccineRel-990980408895376 ;
+    swo:ISO3_Code "DMA" .
 
-<http://dbpedia.org/resource/Dominican_Republic_(the)> swo:Country_Located_In dbp:North_America ;
+dbp:Ecuador swo:Country_Located_In dbp:North_America,
+        dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-111038263881433,
+        sws:VaccineRel-121225262428419,
+        sws:VaccineRel-149367861495350,
         sws:VaccineRel-151221484293297,
         sws:VaccineRel-152484372647318,
+        sws:VaccineRel-160457607221455,
+        sws:VaccineRel-183509513310740,
         sws:VaccineRel-202492331366441,
         sws:VaccineRel-212902465414282,
         sws:VaccineRel-241750131498746,
+        sws:VaccineRel-249154875425601,
+        sws:VaccineRel-260831548543909,
+        sws:VaccineRel-270750298233566,
         sws:VaccineRel-299208214619995,
         sws:VaccineRel-307479064573160,
         sws:VaccineRel-335186650841603,
         sws:VaccineRel-344172619508910,
         sws:VaccineRel-354634312581126,
-        sws:VaccineRel-403730788403462,
-        sws:VaccineRel-472548123319601,
-        sws:VaccineRel-491042079132007,
-        sws:VaccineRel-505485235126071,
-        sws:VaccineRel-540150261651087,
-        sws:VaccineRel-609267993765128,
-        sws:VaccineRel-646304103547997,
-        sws:VaccineRel-734776886098866,
-        sws:VaccineRel-767608905234808,
-        sws:VaccineRel-829126166979337,
-        sws:VaccineRel-927985403185734,
-        sws:VaccineRel-946940023605662,
-        sws:VaccineRel-998943077842884 .
-
-dbp:Ecuador swo:Country_Located_In dbp:South_America ;
-    swo:Has_Vaccine sws:VaccineRel-121225262428419,
-        sws:VaccineRel-149367861495350,
-        sws:VaccineRel-160457607221455,
-        sws:VaccineRel-183509513310740,
-        sws:VaccineRel-249154875425601,
-        sws:VaccineRel-260831548543909,
-        sws:VaccineRel-270750298233566,
         sws:VaccineRel-378373747708547,
+        sws:VaccineRel-403730788403462,
         sws:VaccineRel-405229933012483,
         sws:VaccineRel-422950045431442,
         sws:VaccineRel-436641101988666,
+        sws:VaccineRel-472548123319601,
+        sws:VaccineRel-491042079132007,
         sws:VaccineRel-499963057685085,
+        sws:VaccineRel-505485235126071,
         sws:VaccineRel-506146650332207,
         sws:VaccineRel-524366647293675,
         sws:VaccineRel-529962829686791,
+        sws:VaccineRel-540150261651087,
         sws:VaccineRel-55276797550036,
         sws:VaccineRel-566368298205424,
         sws:VaccineRel-571402888007142,
         sws:VaccineRel-588648670781121,
+        sws:VaccineRel-609267993765128,
+        sws:VaccineRel-646304103547997,
         sws:VaccineRel-647876659587838,
         sws:VaccineRel-70467325586173,
+        sws:VaccineRel-734776886098866,
+        sws:VaccineRel-767608905234808,
         sws:VaccineRel-774006004040519,
         sws:VaccineRel-802530401150419,
+        sws:VaccineRel-829126166979337,
         sws:VaccineRel-87003875896708,
         sws:VaccineRel-880847710787044,
         sws:VaccineRel-89709722157330,
         sws:VaccineRel-918533031473809,
+        sws:VaccineRel-927985403185734,
         sws:VaccineRel-929935935841174,
+        sws:VaccineRel-946940023605662,
         sws:VaccineRel-960517653737672,
-        sws:VaccineRel-964934600207393 .
+        sws:VaccineRel-964934600207393,
+        sws:VaccineRel-998943077842884 ;
+    swo:ISO3_Code "DOM",
+        "ECU" .
 
 dbp:Egypt swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-108746604729377,
@@ -1069,7 +1081,8 @@ dbp:Egypt swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-777360987787763,
         sws:VaccineRel-811573198986868,
         sws:VaccineRel-820460480348300,
-        sws:VaccineRel-991847332307508 .
+        sws:VaccineRel-991847332307508 ;
+    swo:ISO3_Code "EGY" .
 
 dbp:El_Salvador swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-175528139012811,
@@ -1097,7 +1110,8 @@ dbp:El_Salvador swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-97123749867823,
         sws:VaccineRel-97414161964272,
         sws:VaccineRel-984791686082753,
-        sws:VaccineRel-999829506617563 .
+        sws:VaccineRel-999829506617563 ;
+    swo:ISO3_Code "SLV" .
 
 dbp:Equatorial_Guinea swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-103456521916745,
@@ -1111,7 +1125,8 @@ dbp:Equatorial_Guinea swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-777006355429104,
         sws:VaccineRel-82795413904331,
         sws:VaccineRel-942712391286653,
-        sws:VaccineRel-995562069646703 .
+        sws:VaccineRel-995562069646703 ;
+    swo:ISO3_Code "GNQ" .
 
 dbp:Eritrea swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-105230131280304,
@@ -1131,7 +1146,8 @@ dbp:Eritrea swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-869071128199957,
         sws:VaccineRel-890414849542347,
         sws:VaccineRel-92897149060910,
-        sws:VaccineRel-983750320037879 .
+        sws:VaccineRel-983750320037879 ;
+    swo:ISO3_Code "ERI" .
 
 dbp:Estonia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-105504973097749,
@@ -1153,7 +1169,8 @@ dbp:Estonia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-792361929717948,
         sws:VaccineRel-827652159288884,
         sws:VaccineRel-879968410825401,
-        sws:VaccineRel-960722053124590 .
+        sws:VaccineRel-960722053124590 ;
+    swo:ISO3_Code "EST" .
 
 dbp:Eswatini swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-151717201991291,
@@ -1174,7 +1191,8 @@ dbp:Eswatini swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-873481350022057,
         sws:VaccineRel-880644553742017,
         sws:VaccineRel-90003351499963,
-        sws:VaccineRel-979152127286248 .
+        sws:VaccineRel-979152127286248 ;
+    swo:ISO3_Code "SWZ" .
 
 dbp:Ethiopia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-101577195840622,
@@ -1192,7 +1210,8 @@ dbp:Ethiopia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-661434125627288,
         sws:VaccineRel-728096559771720,
         sws:VaccineRel-731158557382178,
-        sws:VaccineRel-801935600782365 .
+        sws:VaccineRel-801935600782365 ;
+    swo:ISO3_Code "ETH" .
 
 dbp:Fiji swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-108763914941470,
@@ -1217,7 +1236,8 @@ dbp:Fiji swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-911704880978433,
         sws:VaccineRel-955759997193137,
         sws:VaccineRel-969744527290962,
-        sws:VaccineRel-998573672790805 .
+        sws:VaccineRel-998573672790805 ;
+    swo:ISO3_Code "FJI" .
 
 dbp:Finland swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-191021703563694,
@@ -1235,7 +1255,8 @@ dbp:Finland swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-889659413497759,
         sws:VaccineRel-924341746192470,
         sws:VaccineRel-925090280071919,
-        sws:VaccineRel-927502518938549 .
+        sws:VaccineRel-927502518938549 ;
+    swo:ISO3_Code "FIN" .
 
 dbp:Gabon swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-307250453703880,
@@ -1247,7 +1268,8 @@ dbp:Gabon swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-606837254163241,
         sws:VaccineRel-729580932238277,
         sws:VaccineRel-872894877320284,
-        sws:VaccineRel-959078132900464 .
+        sws:VaccineRel-959078132900464 ;
+    swo:ISO3_Code "GAB" .
 
 dbp:Gambia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-102004986576535,
@@ -1269,7 +1291,8 @@ dbp:Gambia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-884291507772422,
         sws:VaccineRel-905540408300949,
         sws:VaccineRel-996987649356259,
-        sws:VaccineRel-997032056153329 .
+        sws:VaccineRel-997032056153329 ;
+    swo:ISO3_Code "GMB" .
 
 dbp:Georgia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-138896449370160,
@@ -1296,7 +1319,8 @@ dbp:Georgia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-930744987766799,
         sws:VaccineRel-942690421180130,
         sws:VaccineRel-960410077799446,
-        sws:VaccineRel-976187734667717 .
+        sws:VaccineRel-976187734667717 ;
+    swo:ISO3_Code "GEO" .
 
 dbp:Germany swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-109605933554854,
@@ -1311,7 +1335,8 @@ dbp:Germany swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-662166133804010,
         sws:VaccineRel-746456623361222,
         sws:VaccineRel-861041489011297,
-        sws:VaccineRel-956304953644433 .
+        sws:VaccineRel-956304953644433 ;
+    swo:ISO3_Code "DEU" .
 
 dbp:Ghana swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-252720669739878,
@@ -1332,7 +1357,8 @@ dbp:Ghana swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-742199469372829,
         sws:VaccineRel-892019115140192,
         sws:VaccineRel-951722771609264,
-        sws:VaccineRel-990530517919545 .
+        sws:VaccineRel-990530517919545 ;
+    swo:ISO3_Code "GHA" .
 
 dbp:Greece swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-102475724556558,
@@ -1348,7 +1374,8 @@ dbp:Greece swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-568068670119414,
         sws:VaccineRel-675185290416635,
         sws:VaccineRel-692156001817076,
-        sws:VaccineRel-838786810193993 .
+        sws:VaccineRel-838786810193993 ;
+    swo:ISO3_Code "GRC" .
 
 dbp:Grenada swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-215884957283726,
@@ -1366,7 +1393,8 @@ dbp:Grenada swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-81773751969363,
         sws:VaccineRel-820330054665767,
         sws:VaccineRel-933574019874752,
-        sws:VaccineRel-96050159310022 .
+        sws:VaccineRel-96050159310022 ;
+    swo:ISO3_Code "GRD" .
 
 dbp:Guatemala swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-115453459814710,
@@ -1393,7 +1421,8 @@ dbp:Guatemala swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-927377621562224,
         sws:VaccineRel-937886059755681,
         sws:VaccineRel-974783545333767,
-        sws:VaccineRel-984495927404819 .
+        sws:VaccineRel-984495927404819 ;
+    swo:ISO3_Code "GTM" .
 
 dbp:Guinea swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-129186148853565,
@@ -1406,7 +1435,8 @@ dbp:Guinea swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-782071630819237,
         sws:VaccineRel-944206742580027,
         sws:VaccineRel-959515861330986,
-        sws:VaccineRel-995108614065255 .
+        sws:VaccineRel-995108614065255 ;
+    swo:ISO3_Code "GIN" .
 
 dbp:Guinea-Bissau swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-105286930255173,
@@ -1423,7 +1453,8 @@ dbp:Guinea-Bissau swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-749304497569746,
         sws:VaccineRel-75169734500724,
         sws:VaccineRel-815434590584048,
-        sws:VaccineRel-960682903823924 .
+        sws:VaccineRel-960682903823924 ;
+    swo:ISO3_Code "GNB" .
 
 dbp:Guyana swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-121564974826280,
@@ -1443,7 +1474,8 @@ dbp:Guyana swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-846660978518036,
         sws:VaccineRel-892680590263417,
         sws:VaccineRel-903177353794175,
-        sws:VaccineRel-904936937590236 .
+        sws:VaccineRel-904936937590236 ;
+    swo:ISO3_Code "GUY" .
 
 dbp:Haiti swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-126856645456783,
@@ -1464,7 +1496,8 @@ dbp:Haiti swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-934684501697541,
         sws:VaccineRel-952128318107945,
         sws:VaccineRel-963121312095153,
-        sws:VaccineRel-96784033869226 .
+        sws:VaccineRel-96784033869226 ;
+    swo:ISO3_Code "HTI" .
 
 dbp:Honduras swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-104971511530728,
@@ -1492,7 +1525,8 @@ dbp:Honduras swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-801447662160089,
         sws:VaccineRel-84603453366250,
         sws:VaccineRel-868032356815864,
-        sws:VaccineRel-889280976977644 .
+        sws:VaccineRel-889280976977644 ;
+    swo:ISO3_Code "HND" .
 
 dbp:Hungary swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-158311491391284,
@@ -1508,7 +1542,8 @@ dbp:Hungary swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-728051665903557,
         sws:VaccineRel-856097671060916,
         sws:VaccineRel-872061225308221,
-        sws:VaccineRel-958011279228702 .
+        sws:VaccineRel-958011279228702 ;
+    swo:ISO3_Code "HUN" .
 
 dbp:Iceland swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-320480603378713,
@@ -1527,7 +1562,8 @@ dbp:Iceland swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-935455841827183,
         sws:VaccineRel-943271217299294,
         sws:VaccineRel-944569224891750,
-        sws:VaccineRel-961613303189906 .
+        sws:VaccineRel-961613303189906 ;
+    swo:ISO3_Code "ISL" .
 
 dbp:India swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-150072774816545,
@@ -1551,7 +1587,8 @@ dbp:India swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-803415375144946,
         sws:VaccineRel-898929872992391,
         sws:VaccineRel-905207094873933,
-        sws:VaccineRel-992454980552795 .
+        sws:VaccineRel-992454980552795 ;
+    swo:ISO3_Code "IND" .
 
 dbp:Indonesia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-113445747458682,
@@ -1578,9 +1615,10 @@ dbp:Indonesia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-894232761785174,
         sws:VaccineRel-908140623067343,
         sws:VaccineRel-949517959022200,
-        sws:VaccineRel-996554545243746 .
+        sws:VaccineRel-996554545243746 ;
+    swo:ISO3_Code "IDN" .
 
-<http://dbpedia.org/resource/Iran_(Islamic_Republic_of)> swo:Country_Located_In dbp:Asia ;
+dbp:Iran swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-130377251960868,
         sws:VaccineRel-209285982115405,
         sws:VaccineRel-30767607397607,
@@ -1600,7 +1638,8 @@ dbp:Indonesia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-809906378693528,
         sws:VaccineRel-81620600638629,
         sws:VaccineRel-848766587484948,
-        sws:VaccineRel-97844086053507 .
+        sws:VaccineRel-97844086053507 ;
+    swo:ISO3_Code "IRN" .
 
 dbp:Iraq swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-146022633079080,
@@ -1627,7 +1666,8 @@ dbp:Iraq swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-825392417947124,
         sws:VaccineRel-845915546176400,
         sws:VaccineRel-849482793910226,
-        sws:VaccineRel-914017325069453 .
+        sws:VaccineRel-914017325069453 ;
+    swo:ISO3_Code "IRQ" .
 
 dbp:Ireland swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-104186006906321,
@@ -1637,9 +1677,9 @@ dbp:Ireland swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-557195438305455,
         sws:VaccineRel-562770538600541,
         sws:VaccineRel-607749935820612,
-        sws:VaccineRel-791511616043984,
         sws:VaccineRel-812401925694122,
-        sws:VaccineRel-939622618845683 .
+        sws:VaccineRel-939622618845683 ;
+    swo:ISO3_Code "IRL" .
 
 dbp:Italy swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-105580634475470,
@@ -1657,7 +1697,28 @@ dbp:Italy swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-646003695611662,
         sws:VaccineRel-652162417738961,
         sws:VaccineRel-655455413096835,
-        sws:VaccineRel-74799112945935 .
+        sws:VaccineRel-74799112945935 ;
+    swo:ISO3_Code "ITA" .
+
+dbp:Ivory_Coast swo:Country_Located_In dbp:Africa ;
+    swo:Has_Vaccine sws:VaccineRel-13734036913594,
+        sws:VaccineRel-229330938287150,
+        sws:VaccineRel-261420789688755,
+        sws:VaccineRel-265820763642780,
+        sws:VaccineRel-291667138182062,
+        sws:VaccineRel-303417435762124,
+        sws:VaccineRel-322859313279342,
+        sws:VaccineRel-457586333749582,
+        sws:VaccineRel-514518024326449,
+        sws:VaccineRel-604607434094522,
+        sws:VaccineRel-628297940580877,
+        sws:VaccineRel-650380837872371,
+        sws:VaccineRel-771398722491759,
+        sws:VaccineRel-899408003740075,
+        sws:VaccineRel-945394714476803,
+        sws:VaccineRel-974362079100071,
+        sws:VaccineRel-998500838943393 ;
+    swo:ISO3_Code "CIV" .
 
 dbp:Jamaica swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-133645676670716,
@@ -1679,7 +1740,8 @@ dbp:Jamaica swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-802840541895608,
         sws:VaccineRel-817229718806867,
         sws:VaccineRel-828393384426216,
-        sws:VaccineRel-943555974356655 .
+        sws:VaccineRel-943555974356655 ;
+    swo:ISO3_Code "JAM" .
 
 dbp:Japan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-244432547151232,
@@ -1700,7 +1762,8 @@ dbp:Japan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-680430736143592,
         sws:VaccineRel-852058328131090,
         sws:VaccineRel-920484457463281,
-        sws:VaccineRel-968600650834443 .
+        sws:VaccineRel-968600650834443 ;
+    swo:ISO3_Code "JPN" .
 
 dbp:Jordan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-180505090467496,
@@ -1719,7 +1782,8 @@ dbp:Jordan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-812955001712473,
         sws:VaccineRel-833190411716389,
         sws:VaccineRel-885304710299279,
-        sws:VaccineRel-902831822282252 .
+        sws:VaccineRel-902831822282252 ;
+    swo:ISO3_Code "JOR" .
 
 dbp:Kazakhstan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-283919607209993,
@@ -1744,7 +1808,8 @@ dbp:Kazakhstan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-92440841020501,
         sws:VaccineRel-952933550946021,
         sws:VaccineRel-972365537457823,
-        sws:VaccineRel-982161078923985 .
+        sws:VaccineRel-982161078923985 ;
+    swo:ISO3_Code "KAZ" .
 
 dbp:Kenya swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-121596455143510,
@@ -1764,7 +1829,8 @@ dbp:Kenya swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-891884019582584,
         sws:VaccineRel-932037090067028,
         sws:VaccineRel-947502617290901,
-        sws:VaccineRel-967834005371740 .
+        sws:VaccineRel-967834005371740 ;
+    swo:ISO3_Code "KEN" .
 
 dbp:Kiribati swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-144422675561657,
@@ -1785,7 +1851,8 @@ dbp:Kiribati swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-875629509515290,
         sws:VaccineRel-89605899677220,
         sws:VaccineRel-994355661780070,
-        sws:VaccineRel-994826840603046 .
+        sws:VaccineRel-994826840603046 ;
+    swo:ISO3_Code "KIR" .
 
 dbp:Kyrgyzstan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-141885543448443,
@@ -1806,26 +1873,8 @@ dbp:Kyrgyzstan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-861444128705883,
         sws:VaccineRel-913198311428455,
         sws:VaccineRel-91642148122100,
-        sws:VaccineRel-99385299499670 .
-
-<http://dbpedia.org/resource/Lao_People's_Democratic_Republic_(the)> swo:Country_Located_In dbp:Asia ;
-    swo:Has_Vaccine sws:VaccineRel-106363712484414,
-        sws:VaccineRel-188528291796377,
-        sws:VaccineRel-207725203328518,
-        sws:VaccineRel-216398438718735,
-        sws:VaccineRel-230458599067469,
-        sws:VaccineRel-279248561805992,
-        sws:VaccineRel-434098144749828,
-        sws:VaccineRel-438312142269280,
-        sws:VaccineRel-452973437508073,
-        sws:VaccineRel-504017676308888,
-        sws:VaccineRel-505614476890603,
-        sws:VaccineRel-632923852026855,
-        sws:VaccineRel-689060560296737,
-        sws:VaccineRel-716490631943305,
-        sws:VaccineRel-800411661195143,
-        sws:VaccineRel-906020486589501,
-        sws:VaccineRel-950532174902548 .
+        sws:VaccineRel-99385299499670 ;
+    swo:ISO3_Code "KGZ" .
 
 dbp:Latvia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-10105538007791,
@@ -1851,7 +1900,8 @@ dbp:Latvia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-72445231105078,
         sws:VaccineRel-808626107721077,
         sws:VaccineRel-811532420181561,
-        sws:VaccineRel-889440488027550 .
+        sws:VaccineRel-889440488027550 ;
+    swo:ISO3_Code "LVA" .
 
 dbp:Lebanon swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-135894067317285,
@@ -1870,7 +1920,8 @@ dbp:Lebanon swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-816017819071217,
         sws:VaccineRel-825425047653840,
         sws:VaccineRel-913211851799121,
-        sws:VaccineRel-961976649238459 .
+        sws:VaccineRel-961976649238459 ;
+    swo:ISO3_Code "LBN" .
 
 dbp:Lesotho swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-113990175617827,
@@ -1889,7 +1940,8 @@ dbp:Lesotho swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-754815543495233,
         sws:VaccineRel-789062545789143,
         sws:VaccineRel-789381948264720,
-        sws:VaccineRel-90539226429805 .
+        sws:VaccineRel-90539226429805 ;
+    swo:ISO3_Code "LSO" .
 
 dbp:Liberia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-161745136272309,
@@ -1909,7 +1961,8 @@ dbp:Liberia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-773969471736654,
         sws:VaccineRel-842257848403416,
         sws:VaccineRel-967986374828606,
-        sws:VaccineRel-984496227523505 .
+        sws:VaccineRel-984496227523505 ;
+    swo:ISO3_Code "LBR" .
 
 dbp:Libya swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-103345922201080,
@@ -1934,7 +1987,8 @@ dbp:Libya swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-864964590681484,
         sws:VaccineRel-899145510685423,
         sws:VaccineRel-914738664311562,
-        sws:VaccineRel-974726685374187 .
+        sws:VaccineRel-974726685374187 ;
+    swo:ISO3_Code "LBY" .
 
 dbp:Lithuania swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-236212701852580,
@@ -1959,7 +2013,8 @@ dbp:Lithuania swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-944323257509439,
         sws:VaccineRel-949596855198590,
         sws:VaccineRel-950228637989775,
-        sws:VaccineRel-989999544170266 .
+        sws:VaccineRel-989999544170266 ;
+    swo:ISO3_Code "LTU" .
 
 dbp:Luxembourg swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-102482658309589,
@@ -1972,7 +2027,8 @@ dbp:Luxembourg swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-615140745699578,
         sws:VaccineRel-671669215438604,
         sws:VaccineRel-912224137163025,
-        sws:VaccineRel-949307140257582 .
+        sws:VaccineRel-949307140257582 ;
+    swo:ISO3_Code "LUX" .
 
 dbp:Madagascar swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-130583684971831,
@@ -1989,7 +2045,8 @@ dbp:Madagascar swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-677635829518922,
         sws:VaccineRel-746524494065079,
         sws:VaccineRel-756645995862487,
-        sws:VaccineRel-871380122605673 .
+        sws:VaccineRel-871380122605673 ;
+    swo:ISO3_Code "MDG" .
 
 dbp:Malawi swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-139433150086713,
@@ -2007,7 +2064,8 @@ dbp:Malawi swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-827463725500811,
         sws:VaccineRel-858041774690519,
         sws:VaccineRel-86604751163291,
-        sws:VaccineRel-994855876733470 .
+        sws:VaccineRel-994855876733470 ;
+    swo:ISO3_Code "MWI" .
 
 dbp:Malaysia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-157374613024919,
@@ -2024,7 +2082,8 @@ dbp:Malaysia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-772427697988266,
         sws:VaccineRel-797628355677498,
         sws:VaccineRel-923169630806055,
-        sws:VaccineRel-964294125542638 .
+        sws:VaccineRel-964294125542638 ;
+    swo:ISO3_Code "MYS" .
 
 dbp:Maldives swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-13132572383820,
@@ -2040,7 +2099,8 @@ dbp:Maldives swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-728086828813750,
         sws:VaccineRel-765744372609417,
         sws:VaccineRel-870162763831827,
-        sws:VaccineRel-948700849782767 .
+        sws:VaccineRel-948700849782767 ;
+    swo:ISO3_Code "MDV" .
 
 dbp:Mali swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-109139741012898,
@@ -2060,7 +2120,8 @@ dbp:Mali swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-912916594083239,
         sws:VaccineRel-953147824460829,
         sws:VaccineRel-979411992735550,
-        sws:VaccineRel-98324652612904 .
+        sws:VaccineRel-98324652612904 ;
+    swo:ISO3_Code "MLI" .
 
 dbp:Malta swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-108436137565189,
@@ -2077,9 +2138,10 @@ dbp:Malta swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-725417290879405,
         sws:VaccineRel-787917406507623,
         sws:VaccineRel-831285872520507,
-        sws:VaccineRel-850654503241832 .
+        sws:VaccineRel-850654503241832 ;
+    swo:ISO3_Code "MLT" .
 
-<http://dbpedia.org/resource/Marshall_Islands_(the)> swo:Country_Located_In dbp:Australia ;
+dbp:Marshall_Islands swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-14157205128472,
         sws:VaccineRel-225670574271942,
         sws:VaccineRel-236449501293717,
@@ -2103,7 +2165,8 @@ dbp:Malta swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-836133893092836,
         sws:VaccineRel-836605138373296,
         sws:VaccineRel-888649086047305,
-        sws:VaccineRel-910398535230608 .
+        sws:VaccineRel-910398535230608 ;
+    swo:ISO3_Code "MHL" .
 
 dbp:Mauritania swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-173293560313509,
@@ -2121,7 +2184,8 @@ dbp:Mauritania swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-812474379888452,
         sws:VaccineRel-831445855294043,
         sws:VaccineRel-88392760073987,
-        sws:VaccineRel-904279022106024 .
+        sws:VaccineRel-904279022106024 ;
+    swo:ISO3_Code "MRT" .
 
 dbp:Mauritius swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-125415125226729,
@@ -2146,7 +2210,8 @@ dbp:Mauritius swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-896581940934783,
         sws:VaccineRel-928839683060841,
         sws:VaccineRel-961856541667969,
-        sws:VaccineRel-989610541122865 .
+        sws:VaccineRel-989610541122865 ;
+    swo:ISO3_Code "MUS" .
 
 dbp:Mexico swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-12130522345607,
@@ -2171,9 +2236,10 @@ dbp:Mexico swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-881025254110860,
         sws:VaccineRel-901348200794006,
         sws:VaccineRel-922576386685111,
-        sws:VaccineRel-92455546192074 .
+        sws:VaccineRel-92455546192074 ;
+    swo:ISO3_Code "MEX" .
 
-<http://dbpedia.org/resource/Micronesia_(Federated_States_of)> swo:Country_Located_In dbp:Australia ;
+dbp:Micronesia swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-130717142548872,
         sws:VaccineRel-137188702025749,
         sws:VaccineRel-137818402794224,
@@ -2196,7 +2262,36 @@ dbp:Mexico swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-831775028507235,
         sws:VaccineRel-923468494103673,
         sws:VaccineRel-936262924286153,
-        sws:VaccineRel-982530529355025 .
+        sws:VaccineRel-982530529355025 ;
+    swo:ISO3_Code "FSM" .
+
+dbp:Moldova swo:Country_Located_In dbp:Europe ;
+    swo:Has_Vaccine sws:VaccineRel-110192910874718,
+        sws:VaccineRel-120446655239789,
+        sws:VaccineRel-161631210107154,
+        sws:VaccineRel-199176685680984,
+        sws:VaccineRel-262249145230192,
+        sws:VaccineRel-391628118810653,
+        sws:VaccineRel-442682132389255,
+        sws:VaccineRel-500398152857681,
+        sws:VaccineRel-555272783882373,
+        sws:VaccineRel-573942965109956,
+        sws:VaccineRel-638286404728937,
+        sws:VaccineRel-649188195089539,
+        sws:VaccineRel-663718408891917,
+        sws:VaccineRel-671703563232874,
+        sws:VaccineRel-71612554589017,
+        sws:VaccineRel-740307913025161,
+        sws:VaccineRel-748259895590738,
+        sws:VaccineRel-753546631143755,
+        sws:VaccineRel-800513834054187,
+        sws:VaccineRel-82351979021984,
+        sws:VaccineRel-882438192421923,
+        sws:VaccineRel-934164308349433,
+        sws:VaccineRel-954532026220607,
+        sws:VaccineRel-956329806726556,
+        sws:VaccineRel-958397704244960 ;
+    swo:ISO3_Code "MDA" .
 
 dbp:Monaco swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-161379470681869,
@@ -2207,7 +2302,8 @@ dbp:Monaco swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-537590770622143,
         sws:VaccineRel-614072334832805,
         sws:VaccineRel-887209763081483,
-        sws:VaccineRel-956663761357702 .
+        sws:VaccineRel-956663761357702 ;
+    swo:ISO3_Code "MCO" .
 
 dbp:Mongolia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-104972270078665,
@@ -2228,7 +2324,8 @@ dbp:Mongolia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-923359937679524,
         sws:VaccineRel-940542310418936,
         sws:VaccineRel-970420250933977,
-        sws:VaccineRel-983757203937341 .
+        sws:VaccineRel-983757203937341 ;
+    swo:ISO3_Code "MNG" .
 
 dbp:Morocco swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-119658241798732,
@@ -2254,7 +2351,8 @@ dbp:Morocco swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-689618193040474,
         sws:VaccineRel-756639078998887,
         sws:VaccineRel-875972457946739,
-        sws:VaccineRel-884215909534977 .
+        sws:VaccineRel-884215909534977 ;
+    swo:ISO3_Code "MAR" .
 
 dbp:Mozambique swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-105681399622022,
@@ -2273,7 +2371,8 @@ dbp:Mozambique swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-910861996907900,
         sws:VaccineRel-919886822592200,
         sws:VaccineRel-932803818856446,
-        sws:VaccineRel-981934518885737 .
+        sws:VaccineRel-981934518885737 ;
+    swo:ISO3_Code "MOZ" .
 
 dbp:Myanmar swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-122334314438247,
@@ -2292,7 +2391,8 @@ dbp:Myanmar swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-797934024265845,
         sws:VaccineRel-80817234988786,
         sws:VaccineRel-80961454081115,
-        sws:VaccineRel-937107042862945 .
+        sws:VaccineRel-937107042862945 ;
+    swo:ISO3_Code "MMR" .
 
 dbp:Namibia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-114683313388947,
@@ -2313,7 +2413,8 @@ dbp:Namibia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-630706933997058,
         sws:VaccineRel-642300335523627,
         sws:VaccineRel-692105370969623,
-        sws:VaccineRel-746745564616814 .
+        sws:VaccineRel-746745564616814 ;
+    swo:ISO3_Code "NAM" .
 
 dbp:Nauru swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-160370785988764,
@@ -2332,7 +2433,8 @@ dbp:Nauru swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-904008672085952,
         sws:VaccineRel-913746222818769,
         sws:VaccineRel-980010699810094,
-        sws:VaccineRel-998673361144831 .
+        sws:VaccineRel-998673361144831 ;
+    swo:ISO3_Code "NRU" .
 
 dbp:Nepal swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-147683235232046,
@@ -2348,27 +2450,48 @@ dbp:Nepal swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-649218088570729,
         sws:VaccineRel-652340362734718,
         sws:VaccineRel-758006909911510,
-        sws:VaccineRel-966467209389335 .
+        sws:VaccineRel-966467209389335 ;
+    swo:ISO3_Code "NPL" .
 
-<http://dbpedia.org/resource/Netherlands_(the)> swo:Country_Located_In dbp:Europe ;
-    swo:Has_Vaccine sws:VaccineRel-143384494386036,
+dbp:Netherlands swo:Country_Located_In dbp:Africa,
+        dbp:Europe ;
+    swo:Has_Vaccine sws:VaccineRel-127534469919188,
+        sws:VaccineRel-143384494386036,
+        sws:VaccineRel-147704996039569,
         sws:VaccineRel-156892510482434,
         sws:VaccineRel-176891183724213,
+        sws:VaccineRel-206958474674701,
+        sws:VaccineRel-212696866975076,
         sws:VaccineRel-22311935620626,
+        sws:VaccineRel-229591234462448,
+        sws:VaccineRel-302943002017280,
         sws:VaccineRel-324271710767951,
         sws:VaccineRel-351044540877019,
+        sws:VaccineRel-35195052513489,
         sws:VaccineRel-352123898078790,
+        sws:VaccineRel-354423526224999,
         sws:VaccineRel-438760509892915,
+        sws:VaccineRel-452470756597058,
         sws:VaccineRel-466333137000283,
+        sws:VaccineRel-50786309419103,
         sws:VaccineRel-512673711235850,
+        sws:VaccineRel-534677745026231,
+        sws:VaccineRel-594105700570229,
         sws:VaccineRel-608117025617690,
         sws:VaccineRel-617641085240281,
         sws:VaccineRel-649545205062907,
+        sws:VaccineRel-709239523904889,
+        sws:VaccineRel-735468003546339,
+        sws:VaccineRel-777464511801636,
         sws:VaccineRel-854487604720464,
+        sws:VaccineRel-885543196794621,
         sws:VaccineRel-888221365001201,
         sws:VaccineRel-899885904640991,
+        sws:VaccineRel-991088330994221,
         sws:VaccineRel-991402734549215,
-        sws:VaccineRel-995216890179798 .
+        sws:VaccineRel-995216890179798 ;
+    swo:ISO3_Code "NLD",
+        "SDN" .
 
 dbp:New_Zealand swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-129458382637391,
@@ -2392,10 +2515,9 @@ dbp:New_Zealand swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-70679906194900,
         sws:VaccineRel-71172598336699,
         sws:VaccineRel-745103702553646,
-        sws:VaccineRel-881468031604199,
-        sws:VaccineRel-92923226567738,
         sws:VaccineRel-949552143132157,
-        sws:VaccineRel-954150740187370 .
+        sws:VaccineRel-954150740187370 ;
+    swo:ISO3_Code "NZL" .
 
 dbp:Nicaragua swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-103175046620244,
@@ -2420,16 +2542,26 @@ dbp:Nicaragua swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-863776428238583,
         sws:VaccineRel-867867924880121,
         sws:VaccineRel-943182446357241,
-        sws:VaccineRel-960142192400171 .
+        sws:VaccineRel-960142192400171 ;
+    swo:ISO3_Code "NIC" .
 
-<http://dbpedia.org/resource/Niger_(the)> swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-167870745630018,
+dbp:Nigeria swo:Country_Located_In dbp:Africa ;
+    swo:Has_Vaccine sws:VaccineRel-114017647183824,
+        sws:VaccineRel-167870745630018,
+        sws:VaccineRel-187154272129131,
         sws:VaccineRel-210236117207567,
+        sws:VaccineRel-305029655202507,
         sws:VaccineRel-324952424210180,
+        sws:VaccineRel-354620573301096,
+        sws:VaccineRel-358156354497226,
         sws:VaccineRel-365426013674204,
         sws:VaccineRel-410908065004963,
         sws:VaccineRel-417685412491851,
+        sws:VaccineRel-432973606035702,
+        sws:VaccineRel-460222770871604,
         sws:VaccineRel-519695061549198,
+        sws:VaccineRel-54396898604890,
+        sws:VaccineRel-576773728908505,
         sws:VaccineRel-609511919798165,
         sws:VaccineRel-61395189154724,
         sws:VaccineRel-664008673728248,
@@ -2437,29 +2569,20 @@ dbp:Nicaragua swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-739897223056466,
         sws:VaccineRel-75936933072427,
         sws:VaccineRel-807591128520741,
+        sws:VaccineRel-83991506857667,
+        sws:VaccineRel-849584154083697,
         sws:VaccineRel-861931852712937,
         sws:VaccineRel-863619713838419,
         sws:VaccineRel-876618253890084,
-        sws:VaccineRel-910685832863609,
-        sws:VaccineRel-914540092728176 .
-
-dbp:Nigeria swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-114017647183824,
-        sws:VaccineRel-187154272129131,
-        sws:VaccineRel-305029655202507,
-        sws:VaccineRel-354620573301096,
-        sws:VaccineRel-358156354497226,
-        sws:VaccineRel-432973606035702,
-        sws:VaccineRel-460222770871604,
-        sws:VaccineRel-54396898604890,
-        sws:VaccineRel-576773728908505,
-        sws:VaccineRel-83991506857667,
-        sws:VaccineRel-849584154083697,
         sws:VaccineRel-887305264299747,
         sws:VaccineRel-893556804424209,
+        sws:VaccineRel-910685832863609,
+        sws:VaccineRel-914540092728176,
         sws:VaccineRel-960745529313543,
         sws:VaccineRel-972912225933904,
-        sws:VaccineRel-988263375063474 .
+        sws:VaccineRel-988263375063474 ;
+    swo:ISO3_Code "NER",
+        "NGA" .
 
 dbp:Niue swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-155415752017416,
@@ -2486,7 +2609,8 @@ dbp:Niue swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-87564925292766,
         sws:VaccineRel-90419737368627,
         sws:VaccineRel-933932934638594,
-        sws:VaccineRel-990348503856162 .
+        sws:VaccineRel-990348503856162 ;
+    swo:ISO3_Code "NIU" .
 
 dbp:Norway swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-148673652100189,
@@ -2504,7 +2628,8 @@ dbp:Norway swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-928266274178661,
         sws:VaccineRel-959591188518682,
         sws:VaccineRel-973893279579000,
-        sws:VaccineRel-974383975362139 .
+        sws:VaccineRel-974383975362139 ;
+    swo:ISO3_Code "NOR" .
 
 dbp:Oman swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-157134476649432,
@@ -2526,7 +2651,8 @@ dbp:Oman swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-884586316872610,
         sws:VaccineRel-893015081456185,
         sws:VaccineRel-905221306422675,
-        sws:VaccineRel-969756935498139 .
+        sws:VaccineRel-969756935498139 ;
+    swo:ISO3_Code "OMN" .
 
 dbp:Pakistan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-261639655137533,
@@ -2544,7 +2670,8 @@ dbp:Pakistan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-874406480466424,
         sws:VaccineRel-91169897256993,
         sws:VaccineRel-922646015270175,
-        sws:VaccineRel-934093258144212 .
+        sws:VaccineRel-934093258144212 ;
+    swo:ISO3_Code "PAK" .
 
 dbp:Palau swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-240621035464021,
@@ -2562,7 +2689,8 @@ dbp:Palau swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-901960012896707,
         sws:VaccineRel-968573819697219,
         sws:VaccineRel-973247006175951,
-        sws:VaccineRel-987446915411358 .
+        sws:VaccineRel-987446915411358 ;
+    swo:ISO3_Code "PLW" .
 
 dbp:Panama swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-145006311059052,
@@ -2590,7 +2718,8 @@ dbp:Panama swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-788857258512505,
         sws:VaccineRel-83184038146255,
         sws:VaccineRel-863690516925518,
-        sws:VaccineRel-888437114072553 .
+        sws:VaccineRel-888437114072553 ;
+    swo:ISO3_Code "PAN" .
 
 dbp:Papua_New_Guinea swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-114374862499508,
@@ -2607,7 +2736,8 @@ dbp:Papua_New_Guinea swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-929874231801364,
         sws:VaccineRel-958495768626189,
         sws:VaccineRel-979951829615160,
-        sws:VaccineRel-980438237850953 .
+        sws:VaccineRel-980438237850953 ;
+    swo:ISO3_Code "PNG" .
 
 dbp:Paraguay swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-134715711536283,
@@ -2635,7 +2765,8 @@ dbp:Paraguay swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-738929031920478,
         sws:VaccineRel-755770434018302,
         sws:VaccineRel-824236019842285,
-        sws:VaccineRel-89235568464050 .
+        sws:VaccineRel-89235568464050 ;
+    swo:ISO3_Code "PRY" .
 
 dbp:Peru swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-111829056549985,
@@ -2662,9 +2793,10 @@ dbp:Peru swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-91060435920208,
         sws:VaccineRel-926735129687333,
         sws:VaccineRel-975246812772137,
-        sws:VaccineRel-992083619933875 .
+        sws:VaccineRel-992083619933875 ;
+    swo:ISO3_Code "PER" .
 
-<http://dbpedia.org/resource/Philippines_(the)> swo:Country_Located_In dbp:Asia ;
+dbp:Philippines swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-224343150401784,
         sws:VaccineRel-345377944407652,
         sws:VaccineRel-377350133416017,
@@ -2680,7 +2812,8 @@ dbp:Peru swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-847788255990293,
         sws:VaccineRel-863971210085399,
         sws:VaccineRel-88253287192242,
-        sws:VaccineRel-947769675689897 .
+        sws:VaccineRel-947769675689897 ;
+    swo:ISO3_Code "PHL" .
 
 dbp:Poland swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-116743159877870,
@@ -2698,7 +2831,8 @@ dbp:Poland swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-698004189869089,
         sws:VaccineRel-729444470047339,
         sws:VaccineRel-801545384358668,
-        sws:VaccineRel-883788082911728 .
+        sws:VaccineRel-883788082911728 ;
+    swo:ISO3_Code "POL" .
 
 dbp:Portugal swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-123661923940903,
@@ -2718,7 +2852,8 @@ dbp:Portugal swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-817858663533710,
         sws:VaccineRel-826774378336826,
         sws:VaccineRel-832733659769384,
-        sws:VaccineRel-944902914470065 .
+        sws:VaccineRel-944902914470065 ;
+    swo:ISO3_Code "PRT" .
 
 dbp:Qatar swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-102360076842843,
@@ -2740,56 +2875,8 @@ dbp:Qatar swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-705045983021096,
         sws:VaccineRel-898521600851201,
         sws:VaccineRel-904747501495482,
-        sws:VaccineRel-980779594862626 .
-
-<http://dbpedia.org/resource/Republic_of_Korea_(the)> swo:Country_Located_In dbp:Asia ;
-    swo:Has_Vaccine sws:VaccineRel-154687864386349,
-        sws:VaccineRel-180670472419405,
-        sws:VaccineRel-20638808577778,
-        sws:VaccineRel-240504274439781,
-        sws:VaccineRel-314220901664764,
-        sws:VaccineRel-333951568263732,
-        sws:VaccineRel-340443570983409,
-        sws:VaccineRel-461181428265227,
-        sws:VaccineRel-524228527149101,
-        sws:VaccineRel-528748742795710,
-        sws:VaccineRel-552966034163473,
-        sws:VaccineRel-580351192784907,
-        sws:VaccineRel-722996620454435,
-        sws:VaccineRel-748314833602960,
-        sws:VaccineRel-753119743916348,
-        sws:VaccineRel-882500573837267,
-        sws:VaccineRel-900996417414305,
-        sws:VaccineRel-962731078968168,
-        sws:VaccineRel-975925967880226,
-        sws:VaccineRel-99441915724039 .
-
-<http://dbpedia.org/resource/Republic_of_Moldova_(the)> swo:Country_Located_In dbp:Europe ;
-    swo:Has_Vaccine sws:VaccineRel-110192910874718,
-        sws:VaccineRel-120446655239789,
-        sws:VaccineRel-161631210107154,
-        sws:VaccineRel-199176685680984,
-        sws:VaccineRel-262249145230192,
-        sws:VaccineRel-391628118810653,
-        sws:VaccineRel-442682132389255,
-        sws:VaccineRel-500398152857681,
-        sws:VaccineRel-555272783882373,
-        sws:VaccineRel-573942965109956,
-        sws:VaccineRel-638286404728937,
-        sws:VaccineRel-649188195089539,
-        sws:VaccineRel-663718408891917,
-        sws:VaccineRel-671703563232874,
-        sws:VaccineRel-71612554589017,
-        sws:VaccineRel-740307913025161,
-        sws:VaccineRel-748259895590738,
-        sws:VaccineRel-753546631143755,
-        sws:VaccineRel-800513834054187,
-        sws:VaccineRel-82351979021984,
-        sws:VaccineRel-882438192421923,
-        sws:VaccineRel-934164308349433,
-        sws:VaccineRel-954532026220607,
-        sws:VaccineRel-956329806726556,
-        sws:VaccineRel-958397704244960 .
+        sws:VaccineRel-980779594862626 ;
+    swo:ISO3_Code "QAT" .
 
 dbp:Romania swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-137011830027577,
@@ -2802,25 +2889,8 @@ dbp:Romania swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-841110251522192,
         sws:VaccineRel-850028186323143,
         sws:VaccineRel-897007632053003,
-        sws:VaccineRel-994952481260901 .
-
-<http://dbpedia.org/resource/Russian_Federation_(the)> swo:Country_Located_In dbp:Europe ;
-    swo:Has_Vaccine sws:VaccineRel-150124955309716,
-        sws:VaccineRel-180712879005502,
-        sws:VaccineRel-218889628015496,
-        sws:VaccineRel-245018512902407,
-        sws:VaccineRel-273385275488258,
-        sws:VaccineRel-354360570672531,
-        sws:VaccineRel-477859043873825,
-        sws:VaccineRel-541960545216101,
-        sws:VaccineRel-699234641778478,
-        sws:VaccineRel-722798121262239,
-        sws:VaccineRel-741440116943917,
-        sws:VaccineRel-842315994605265,
-        sws:VaccineRel-872421133913487,
-        sws:VaccineRel-90672680485336,
-        sws:VaccineRel-936285534789230,
-        sws:VaccineRel-947219706627900 .
+        sws:VaccineRel-994952481260901 ;
+    swo:ISO3_Code "ROU" .
 
 dbp:Rwanda swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-118899432312673,
@@ -2839,28 +2909,8 @@ dbp:Rwanda swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-743909721343201,
         sws:VaccineRel-780792060852792,
         sws:VaccineRel-903696266075484,
-        sws:VaccineRel-952719984410202 .
-
-dbp:Saint_Kitts_and_Nevis swo:Country_Located_In dbp:North_America ;
-    swo:Has_Vaccine sws:VaccineRel-131968052483189,
-        sws:VaccineRel-144055800526483,
-        sws:VaccineRel-272170368765667,
-        sws:VaccineRel-312630742649018,
-        sws:VaccineRel-326773960553212,
-        sws:VaccineRel-354174686840782,
-        sws:VaccineRel-456432126102986,
-        sws:VaccineRel-492299209293912,
-        sws:VaccineRel-561444863843717,
-        sws:VaccineRel-576646259277331,
-        sws:VaccineRel-608005123093864,
-        sws:VaccineRel-675594879003997,
-        sws:VaccineRel-713616027147241,
-        sws:VaccineRel-7917013096308,
-        sws:VaccineRel-817658803273492,
-        sws:VaccineRel-906688814268771,
-        sws:VaccineRel-915905115724090,
-        sws:VaccineRel-93111059711271,
-        sws:VaccineRel-956634558625117 .
+        sws:VaccineRel-952719984410202 ;
+    swo:ISO3_Code "RWA" .
 
 dbp:Saint_Lucia swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-13836267254476,
@@ -2880,29 +2930,8 @@ dbp:Saint_Lucia swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-953643568612233,
         sws:VaccineRel-983849361644754,
         sws:VaccineRel-988059478413179,
-        sws:VaccineRel-993372266374654 .
-
-dbp:Saint_Vincent_and_the_Grenadines swo:Country_Located_In dbp:North_America ;
-    swo:Has_Vaccine sws:VaccineRel-115038841981076,
-        sws:VaccineRel-127988369892472,
-        sws:VaccineRel-189151456824151,
-        sws:VaccineRel-22302752722782,
-        sws:VaccineRel-226562765194135,
-        sws:VaccineRel-234866492561924,
-        sws:VaccineRel-250393663478847,
-        sws:VaccineRel-254180507071007,
-        sws:VaccineRel-295969030076777,
-        sws:VaccineRel-336411480359298,
-        sws:VaccineRel-378613150282554,
-        sws:VaccineRel-451095044905319,
-        sws:VaccineRel-456609298945104,
-        sws:VaccineRel-51732476550099,
-        sws:VaccineRel-594849592147203,
-        sws:VaccineRel-62452389542263,
-        sws:VaccineRel-717123324029473,
-        sws:VaccineRel-762973267984388,
-        sws:VaccineRel-866535452882914,
-        sws:VaccineRel-929400194297027 .
+        sws:VaccineRel-993372266374654 ;
+    swo:ISO3_Code "LCA" .
 
 dbp:Samoa swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-107700527438264,
@@ -2916,7 +2945,8 @@ dbp:Samoa swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-569464497878363,
         sws:VaccineRel-949015551152895,
         sws:VaccineRel-973688200473312,
-        sws:VaccineRel-978158131268354 .
+        sws:VaccineRel-978158131268354 ;
+    swo:ISO3_Code "WSM" .
 
 dbp:San_Marino swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-155757152482741,
@@ -2938,26 +2968,8 @@ dbp:San_Marino swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-886892811169749,
         sws:VaccineRel-915568558452910,
         sws:VaccineRel-987291411415399,
-        sws:VaccineRel-994227665839382 .
-
-dbp:Sao_Tome_and_Principe swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-122863828066640,
-        sws:VaccineRel-227777911749880,
-        sws:VaccineRel-269421657002168,
-        sws:VaccineRel-361051280320381,
-        sws:VaccineRel-389505501116092,
-        sws:VaccineRel-432823354873925,
-        sws:VaccineRel-437042970568130,
-        sws:VaccineRel-514631861354714,
-        sws:VaccineRel-640700420648162,
-        sws:VaccineRel-683467498911785,
-        sws:VaccineRel-687268397382273,
-        sws:VaccineRel-713169903207719,
-        sws:VaccineRel-740617877550989,
-        sws:VaccineRel-819904147967853,
-        sws:VaccineRel-820959615025108,
-        sws:VaccineRel-889468663073757,
-        sws:VaccineRel-974878805201411 .
+        sws:VaccineRel-994227665839382 ;
+    swo:ISO3_Code "SMR" .
 
 dbp:Saudi_Arabia swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-104820002377414,
@@ -2980,7 +2992,8 @@ dbp:Saudi_Arabia swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-821966166396062,
         sws:VaccineRel-917934864993667,
         sws:VaccineRel-989076512515599,
-        sws:VaccineRel-999692886879636 .
+        sws:VaccineRel-999692886879636 ;
+    swo:ISO3_Code "SAU" .
 
 dbp:Senegal swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-1208193812436,
@@ -3001,7 +3014,8 @@ dbp:Senegal swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-876572242655629,
         sws:VaccineRel-89810437933040,
         sws:VaccineRel-928553018224418,
-        sws:VaccineRel-939627563385580 .
+        sws:VaccineRel-939627563385580 ;
+    swo:ISO3_Code "SEN" .
 
 dbp:Serbia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-136897690146724,
@@ -3019,7 +3033,8 @@ dbp:Serbia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-802668163217880,
         sws:VaccineRel-823278423443436,
         sws:VaccineRel-828127042923972,
-        sws:VaccineRel-885962974477771 .
+        sws:VaccineRel-885962974477771 ;
+    swo:ISO3_Code "SRB" .
 
 dbp:Seychelles swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-191668285974968,
@@ -3044,7 +3059,8 @@ dbp:Seychelles swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-899158098883106,
         sws:VaccineRel-947875812125106,
         sws:VaccineRel-977021973131173,
-        sws:VaccineRel-992337922932963 .
+        sws:VaccineRel-992337922932963 ;
+    swo:ISO3_Code "SYC" .
 
 dbp:Sierra_Leone swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-130064243206452,
@@ -3063,7 +3079,8 @@ dbp:Sierra_Leone swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-621107436827993,
         sws:VaccineRel-695811879806091,
         sws:VaccineRel-723387351617109,
-        sws:VaccineRel-738852264721283 .
+        sws:VaccineRel-738852264721283 ;
+    swo:ISO3_Code "SLE" .
 
 dbp:Singapore swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-114467863635437,
@@ -3080,7 +3097,8 @@ dbp:Singapore swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-914969853785539,
         sws:VaccineRel-933302156655405,
         sws:VaccineRel-957763489672631,
-        sws:VaccineRel-976746917415245 .
+        sws:VaccineRel-976746917415245 ;
+    swo:ISO3_Code "SGP" .
 
 dbp:Slovakia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-135165329295552,
@@ -3096,7 +3114,8 @@ dbp:Slovakia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-610867172887642,
         sws:VaccineRel-829738698419291,
         sws:VaccineRel-862687014502604,
-        sws:VaccineRel-972367023069109 .
+        sws:VaccineRel-972367023069109 ;
+    swo:ISO3_Code "SVK" .
 
 dbp:Slovenia swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-125625149487477,
@@ -3109,7 +3128,8 @@ dbp:Slovenia swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-714237605017764,
         sws:VaccineRel-924168965889727,
         sws:VaccineRel-952001100866424,
-        sws:VaccineRel-987036185781091 .
+        sws:VaccineRel-987036185781091 ;
+    swo:ISO3_Code "SVN" .
 
 dbp:Solomon_Islands swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-124054033664223,
@@ -3128,7 +3148,8 @@ dbp:Solomon_Islands swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-832238246903739,
         sws:VaccineRel-866195619219518,
         sws:VaccineRel-956881309145191,
-        sws:VaccineRel-964858284460082 .
+        sws:VaccineRel-964858284460082 ;
+    swo:ISO3_Code "SLB" .
 
 dbp:Somalia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-135757734990032,
@@ -3140,7 +3161,8 @@ dbp:Somalia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-522401849746861,
         sws:VaccineRel-723275219526569,
         sws:VaccineRel-735168955465611,
-        sws:VaccineRel-803631132375966 .
+        sws:VaccineRel-803631132375966 ;
+    swo:ISO3_Code "SOM" .
 
 dbp:South_Africa swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-116166459822611,
@@ -3165,7 +3187,31 @@ dbp:South_Africa swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-83910389164370,
         sws:VaccineRel-860951278473888,
         sws:VaccineRel-872487684030232,
-        sws:VaccineRel-971813906467718 .
+        sws:VaccineRel-971813906467718 ;
+    swo:ISO3_Code "ZAF" .
+
+dbp:South_Korea swo:Country_Located_In dbp:Asia ;
+    swo:Has_Vaccine sws:VaccineRel-154687864386349,
+        sws:VaccineRel-180670472419405,
+        sws:VaccineRel-20638808577778,
+        sws:VaccineRel-240504274439781,
+        sws:VaccineRel-314220901664764,
+        sws:VaccineRel-333951568263732,
+        sws:VaccineRel-340443570983409,
+        sws:VaccineRel-461181428265227,
+        sws:VaccineRel-524228527149101,
+        sws:VaccineRel-528748742795710,
+        sws:VaccineRel-552966034163473,
+        sws:VaccineRel-580351192784907,
+        sws:VaccineRel-722996620454435,
+        sws:VaccineRel-748314833602960,
+        sws:VaccineRel-753119743916348,
+        sws:VaccineRel-882500573837267,
+        sws:VaccineRel-900996417414305,
+        sws:VaccineRel-962731078968168,
+        sws:VaccineRel-975925967880226,
+        sws:VaccineRel-99441915724039 ;
+    swo:ISO3_Code "KOR" .
 
 dbp:South_Sudan swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-110287435713369,
@@ -3177,7 +3223,8 @@ dbp:South_Sudan swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-728971949684160,
         sws:VaccineRel-73754686936156,
         sws:VaccineRel-787344634361964,
-        sws:VaccineRel-987042357740186 .
+        sws:VaccineRel-987042357740186 ;
+    swo:ISO3_Code "SSD" .
 
 dbp:Spain swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-128684628065922,
@@ -3197,50 +3244,97 @@ dbp:Spain swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-734718044870843,
         sws:VaccineRel-780971677820607,
         sws:VaccineRel-783325250937285,
-        sws:VaccineRel-828068200462523 .
+        sws:VaccineRel-828068200462523 ;
+    swo:ISO3_Code "ESP" .
 
 dbp:Sri_Lanka swo:Country_Located_In dbp:Asia ;
-    swo:Has_Vaccine sws:VaccineRel-151665824524648,
+    swo:Has_Vaccine sws:VaccineRel-126914425587652,
+        sws:VaccineRel-151665824524648,
+        sws:VaccineRel-166073558667541,
         sws:VaccineRel-220972344409230,
+        sws:VaccineRel-228888543599305,
         sws:VaccineRel-243915159682467,
         sws:VaccineRel-254217676273372,
+        sws:VaccineRel-285671268248689,
         sws:VaccineRel-341069742945767,
         sws:VaccineRel-357139711580383,
         sws:VaccineRel-397918390139901,
         sws:VaccineRel-428517678786992,
+        sws:VaccineRel-442231764021365,
+        sws:VaccineRel-44450987957133,
+        sws:VaccineRel-476064880284696,
         sws:VaccineRel-486047161395427,
         sws:VaccineRel-487560659974466,
         sws:VaccineRel-52677344091329,
         sws:VaccineRel-546326339009728,
         sws:VaccineRel-599837660894665,
+        sws:VaccineRel-665793611697546,
         sws:VaccineRel-700501476326028,
+        sws:VaccineRel-702414036171090,
+        sws:VaccineRel-710367010752468,
+        sws:VaccineRel-715632633829474,
         sws:VaccineRel-719252258770308,
         sws:VaccineRel-776488974145761,
         sws:VaccineRel-785759019198606,
+        sws:VaccineRel-787421284524894,
+        sws:VaccineRel-801677062025165,
+        sws:VaccineRel-826087774905240,
         sws:VaccineRel-857531964713966,
         sws:VaccineRel-865085629952664,
         sws:VaccineRel-898751580704808,
+        sws:VaccineRel-912019387167832,
+        sws:VaccineRel-915237688819346,
         sws:VaccineRel-927367069792491,
-        sws:VaccineRel-955987080846614 .
+        sws:VaccineRel-955987080846614,
+        sws:VaccineRel-983497787385071,
+        sws:VaccineRel-988017799387515 ;
+    swo:ISO3_Code "LKA",
+        "SYR" .
 
-<http://dbpedia.org/resource/Sudan_(the)> swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-127534469919188,
-        sws:VaccineRel-147704996039569,
-        sws:VaccineRel-206958474674701,
-        sws:VaccineRel-212696866975076,
-        sws:VaccineRel-229591234462448,
-        sws:VaccineRel-302943002017280,
-        sws:VaccineRel-35195052513489,
-        sws:VaccineRel-354423526224999,
-        sws:VaccineRel-452470756597058,
-        sws:VaccineRel-50786309419103,
-        sws:VaccineRel-534677745026231,
-        sws:VaccineRel-594105700570229,
-        sws:VaccineRel-709239523904889,
-        sws:VaccineRel-735468003546339,
-        sws:VaccineRel-777464511801636,
-        sws:VaccineRel-885543196794621,
-        sws:VaccineRel-991088330994221 .
+dbp:St_Kitts_and_Nevis swo:Country_Located_In dbp:North_America ;
+    swo:Has_Vaccine sws:VaccineRel-131968052483189,
+        sws:VaccineRel-144055800526483,
+        sws:VaccineRel-272170368765667,
+        sws:VaccineRel-312630742649018,
+        sws:VaccineRel-326773960553212,
+        sws:VaccineRel-354174686840782,
+        sws:VaccineRel-456432126102986,
+        sws:VaccineRel-492299209293912,
+        sws:VaccineRel-561444863843717,
+        sws:VaccineRel-576646259277331,
+        sws:VaccineRel-608005123093864,
+        sws:VaccineRel-675594879003997,
+        sws:VaccineRel-713616027147241,
+        sws:VaccineRel-7917013096308,
+        sws:VaccineRel-817658803273492,
+        sws:VaccineRel-906688814268771,
+        sws:VaccineRel-915905115724090,
+        sws:VaccineRel-93111059711271,
+        sws:VaccineRel-956634558625117 ;
+    swo:ISO3_Code "KNA" .
+
+dbp:St_Vincent_and_Grenadines swo:Country_Located_In dbp:North_America ;
+    swo:Has_Vaccine sws:VaccineRel-115038841981076,
+        sws:VaccineRel-127988369892472,
+        sws:VaccineRel-189151456824151,
+        sws:VaccineRel-22302752722782,
+        sws:VaccineRel-226562765194135,
+        sws:VaccineRel-234866492561924,
+        sws:VaccineRel-250393663478847,
+        sws:VaccineRel-254180507071007,
+        sws:VaccineRel-295969030076777,
+        sws:VaccineRel-336411480359298,
+        sws:VaccineRel-378613150282554,
+        sws:VaccineRel-451095044905319,
+        sws:VaccineRel-456609298945104,
+        sws:VaccineRel-51732476550099,
+        sws:VaccineRel-594849592147203,
+        sws:VaccineRel-62452389542263,
+        sws:VaccineRel-717123324029473,
+        sws:VaccineRel-762973267984388,
+        sws:VaccineRel-866535452882914,
+        sws:VaccineRel-929400194297027 ;
+    swo:ISO3_Code "VCT" .
 
 dbp:Suriname swo:Country_Located_In dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-161592640177103,
@@ -3260,7 +3354,8 @@ dbp:Suriname swo:Country_Located_In dbp:South_America ;
         sws:VaccineRel-833357754407203,
         sws:VaccineRel-851230620002201,
         sws:VaccineRel-895512382736308,
-        sws:VaccineRel-974322560625684 .
+        sws:VaccineRel-974322560625684 ;
+    swo:ISO3_Code "SUR" .
 
 dbp:Sweden swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-125928236365859,
@@ -3273,7 +3368,8 @@ dbp:Sweden swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-633376853512627,
         sws:VaccineRel-717252030761250,
         sws:VaccineRel-740366830899754,
-        sws:VaccineRel-758654745851940 .
+        sws:VaccineRel-758654745851940 ;
+    swo:ISO3_Code "SWE" .
 
 dbp:Switzerland swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-108939104982651,
@@ -3296,27 +3392,28 @@ dbp:Switzerland swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-858371051435823,
         sws:VaccineRel-87979235712879,
         sws:VaccineRel-955249997763693,
-        sws:VaccineRel-984521295495966 .
+        sws:VaccineRel-984521295495966 ;
+    swo:ISO3_Code "CHE" .
 
-<http://dbpedia.org/resource/Syrian_Arab_Republic_(the)> swo:Country_Located_In dbp:Asia ;
-    swo:Has_Vaccine sws:VaccineRel-126914425587652,
-        sws:VaccineRel-166073558667541,
-        sws:VaccineRel-228888543599305,
-        sws:VaccineRel-285671268248689,
-        sws:VaccineRel-442231764021365,
-        sws:VaccineRel-44450987957133,
-        sws:VaccineRel-476064880284696,
-        sws:VaccineRel-665793611697546,
-        sws:VaccineRel-702414036171090,
-        sws:VaccineRel-710367010752468,
-        sws:VaccineRel-715632633829474,
-        sws:VaccineRel-787421284524894,
-        sws:VaccineRel-801677062025165,
-        sws:VaccineRel-826087774905240,
-        sws:VaccineRel-912019387167832,
-        sws:VaccineRel-915237688819346,
-        sws:VaccineRel-983497787385071,
-        sws:VaccineRel-988017799387515 .
+dbp:São_Tomé_and_Príncipe swo:Country_Located_In dbp:Africa ;
+    swo:Has_Vaccine sws:VaccineRel-122863828066640,
+        sws:VaccineRel-227777911749880,
+        sws:VaccineRel-269421657002168,
+        sws:VaccineRel-361051280320381,
+        sws:VaccineRel-389505501116092,
+        sws:VaccineRel-432823354873925,
+        sws:VaccineRel-437042970568130,
+        sws:VaccineRel-514631861354714,
+        sws:VaccineRel-640700420648162,
+        sws:VaccineRel-683467498911785,
+        sws:VaccineRel-687268397382273,
+        sws:VaccineRel-713169903207719,
+        sws:VaccineRel-740617877550989,
+        sws:VaccineRel-819904147967853,
+        sws:VaccineRel-820959615025108,
+        sws:VaccineRel-889468663073757,
+        sws:VaccineRel-974878805201411 ;
+    swo:ISO3_Code "STP" .
 
 dbp:Tajikistan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-123289429239866,
@@ -3338,7 +3435,28 @@ dbp:Tajikistan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-886193918046703,
         sws:VaccineRel-893688722458306,
         sws:VaccineRel-939510839435468,
-        sws:VaccineRel-998965318802935 .
+        sws:VaccineRel-998965318802935 ;
+    swo:ISO3_Code "TJK" .
+
+dbp:Tanzania swo:Country_Located_In dbp:Africa ;
+    swo:Has_Vaccine sws:VaccineRel-132624365398065,
+        sws:VaccineRel-17799975467040,
+        sws:VaccineRel-200989733726408,
+        sws:VaccineRel-240548760140864,
+        sws:VaccineRel-259129945804609,
+        sws:VaccineRel-265097118195319,
+        sws:VaccineRel-28821375164225,
+        sws:VaccineRel-296158834460698,
+        sws:VaccineRel-416887448161464,
+        sws:VaccineRel-510114006458714,
+        sws:VaccineRel-5280739097432,
+        sws:VaccineRel-620273799872917,
+        sws:VaccineRel-640157785593700,
+        sws:VaccineRel-652908991506996,
+        sws:VaccineRel-756562212285648,
+        sws:VaccineRel-762462939873993,
+        sws:VaccineRel-940588557835649 ;
+    swo:ISO3_Code "TZA" .
 
 dbp:Thailand swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-170724300976146,
@@ -3357,7 +3475,8 @@ dbp:Thailand swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-81799896068049,
         sws:VaccineRel-927164817281912,
         sws:VaccineRel-941660268353757,
-        sws:VaccineRel-98917134032058 .
+        sws:VaccineRel-98917134032058 ;
+    swo:ISO3_Code "THA" .
 
 dbp:Timor-Leste swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-113234598702064,
@@ -3379,7 +3498,8 @@ dbp:Timor-Leste swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-802120657665308,
         sws:VaccineRel-841337730615684,
         sws:VaccineRel-904452123159252,
-        sws:VaccineRel-946000347454625 .
+        sws:VaccineRel-946000347454625 ;
+    swo:ISO3_Code "TLS" .
 
 dbp:Togo swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-187713729374947,
@@ -3399,7 +3519,8 @@ dbp:Togo swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-892636041280934,
         sws:VaccineRel-896836927580961,
         sws:VaccineRel-91795374495587,
-        sws:VaccineRel-944310912443861 .
+        sws:VaccineRel-944310912443861 ;
+    swo:ISO3_Code "TGO" .
 
 dbp:Tonga swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-111029413733603,
@@ -3420,7 +3541,8 @@ dbp:Tonga swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-88576650301000,
         sws:VaccineRel-939941090567490,
         sws:VaccineRel-948538611903663,
-        sws:VaccineRel-988536165299138 .
+        sws:VaccineRel-988536165299138 ;
+    swo:ISO3_Code "TON" .
 
 dbp:Trinidad_and_Tobago swo:Country_Located_In dbp:North_America ;
     swo:Has_Vaccine sws:VaccineRel-249339997555230,
@@ -3443,7 +3565,8 @@ dbp:Trinidad_and_Tobago swo:Country_Located_In dbp:North_America ;
         sws:VaccineRel-79154881714467,
         sws:VaccineRel-833587576060101,
         sws:VaccineRel-981691689584304,
-        sws:VaccineRel-983063143418925 .
+        sws:VaccineRel-983063143418925 ;
+    swo:ISO3_Code "TTO" .
 
 dbp:Tunisia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-165770912707941,
@@ -3461,7 +3584,8 @@ dbp:Tunisia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-84605367539590,
         sws:VaccineRel-874045740629494,
         sws:VaccineRel-910841033818020,
-        sws:VaccineRel-998408554816239 .
+        sws:VaccineRel-998408554816239 ;
+    swo:ISO3_Code "TUN" .
 
 dbp:Turkey swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-125751745970966,
@@ -3478,7 +3602,8 @@ dbp:Turkey swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-862309484507523,
         sws:VaccineRel-871461080303553,
         sws:VaccineRel-913739484585584,
-        sws:VaccineRel-936426317575583 .
+        sws:VaccineRel-936426317575583 ;
+    swo:ISO3_Code "TUR" .
 
 dbp:Turkmenistan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-107869120524305,
@@ -3500,7 +3625,8 @@ dbp:Turkmenistan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-728078712937793,
         sws:VaccineRel-817737616110874,
         sws:VaccineRel-831912455310417,
-        sws:VaccineRel-948346987803346 .
+        sws:VaccineRel-948346987803346 ;
+    swo:ISO3_Code "TKM" .
 
 dbp:Tuvalu swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-292732100971139,
@@ -3515,7 +3641,8 @@ dbp:Tuvalu swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-744995768404025,
         sws:VaccineRel-796828365278143,
         sws:VaccineRel-817174210559877,
-        sws:VaccineRel-960157225107728 .
+        sws:VaccineRel-960157225107728 ;
+    swo:ISO3_Code "TUV" .
 
 dbp:Uganda swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-224482204134911,
@@ -3533,7 +3660,8 @@ dbp:Uganda swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-911475282275011,
         sws:VaccineRel-915434963059219,
         sws:VaccineRel-95310531802028,
-        sws:VaccineRel-979148275409593 .
+        sws:VaccineRel-979148275409593 ;
+    swo:ISO3_Code "UGA" .
 
 dbp:Ukraine swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-10658758628175,
@@ -3554,9 +3682,10 @@ dbp:Ukraine swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-702093430225745,
         sws:VaccineRel-973192776831398,
         sws:VaccineRel-97662739904079,
-        sws:VaccineRel-983716037593914 .
+        sws:VaccineRel-983716037593914 ;
+    swo:ISO3_Code "UKR" .
 
-<http://dbpedia.org/resource/United_Arab_Emirates_(the)> swo:Country_Located_In dbp:Asia ;
+dbp:United_Arab_Emirates swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-119635523824452,
         sws:VaccineRel-143458290122096,
         sws:VaccineRel-146077119657559,
@@ -3575,9 +3704,10 @@ dbp:Ukraine swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-809317012108601,
         sws:VaccineRel-82905134786397,
         sws:VaccineRel-835525526655901,
-        sws:VaccineRel-910503689646032 .
+        sws:VaccineRel-910503689646032 ;
+    swo:ISO3_Code "ARE" .
 
-<http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Northern_Ireland_(the)> swo:Country_Located_In dbp:Europe ;
+dbp:United_Kingdom swo:Country_Located_In dbp:Europe ;
     swo:Has_Vaccine sws:VaccineRel-150506961520103,
         sws:VaccineRel-212880042196806,
         sws:VaccineRel-266485332724545,
@@ -3592,72 +3722,74 @@ dbp:Ukraine swo:Country_Located_In dbp:Europe ;
         sws:VaccineRel-766954161676734,
         sws:VaccineRel-809014111358452,
         sws:VaccineRel-85475749287610,
-        sws:VaccineRel-97787279385312 .
+        sws:VaccineRel-97787279385312 ;
+    swo:ISO3_Code "GBR" .
 
-dbp:United_Republic_of_Tanzania swo:Country_Located_In dbp:Africa ;
-    swo:Has_Vaccine sws:VaccineRel-132624365398065,
-        sws:VaccineRel-17799975467040,
-        sws:VaccineRel-200989733726408,
-        sws:VaccineRel-240548760140864,
-        sws:VaccineRel-259129945804609,
-        sws:VaccineRel-265097118195319,
-        sws:VaccineRel-28821375164225,
-        sws:VaccineRel-296158834460698,
-        sws:VaccineRel-416887448161464,
-        sws:VaccineRel-510114006458714,
-        sws:VaccineRel-5280739097432,
-        sws:VaccineRel-620273799872917,
-        sws:VaccineRel-640157785593700,
-        sws:VaccineRel-652908991506996,
-        sws:VaccineRel-756562212285648,
-        sws:VaccineRel-762462939873993,
-        sws:VaccineRel-940588557835649 .
+dbp:United_States swo:Country_Located_In dbp:North_America ;
+    swo:Has_Vaccine sws:VaccineRel-116240925707819,
+        sws:VaccineRel-126420776787896,
+        sws:VaccineRel-136006674108782,
+        sws:VaccineRel-177536217668311,
+        sws:VaccineRel-191328421965835,
+        sws:VaccineRel-192193128109981,
+        sws:VaccineRel-220858462221480,
+        sws:VaccineRel-313231077240410,
+        sws:VaccineRel-416210616901816,
+        sws:VaccineRel-575270211537914,
+        sws:VaccineRel-633528417376357,
+        sws:VaccineRel-675629833925923,
+        sws:VaccineRel-772075965040419,
+        sws:VaccineRel-772956636830229,
+        sws:VaccineRel-782706860004067,
+        sws:VaccineRel-785505098976808,
+        sws:VaccineRel-809044067092686,
+        sws:VaccineRel-822128104037780,
+        sws:VaccineRel-8370365360252,
+        sws:VaccineRel-859221013288719,
+        sws:VaccineRel-93180644132528,
+        sws:VaccineRel-93908078251922 ;
+    swo:ISO3_Code "USA" .
 
-<http://dbpedia.org/resource/United_States_of_America_(the)> swo:Country_Located_In dbp:North_America ;
-    swo:Has_Vaccine sws:VaccineRel-116616239276175,
-        sws:VaccineRel-216798754484827,
-        sws:VaccineRel-21988811873788,
-        sws:VaccineRel-265118284835721,
-        sws:VaccineRel-338203217974770,
-        sws:VaccineRel-354697597940067,
-        sws:VaccineRel-398012536917053,
-        sws:VaccineRel-41989239465315,
-        sws:VaccineRel-448962126670894,
-        sws:VaccineRel-565338896329658,
-        sws:VaccineRel-651051173239914,
-        sws:VaccineRel-66777660023225,
-        sws:VaccineRel-683560179571378,
-        sws:VaccineRel-775580926352025,
-        sws:VaccineRel-782612581763020,
-        sws:VaccineRel-796976696740996,
-        sws:VaccineRel-798771754718720,
-        sws:VaccineRel-906008283418136,
-        sws:VaccineRel-931998093615420,
-        sws:VaccineRel-947228044326579,
-        sws:VaccineRel-993185190147626,
-        sws:VaccineRel-994044948729366 .
-
-dbp:Uruguay swo:Country_Located_In dbp:South_America ;
+dbp:Uruguay swo:Country_Located_In dbp:Europe,
+        dbp:South_America ;
     swo:Has_Vaccine sws:VaccineRel-145652657130972,
+        sws:VaccineRel-150124955309716,
         sws:VaccineRel-176056345607595,
+        sws:VaccineRel-180712879005502,
         sws:VaccineRel-185000883928133,
         sws:VaccineRel-191282668561309,
         sws:VaccineRel-199818652841552,
+        sws:VaccineRel-218889628015496,
+        sws:VaccineRel-245018512902407,
         sws:VaccineRel-248744828232620,
+        sws:VaccineRel-273385275488258,
         sws:VaccineRel-332460165376261,
         sws:VaccineRel-346874520546802,
+        sws:VaccineRel-354360570672531,
         sws:VaccineRel-461019230819504,
+        sws:VaccineRel-477859043873825,
         sws:VaccineRel-490761487291608,
         sws:VaccineRel-490944564333610,
         sws:VaccineRel-513497798925568,
+        sws:VaccineRel-541960545216101,
         sws:VaccineRel-622536885639374,
         sws:VaccineRel-656296662793226,
         sws:VaccineRel-678353033361061,
+        sws:VaccineRel-699234641778478,
+        sws:VaccineRel-722798121262239,
+        sws:VaccineRel-741440116943917,
         sws:VaccineRel-745019041785252,
+        sws:VaccineRel-842315994605265,
         sws:VaccineRel-871767652864695,
+        sws:VaccineRel-872421133913487,
         sws:VaccineRel-891303620950038,
         sws:VaccineRel-897838301031076,
-        sws:VaccineRel-986338732651837 .
+        sws:VaccineRel-90672680485336,
+        sws:VaccineRel-936285534789230,
+        sws:VaccineRel-947219706627900,
+        sws:VaccineRel-986338732651837 ;
+    swo:ISO3_Code "RUS",
+        "URY" .
 
 dbp:Uzbekistan swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-118476901194850,
@@ -3683,7 +3815,8 @@ dbp:Uzbekistan swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-778932972795515,
         sws:VaccineRel-918235933580905,
         sws:VaccineRel-950059632583333,
-        sws:VaccineRel-967094264283814 .
+        sws:VaccineRel-967094264283814 ;
+    swo:ISO3_Code "UZB" .
 
 dbp:Vanuatu swo:Country_Located_In dbp:Australia ;
     swo:Has_Vaccine sws:VaccineRel-130768631125300,
@@ -3697,30 +3830,10 @@ dbp:Vanuatu swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-828898433680418,
         sws:VaccineRel-86659532687491,
         sws:VaccineRel-892983618879163,
-        sws:VaccineRel-933552656335384 .
+        sws:VaccineRel-933552656335384 ;
+    swo:ISO3_Code "VUT" .
 
-<http://dbpedia.org/resource/Venezuela_(Bolivarian_Republic_of)> swo:Country_Located_In dbp:South_America ;
-    swo:Has_Vaccine sws:VaccineRel-1076646929788,
-        sws:VaccineRel-112434459852916,
-        sws:VaccineRel-136147669107114,
-        sws:VaccineRel-149398934510981,
-        sws:VaccineRel-151125205768499,
-        sws:VaccineRel-282300107138405,
-        sws:VaccineRel-291848551172761,
-        sws:VaccineRel-365334599263449,
-        sws:VaccineRel-406710645475741,
-        sws:VaccineRel-422319854274029,
-        sws:VaccineRel-442475211268366,
-        sws:VaccineRel-460294904646370,
-        sws:VaccineRel-508698761369505,
-        sws:VaccineRel-524974660874473,
-        sws:VaccineRel-610696745230652,
-        sws:VaccineRel-764002714841183,
-        sws:VaccineRel-861058504013065,
-        sws:VaccineRel-873368613238739,
-        sws:VaccineRel-954454994146106 .
-
-dbp:Viet_Nam swo:Country_Located_In dbp:Asia ;
+dbp:Vietnam swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-101705518885193,
         sws:VaccineRel-158729434052500,
         sws:VaccineRel-220159920777465,
@@ -3737,7 +3850,8 @@ dbp:Viet_Nam swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-916499067149726,
         sws:VaccineRel-926956200101310,
         sws:VaccineRel-937316161450934,
-        sws:VaccineRel-985369376471066 .
+        sws:VaccineRel-985369376471066 ;
+    swo:ISO3_Code "VNM" .
 
 dbp:Yemen swo:Country_Located_In dbp:Asia ;
     swo:Has_Vaccine sws:VaccineRel-128186471096376,
@@ -3756,7 +3870,8 @@ dbp:Yemen swo:Country_Located_In dbp:Asia ;
         sws:VaccineRel-753279504037521,
         sws:VaccineRel-782508290997417,
         sws:VaccineRel-908204917579075,
-        sws:VaccineRel-927460773803821 .
+        sws:VaccineRel-927460773803821 ;
+    swo:ISO3_Code "YEM" .
 
 dbp:Zambia swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-170838730357947,
@@ -3774,7 +3889,8 @@ dbp:Zambia swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-849824199867356,
         sws:VaccineRel-875165945295883,
         sws:VaccineRel-916086652626562,
-        sws:VaccineRel-952707473243297 .
+        sws:VaccineRel-952707473243297 ;
+    swo:ISO3_Code "ZMB" .
 
 dbp:Zimbabwe swo:Country_Located_In dbp:Africa ;
     swo:Has_Vaccine sws:VaccineRel-107635906886160,
@@ -3793,7 +3909,104 @@ dbp:Zimbabwe swo:Country_Located_In dbp:Africa ;
         sws:VaccineRel-82106898609547,
         sws:VaccineRel-848135606709419,
         sws:VaccineRel-879912243721578,
-        sws:VaccineRel-996382728400398 .
+        sws:VaccineRel-996382728400398 ;
+    swo:ISO3_Code "ZWE" .
+
+sws:VaccineRel-106363712484414 a swo:Vaccine_Relation .
+
+sws:VaccineRel-1076646929788 a swo:Vaccine_Relation .
+
+sws:VaccineRel-110231535261880 a swo:Vaccine_Relation .
+
+sws:VaccineRel-112434459852916 a swo:Vaccine_Relation .
+
+sws:VaccineRel-136147669107114 a swo:Vaccine_Relation .
+
+sws:VaccineRel-149398934510981 a swo:Vaccine_Relation .
+
+sws:VaccineRel-151125205768499 a swo:Vaccine_Relation .
+
+sws:VaccineRel-188528291796377 a swo:Vaccine_Relation .
+
+sws:VaccineRel-207725203328518 a swo:Vaccine_Relation .
+
+sws:VaccineRel-216398438718735 a swo:Vaccine_Relation .
+
+sws:VaccineRel-230458599067469 a swo:Vaccine_Relation .
+
+sws:VaccineRel-253401782313582 a swo:Vaccine_Relation .
+
+sws:VaccineRel-279248561805992 a swo:Vaccine_Relation .
+
+sws:VaccineRel-282300107138405 a swo:Vaccine_Relation .
+
+sws:VaccineRel-28423940890177 a swo:Vaccine_Relation .
+
+sws:VaccineRel-291848551172761 a swo:Vaccine_Relation .
+
+sws:VaccineRel-307898973296098 a swo:Vaccine_Relation .
+
+sws:VaccineRel-342821506096079 a swo:Vaccine_Relation .
+
+sws:VaccineRel-365334599263449 a swo:Vaccine_Relation .
+
+sws:VaccineRel-406710645475741 a swo:Vaccine_Relation .
+
+sws:VaccineRel-407961414492602 a swo:Vaccine_Relation .
+
+sws:VaccineRel-422319854274029 a swo:Vaccine_Relation .
+
+sws:VaccineRel-434098144749828 a swo:Vaccine_Relation .
+
+sws:VaccineRel-438312142269280 a swo:Vaccine_Relation .
+
+sws:VaccineRel-442475211268366 a swo:Vaccine_Relation .
+
+sws:VaccineRel-452973437508073 a swo:Vaccine_Relation .
+
+sws:VaccineRel-455841564891158 a swo:Vaccine_Relation .
+
+sws:VaccineRel-460294904646370 a swo:Vaccine_Relation .
+
+sws:VaccineRel-491257959599840 a swo:Vaccine_Relation .
+
+sws:VaccineRel-504017676308888 a swo:Vaccine_Relation .
+
+sws:VaccineRel-505614476890603 a swo:Vaccine_Relation .
+
+sws:VaccineRel-508698761369505 a swo:Vaccine_Relation .
+
+sws:VaccineRel-524974660874473 a swo:Vaccine_Relation .
+
+sws:VaccineRel-588784957811013 a swo:Vaccine_Relation .
+
+sws:VaccineRel-610696745230652 a swo:Vaccine_Relation .
+
+sws:VaccineRel-630690537406100 a swo:Vaccine_Relation .
+
+sws:VaccineRel-632923852026855 a swo:Vaccine_Relation .
+
+sws:VaccineRel-651633839655569 a swo:Vaccine_Relation .
+
+sws:VaccineRel-689060560296737 a swo:Vaccine_Relation .
+
+sws:VaccineRel-716490631943305 a swo:Vaccine_Relation .
+
+sws:VaccineRel-764002714841183 a swo:Vaccine_Relation .
+
+sws:VaccineRel-800411661195143 a swo:Vaccine_Relation .
+
+sws:VaccineRel-861058504013065 a swo:Vaccine_Relation .
+
+sws:VaccineRel-873368613238739 a swo:Vaccine_Relation .
+
+sws:VaccineRel-906020486589501 a swo:Vaccine_Relation .
+
+sws:VaccineRel-947713483261144 a swo:Vaccine_Relation .
+
+sws:VaccineRel-950532174902548 a swo:Vaccine_Relation .
+
+sws:VaccineRel-954454994146106 a swo:Vaccine_Relation .
 
 sws:VaccineRel-100732737322075 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
@@ -3903,10 +4116,6 @@ sws:VaccineRel-105744496900411 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:RCV1 .
 
-sws:VaccineRel-106363712484414 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.9e+01 ;
-    swo:Vaccination_Value sws:MCV1 .
-
 sws:VaccineRel-10658758628175 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.1e+01 ;
     swo:Vaccination_Value sws:MCV1 .
@@ -3918,10 +4127,6 @@ sws:VaccineRel-107457319696737 a swo:Vaccine_Relation ;
 sws:VaccineRel-107635906886160 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.5e+01 ;
     swo:Vaccination_Value sws:TT2plus .
-
-sws:VaccineRel-1076646929788 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 5.5e+01 ;
-    swo:Vaccination_Value sws:HepB_BD .
 
 sws:VaccineRel-107700527438264 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 2.8e+01 ;
@@ -3979,10 +4184,6 @@ sws:VaccineRel-110192910874718 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.4e+01 ;
     swo:Vaccination_Value sws:HPVfem .
 
-sws:VaccineRel-110231535261880 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 1e+02 ;
-    swo:Vaccination_Value sws:VAD1 .
-
 sws:VaccineRel-110287435713369 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.9e+01 ;
     swo:Vaccination_Value sws:HepB3 .
@@ -4018,10 +4219,6 @@ sws:VaccineRel-111992796014727 a swo:Vaccine_Relation ;
 sws:VaccineRel-112189149650908 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:HepB_BD .
-
-sws:VaccineRel-112434459852916 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
-    swo:Vaccination_Value sws:DTP1 .
 
 sws:VaccineRel-112578574975262 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -4095,13 +4292,13 @@ sws:VaccineRel-116166459822611 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
     swo:Vaccination_Value sws:Hib3 .
 
+sws:VaccineRel-116240925707819 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.7e+01 ;
+    swo:Vaccination_Value sws:DTP1 .
+
 sws:VaccineRel-116272892678952 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 3.5e+01 ;
     swo:Vaccination_Value sws:IPV1 .
-
-sws:VaccineRel-116616239276175 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.3e+01 ;
-    swo:Vaccination_Value sws:TTCV4 .
 
 sws:VaccineRel-116743159877870 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
@@ -4259,6 +4456,10 @@ sws:VaccineRel-125928236365859 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:RCV1 .
 
+sws:VaccineRel-126420776787896 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 8.3e+01 ;
+    swo:Vaccination_Value sws:TTCV4 .
+
 sws:VaccineRel-126850158246640 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
     swo:Vaccination_Value sws:Hib3 .
@@ -4415,9 +4616,9 @@ sws:VaccineRel-135894067317285 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:DiphCV4 .
 
-sws:VaccineRel-136147669107114 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.2e+01 ;
-    swo:Vaccination_Value sws:IPV1 .
+sws:VaccineRel-136006674108782 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.7e+01 ;
+    swo:Vaccination_Value sws:PCV1 .
 
 sws:VaccineRel-136362301500406 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
@@ -4643,10 +4844,6 @@ sws:VaccineRel-149367861495350 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 3.7e+01 ;
     swo:Vaccination_Value sws:TT2plus .
 
-sws:VaccineRel-149398934510981 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:BCG .
-
 sws:VaccineRel-149448995386985 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
     swo:Vaccination_Value sws:Pol3 .
@@ -4678,10 +4875,6 @@ sws:VaccineRel-150506961520103 a swo:Vaccine_Relation ;
 sws:VaccineRel-150876679475486 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:JapEnc .
-
-sws:VaccineRel-151125205768499 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 4.8e+01 ;
-    swo:Vaccination_Value sws:TTCV5 .
 
 sws:VaccineRel-151151877524758 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
@@ -5111,6 +5304,10 @@ sws:VaccineRel-176996574010030 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.9e+01 ;
     swo:Vaccination_Value sws:Hib3 .
 
+sws:VaccineRel-177536217668311 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.2e+01 ;
+    swo:Vaccination_Value sws:Hib3 .
+
 sws:VaccineRel-177999229717900 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:RotaC .
@@ -5279,10 +5476,6 @@ sws:VaccineRel-188496718852779 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
 
-sws:VaccineRel-188528291796377 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6e+01 ;
-    swo:Vaccination_Value sws:JapEnc .
-
 sws:VaccineRel-189151456824151 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:DTP3 .
@@ -5339,6 +5532,10 @@ sws:VaccineRel-191282668561309 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:DTP1 .
 
+sws:VaccineRel-191328421965835 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 7.3e+01 ;
+    swo:Vaccination_Value sws:RotaC .
+
 sws:VaccineRel-191668285974968 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:HPVfem .
@@ -5346,6 +5543,10 @@ sws:VaccineRel-191668285974968 a swo:Vaccine_Relation ;
 sws:VaccineRel-192061892026569 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:PCV3 .
+
+sws:VaccineRel-192193128109981 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.6e+01 ;
+    swo:Vaccination_Value sws:IPV1 .
 
 sws:VaccineRel-192295498965602 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
@@ -5531,10 +5732,6 @@ sws:VaccineRel-207481227479530 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.1e+01 ;
     swo:Vaccination_Value sws:DTP1 .
 
-sws:VaccineRel-207725203328518 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
-    swo:Vaccination_Value sws:Pol3 .
-
 sws:VaccineRel-207987786229473 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.5e+01 ;
     swo:Vaccination_Value sws:TT2plus .
@@ -5663,17 +5860,9 @@ sws:VaccineRel-216086771799017 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.6e+01 ;
     swo:Vaccination_Value sws:IPV1 .
 
-sws:VaccineRel-216398438718735 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
-    swo:Vaccination_Value sws:DTP3 .
-
 sws:VaccineRel-216453255765184 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.3e+01 ;
     swo:Vaccination_Value sws:PCV3 .
-
-sws:VaccineRel-216798754484827 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.4e+01 ;
-    swo:Vaccination_Value sws:DTP3 .
 
 sws:VaccineRel-217847183214301 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
@@ -5707,10 +5896,6 @@ sws:VaccineRel-219628281222900 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
     swo:Vaccination_Value sws:MCV2 .
 
-sws:VaccineRel-21988811873788 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:Hib3 .
-
 sws:VaccineRel-220159920777465 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:MCV2 .
@@ -5718,6 +5903,10 @@ sws:VaccineRel-220159920777465 a swo:Vaccine_Relation ;
 sws:VaccineRel-220204950483879 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:DTP1 .
+
+sws:VaccineRel-220858462221480 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.4e+01 ;
+    swo:Vaccination_Value sws:MCV2 .
 
 sws:VaccineRel-220972344409230 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -5882,10 +6071,6 @@ sws:VaccineRel-229591234462448 a swo:Vaccine_Relation ;
 sws:VaccineRel-230208075556741 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
-
-sws:VaccineRel-230458599067469 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.6e+01 ;
-    swo:Vaccination_Value sws:IPV1 .
 
 sws:VaccineRel-230499458851948 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -6263,10 +6448,6 @@ sws:VaccineRel-253362168126183 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:PCV2 .
 
-sws:VaccineRel-253401782313582 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.7e+01 ;
-    swo:Vaccination_Value sws:Hib3 .
-
 sws:VaccineRel-253543345732826 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.1e+01 ;
     swo:Vaccination_Value sws:TT2plus .
@@ -6418,10 +6599,6 @@ sws:VaccineRel-264894819413710 a swo:Vaccine_Relation ;
 sws:VaccineRel-265097118195319 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.4e+01 ;
     swo:Vaccination_Value sws:TT2plus .
-
-sws:VaccineRel-265118284835721 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.3e+01 ;
-    swo:Vaccination_Value sws:RotaC .
 
 sws:VaccineRel-265196589885455 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
@@ -6671,10 +6848,6 @@ sws:VaccineRel-279160601118560 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.7e+01 ;
     swo:Vaccination_Value sws:VAD1 .
 
-sws:VaccineRel-279248561805992 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6e+01 ;
-    swo:Vaccination_Value sws:HepB_BDall .
-
 sws:VaccineRel-279249873279827 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.9e+01 ;
     swo:Vaccination_Value sws:Hib3 .
@@ -6715,10 +6888,6 @@ sws:VaccineRel-282046455733541 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:PCV3 .
 
-sws:VaccineRel-282300107138405 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.2e+01 ;
-    swo:Vaccination_Value sws:TT2plus .
-
 sws:VaccineRel-282352007513643 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
     swo:Vaccination_Value sws:Rota1 .
@@ -6734,10 +6903,6 @@ sws:VaccineRel-282564308469905 a swo:Vaccine_Relation ;
 sws:VaccineRel-283919607209993 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
-
-sws:VaccineRel-28423940890177 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6.5e+01 ;
-    swo:Vaccination_Value sws:IPV1 .
 
 sws:VaccineRel-28424973358225 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
@@ -6822,10 +6987,6 @@ sws:VaccineRel-291590896514903 a swo:Vaccine_Relation ;
 sws:VaccineRel-291667138182062 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.4e+01 ;
     swo:Vaccination_Value sws:Pol3 .
-
-sws:VaccineRel-291848551172761 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.1e+01 ;
-    swo:Vaccination_Value sws:TTCV4 .
 
 sws:VaccineRel-291882807329053 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.4e+01 ;
@@ -7123,10 +7284,6 @@ sws:VaccineRel-307805608621435 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
     swo:Vaccination_Value sws:Rota1 .
 
-sws:VaccineRel-307898973296098 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.7e+01 ;
-    swo:Vaccination_Value sws:DTP3 .
-
 sws:VaccineRel-308667665626776 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.1e+01 ;
     swo:Vaccination_Value sws:DTP3 .
@@ -7194,6 +7351,10 @@ sws:VaccineRel-313064500195581 a swo:Vaccine_Relation ;
 sws:VaccineRel-313176715193465 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:IPV1 .
+
+sws:VaccineRel-313231077240410 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 6.6e+01 ;
+    swo:Vaccination_Value sws:HepB_BD .
 
 sws:VaccineRel-313809423320928 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -7543,10 +7704,6 @@ sws:VaccineRel-337980411253806 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:Pol3 .
 
-sws:VaccineRel-338203217974770 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.3e+01 ;
-    swo:Vaccination_Value sws:DiphCV4 .
-
 sws:VaccineRel-338960562027843 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 2.4e+01 ;
     swo:Vaccination_Value sws:DiphCV4 .
@@ -7626,10 +7783,6 @@ sws:VaccineRel-342719803833631 a swo:Vaccine_Relation ;
 sws:VaccineRel-342760014650675 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:TTCV5 .
-
-sws:VaccineRel-342821506096079 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.9e+01 ;
-    swo:Vaccination_Value sws:MCV2 .
 
 sws:VaccineRel-343359790305212 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.4e+01 ;
@@ -7779,10 +7932,6 @@ sws:VaccineRel-354634312581126 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8e+01 ;
     swo:Vaccination_Value sws:HepB_BDall .
 
-sws:VaccineRel-354697597940067 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6.6e+01 ;
-    swo:Vaccination_Value sws:HepB_BD .
-
 sws:VaccineRel-354907138245334 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:DTP1 .
@@ -7918,10 +8067,6 @@ sws:VaccineRel-365275700889728 a swo:Vaccine_Relation ;
 sws:VaccineRel-365311212340132 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.4e+01 ;
     swo:Vaccination_Value sws:Rota1 .
-
-sws:VaccineRel-365334599263449 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 5.3e+01 ;
-    swo:Vaccination_Value sws:Pol3 .
 
 sws:VaccineRel-365384222938422 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -8391,10 +8536,6 @@ sws:VaccineRel-398004963318761 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 5.5e+01 ;
     swo:Vaccination_Value sws:TTCV4 .
 
-sws:VaccineRel-398012536917053 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.7e+01 ;
-    swo:Vaccination_Value sws:DTP1 .
-
 sws:VaccineRel-39802763282868 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.5e+01 ;
     swo:Vaccination_Value sws:DiphCV6 .
@@ -8543,10 +8684,6 @@ sws:VaccineRel-406708964574550 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:DTP3 .
 
-sws:VaccineRel-406710645475741 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.1e+01 ;
-    swo:Vaccination_Value sws:DiphCV4 .
-
 sws:VaccineRel-407262970677770 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:Pol3 .
@@ -8558,10 +8695,6 @@ sws:VaccineRel-407392667312606 a swo:Vaccine_Relation ;
 sws:VaccineRel-407757100954780 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
-
-sws:VaccineRel-407961414492602 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.9e+01 ;
-    swo:Vaccination_Value sws:TT2plus .
 
 sws:VaccineRel-408042909990214 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
@@ -8691,6 +8824,10 @@ sws:VaccineRel-416103385082504 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
     swo:Vaccination_Value sws:BCG .
 
+sws:VaccineRel-416210616901816 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.5e+01 ;
+    swo:Vaccination_Value sws:PCV2 .
+
 sws:VaccineRel-416776968704350 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.1e+01 ;
     swo:Vaccination_Value sws:PCV2 .
@@ -8731,10 +8868,6 @@ sws:VaccineRel-419558841448593 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.9e+01 ;
     swo:Vaccination_Value sws:TTCV6 .
 
-sws:VaccineRel-41989239465315 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 5.4e+01 ;
-    swo:Vaccination_Value sws:TT2plus .
-
 sws:VaccineRel-419968650381546 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:DTP3 .
@@ -8774,10 +8907,6 @@ sws:VaccineRel-421798414054234 a swo:Vaccine_Relation ;
 sws:VaccineRel-421855927960048 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.7e+01 ;
     swo:Vaccination_Value sws:TTCV5 .
-
-sws:VaccineRel-422319854274029 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.4e+01 ;
-    swo:Vaccination_Value sws:MCV1 .
 
 sws:VaccineRel-422330339828102 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
@@ -8939,10 +9068,6 @@ sws:VaccineRel-432973606035702 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.2e+01 ;
     swo:Vaccination_Value sws:PCV1 .
 
-sws:VaccineRel-434098144749828 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
-    swo:Vaccination_Value sws:HepB3 .
-
 sws:VaccineRel-434210288571268 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.4e+01 ;
     swo:Vaccination_Value sws:TTCV4 .
@@ -9027,10 +9152,6 @@ sws:VaccineRel-43811347471545 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
 
-sws:VaccineRel-438312142269280 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.9e+01 ;
-    swo:Vaccination_Value sws:RCV1 .
-
 sws:VaccineRel-438760509892915 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:DiphCV6 .
@@ -9086,10 +9207,6 @@ sws:VaccineRel-442231764021365 a swo:Vaccine_Relation ;
 sws:VaccineRel-442451896513306 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
     swo:Vaccination_Value sws:DTP3 .
-
-sws:VaccineRel-442475211268366 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.5e+01 ;
-    swo:Vaccination_Value sws:YFV .
 
 sws:VaccineRel-442682132389255 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.5e+01 ;
@@ -9171,10 +9288,6 @@ sws:VaccineRel-447424740945300 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.6e+01 ;
     swo:Vaccination_Value sws:Pol3 .
 
-sws:VaccineRel-448962126670894 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 4.6e+01 ;
-    swo:Vaccination_Value sws:HPVfem .
-
 sws:VaccineRel-449054500186381 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
     swo:Vaccination_Value sws:PCV2 .
@@ -9247,10 +9360,6 @@ sws:VaccineRel-452842288033572 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.4e+01 ;
     swo:Vaccination_Value sws:Rota1 .
 
-sws:VaccineRel-452973437508073 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.3e+01 ;
-    swo:Vaccination_Value sws:PCV3 .
-
 sws:VaccineRel-453044497192963 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7e+01 ;
     swo:Vaccination_Value sws:DiphCV5 .
@@ -9290,10 +9399,6 @@ sws:VaccineRel-455115317137614 a swo:Vaccine_Relation ;
 sws:VaccineRel-455190044345962 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:BCG .
-
-sws:VaccineRel-455841564891158 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.9e+01 ;
-    swo:Vaccination_Value sws:DTP1 .
 
 sws:VaccineRel-456211031510208 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
@@ -9370,10 +9475,6 @@ sws:VaccineRel-460199264779515 a swo:Vaccine_Relation ;
 sws:VaccineRel-460222770871604 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.3e+01 ;
     swo:Vaccination_Value sws:MCV1 .
-
-sws:VaccineRel-460294904646370 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6e+01 ;
-    swo:Vaccination_Value sws:DTP3 .
 
 sws:VaccineRel-460345959555938 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
@@ -9847,10 +9948,6 @@ sws:VaccineRel-491128191818681 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
     swo:Vaccination_Value sws:Rota1 .
 
-sws:VaccineRel-491257959599840 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.9e+01 ;
-    swo:Vaccination_Value sws:Pol3 .
-
 sws:VaccineRel-491772397514828 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.4e+01 ;
     swo:Vaccination_Value sws:TT2plus .
@@ -10047,10 +10144,6 @@ sws:VaccineRel-50385197115701 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:MCV1 .
 
-sws:VaccineRel-504017676308888 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
-    swo:Vaccination_Value sws:Hib3 .
-
 sws:VaccineRel-504045783894588 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.4e+01 ;
     swo:Vaccination_Value sws:BCG .
@@ -10070,10 +10163,6 @@ sws:VaccineRel-505298637367250 a swo:Vaccine_Relation ;
 sws:VaccineRel-505485235126071 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:Hib3 .
-
-sws:VaccineRel-505614476890603 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6.7e+01 ;
-    swo:Vaccination_Value sws:MCV2 .
 
 sws:VaccineRel-506146650332207 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.5e+01 ;
@@ -10102,10 +10191,6 @@ sws:VaccineRel-508134932809737 a swo:Vaccine_Relation ;
 sws:VaccineRel-50834622266196 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.4e+01 ;
     swo:Vaccination_Value sws:MCV1 .
-
-sws:VaccineRel-508698761369505 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.4e+01 ;
-    swo:Vaccination_Value sws:RCV1 .
 
 sws:VaccineRel-508940035163846 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -10362,10 +10447,6 @@ sws:VaccineRel-524751995556071 a swo:Vaccine_Relation ;
 sws:VaccineRel-524958764717163 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.4e+01 ;
     swo:Vaccination_Value sws:VAD1 .
-
-sws:VaccineRel-524974660874473 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 4.8e+01 ;
-    swo:Vaccination_Value sws:DiphCV5 .
 
 sws:VaccineRel-525368799871031 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7e+01 ;
@@ -10983,10 +11064,6 @@ sws:VaccineRel-564944739566092 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 1.5e+01 ;
     swo:Vaccination_Value sws:VAD1 .
 
-sws:VaccineRel-565338896329658 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.1e+01 ;
-    swo:Vaccination_Value sws:HepB3 .
-
 sws:VaccineRel-565369230691650 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.4e+01 ;
     swo:Vaccination_Value sws:TTCV5 .
@@ -11130,6 +11207,10 @@ sws:VaccineRel-574865614142611 a swo:Vaccine_Relation ;
 sws:VaccineRel-574959636215866 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:TT2plus .
+
+sws:VaccineRel-575270211537914 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 7.4e+01 ;
+    swo:Vaccination_Value sws:HepB_BDall .
 
 sws:VaccineRel-576245672629626 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7e+00 ;
@@ -11310,10 +11391,6 @@ sws:VaccineRel-588648670781121 a swo:Vaccine_Relation ;
 sws:VaccineRel-588726885367455 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 5.7e+01 ;
     swo:Vaccination_Value sws:HPVfem .
-
-sws:VaccineRel-588784957811013 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.8e+01 ;
-    swo:Vaccination_Value sws:MCV1 .
 
 sws:VaccineRel-588890046403161 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.8e+01 ;
@@ -11679,10 +11756,6 @@ sws:VaccineRel-610404818946947 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:TT2plus .
 
-sws:VaccineRel-610696745230652 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.1e+01 ;
-    swo:Vaccination_Value sws:PerCV4 .
-
 sws:VaccineRel-610867172887642 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:MCV1 .
@@ -12007,10 +12080,6 @@ sws:VaccineRel-630479625329916 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
     swo:Vaccination_Value sws:IPV1 .
 
-sws:VaccineRel-630690537406100 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.6e+01 ;
-    swo:Vaccination_Value sws:BCG .
-
 sws:VaccineRel-630706933997058 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
     swo:Vaccination_Value sws:IPV1 .
@@ -12039,13 +12108,13 @@ sws:VaccineRel-632665039540094 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:RotaC .
 
-sws:VaccineRel-632923852026855 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.6e+01 ;
-    swo:Vaccination_Value sws:DTP1 .
-
 sws:VaccineRel-633376853512627 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:PCV3 .
+
+sws:VaccineRel-633528417376357 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.3e+01 ;
+    swo:Vaccination_Value sws:Pol3 .
 
 sws:VaccineRel-633579776482118 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
@@ -12295,17 +12364,9 @@ sws:VaccineRel-651034955698099 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:DTP3 .
 
-sws:VaccineRel-651051173239914 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.7e+01 ;
-    swo:Vaccination_Value sws:PCV1 .
-
 sws:VaccineRel-651316287115081 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.8e+01 ;
     swo:Vaccination_Value sws:MCV2 .
-
-sws:VaccineRel-651633839655569 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.7e+01 ;
-    swo:Vaccination_Value sws:HepB3 .
 
 sws:VaccineRel-652162417738961 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.4e+01 ;
@@ -12575,10 +12636,6 @@ sws:VaccineRel-667221505877848 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.2e+01 ;
     swo:Vaccination_Value sws:IPV1 .
 
-sws:VaccineRel-66777660023225 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.5e+01 ;
-    swo:Vaccination_Value sws:PCV2 .
-
 sws:VaccineRel-668762081901675 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:RCV1 .
@@ -12674,6 +12731,10 @@ sws:VaccineRel-675594879003997 a swo:Vaccine_Relation ;
 sws:VaccineRel-675625511238833 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
     swo:Vaccination_Value sws:BCG .
+
+sws:VaccineRel-675629833925923 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 8.3e+01 ;
+    swo:Vaccination_Value sws:DiphCV4 .
 
 sws:VaccineRel-676054238871698 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.6e+01 ;
@@ -12803,10 +12864,6 @@ sws:VaccineRel-683467498911785 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:Rota1 .
 
-sws:VaccineRel-683560179571378 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.8e+01 ;
-    swo:Vaccination_Value sws:Rota1 .
-
 sws:VaccineRel-683702131001309 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:MCV1 .
@@ -12865,10 +12922,6 @@ sws:VaccineRel-688534513250448 a swo:Vaccine_Relation ;
 
 sws:VaccineRel-688658298208265 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:PCV2 .
-
-sws:VaccineRel-689060560296737 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.4e+01 ;
     swo:Vaccination_Value sws:PCV2 .
 
 sws:VaccineRel-689082752105997 a swo:Vaccine_Relation ;
@@ -13234,10 +13287,6 @@ sws:VaccineRel-715632633829474 a swo:Vaccine_Relation ;
 sws:VaccineRel-71612554589017 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
     swo:Vaccination_Value sws:DTP3 .
-
-sws:VaccineRel-716490631943305 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.6e+01 ;
-    swo:Vaccination_Value sws:PCV1 .
 
 sws:VaccineRel-716779839976614 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
@@ -13919,10 +13968,6 @@ sws:VaccineRel-763924621127537 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.1e+01 ;
     swo:Vaccination_Value sws:PCV2 .
 
-sws:VaccineRel-764002714841183 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6e+01 ;
-    swo:Vaccination_Value sws:Hib3 .
-
 sws:VaccineRel-764137673584810 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
     swo:Vaccination_Value sws:PAB .
@@ -14043,6 +14088,10 @@ sws:VaccineRel-771796644280099 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.8e+01 ;
     swo:Vaccination_Value sws:Rota1 .
 
+sws:VaccineRel-772075965040419 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.2e+01 ;
+    swo:Vaccination_Value sws:PCV3 .
+
 sws:VaccineRel-772113336696881 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:IPV1 .
@@ -14058,6 +14107,10 @@ sws:VaccineRel-772744892926221 a swo:Vaccine_Relation ;
 sws:VaccineRel-772917916169499 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8e+01 ;
     swo:Vaccination_Value sws:HepB_BD .
+
+sws:VaccineRel-772956636830229 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.2e+01 ;
+    swo:Vaccination_Value sws:RCV1 .
 
 sws:VaccineRel-773131881514675 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -14086,10 +14139,6 @@ sws:VaccineRel-774006004040519 a swo:Vaccine_Relation ;
 sws:VaccineRel-775358582166623 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:Hib3 .
-
-sws:VaccineRel-775580926352025 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.3e+01 ;
-    swo:Vaccination_Value sws:Pol3 .
 
 sws:VaccineRel-776488974145761 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
@@ -14183,9 +14232,9 @@ sws:VaccineRel-782508290997417 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8e+01 ;
     swo:Vaccination_Value sws:Hib3 .
 
-sws:VaccineRel-782612581763020 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:RCV1 .
+sws:VaccineRel-782706860004067 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 3.6e+01 ;
+    swo:Vaccination_Value sws:HPVmale .
 
 sws:VaccineRel-783287325225020 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.9e+01 ;
@@ -14214,6 +14263,10 @@ sws:VaccineRel-78474421434985 a swo:Vaccine_Relation ;
 sws:VaccineRel-785102534739316 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 5.1e+01 ;
     swo:Vaccination_Value sws:IPV1 .
+
+sws:VaccineRel-785505098976808 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 4.6e+01 ;
+    swo:Vaccination_Value sws:HPVfem .
 
 sws:VaccineRel-785747900873192 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6e+01 ;
@@ -14283,10 +14336,6 @@ sws:VaccineRel-791470350978321 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.3e+01 ;
     swo:Vaccination_Value sws:Hib3 .
 
-sws:VaccineRel-791511616043984 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage "NaN"^^xsd:double ;
-    swo:Vaccination_Value sws:BCG .
-
 sws:VaccineRel-79154881714467 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
     swo:Vaccination_Value sws:YFV .
@@ -14347,10 +14396,6 @@ sws:VaccineRel-796828365278143 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
     swo:Vaccination_Value sws:MCV1 .
 
-sws:VaccineRel-796976696740996 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.4e+01 ;
-    swo:Vaccination_Value sws:MCV2 .
-
 sws:VaccineRel-797014531033105 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.5e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
@@ -14375,10 +14420,6 @@ sws:VaccineRel-798768498039981 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:TTCV4 .
 
-sws:VaccineRel-798771754718720 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.4e+01 ;
-    swo:Vaccination_Value sws:HepB_BDall .
-
 sws:VaccineRel-798784852490290 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:Hib3 .
@@ -14397,10 +14438,6 @@ sws:VaccineRel-800164848480389 a swo:Vaccine_Relation ;
 
 sws:VaccineRel-800324150403551 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
-    swo:Vaccination_Value sws:HepB_BD .
-
-sws:VaccineRel-800411661195143 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 5.5e+01 ;
     swo:Vaccination_Value sws:HepB_BD .
 
 sws:VaccineRel-800505414410375 a swo:Vaccine_Relation ;
@@ -14570,6 +14607,10 @@ sws:VaccineRel-808626107721077 a swo:Vaccine_Relation ;
 sws:VaccineRel-809014111358452 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.4e+01 ;
     swo:Vaccination_Value sws:HPVfem .
+
+sws:VaccineRel-809044067092686 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.1e+01 ;
+    swo:Vaccination_Value sws:HepB3 .
 
 sws:VaccineRel-809317012108601 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.8e+01 ;
@@ -14786,6 +14827,10 @@ sws:VaccineRel-821966166396062 a swo:Vaccine_Relation ;
 sws:VaccineRel-822113027175591 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:RCV1 .
+
+sws:VaccineRel-822128104037780 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 5.4e+01 ;
+    swo:Vaccination_Value sws:TT2plus .
 
 sws:VaccineRel-822143437737092 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 5.6e+01 ;
@@ -15079,6 +15124,10 @@ sws:VaccineRel-837032158473533 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:BCG .
 
+sws:VaccineRel-8370365360252 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 8.3e+01 ;
+    swo:Vaccination_Value sws:PerCV4 .
+
 sws:VaccineRel-837828860234801 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:BCG .
@@ -15367,6 +15416,10 @@ sws:VaccineRel-859006817952305 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.5e+01 ;
     swo:Vaccination_Value sws:HepB_BDall .
 
+sws:VaccineRel-859221013288719 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 8.8e+01 ;
+    swo:Vaccination_Value sws:Rota1 .
+
 sws:VaccineRel-859809712319036 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:HepB_BD .
@@ -15386,10 +15439,6 @@ sws:VaccineRel-860951278473888 a swo:Vaccine_Relation ;
 sws:VaccineRel-861041489011297 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
     swo:Vaccination_Value sws:PerCV4 .
-
-sws:VaccineRel-861058504013065 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.9e+01 ;
-    swo:Vaccination_Value sws:MCV2 .
 
 sws:VaccineRel-861444128705883 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
@@ -15559,10 +15608,6 @@ sws:VaccineRel-873149332709980 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.9e+01 ;
     swo:Vaccination_Value sws:IPV1 .
 
-sws:VaccineRel-873368613238739 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 5.9e+01 ;
-    swo:Vaccination_Value sws:HepB_BDall .
-
 sws:VaccineRel-873481350022057 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.2e+01 ;
     swo:Vaccination_Value sws:PCV1 .
@@ -15702,10 +15747,6 @@ sws:VaccineRel-881025254110860 a swo:Vaccine_Relation ;
 sws:VaccineRel-88127137966774 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.5e+01 ;
     swo:Vaccination_Value sws:MCV2 .
-
-sws:VaccineRel-881468031604199 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage "NaN"^^xsd:double ;
-    swo:Vaccination_Value sws:HepB_BD .
 
 sws:VaccineRel-882005723357322 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
@@ -16095,14 +16136,6 @@ sws:VaccineRel-905540408300949 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
     swo:Vaccination_Value sws:RotaC .
 
-sws:VaccineRel-906008283418136 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.6e+01 ;
-    swo:Vaccination_Value sws:HPVmale .
-
-sws:VaccineRel-906020486589501 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 3.7e+01 ;
-    swo:Vaccination_Value sws:TT2plus .
-
 sws:VaccineRel-906688814268771 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.5e+01 ;
     swo:Vaccination_Value sws:TTCV6 .
@@ -16439,10 +16472,6 @@ sws:VaccineRel-929198686483686 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:DiphCV4 .
 
-sws:VaccineRel-92923226567738 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage "NaN"^^xsd:double ;
-    swo:Vaccination_Value sws:HepB_BDall .
-
 sws:VaccineRel-929400194297027 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:BCG .
@@ -16471,9 +16500,9 @@ sws:VaccineRel-931804558710302 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:TTCV5 .
 
-sws:VaccineRel-931998093615420 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.6e+01 ;
-    swo:Vaccination_Value sws:IPV1 .
+sws:VaccineRel-93180644132528 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.2e+01 ;
+    swo:Vaccination_Value sws:MCV1 .
 
 sws:VaccineRel-932037090067028 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 4.7e+01 ;
@@ -16562,6 +16591,10 @@ sws:VaccineRel-937886059755681 a swo:Vaccine_Relation ;
 sws:VaccineRel-938400654864338 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
     swo:Vaccination_Value sws:Pol3 .
+
+sws:VaccineRel-93908078251922 a swo:Vaccine_Relation ;
+    swo:Vaccination_Coverage 9.4e+01 ;
+    swo:Vaccination_Value sws:DTP3 .
 
 sws:VaccineRel-939510839435468 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.8e+01 ;
@@ -16671,17 +16704,9 @@ sws:VaccineRel-947219706627900 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.7e+01 ;
     swo:Vaccination_Value sws:TTCV5 .
 
-sws:VaccineRel-947228044326579 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 8.3e+01 ;
-    swo:Vaccination_Value sws:PerCV4 .
-
 sws:VaccineRel-947502617290901 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 7.9e+01 ;
     swo:Vaccination_Value sws:MCV1 .
-
-sws:VaccineRel-947713483261144 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.8e+01 ;
-    swo:Vaccination_Value sws:HepB_BD .
 
 sws:VaccineRel-947769675689897 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 5e+01 ;
@@ -16739,10 +16764,6 @@ sws:VaccineRel-950228637989775 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9e+01 ;
     swo:Vaccination_Value sws:TTCV4 .
 
-sws:VaccineRel-950532174902548 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 7.9e+01 ;
-    swo:Vaccination_Value sws:BCG .
-
 sws:VaccineRel-951037864964520 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.2e+01 ;
     swo:Vaccination_Value sws:DTP3 .
@@ -16785,10 +16806,6 @@ sws:VaccineRel-953643568612233 a swo:Vaccine_Relation ;
 
 sws:VaccineRel-954150740187370 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.3e+01 ;
-    swo:Vaccination_Value sws:HepB3 .
-
-sws:VaccineRel-954454994146106 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 6e+01 ;
     swo:Vaccination_Value sws:HepB3 .
 
 sws:VaccineRel-954532026220607 a swo:Vaccine_Relation ;
@@ -17403,10 +17420,6 @@ sws:VaccineRel-992454980552795 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 6.2e+01 ;
     swo:Vaccination_Value sws:PCV2 .
 
-sws:VaccineRel-993185190147626 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:PCV3 .
-
 sws:VaccineRel-993372266374654 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.9e+01 ;
     swo:Vaccination_Value sws:IPV1 .
@@ -17414,10 +17427,6 @@ sws:VaccineRel-993372266374654 a swo:Vaccine_Relation ;
 sws:VaccineRel-99385299499670 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 9.6e+01 ;
     swo:Vaccination_Value sws:RCV1 .
-
-sws:VaccineRel-994044948729366 a swo:Vaccine_Relation ;
-    swo:Vaccination_Coverage 9.2e+01 ;
-    swo:Vaccination_Value sws:MCV1 .
 
 sws:VaccineRel-994227665839382 a swo:Vaccine_Relation ;
     swo:Vaccination_Coverage 8.5e+01 ;
@@ -17519,11 +17528,11 @@ sws:IPV2frac a swo:Vaccine ;
 sws:IPV1frac a swo:Vaccine ;
     swo:Vaccine_Name "IPV1frac" .
 
-sws:HPVmale a swo:Vaccine ;
-    swo:Vaccine_Name "HPVmale" .
-
 sws:JapEnc a swo:Vaccine ;
     swo:Vaccine_Name "JapEnc" .
+
+sws:HPVmale a swo:Vaccine ;
+    swo:Vaccine_Name "HPVmale" .
 
 sws:MenA a swo:Vaccine ;
     swo:Vaccine_Name "MenA" .
@@ -17541,12 +17550,14 @@ dbp:Australia swo:Country_Located_In dbp:Australia ;
         sws:VaccineRel-679477762285886,
         sws:VaccineRel-743977084654465,
         sws:VaccineRel-798629320825772,
-        sws:VaccineRel-85234623400252 .
+        sws:VaccineRel-85234623400252 ;
+    swo:ISO3_Code "AUS" .
 
 sws:PAB a swo:Vaccine ;
     swo:Vaccine_Name "PAB" .
 
 sws:YFV a swo:Vaccine ;
+    swo:Vaccine_Description "Yellow fever" ;
     swo:Vaccine_Name "YFV" .
 
 sws:DiphCV6 a swo:Vaccine ;
@@ -17565,12 +17576,14 @@ sws:HepB_BDall a swo:Vaccine ;
     swo:Vaccine_Name "HepB_BDall" .
 
 sws:HepB_BD a swo:Vaccine ;
+    swo:Vaccine_Description "Hepatitis B birth dose " ;
     swo:Vaccine_Name "HepB_BD" .
 
 sws:Rota1 a swo:Vaccine ;
     swo:Vaccine_Name "Rota1" .
 
 sws:RotaC a swo:Vaccine ;
+    swo:Vaccine_Description "Rotavirus last dose (2nd or 3rd depending on schedule)" ;
     swo:Vaccine_Name "RotaC" .
 
 sws:DiphCV5 a swo:Vaccine ;
@@ -17598,35 +17611,46 @@ sws:PCV2 a swo:Vaccine ;
     swo:Vaccine_Name "PCV2" .
 
 sws:PCV3 a swo:Vaccine ;
+    swo:Vaccine_Description "Third dose of pneumococcal conjugate vaccine" ;
     swo:Vaccine_Name "PCV3" .
 
 sws:BCG a swo:Vaccine ;
+    swo:Vaccine_Description "Baccille Calmette Guérin vaccine" ;
     swo:Vaccine_Name "BCG" .
 
 sws:MCV2 a swo:Vaccine ;
+    swo:Vaccine_Description "Second dose of measles containing vaccine." ;
     swo:Vaccine_Name "MCV2" .
 
 sws:RCV1 a swo:Vaccine ;
+    swo:Vaccine_Description "Rubella containing vaccine (1st dose)" ;
     swo:Vaccine_Name "RCV1" .
 
 sws:IPV1 a swo:Vaccine ;
+    swo:Vaccine_Description "First dose of inactivated polio vaccine" ;
     swo:Vaccine_Name "IPV1" .
 
 sws:DTP1 a swo:Vaccine ;
+    swo:Vaccine_Description "First dose of diphtheria toxoid, tetanus toxoid and pertussis vaccine" ;
     swo:Vaccine_Name "DTP1" .
 
 sws:HepB3 a swo:Vaccine ;
+    swo:Vaccine_Description "Third dose of hepatitis B vaccine" ;
     swo:Vaccine_Name "HepB3" .
 
 sws:Hib3 a swo:Vaccine ;
+    swo:Vaccine_Description "Third dose of Haemophilus influenzae type B vaccine" ;
     swo:Vaccine_Name "Hib3" .
 
 sws:DTP3 a swo:Vaccine ;
+    swo:Vaccine_Description "Third dose of diphtheria toxoid, tetanus toxoid and pertussis vaccine" ;
     swo:Vaccine_Name "DTP3" .
 
 sws:MCV1 a swo:Vaccine ;
+    swo:Vaccine_Description "Measles-containing vaccine" ;
     swo:Vaccine_Name "MCV1" .
 
 sws:Pol3 a swo:Vaccine ;
+    swo:Vaccine_Description "Third dose of polio vaccine" ;
     swo:Vaccine_Name "Pol3" .
 

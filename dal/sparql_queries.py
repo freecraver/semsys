@@ -23,7 +23,10 @@ def get_countries_with_risk_score():
     sparql.setQuery("""
             PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
             select ?c ?rl
-            where { ?c ns1:Risk_Level ?rl}
+            where { 
+            ?c1 ns1:Risk_Level ?rl;
+            ns1:ISO3_Code ?c.
+            }
         """)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
