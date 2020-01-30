@@ -1,0 +1,9 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+construct{?a ns1:locatedInCountry ?c}
+where {
+    ?a rdf:type dbo:Town . 
+    ?c rdf:type dbo:Country . 
+    ?c ns1:hasTown ?a . 
+}

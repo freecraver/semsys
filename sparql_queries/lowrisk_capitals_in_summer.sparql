@@ -1,0 +1,12 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+select ?capital where { 
+    ?capital ns1:isCapitalOf ?o .
+    ?capital ns1:monthFrom ?mf . FILTER(?mf <= 9)
+    ?capital ns1:monthTo ?mt . FILTER(?mt >= 7 || (?mf<7 && ?mt>9))
+    ?o a dbo:Country;
+       ns1:Risk_Level 1.
+}
