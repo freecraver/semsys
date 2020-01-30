@@ -34,6 +34,7 @@ if __name__ == '__main__':
     """
     print('Loading vaccine related information...')
     vaccine_df= pd.read_csv("res/vaccine_coverage.csv",delimiter=',',header=0)
+	vaccine_df.dropna(inplace=True)
     vaccine_names= pd.read_excel("res/vaccine_names.xlsx",header=0)
     write_vaccine_info_to_turtle(vaccine_df,vaccine_names)
     """
