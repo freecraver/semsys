@@ -2,15 +2,19 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/litera/bootstrap.min.css">
-
+<!--    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">-->
     <title>{{ title }} - Travel Synergy</title>
 </head>
 <body>
 <div class="container">
-    <h1>☺</h1>
+    <div class="row">
+        <div class="col">
+            <h1>☺</h1>
+        </div>
+    </div>
 </div>
-<div class="container" style="width:100%; height:100%!important;">
-    {{ foliummap|safe}}
-</div>
+ {% block content %}{% endblock %}
+
+<!--<script type=text/javascript src="{{ url_for('static', filename='main.js') }}"></script>-->
 </body>
 </html>
