@@ -1,0 +1,18 @@
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+select ?c ?t (group_concat(?r) as ?resources)
+where {
+    ?a ns1:mentionsCountry ?c ;
+       ns1:sentiment ?s ;
+       ns1:hasMention ?m ;
+       ns1:title ?t .
+    ?m ns1:mentionsResource ?r ;
+       ns1:relevance ?rel .
+    ?c ns1:hasBorder ?c2 .
+
+    FILTER(?c=dbr:Turkmenistan || ?c2=dbr:Turkmenistan) # is country or neighbor
+    FILTER(?s < 0) # negative sentiment
+    FILTER(?rel > 0.9) # only essential resources
+}
+group by ?c ?t

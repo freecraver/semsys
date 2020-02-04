@@ -1,0 +1,10 @@
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+construct { ?c1 ns1:safeRoute ?c2 }
+where {
+    dbr:Austria ns1:hasBorder+ ?c1.
+    ?c1 ns1:hasBorder ?c2;
+            ns1:Risk_Level 1 .
+    ?c2 ns1:Risk_Level 1
+}
