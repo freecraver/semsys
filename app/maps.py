@@ -20,14 +20,14 @@ def create_risk_map():
                    min_lon=min_lon,
                    max_lon=max_lon)
     country_info = get_countries_with_risk_score()
-    df_country = get_as_df(country_info, ['id', 'risk_level'])
+    df_country = get_as_df(country_info, ['country', 'risk_level'])
     df_country.risk_level = df_country.risk_level.astype(int)
 
     countries = folium.Choropleth(geo_data='world_countries.json',
                                   name='Risk Levels',
                                   data=df_country,
-                                  columns=['id', 'risk_level'],
-                                  key_on='feature.id',
+                                  columns=['country', 'risk_level'],
+                                  key_on='feature.properties.name',
                                   fill_color='OrRd',
                                   fill_opacity=0.7,
                                   line_opacity=0.2,

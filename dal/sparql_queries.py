@@ -23,16 +23,22 @@ def get_countries_by_risk_score(risk_score):
 def get_countries_with_risk_score():
     sparql.setQuery("""
             PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
-            select ?c ?rl
+            select ?c1 ?rl
             where { 
-            ?c1 ns1:Risk_Level ?rl;
-            ns1:ISO3_Code ?c.
+            ?c1 ns1:Risk_Level ?rl
             }
         """)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
 
-    return [(x['c']['value'], x['rl']['value']) for x in results["results"]["bindings"]]
+    res_list = [(x['c1']['value'], x['rl']['value']) for x in results["results"]["bindings"]]
+
+    # add data which was not mapable by geocoder-api (i.e. where not dbpedia resource was found)
+    res_list.append(('Democratic Republic of the Congo', 5))
+    res_list.append(('North Korea', 4))
+    res_list.append(('South Korea', 1))
+
+    return res_list
 
 
 def get_capitals():
