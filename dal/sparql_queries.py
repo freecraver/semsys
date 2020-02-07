@@ -61,3 +61,21 @@ def get_capitals():
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
     return [(x['capital']['value'], x['lat']['value'], x['lon']['value']) for x in results["results"]["bindings"]]
+
+
+def get_country_info(country_iso3):
+    sparql.setQuery("""
+            PREFIX dbo: <http://dbpedia.org/ontology/>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+            PREFIX owl: <http://www.w3.org/2002/07/owl#>
+            PREFIX wd: <http://www.wikidata.org/entity/>
+            select ?p ?o where { 
+                ?country a dbo:Country;
+                         ns1:ISO3_Code "%s".
+                ?country ?p ?o.
+            }
+        """ % country_iso3)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return [(x['p']['value'], x['o']['value']) for x in results["results"]["bindings"]]

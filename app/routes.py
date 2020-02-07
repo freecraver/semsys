@@ -5,7 +5,7 @@ from flask_cors import cross_origin
 
 from app import app
 from app.maps import create_risk_map, create_capitals
-from dal.sparql_queries import get_countries_with_risk_score
+from dal.sparql_queries import get_countries_with_risk_score, get_country_info
 from util.pd_utils import get_as_df
 
 
@@ -16,6 +16,7 @@ def home():
     folium.LayerControl().add_to(m)
 
     # TODO add extra html, css, javascript to map here
+    # ugly, but it works
     el = folium.MacroElement().add_to(m)
     map_name = m.get_name()
     el._template = jinja2.Template("""
@@ -27,20 +28,28 @@ def home():
         map = %s;
         geojson = %s;
         
-        const sendPost = async (c) => {
-            const url = 'http://localhost:5000/countryInfo'; // the URL to send the HTTP request to
-            const body = JSON.stringify({'country': c}); // whatever you want to send in the body of the HTTP request
-            const headers = {'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'}; // if you're sending JSON to the server
-            const method = 'POST';
-            const response = await fetch(url, { method, body, headers });
-            const data = await response.json(); // or response.json() if your server returns JSON
-            console.log(data);
-        }
+        // console.log(geojson._tooltip._source)
+        
         
         // click event in country layer
         map.on('click', function(e) {
             console.log(geojson._tooltip._source.feature.properties.name);
-            sendPost(geojson._tooltip._source.feature.properties.name);
+            $.ajax({
+                url:"http://localhost:5000/countryInfo",
+                type: "post",
+                data: JSON.stringify({'country': geojson._tooltip._source.feature.properties.name, 'id': geojson._tooltip._source.feature.id}),
+                crossDomain: true,
+                dataType: 'html',
+                contentType: 'application/json; charset=utf-8',
+                success: function(response) {
+                    console.log(response)
+                    $('body').append(response) // find better solution
+                }, 
+                error: function(err) {
+                    console.log('something went wrong')
+                    console.error(err)
+                }
+            });
         });
         {%% endmacro %%}
     """ % (map_name, geojson))
@@ -51,9 +60,11 @@ def home():
 @cross_origin()
 def country_info():
     if request.method == 'POST':
-        country = request.json['country']
-        print(country)
-        return jsonify(data='got country %s' % country)
+        print(request.json)
+        info = get_country_info(request.json['id'])
+        ret = render_template('country_info.html', infos=info)
+        print(ret)
+        return ret
 
 
 @app.route('/')
