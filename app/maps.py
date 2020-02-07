@@ -33,19 +33,20 @@ def create_risk_map():
                                   line_opacity=0.2,
                                   nan_fill_opacity=0
                                   ).add_to(m)
-
-    folium.GeoJson(
+    tooltip = folium.GeoJsonTooltip(fields=['name'],
+                                      labels=False)
+    geojson = folium.GeoJson(
         'world_countries.json',
-        tooltip=folium.GeoJsonTooltip(fields=['name'],
-                                      labels=False),
+        tooltip=tooltip,
         style_function=lambda feature: {
             'color': 'black',
             'fillOpacity': 0,
             'weight': 0
         }
-    ).add_to(countries)
+    )
+    geojson.add_to(countries)
 
-    return m
+    return m, geojson.get_name()
 
 
 def create_capitals(m):
