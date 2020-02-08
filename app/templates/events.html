@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block content %}
+<script type='text/javascript' src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.min.js"></script>
+<script type='text/javascript' src="{{ url_for('static',filename='events.js') }}"></script>
+<div class="container">
+    {{ foliummap|safe}}
+    <div class="resource-search">
+        <input class="resource-search__typeahead" id="typeahead" placeholder="Search for resource.." type="text">
+    </div>
+</div>
+
+
+{% endblock %}
+

@@ -4,8 +4,8 @@ from flask import render_template, request, jsonify
 from flask_cors import cross_origin
 
 from app import app
-from app.maps import create_risk_map, create_capitals
-from dal.sparql_queries import get_countries_with_risk_score, get_country_info
+from app.maps import create_risk_map, create_capitals, create_empty_map
+from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources
 from util.pd_utils import get_as_df
 
 
@@ -81,3 +81,18 @@ def index():
                           fill_color='OrRd', fill_opacity=0.7,
                           line_opacity=0.2, nan_fill_opacity=0)
     return folium_map._repr_html_()
+
+
+@app.route('/events')
+def events():
+    # TODO: mark countries which match resource
+    map = create_empty_map()
+    return render_template('events.html', title='Events', foliummap=map._repr_html_())
+
+
+@app.route('/resources')
+@cross_origin(supports_credentials=True)
+def resources():
+    matched_res = get_resources(request.args['q'])
+    res_dict = {'results': [{'value': x} for x in matched_res]}
+    return jsonify(res_dict)

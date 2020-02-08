@@ -49,6 +49,28 @@ def create_risk_map():
     return m, geojson.get_name()
 
 
+def create_empty_map():
+    lon = 15
+    lat = 35
+    min_lon, max_lon = -180, 180
+    min_lat, max_lat = -90, 90
+
+    m = folium.Map(max_bounds=True,
+                   height=str(80) + '%',
+                   location=[lat, lon],
+                   zoom_start=1.5,
+                   min_zoom=1,
+                   min_lat=min_lat,
+                   max_lat=max_lat,
+                   min_lon=min_lon,
+                   max_lon=max_lon)
+
+    folium.Choropleth(geo_data='world_countries.json',
+                      fill_color='OrRd', fill_opacity=0.7,
+                      line_opacity=0.2, nan_fill_opacity=0).add_to(m)
+    return m
+
+
 def create_capitals(m):
     feature_group = folium.FeatureGroup(name='lrs Capitals').add_to(m)
 

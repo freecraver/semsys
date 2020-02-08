@@ -79,3 +79,21 @@ def get_country_info(country_iso3):
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
     return [(x['p']['value'], x['o']['value']) for x in results["results"]["bindings"]]
+
+
+def get_resources(q_string):
+    query_term = q_string.replace(" ", "_").lower()
+    sparql.setQuery("""
+                PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+                select distinct ?res
+                where {
+                    ?m ns1:mentionsResource ?res.
+                    FILTER(strStarts( lcase(str(?res)), "http://dbpedia.org/resource/%s" ))
+                }
+                group by ?res
+            """ % query_term)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return [x['res']['value'].split('/')[-1].replace('_',' ').replace('-',' ') for x
+            in results["results"]["bindings"] if 'res' in x]

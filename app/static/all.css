@@ -1,0 +1,6 @@
+.resource-search {
+  width: 100%;
+  position: relative;
+  margin-top: -10%; }
+  .resource-search span, .resource-search input {
+    width: 100%; }
