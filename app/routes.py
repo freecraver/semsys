@@ -20,10 +20,7 @@ def home():
     el = folium.MacroElement().add_to(m)
     map_name = m.get_name()
     el._template = jinja2.Template("""
-        {%% macro script(this, kwargs) %%}
-        // write JS here
-        console.log('hello world')
-        
+        {%% macro script(this, kwargs) %%}        
         // folium variables
         map = %s;
         geojson = %s;
@@ -33,7 +30,6 @@ def home():
         
         // click event in country layer
         map.on('click', function(e) {
-            console.log(geojson._tooltip._source.feature.properties.name);
             $.ajax({
                 url:"http://localhost:5000/countryInfo",
                 type: "post",
@@ -42,8 +38,7 @@ def home():
                 dataType: 'html',
                 contentType: 'application/json; charset=utf-8',
                 success: function(response) {
-                    console.log(response)
-                    $('body').append(response) // find better solution
+                    window.parent.postMessage(response, "*");
                 }, 
                 error: function(err) {
                     console.log('something went wrong')

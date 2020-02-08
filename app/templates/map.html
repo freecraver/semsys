@@ -1,6 +1,7 @@
 {% extends "index.html" %}
 
 {% block content %}
+<script type='text/javascript' src="{{ url_for('static',filename='map.js') }}"></script>
 <div id="map_div" class="container">
     {{ foliummap|safe}}
 </div>
