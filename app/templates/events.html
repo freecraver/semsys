@@ -3,8 +3,13 @@
 {% block content %}
 <script type='text/javascript' src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.min.js"></script>
 <script type='text/javascript' src="{{ url_for('static',filename='events.js') }}"></script>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
 <div class="container">
-    {{ foliummap|safe}}
+    <div id="mapid">
+        {{ foliummap|safe}}
+    </div>
     <div class="resource-search">
         <input class="resource-search__typeahead" id="typeahead" placeholder="Search for resource.." type="text">
     </div>

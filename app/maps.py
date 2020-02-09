@@ -1,4 +1,5 @@
 import folium
+import numpy as np
 
 from dal.sparql_queries import get_countries_with_risk_score, get_capitals
 from util.pd_utils import get_as_df
@@ -55,6 +56,10 @@ def create_empty_map():
     min_lon, max_lon = -180, 180
     min_lat, max_lat = -90, 90
 
+    country_info = get_countries_with_risk_score()
+    df_country = get_as_df(country_info, ['country', 'risk_level'])
+    df_country.risk_level = np.nan
+
     m = folium.Map(max_bounds=True,
                    height=str(80) + '%',
                    location=[lat, lon],
@@ -65,10 +70,30 @@ def create_empty_map():
                    min_lon=min_lon,
                    max_lon=max_lon)
 
-    folium.Choropleth(geo_data='world_countries.json',
-                      fill_color='OrRd', fill_opacity=0.7,
-                      line_opacity=0.2, nan_fill_opacity=0).add_to(m)
-    return m
+    cp = folium.Choropleth(geo_data='world_countries.json',
+                          name='Risk Levels',
+                          data=df_country,
+                          columns=['country', 'risk_level'],
+                          key_on='feature.properties.name',
+                          fill_color='OrRd',
+                          fill_opacity=0.7,
+                          line_opacity=0.2,
+                          nan_fill_opacity=0
+                          ).add_to(m)
+
+    tooltip = folium.GeoJsonTooltip(fields=['name'],
+                                    labels=False)
+    geojson = folium.GeoJson(
+        'world_countries.json',
+        tooltip=tooltip,
+        style_function=lambda feature: {
+            'color': 'black',
+            'fillOpacity': 0,
+            'weight': 0
+        })
+    geojson.add_to(cp)
+
+    return m, geojson
 
 
 def create_capitals(m):

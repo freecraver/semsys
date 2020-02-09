@@ -27,4 +27,24 @@ $(function () {
         display: 'value',
         source: newsResources
     });
+
+    // select listener
+    $('#typeahead').on('typeahead:selected', function(evt, item) {
+        $.ajax({
+                url:"http://localhost:5000/resourceCountries",
+                type: "post",
+                data: JSON.stringify({'resource': item.value}),
+                crossDomain: true,
+                dataType: 'html',
+                contentType: 'application/json; charset=utf-8',
+                success: function(response) {
+                    $("iframe").get(0).contentWindow.postMessage(response, "*");
+                },
+                error: function(err) {
+                    console.error(err)
+                }
+            });
+    })
+
+
 });

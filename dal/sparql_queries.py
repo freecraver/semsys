@@ -97,3 +97,21 @@ def get_resources(q_string):
 
     return [x['res']['value'].split('/')[-1].replace('_',' ').replace('-',' ') for x
             in results["results"]["bindings"] if 'res' in x]
+
+def get_related_countries(resource_name):
+    res_uri = "<http://dbpedia.org/resource/" + resource_name.replace(" ", "_") + ">"
+    sparql.setQuery("""
+                PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>                
+                select DISTINCT ?c
+                where {
+                    ?m ns1:mentionsResource %s .
+                    ?a ns1:hasMention ?m;
+                       ns1:mentionsCountry ?c.
+                }
+            """ % res_uri)
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return [x['c']['value'].split('/')[-1].replace('_', ' ').replace('-', ' ') for x
+            in results["results"]["bindings"] if 'c' in x]
