@@ -70,17 +70,20 @@ def get_ski_resorts():
         PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
         PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        select ?country ?s ?lat ?lon where { 
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        select distinct ?country ?s ?lat ?lon where { 
             
             SERVICE <http://dbpedia.org/sparql> {
                 ?ski a dbo:SkiArea .
                 ?ski rdfs:label ?s .
                 ?ski geo:lat ?lat .
                 ?ski geo:long ?lon .
-                ?country a dbo:Country . 
                 ?ski dbo:location+ ?country.
             }
-            ?country a dbo:Country .     
+            ?country a dbo:Country .  
+            ?t a dbo:Town .
+            ?t ns1:tempTypicalLow ?low . FILTER (?low < -5) .
+            ?country ns1:hasTown ?t .
         }
         """)
     sparql.setReturnFormat(JSON)
