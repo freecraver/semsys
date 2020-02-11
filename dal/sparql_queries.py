@@ -63,6 +63,47 @@ def get_capitals():
     return [(x['capital']['value'], x['lat']['value'], x['lon']['value']) for x in results["results"]["bindings"]]
 
 
+def get_ski_resorts():
+    sparql.setQuery("""
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        PREFIX dbr: <http://dbpedia.org/resource/>
+        PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+        PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        select ?country ?s ?lat ?lon where { 
+            
+            SERVICE <http://dbpedia.org/sparql> {
+                ?ski a dbo:SkiArea .
+                ?ski rdfs:label ?s .
+                ?ski geo:lat ?lat .
+                ?ski geo:long ?lon .
+                ?country a dbo:Country . 
+                ?ski dbo:location+ ?country.
+            }
+            ?country a dbo:Country .     
+        }
+        """)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return [(x['country']['value'], x['s']['value'], x['lat']['value'], x['lon']['value']) for x in
+            results['results']['bindings']]
+
+
+def get_currency():
+    sparql.setQuery("""
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        select ?country ?currency where {
+            SERVICE <http://dbpedia.org/sparql> {
+                ?country dbo:currency ?currency .
+            }
+            ?country a dbo:Country .
+        }
+    """)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return [(x['country']['value'], x['currency']['value']) for x in results['results']['bindings']]
+
+
 def get_country_info(country_iso3):
     sparql.setQuery("""
             PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -95,8 +136,9 @@ def get_resources(q_string):
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
 
-    return [x['res']['value'].split('/')[-1].replace('_',' ').replace('-',' ') for x
+    return [x['res']['value'].split('/')[-1].replace('_', ' ').replace('-', ' ') for x
             in results["results"]["bindings"] if 'res' in x]
+
 
 def get_related_countries(resource_name):
     res_uri = "<http://dbpedia.org/resource/" + resource_name.replace(" ", "_") + ">"

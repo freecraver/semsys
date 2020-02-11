@@ -4,7 +4,7 @@ from flask import render_template, request, jsonify
 from flask_cors import cross_origin
 
 from app import app
-from app.maps import create_risk_map, create_capitals, create_empty_map
+from app.maps import create_risk_map, create_capitals, create_empty_map, create_ski_resorts
 from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries
 from util.folium_macros import add_event_macro
 from util.pd_utils import get_as_df
@@ -14,6 +14,7 @@ from util.pd_utils import get_as_df
 def home():
     m, geojson = create_risk_map()
     m = create_capitals(m)
+    m = create_ski_resorts(m)
     folium.LayerControl().add_to(m)
 
     # TODO add extra html, css, javascript to map here

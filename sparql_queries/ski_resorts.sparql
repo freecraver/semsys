@@ -1,0 +1,15 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+select ?country ?ski ?lat ?lon where { 
+    
+    SERVICE <http://dbpedia.org/sparql> {
+        ?ski a dbo:SkiArea .
+        ?ski geo:lat ?lat .
+        ?ski geo:long ?lon .
+        ?country a dbo:Country . 
+        ?ski dbo:location+ ?country.
+    }
+    ?country a dbo:Country .     
+}

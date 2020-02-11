@@ -1,0 +1,13 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+select ?country ?currency 
+where { 
+    SERVICE <http://dbpedia.org/sparql> {
+        ?country dbo:currency ?currency . 
+        FILTER NOT EXISTS {?country dbo:currency dbr:Euro} .
+        FILTER NOT EXISTS {?country dbo:currency dbr:Euro_sign} .
+    }
+    ?country a dbo:Country .
+    ?country ns1:Country_Located_In dbr:Europe .
+}

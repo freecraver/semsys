@@ -1,7 +1,7 @@
 import folium
 import numpy as np
 
-from dal.sparql_queries import get_countries_with_risk_score, get_capitals
+from dal.sparql_queries import get_countries_with_risk_score, get_capitals, get_ski_resorts
 from util.pd_utils import get_as_df
 
 
@@ -35,7 +35,7 @@ def create_risk_map():
                                   nan_fill_opacity=0
                                   ).add_to(m)
     tooltip = folium.GeoJsonTooltip(fields=['name'],
-                                      labels=False)
+                                    labels=False)
     geojson = folium.GeoJson(
         'world_countries.json',
         tooltip=tooltip,
@@ -71,15 +71,15 @@ def create_empty_map():
                    max_lon=max_lon)
 
     cp = folium.Choropleth(geo_data='world_countries.json',
-                          name='Risk Levels',
-                          data=df_country,
-                          columns=['country', 'risk_level'],
-                          key_on='feature.properties.name',
-                          fill_color='OrRd',
-                          fill_opacity=0.7,
-                          line_opacity=0.2,
-                          nan_fill_opacity=0
-                          ).add_to(m)
+                           name='Risk Levels',
+                           data=df_country,
+                           columns=['country', 'risk_level'],
+                           key_on='feature.properties.name',
+                           fill_color='OrRd',
+                           fill_opacity=0.7,
+                           line_opacity=0.2,
+                           nan_fill_opacity=0
+                           ).add_to(m)
 
     tooltip = folium.GeoJsonTooltip(fields=['name'],
                                     labels=False)
@@ -108,5 +108,22 @@ def create_capitals(m):
                                                                icon_color='#FACC2E'),
                                               popup=df_capitals.iloc[i]['name'].split('/')[-1].replace('_',
                                                                                                        ' ')).add_to(m))
+
+    return m
+
+
+def create_ski_resorts(m):
+    feature_group = folium.FeatureGroup(name='Ski Resorts', show=False).add_to(m)
+
+    ski = get_ski_resorts()
+    df_skis = get_as_df(ski, ['country', 's', 'lat', 'lon'])
+    df_skis = df_skis[-df_skis['s'].duplicated()]
+    # df_skis = df.sort_values('s').reset_index(drop=True)
+
+    for i in range(0, len(df_skis)):
+        feature_group.add_child(folium.Marker([df_skis.iloc[i]['lat'], df_skis.iloc[i]['lon']],
+                                              icon=folium.Icon(color='white', icon='hand-lizard-o',
+                                                               icon_color='#000000', prefix='fa'),
+                                              popup=df_skis.iloc[i]['s']).add_to(m))
 
     return m
