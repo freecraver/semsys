@@ -48,19 +48,23 @@ def get_capitals():
         PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX wd: <http://www.wikidata.org/entity/>
-        select ?capital ?lat ?lon where { 
-            ?capital ns1:isCapitalOf ?o .
-            ?capital ns1:latitude ?lat .
-            ?capital ns1:longitude ?lon .
+        select ?capital ?lat ?lon ?low ?high ?mf ?mt where { 
+            ?capital ns1:isCapitalOf ?o ;
+                ns1:latitude ?lat ;
+                ns1:longitude ?lon ;
+                ns1:tempTypicalLow ?low ;
+                ns1:tempTypicalHigh ?high .
             ?capital ns1:monthFrom ?mf . FILTER(?mf <= 9)
             ?capital ns1:monthTo ?mt . FILTER(?mt >= 7 || (?mf<7 && ?mt>9))
+            
             ?o a dbo:Country;
                ns1:Risk_Level 1.
         }
     """)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    return [(x['capital']['value'], x['lat']['value'], x['lon']['value']) for x in results["results"]["bindings"]]
+    return [(x['capital']['value'], x['lat']['value'], x['lon']['value'], x['low']['value'], x['high']['value'],
+             x['mf']['value'], x['mt']['value']) for x in results["results"]["bindings"]]
 
 
 def get_ski_resorts():
@@ -92,34 +96,30 @@ def get_ski_resorts():
             results['results']['bindings']]
 
 
-def get_currency():
-    sparql.setQuery("""
-        PREFIX dbo: <http://dbpedia.org/ontology/>
-        select ?country ?currency where {
-            SERVICE <http://dbpedia.org/sparql> {
-                ?country dbo:currency ?currency .
-            }
-            ?country a dbo:Country .
-        }
-    """)
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    return [(x['country']['value'], x['currency']['value']) for x in results['results']['bindings']]
-
-
 def get_country_info(country_iso3):
+    """ gets currency, risk and continent info for given country """
     sparql.setQuery("""
             PREFIX dbo: <http://dbpedia.org/ontology/>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
-            PREFIX owl: <http://www.w3.org/2002/07/owl#>
-            PREFIX wd: <http://www.wikidata.org/entity/>
-            select ?p ?o where { 
+            select ?country ?currency
+            where { 
                 ?country a dbo:Country;
                          ns1:ISO3_Code "%s".
-                ?country ?p ?o.
-            }
+                SERVICE <http://dbpedia.org/sparql> {
+                    ?country dbo:currency ?curr . 
+                    ?curr rdfs:label ?currency .
+                }
+            } LIMIT 1
         """ % country_iso3)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    currency = [(x['country']['value'], x['currency']['value']) for x in results["results"]["bindings"]]
+    if len(currency) == 0:
+        currency = ''
+    else:
+        currency = currency[0][1]
+    print(currency)
 
     sparql.setQuery("""PREFIX dbo: <http://dbpedia.org/ontology/>
             PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
@@ -138,7 +138,8 @@ def get_country_info(country_iso3):
         """ % country_iso3)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    return [(x['country']['value'], x['risk']['value'], x['continent']['value']) for x in results["results"]["bindings"]]
+    return [(x['country']['value'], x['risk']['value'], x['continent']['value'], currency) for x in
+            results["results"]["bindings"]]
 
 
 def get_resources(q_string):

@@ -57,10 +57,10 @@ def home():
 @cross_origin()
 def country_info():
     if request.method == 'POST':
-        print(request.json)
         info = get_country_info(request.json['id'])
-        ret = render_template('country_info.html', name=request.json['country'], risk=info[0][1], currency=":(", continent=info[0][2])
-        print(ret)
+        ret = render_template('country_info.html', name=request.json['country'], risk=info[0][1], currency=info[0][3],
+                              continent=info[0][2])
+
         return ret
 
 
