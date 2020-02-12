@@ -1,0 +1,29 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?vaccine (MIN(?avg) as ?china) (MIN(?avg2) as ?europe)
+WHERE {
+SELECT DISTINCT * WHERE {
+{select (?v as ?vaccine) ?avg where {
+	SELECT ?v (AVG(?vc) as ?avg) WHERE{
+	?c rdf:type dbo:Country ;
+    swo:Country_Located_In dbp:Asia.
+    ?c swo:Has_Vaccine ?vr.
+    ?vr swo:Vaccination_Value ?v.
+    ?vr swo:Vaccination_Coverage ?vc.
+	}
+    GROUP BY ?v}
+    } UNION {
+select (?v as ?vaccine) ?avg2 where {
+	SELECT ?v (AVG(?vc) as ?avg2) WHERE{
+	?c rdf:type dbo:Country ;
+    swo:Country_Located_In dbp:Europe.
+    ?c swo:Has_Vaccine ?vr.
+    ?vr swo:Vaccination_Value ?v.
+    ?vr swo:Vaccination_Coverage ?vc.
+	}
+    GROUP BY ?v
+    }}
+}} group by ?vaccine

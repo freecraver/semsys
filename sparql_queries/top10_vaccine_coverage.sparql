@@ -1,0 +1,13 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+
+SELECT * WHERE{
+    SELECT ?c (AVG(?vc) as ?avg) WHERE{
+	?c rdf:type dbo:Country .
+    ?c swo:Has_Vaccine ?vr.
+    ?vr swo:Vaccination_Value ?v.
+    ?vr swo:Vaccination_Coverage ?vc.
+	}
+    GROUP BY ?c
+}ORDER BY DESC(?avg) LIMIT 10
