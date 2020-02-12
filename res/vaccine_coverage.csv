@@ -2538,22 +2538,22 @@ EUR,ROU,Romania,Europe,MCV1,90.0
 EUR,ROU,Romania,Europe,MCV2,81.0
 EUR,ROU,Romania,Europe,Pol3,86.0
 EUR,ROU,Romania,Europe,RCV1,90.0
-EUR,RUS,Russian Federation (the),Europe,BCG,95.0
-EUR,RUS,Russian Federation (the),Europe,DiphCV4,97.0
-EUR,RUS,Russian Federation (the),Europe,DiphCV5,97.0
-EUR,RUS,Russian Federation (the),Europe,DiphCV6,97.0
-EUR,RUS,Russian Federation (the),Europe,DTP3,97.0
-EUR,RUS,Russian Federation (the),Europe,HepB3,97.0
-EUR,RUS,Russian Federation (the),Europe,MCV1,98.0
-EUR,RUS,Russian Federation (the),Europe,MCV2,97.0
-EUR,RUS,Russian Federation (the),Europe,PCV2,92.0
-EUR,RUS,Russian Federation (the),Europe,PCV3,82.0
-EUR,RUS,Russian Federation (the),Europe,PerCV4,97.0
-EUR,RUS,Russian Federation (the),Europe,Pol3,96.0
-EUR,RUS,Russian Federation (the),Europe,RCV1,98.0
-EUR,RUS,Russian Federation (the),Europe,TTCV4,97.0
-EUR,RUS,Russian Federation (the),Europe,TTCV5,97.0
-EUR,RUS,Russian Federation (the),Europe,TTCV6,97.0
+EUR,RUS,Russian Federation,Europe,BCG,95.0
+EUR,RUS,Russian Federation,Europe,DiphCV4,97.0
+EUR,RUS,Russian Federation,Europe,DiphCV5,97.0
+EUR,RUS,Russian Federation,Europe,DiphCV6,97.0
+EUR,RUS,Russian Federation,Europe,DTP3,97.0
+EUR,RUS,Russian Federation,Europe,HepB3,97.0
+EUR,RUS,Russian Federation,Europe,MCV1,98.0
+EUR,RUS,Russian Federation,Europe,MCV2,97.0
+EUR,RUS,Russian Federation,Europe,PCV2,92.0
+EUR,RUS,Russian Federation,Europe,PCV3,82.0
+EUR,RUS,Russian Federation,Europe,PerCV4,97.0
+EUR,RUS,Russian Federation,Europe,Pol3,96.0
+EUR,RUS,Russian Federation,Europe,RCV1,98.0
+EUR,RUS,Russian Federation,Europe,TTCV4,97.0
+EUR,RUS,Russian Federation,Europe,TTCV5,97.0
+EUR,RUS,Russian Federation,Europe,TTCV6,97.0
 AFR,RWA,Rwanda,Africa,BCG,97.0
 AFR,RWA,Rwanda,Africa,DTP1,98.0
 AFR,RWA,Rwanda,Africa,DTP3,97.0
