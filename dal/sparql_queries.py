@@ -120,9 +120,25 @@ def get_country_info(country_iso3):
                 ?country ?p ?o.
             }
         """ % country_iso3)
+
+    sparql.setQuery("""PREFIX dbo: <http://dbpedia.org/ontology/>
+            PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            select ?country ?risk ?continent 
+            where { 
+                ?country a dbo:Country ;
+                         ns1:ISO3_Code "%s".
+                ?country ns1:Risk_Level ?risk .
+                ?country ns1:Country_Located_In ?cont .
+                SERVICE <http://dbpedia.org/sparql> {
+                    ?cont a dbo:Continent .
+                    ?cont rdfs:label ?continent .
+                }
+            } LIMIT 1
+        """ % country_iso3)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    return [(x['p']['value'], x['o']['value']) for x in results["results"]["bindings"]]
+    return [(x['country']['value'], x['risk']['value'], x['continent']['value']) for x in results["results"]["bindings"]]
 
 
 def get_resources(q_string):

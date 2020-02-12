@@ -1,5 +1,21 @@
-<label id="c_infos">
-    {% for info in infos %}
-        {{ info }}<br>
-    {% endfor %}
-</label>
+<!--<label id="c_infos">-->
+<!--    {% for info in infos %}-->
+<!--    {{ info }}<br>-->
+<!--    {% endfor %}-->
+<!--</label>-->
+
+<ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        Name: {{name}}
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        Risk Level:
+        <span class="badge badge-primary badge-pill">{{risk}}</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        Currency: {{currency}}
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        Continent: {{continent}}
+    </li>
+</ul>

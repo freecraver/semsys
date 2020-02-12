@@ -2,9 +2,18 @@
 
 {% block content %}
 <script type='text/javascript' src="{{ url_for('static',filename='map.js') }}"></script>
-<div id="map_div" class="container">
-    {{ foliummap|safe}}
+
+<div class="" style="margin-right: 5%; margin-left:8%; width:100%">
+    <div class="row">
+        <div class="col-9">
+            {{ foliummap|safe}}
+        </div>
+        <div class="col-2">
+            <h3>Country Info</h3>
+
+            <div id="country_info"></div>
+        </div>
+    </div>
 </div>
-<div id="country_info" class="container"></div>
 
 {% endblock %}

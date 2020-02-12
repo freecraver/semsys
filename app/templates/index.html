@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 {% from "macros.html" import nav_link with context %}
-<html>
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     {% assets "scss_all" %}
     <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
@@ -11,23 +12,30 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Travel Synergy</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <a class="navbar-brand" href="#">Travel Synergy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-        {{ nav_link("home", "Country Info")}}
-        {{ nav_link("events", "Event Search")}}
-      </li>
-    </ul>
-  </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            {{ nav_link("home", "Country Info")}}
+            {{ nav_link("events", "Event Search")}}
+        </ul>
+
+        <!--        <button class="btn btn-info my-2 my-sm-0" onclick="w3_toggle()">Sidebar</button>-->
+
+    </div>
 </nav>
-<div class="container">
+<!--<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="mySidebar">-->
+<!--    <div class="container">-->
+<!--        <h3>Sidebar</h3>-->
+<!--    </div>-->
+<!--</div>-->
+<div>
+    {% block content %}{% endblock %}
 </div>
-{% block content %}{% endblock %}
-
 <!--<script type=text/javascript src="{{ url_for('static', filename='main.js') }}"></script>-->
 </body>
 </html>

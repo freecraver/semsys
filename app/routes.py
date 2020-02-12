@@ -59,7 +59,7 @@ def country_info():
     if request.method == 'POST':
         print(request.json)
         info = get_country_info(request.json['id'])
-        ret = render_template('country_info.html', infos=info)
+        ret = render_template('country_info.html', name=request.json['country'], risk=info[0][1], currency=":(", continent=info[0][2])
         print(ret)
         return ret
 
@@ -93,6 +93,7 @@ def resources():
     matched_res = get_resources(request.args['q'])
     res_dict = {'results': [{'value': x} for x in matched_res]}
     return jsonify(res_dict)
+
 
 @app.route('/resourceCountries', methods=["POST"])
 @cross_origin()
