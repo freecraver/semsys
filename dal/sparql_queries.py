@@ -178,3 +178,75 @@ def get_related_countries(resource_name):
 
     return [x['c']['value'].split('/')[-1].replace('_', ' ').replace('-', ' ') for x
             in results["results"]["bindings"] if 'c' in x]
+
+
+def get_top10_vacc_coverage():
+
+    sparql.setQuery("""
+                PREFIX dbo: <http://dbpedia.org/ontology/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+                
+                SELECT * WHERE{
+                    SELECT (?c as ?country) (AVG(?vc) as ?avg_coverage) WHERE{
+                    ?c rdf:type dbo:Country .
+                    ?c swo:Has_Vaccine ?vr.
+                    ?vr swo:Vaccination_Value ?v.
+                    ?vr swo:Vaccination_Coverage ?vc.
+                    }
+                    GROUP BY ?c
+                } ORDER BY DESC(?avg_coverage) LIMIT 10
+            """)
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return [(x['country']['value']) for x in results["results"]["bindings"]]
+
+
+def get_safe_countries_asia():
+    sparql.setQuery("""
+                PREFIX dbo: <http://dbpedia.org/ontology/>
+                PREFIX dbp: <http://dbpedia.org/resource/>
+                PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+                select ?country where {
+                    ?country a dbo:Country ;
+                             swo:Country_Located_In dbp:Asia;
+                             swo:Risk_Level ?rl.
+                    filter(?rl = 1)
+                
+                }
+            """)
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return [(x['country']['value']) for x in results["results"]["bindings"]]
+
+def get_measles_threats():
+    sparql.setQuery("""
+                PREFIX dbo: <http://dbpedia.org/ontology/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX swo: <http://www.semanticweb.org/sws/group4/ontology/>
+                PREFIX sws: <http://www.semanticweb.org/sws/group4/resources/>
+                
+                select (?c as ?country) where {
+                    {
+                    ?c rdf:type dbo:Country .
+                    FILTER NOT EXISTS {
+                    ?c swo:hasImmunity sws:MCV1.
+                        }
+                    }UNION{
+                    ?c rdf:type dbo:Country .
+                    FILTER NOT EXISTS {
+                    ?c swo:Has_Vaccine ?vr.
+                    ?vr swo:Vaccination_Value sws:MCV1.
+                        }    
+                    }
+                }
+            """)
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return [(x['country']['value']) for x in results["results"]["bindings"]]

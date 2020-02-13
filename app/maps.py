@@ -1,7 +1,7 @@
 import folium
 import numpy as np
 
-from dal.sparql_queries import get_countries_with_risk_score, get_capitals, get_ski_resorts
+from dal.sparql_queries import get_countries_with_risk_score, get_capitals, get_ski_resorts, get_top10_vacc_coverage
 from util.pd_utils import get_as_df, Month
 
 
