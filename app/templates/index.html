@@ -25,18 +25,36 @@
             {{ nav_link("presets", "Preset Views")}}
         </ul>
 
-        <!--        <button class="btn btn-info my-2 my-sm-0" onclick="w3_toggle()">Sidebar</button>-->
+        <button class="btn btn-info my-2 my-sm-0" onclick="w3_toggle()">Sidebar</button>
 
     </div>
 </nav>
-<!--<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="mySidebar">-->
-<!--    <div class="container">-->
-<!--        <h3>Sidebar</h3>-->
-<!--    </div>-->
-<!--</div>-->
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;width:20%" id="mySidebar">
+    <div class="container">
+        <h3>❤ Guide ❤</h3>
+        <hr>
+        <button type="button" class="btn btn-outline-success btn-lg btn-block collapsible"
+                onclick="collapse_sibling(this)">Country Info
+        </button>
+        <div class="content"><p> It shows a world map with a coloring of the countries according to their risk level. On
+            the map, a selected
+            number of capitals are shown that have good weather in the summer months. Clicking a country reveals country
+            information such as the country name, the risk level, the used currency and the continent the country is
+            located on. Clicking a capital icon shows selected weather information.</p></div>
+        <button type="button" class="btn btn-outline-info btn-lg btn-block collapsible"
+                onclick="collapse_sibling(this)">Event Search
+        </button>
+        <div class="content"><p>This view is a visualization of which countries have articles where a search term is
+            mentioned.</p></div>
+        <button type="button" class="btn btn-outline-warning btn-lg btn-block collapsible"
+                onclick="collapse_sibling(this)">Preset Views
+        </button>
+        <div class="content"><p></p></div>
+    </div>
+</div>
 <div>
     {% block content %}{% endblock %}
 </div>
-<!--<script type=text/javascript src="{{ url_for('static', filename='main.js') }}"></script>-->
+<script type=text/javascript src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
 </html>

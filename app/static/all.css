@@ -1,6 +1,29 @@
 .resource-search {
-  width: 100%;
-  position: relative;
-  margin-top: -10%; }
-  .resource-search span, .resource-search input {
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    margin-top: -10%;
+}
+
+.resource-search span, .resource-search input {
+    width: 100%;
+}
+
+.collapsible {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.collapsible:after {
+    /*content: '\002B';*/
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

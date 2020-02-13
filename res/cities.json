@@ -2715,7 +2715,7 @@
 {"iso":"COL","country":"Colombia","city":"Manizales","latitude":5.069,"longitude":-75.517,"day_from":15,"day_to":5,"month_from":6,"month_to":9,"temp_typical_low":14,"temp_typical_high":23},
 {"iso":"COL","country":"Colombia","city":"Ibagué","latitude":4.439,"longitude":-75.232,"day_from":5,"day_to":5,"month_from":6,"month_to":9,"temp_typical_low":17,"temp_typical_high":28},
 {"iso":"COL","country":"Colombia","city":"Arjona","latitude":10.254,"longitude":-75.344,"day_from":25,"day_to":15,"month_from":12,"month_to":3,"temp_typical_low":23,"temp_typical_high":33},
-{"iso":"COL","country":"Colombia","city":"Madrid","latitude":4.732,"longitude":-74.264,"day_from":5,"day_to":15,"month_from":6,"month_to":9,"temp_typical_low":7,"temp_typical_high":19},
+{"iso":"ESP","country":"Spain","city":"Madrid","latitude":40.383,"longitude":-3.716,"day_from":15,"day_to":5,"month_from":5,"month_to":10,"temp_typical_low":0,"temp_typical_high":33},
 {"iso":"COL","country":"Colombia","city":"Los Patios","latitude":7.838,"longitude":-72.504,"day_from":5,"day_to":5,"month_from":6,"month_to":9,"temp_typical_low":22,"temp_typical_high":33},
 {"iso":"COL","country":"Colombia","city":"Lorica","latitude":9.236,"longitude":-75.813,"day_from":25,"day_to":5,"month_from":12,"month_to":3,"temp_typical_low":23,"temp_typical_high":33},
 {"iso":"COL","country":"Colombia","city":"La Dorada","latitude":5.448,"longitude":-74.663,"day_from":15,"day_to":5,"month_from":6,"month_to":9,"temp_typical_low":24,"temp_typical_high":34},

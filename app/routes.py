@@ -5,7 +5,8 @@ from flask_cors import cross_origin
 
 from app import app
 from app.maps import create_risk_map, create_capitals, create_empty_map, create_ski_resorts
-from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries, get_top10_vacc_coverage,get_safe_countries_asia,get_measles_threats
+from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries, \
+    get_top10_vacc_coverage, get_safe_countries_asia, get_measles_threats
 from util.folium_macros import add_event_macro
 from util.pd_utils import get_as_df
 import numpy as np
@@ -93,7 +94,7 @@ def events():
 def sendPreset():
     print("sendpreset called")
     if request.method == 'POST':
-        query=request.json['value']
+        query = request.json['value']
         views = {'top10_vacc': get_top10_vacc_coverage(), 'safe_asia': get_safe_countries_asia(),
                  'measles': get_measles_threats()}
         map = folium.Map(location=[0, 0], zoom_start=1.5)
@@ -111,20 +112,22 @@ def sendPreset():
         return map._repr_html_()
 
 
-
 @app.route('/presets')
 def presets():
     print("Routed to presets!")
-    map = folium.Map(location=[0, 0], zoom_start=1.5)
+    map = folium.Map(max_bounds=True, height=str(80) + '%', location=[0, 0], zoom_start=1.5, min_zoom=1,
+                     min_lat=-90,
+                     max_lat=90,
+                     min_lon=-180,
+                     max_lon=180)
     qryResult = get_top10_vacc_coverage()
     df_results = get_as_df(qryResult, ['country'])
     df_results['vals'] = np.ones(df_results.shape[0])
     map.choropleth(geo_data='world_countries.json', data=df_results,
-                         columns=['country','vals'],
-                          key_on='feature.properties.name',
-                          fill_color='OrRd', fill_opacity=0.7,
-                          line_opacity=0.2, nan_fill_opacity=0)
-
+                   columns=['country', 'vals'],
+                   key_on='feature.properties.name',
+                   fill_color='OrRd', fill_opacity=0.7,
+                   line_opacity=0.2, nan_fill_opacity=0)
 
     return render_template('presets.html', title='Presets', foliummap=map._repr_html_())
 

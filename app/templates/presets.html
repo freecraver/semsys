@@ -2,30 +2,29 @@
 
 {% block content %}
 <div class="container" id="presets_container">
-    <div>
-        <select class="form-control form-control-lg" id="view_select">
-            <option value="top10_vacc">Top-10 Vaccination Coverage</option>
-            <option value="safe_asia">Safest countries in Asia</option>
-            <option value="measles">Measles - No Herd immunity</option>
-        </select>
-    </div>
-    <div id="mapid">
+
+    <select class="form-control form-control-lg custom-select" id="view_select" style="margin-top: 5px">
+        <option value="top10_vacc">Top-10 Vaccination Coverage</option>
+        <option value="safe_asia">Safest countries in Asia</option>
+        <option value="measles">Measles - No Herd immunity</option>
+    </select>
+
+    <div id="mapid" style="margin-top: 5px">
         {{ foliummap|safe}}
     </div>
-
 </div>
 
-    <script>
-let sel = document.getElementById('view_select');
-sel.addEventListener ("change", function () {
-    $.ajax({
-            url:"http://localhost:5000/sendPreset",
+<script>
+    let sel = document.getElementById('view_select');
+    sel.addEventListener("change", function () {
+        $.ajax({
+            url: "http://localhost:5000/sendPreset",
             type: "POST",
             data: JSON.stringify({'value': $('#view_select').children("option:selected").val()}),
             crossDomain: true,
             dataType: 'html',
             contentType: 'application/json; charset=utf-8',
-            success: function(response) {
+            success: function (response) {
                 window.parent.postMessage(response, "*");
                 const map_div = document.getElementById('mapid');
                 while (map_div.firstChild) {
@@ -34,11 +33,11 @@ sel.addEventListener ("change", function () {
                 console.log(response)
                 map_div.innerHTML = response;
             },
-            error: function(err) {
+            error: function (err) {
                 console.log('something went wrong')
                 console.error(err)
             }
         });
-});
+    });
 </script>
 {% endblock %}
