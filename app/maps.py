@@ -2,7 +2,7 @@ import folium
 import numpy as np
 
 from dal.sparql_queries import get_countries_with_risk_score, get_capitals, get_ski_resorts
-from util.pd_utils import get_as_df
+from util.pd_utils import get_as_df, Month
 
 
 def create_risk_map():
@@ -97,17 +97,34 @@ def create_empty_map():
 
 
 def create_capitals(m):
-    feature_group = folium.FeatureGroup(name='lrs Capitals').add_to(m)
+    feature_group = folium.FeatureGroup(name='low risk summer Capitals').add_to(m)
 
     capitals = get_capitals()
-    df_capitals = get_as_df(capitals, ['name', 'lat', 'lon'])
+    df_capitals = get_as_df(capitals, ['name', 'lat', 'lon', 'low', 'high', 'mf', 'mt'])
 
     for i in range(0, len(df_capitals)):
+        mf = int(df_capitals.iloc[i]['mf'].split('/')[-1].replace('_', ' '))
+        mt = int(df_capitals.iloc[i]['mt'].split('/')[-1].replace('_', ' '))
+        test = folium.Html(''
+                           '<div>'
+                           '<h4>' + df_capitals.iloc[i]['name'].split('/')[-1].replace('_', ' ') + '</h4>'
+                                                                                                   '<span>Temperatures typically between ' +
+                           df_capitals.iloc[i]['low'].split('/')[-1].replace('_', ' ') + ' and '
+                           + df_capitals.iloc[i]['high'].split('/')[-1].replace('_', ' ') + '° Celsius</span>'
+                                                                                            '<hr><span></p>Visit between ' +
+                           Month(mf).name + ' and ' + Month(mt).name
+                           + '</span>'
+                             '</div>'
+                           , script=True)
+
+        popup = folium.Popup(test, max_width=2650)
+        # ,
+        # iframe = folium.element.IFrame(html=html, width=500, height=300)
+        # popup = folium.Popup(iframe, max_width=2650)
         feature_group.add_child(folium.Marker([df_capitals.iloc[i]['lat'], df_capitals.iloc[i]['lon']],
                                               icon=folium.Icon(color='cadetblue', icon='certificate',
                                                                icon_color='#FACC2E'),
-                                              popup=df_capitals.iloc[i]['name'].split('/')[-1].replace('_',
-                                                                                                       ' ')).add_to(m))
+                                              popup=popup).add_to(m))
 
     return m
 

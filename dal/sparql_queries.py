@@ -109,6 +109,7 @@ def get_country_info(country_iso3):
                 SERVICE <http://dbpedia.org/sparql> {
                     ?country dbo:currency ?curr . 
                     ?curr rdfs:label ?currency .
+                    FILTER(LANG(?currency) = "" || LANGMATCHES(LANG(?currency), "en"))
                 }
             } LIMIT 1
         """ % country_iso3)
