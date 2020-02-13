@@ -5,11 +5,13 @@ from flask_cors import cross_origin
 
 from app import app
 from app.maps import create_risk_map, create_capitals, create_empty_map, create_ski_resorts
-from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries
+from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries, get_top10_vacc_coverage,get_safe_countries_asia,get_measles_threats
 from util.folium_macros import add_event_macro
 from util.pd_utils import get_as_df
+import numpy as np
 
 
+@app.route('/')
 @app.route('/home')
 def home():
     m, geojson = create_risk_map()
@@ -64,7 +66,6 @@ def country_info():
         return ret
 
 
-@app.route('/')
 @app.route('/index')
 def index():
     folium_map = folium.Map(location=[100, 0], zoom_start=1.5)
@@ -85,6 +86,47 @@ def events():
     map, geojson = create_empty_map()
     add_event_macro(map, geojson)
     return render_template('events.html', title='Events', foliummap=map._repr_html_())
+
+
+@app.route('/sendPreset', methods=["POST"])
+@cross_origin()
+def sendPreset():
+    print("sendpreset called")
+    if request.method == 'POST':
+        query=request.json['value']
+        views = {'top10_vacc': get_top10_vacc_coverage(), 'safe_asia': get_safe_countries_asia(),
+                 'measles': get_measles_threats()}
+        map = folium.Map(location=[0, 0], zoom_start=1.5)
+
+        qryResult = views[query]
+        df_results = get_as_df(qryResult, ['country'])
+        df_results['vals'] = np.ones(df_results.shape[0])
+        map.choropleth(geo_data='world_countries.json', data=df_results,
+                       columns=['country', 'vals'],
+                       key_on='feature.properties.name',
+                       fill_color='OrRd', fill_opacity=0.7,
+                       line_opacity=0.2, nan_fill_opacity=0)
+        print("TEST")
+        print(map._repr_html_())
+        return map._repr_html_()
+
+
+
+@app.route('/presets')
+def presets():
+    print("Routed to presets!")
+    map = folium.Map(location=[0, 0], zoom_start=1.5)
+    qryResult = get_top10_vacc_coverage()
+    df_results = get_as_df(qryResult, ['country'])
+    df_results['vals'] = np.ones(df_results.shape[0])
+    map.choropleth(geo_data='world_countries.json', data=df_results,
+                         columns=['country','vals'],
+                          key_on='feature.properties.name',
+                          fill_color='OrRd', fill_opacity=0.7,
+                          line_opacity=0.2, nan_fill_opacity=0)
+
+
+    return render_template('presets.html', title='Presets', foliummap=map._repr_html_())
 
 
 @app.route('/resources')
