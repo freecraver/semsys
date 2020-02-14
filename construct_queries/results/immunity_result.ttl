@@ -1,0 +1,1215 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix swo: <http://www.semanticweb.org/sws/group4/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Antigua_and_Barbuda> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Brunei> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Cabo_Verde> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Czechia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Eswatini> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Gambia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Georgia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Guinea-Bissau> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Ivory_Coast> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Kiribati> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Australia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Marshall_Islands> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1> .
+
+<http://dbpedia.org/resource/Moldova> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/DiphCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Myanmar> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Nauru> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Palau> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Sierra_Leone> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1>, <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Slovakia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/St_Kitts_and_Nevis> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/St_Vincent_and_Grenadines> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/DiphCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Suriname> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/São_Tomé_and_Príncipe> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Timor-Leste> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1> .
+
+<http://dbpedia.org/resource/Tuvalu> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/IPV1> .
+
+<http://dbpedia.org/resource/Uruguay> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Bahamas> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PAB>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Rwanda> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Canada> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Tajikistan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Trinidad_and_Tobago> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Madagascar> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Burundi> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Lebanon> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Portugal> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Spain> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Chile> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/MenA>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Ireland> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/United_Arab_Emirates> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Djibouti> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Japan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/JapEnc>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/United_States> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Argentina> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Italy> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Jamaica> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/India> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1frac>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/United_Kingdom> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Egypt> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Iraq> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/IPV1> .
+
+<http://dbpedia.org/resource/Greece> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/China> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/JapEnc>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Ghana> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1>, <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Albania> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Sri_Lanka> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1frac>, <http://www.semanticweb.org/sws/group4/resources/IPV2frac>,
+    <http://www.semanticweb.org/sws/group4/resources/JapEnc>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PAB>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Oman> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PAB>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Zimbabwe> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Mexico> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/New_Zealand> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Uganda> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1> .
+
+<http://dbpedia.org/resource/Tunisia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PAB>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Mozambique> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Iran> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Switzerland> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Iceland> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Morocco> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Thailand> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/JapEnc>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Germany> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Fiji> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Malaysia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Zambia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Tonga> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Ecuador> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Haiti> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1> .
+
+<http://dbpedia.org/resource/Bhutan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Colombia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Peru> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/PCV1> .
+
+<http://dbpedia.org/resource/Bulgaria> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Afghanistan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/PCV1> .
+
+<http://dbpedia.org/resource/Malta> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Nepal> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Kazakhstan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6>, <http://www.semanticweb.org/sws/group4/resources/Typhoid> .
+
+<http://dbpedia.org/resource/Cambodia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HPVmale>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PAB>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Netherlands> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Norway> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Ethiopia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Slovenia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Algeria> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PAB>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Bolivia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG> .
+
+<http://dbpedia.org/resource/Dominica> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Bangladesh> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1frac>, <http://www.semanticweb.org/sws/group4/resources/IPV2frac>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Turkey> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Mauritius> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Brazil> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Qatar> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Singapore> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Namibia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Romania> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Denmark> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Angola> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/PCV1> .
+
+<http://dbpedia.org/resource/Guatemala> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Tanzania> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Armenia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Togo> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Seychelles> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVfem>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Barbados> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Mali> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Vietnam> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/JapEnc>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Malawi> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Grenada> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Guyana> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Austria> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Libya> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Kyrgyzstan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Latvia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Comoros> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Cuba> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/IPV1frac>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV2frac>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PAB>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/Typhoid> .
+
+<http://dbpedia.org/resource/Honduras> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1>, <http://www.semanticweb.org/sws/group4/resources/YFV> .
+
+<http://dbpedia.org/resource/Nigeria> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Bosnia_and_Herzegovina> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Croatia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Nicaragua> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Cyprus> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Vanuatu> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall> .
+
+<http://dbpedia.org/resource/Lithuania> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Poland> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Mongolia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Maldives> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Micronesia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1> .
+
+<http://dbpedia.org/resource/Hungary> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Bahrain> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PAB>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Saudi_Arabia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/MenA>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Liberia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Belize> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Finland> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Sweden> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Azerbaijan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Turkmenistan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HPVfem>,
+    <http://www.semanticweb.org/sws/group4/resources/HPVmale>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Mauritania> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1> .
+
+<http://dbpedia.org/resource/Guinea> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG> .
+
+<http://dbpedia.org/resource/Andorra> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Benin> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Burkina_Faso> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/TT2plus>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Estonia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/Monaco> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4> .
+
+<http://dbpedia.org/resource/San_Marino> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Solomon_Islands> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TT2plus> .
+
+<http://dbpedia.org/resource/Uzbekistan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Serbia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PerCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Luxembourg> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1> .
+
+<http://dbpedia.org/resource/Botswana> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Saint_Lucia> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/HepB_BD>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/Pol3> .
+
+<http://dbpedia.org/resource/Belgium> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DTP1>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP3>, <http://www.semanticweb.org/sws/group4/resources/DiphCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV5>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV4>, <http://www.semanticweb.org/sws/group4/resources/TTCV5> .
+
+<http://dbpedia.org/resource/Jordan> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/Rota1>,
+    <http://www.semanticweb.org/sws/group4/resources/RotaC>, <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/El_Salvador> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/DiphCV6>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Panama> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/IPV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV1>, <http://www.semanticweb.org/sws/group4/resources/MCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV1>, <http://www.semanticweb.org/sws/group4/resources/PCV2>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC> .
+
+<http://dbpedia.org/resource/Eritrea> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB3>, <http://www.semanticweb.org/sws/group4/resources/Hib3>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PAB>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/Pol3>, <http://www.semanticweb.org/sws/group4/resources/RCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/Rota1>, <http://www.semanticweb.org/sws/group4/resources/RotaC>,
+    <http://www.semanticweb.org/sws/group4/resources/VAD1> .
+
+<http://dbpedia.org/resource/Costa_Rica> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/DTP1>, <http://www.semanticweb.org/sws/group4/resources/DTP3>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV4>, <http://www.semanticweb.org/sws/group4/resources/DiphCV5>,
+    <http://www.semanticweb.org/sws/group4/resources/DiphCV6>, <http://www.semanticweb.org/sws/group4/resources/HepB3>,
+    <http://www.semanticweb.org/sws/group4/resources/HepB_BD>, <http://www.semanticweb.org/sws/group4/resources/HepB_BDall>,
+    <http://www.semanticweb.org/sws/group4/resources/Hib3>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/PCV2>, <http://www.semanticweb.org/sws/group4/resources/PCV3>,
+    <http://www.semanticweb.org/sws/group4/resources/PerCV4>, <http://www.semanticweb.org/sws/group4/resources/Pol3>,
+    <http://www.semanticweb.org/sws/group4/resources/RCV1>, <http://www.semanticweb.org/sws/group4/resources/TTCV4>,
+    <http://www.semanticweb.org/sws/group4/resources/TTCV5>, <http://www.semanticweb.org/sws/group4/resources/TTCV6> .
+
+<http://dbpedia.org/resource/Ukraine> swo:hasImmunity <http://www.semanticweb.org/sws/group4/resources/BCG>,
+    <http://www.semanticweb.org/sws/group4/resources/IPV1>, <http://www.semanticweb.org/sws/group4/resources/MCV1>,
+    <http://www.semanticweb.org/sws/group4/resources/MCV2>, <http://www.semanticweb.org/sws/group4/resources/RCV1> .

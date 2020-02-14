@@ -19,7 +19,7 @@ select distinct ?town ?lat ?lon ?low ?high ?mf ?mt where {
                                 ns1:ISO3_Code "AFG".
             }
         }}
-    ?border_country ns1:hasTown ?town.
+    ?town ns1:locatedInCountry ?border_country.
     FILTER(?mf=6
         || ?mt=6
         || (?mf<6 && ?mt>6)

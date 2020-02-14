@@ -13733,6 +13733,7 @@ dbp:Spain swo:hasTown dbp:A_Coruña,
         dbp:Logroño,
         dbp:Lorca,
         dbp:Lugo,
+        dbp:Madrid,
         dbp:Manresa,
         dbp:Marbella,
         dbp:Mataró,
@@ -48385,7 +48386,6 @@ dbp:Colombia a dbo:Town ;
         dbp:La_Dorada,
         dbp:Lorica,
         dbp:Los_Patios,
-        dbp:Madrid,
         dbp:Magangué,
         dbp:Maicao,
         dbp:Malambo,
@@ -96432,14 +96432,14 @@ dbp:Madona a dbo:Town ;
     swo:townName "Madona" .
 
 dbp:Madrid a dbo:Town ;
-    swo:dayFrom 5 ;
-    swo:dayTo 15 ;
-    swo:latitude 4.732e+00 ;
-    swo:longitude -7.4264e+01 ;
-    swo:monthFrom 6 ;
-    swo:monthTo 9 ;
-    swo:tempTypicalHigh 19 ;
-    swo:tempTypicalLow 7 ;
+    swo:dayFrom 15 ;
+    swo:dayTo 5 ;
+    swo:latitude 4.0383e+01 ;
+    swo:longitude -3.716e+00 ;
+    swo:monthFrom 5 ;
+    swo:monthTo 10 ;
+    swo:tempTypicalHigh 33 ;
+    swo:tempTypicalLow 0 ;
     swo:townName "Madrid" .
 
 dbp:Madruga a dbo:Town ;

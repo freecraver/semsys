@@ -170,37 +170,76 @@ def sendPreset():
         query = request.json['value']
         views = {'top10_vacc': get_top10_vacc_coverage(), 'safe_asia': get_safe_countries_asia(),
                  'measles': get_measles_threats()}
-        map = folium.Map(location=[0, 0], zoom_start=1.5)
+        map = folium.Map(max_bounds=True, height=str(80) + '%', location=[0, 0], zoom_start=1.5, min_zoom=1,
+                         min_lat=-90,
+                         max_lat=90,
+                         min_lon=-180,
+                         max_lon=180)
 
         qryResult = views[query]
         df_results = get_as_df(qryResult, ['country'])
         df_results['vals'] = np.ones(df_results.shape[0])
-        map.choropleth(geo_data='world_countries.json', data=df_results,
-                       columns=['country', 'vals'],
-                       key_on='feature.properties.name',
-                       fill_color='OrRd', fill_opacity=0.7,
-                       line_opacity=0.2, nan_fill_opacity=0)
-        print("TEST")
-        print(map._repr_html_())
+
+        layer = folium.Choropleth(geo_data='world_countries.json',
+                                  name=query,
+                                  data=df_results,
+                                  columns=['country', 'vals'],
+                                  key_on='feature.properties.name',
+                                  fill_color='YlGn',
+                                  fill_opacity=0.7,
+                                  line_opacity=0.2,
+                                  nan_fill_opacity=0
+                                  ).add_to(map)
+        tooltip = folium.GeoJsonTooltip(fields=['name'],
+                                        labels=False)
+        geojson = folium.GeoJson(
+            'world_countries.json',
+            tooltip=tooltip,
+            style_function=lambda feature: {
+                'color': 'black',
+                'fillOpacity': 0,
+                'weight': 0
+            }
+        )
+        geojson.add_to(layer)
+
+
         return map._repr_html_()
 
 
 @app.route('/presets')
 def presets():
-    print("Routed to presets!")
     map = folium.Map(max_bounds=True, height=str(80) + '%', location=[0, 0], zoom_start=1.5, min_zoom=1,
                      min_lat=-90,
                      max_lat=90,
                      min_lon=-180,
                      max_lon=180)
+
     qryResult = get_top10_vacc_coverage()
     df_results = get_as_df(qryResult, ['country'])
     df_results['vals'] = np.ones(df_results.shape[0])
-    map.choropleth(geo_data='world_countries.json', data=df_results,
-                   columns=['country', 'vals'],
-                   key_on='feature.properties.name',
-                   fill_color='OrRd', fill_opacity=0.7,
-                   line_opacity=0.2, nan_fill_opacity=0)
+    layer = folium.Choropleth(geo_data='world_countries.json',
+                              name='Top-10 Vaccination Coverage',
+                              data=df_results,
+                              columns=['country', 'vals'],
+                              key_on='feature.properties.name',
+                              fill_color='YlGn',
+                              fill_opacity=0.7,
+                              line_opacity=0.2,
+                              nan_fill_opacity=0
+                              ).add_to(map)
+    tooltip = folium.GeoJsonTooltip(fields=['name'],
+                                    labels=False)
+    geojson = folium.GeoJson(
+        'world_countries.json',
+        tooltip=tooltip,
+        style_function=lambda feature: {
+            'color': 'black',
+            'fillOpacity': 0,
+            'weight': 0
+        }
+    )
+    geojson.add_to(layer)
 
     return render_template('presets.html', title='Presets', foliummap=map._repr_html_())
 
