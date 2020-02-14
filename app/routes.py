@@ -4,56 +4,63 @@ from flask import render_template, request, jsonify
 from flask_cors import cross_origin
 
 from app import app
-from app.maps import create_risk_map, create_capitals, create_empty_map, create_ski_resorts
+from app.maps import create_risk_map, create_capitals, create_empty_map, create_ski_resorts, create_town_markers
 from dal.sparql_queries import get_countries_with_risk_score, get_country_info, get_resources, get_related_countries, \
     get_top10_vacc_coverage, get_safe_countries_asia, get_measles_threats
 from util.folium_macros import add_event_macro
 from util.pd_utils import get_as_df
 import numpy as np
 
+country_info_view = None
+country_info_map = None
+empty_map_view = None
+
 
 @app.route('/')
 @app.route('/home')
 def home():
-    m, geojson = create_risk_map()
-    m = create_capitals(m)
-    m = create_ski_resorts(m)
-    folium.LayerControl().add_to(m)
+    global country_info_view
+    if country_info_view is None:
+        m, geojson = create_risk_map()
+        m = create_capitals(m)
+        m = create_ski_resorts(m)
+        folium.LayerControl().add_to(m)
 
-    # TODO add extra html, css, javascript to map here
-    # ugly, but it works
-    el = folium.MacroElement().add_to(m)
-    map_name = m.get_name()
-    el._template = jinja2.Template("""
-        {%% macro script(this, kwargs) %%}        
-        // folium variables
-        map = %s;
-        geojson = %s;
-        
-        // console.log(geojson._tooltip._source)
-        
-        
-        // click event in country layer
-        map.on('click', function(e) {
-            $.ajax({
-                url:"http://localhost:5000/countryInfo",
-                type: "post",
-                data: JSON.stringify({'country': geojson._tooltip._source.feature.properties.name, 'id': geojson._tooltip._source.feature.id}),
-                crossDomain: true,
-                dataType: 'html',
-                contentType: 'application/json; charset=utf-8',
-                success: function(response) {
-                    window.parent.postMessage(response, "*");
-                }, 
-                error: function(err) {
-                    console.log('something went wrong')
-                    console.error(err)
-                }
+        # TODO add extra html, css, javascript to map here
+        # ugly, but it works
+        el = folium.MacroElement().add_to(m)
+        map_name = m.get_name()
+        el._template = jinja2.Template("""
+            {%% macro script(this, kwargs) %%}        
+            // folium variables
+            map = %s;
+            geojson = %s;
+            
+            // console.log(geojson._tooltip._source)
+            
+            
+            // click event in country layer
+            map.on('click', function(e) {
+                $.ajax({
+                    url:"http://localhost:5000/countryInfo",
+                    type: "post",
+                    data: JSON.stringify({'country': geojson._tooltip._source.feature.properties.name, 'id': geojson._tooltip._source.feature.id}),
+                    crossDomain: true,
+                    dataType: 'html',
+                    contentType: 'application/json; charset=utf-8',
+                    success: function(response) {
+                        window.parent.postMessage(response, "*");
+                    }, 
+                    error: function(err) {
+                        console.log('something went wrong')
+                        console.error(err)
+                    }
+                });
             });
-        });
-        {%% endmacro %%}
-    """ % (map_name, geojson))
-    return render_template('map.html', title='Home', foliummap=m._repr_html_())
+            {%% endmacro %%}
+        """ % (map_name, geojson))
+        country_info_view = m._repr_html_()
+    return render_template('map.html', title='Home', foliummap=country_info_view)
 
 
 @app.route('/countryInfo', methods=["POST"])
@@ -62,9 +69,57 @@ def country_info():
     if request.method == 'POST':
         info = get_country_info(request.json['id'])
         ret = render_template('country_info.html', name=request.json['country'], risk=info[0][1], currency=info[0][3],
-                              continent=info[0][2])
+                              continent=info[0][2], iso=request.json['id'])
 
         return ret
+
+
+@app.route('/towns', methods=["POST"])
+@cross_origin()
+def towns():
+    global country_info_map
+    if request.method == 'POST':
+        iso = request.json['iso']
+        month = request.json['month']
+        m, geojson = create_risk_map()
+        m = create_capitals(m)
+        m = create_ski_resorts(m)
+        m = create_town_markers(m, iso, int(month))
+        folium.LayerControl().add_to(m)
+
+        el = folium.MacroElement().add_to(m)
+        map_name = m.get_name()
+        el._template = jinja2.Template("""
+                    {%% macro script(this, kwargs) %%}        
+                    // folium variables
+                    map = %s;
+                    geojson = %s;
+
+                    // console.log(geojson._tooltip._source)
+
+
+                    // click event in country layer
+                    map.on('click', function(e) {
+                        $.ajax({
+                            url:"http://localhost:5000/countryInfo",
+                            type: "post",
+                            data: JSON.stringify({'country': geojson._tooltip._source.feature.properties.name, 'id': geojson._tooltip._source.feature.id}),
+                            crossDomain: true,
+                            dataType: 'html',
+                            contentType: 'application/json; charset=utf-8',
+                            success: function(response) {
+                                window.parent.postMessage(response, "*");
+                            }, 
+                            error: function(err) {
+                                console.log('something went wrong')
+                                console.error(err)
+                            }
+                        });
+                    });
+                    {%% endmacro %%}
+                """ % (map_name, geojson))
+
+        return m._repr_html_()
 
 
 @app.route('/index')
@@ -84,9 +139,12 @@ def index():
 
 @app.route('/events')
 def events():
-    map, geojson = create_empty_map()
-    add_event_macro(map, geojson)
-    return render_template('events.html', title='Events', foliummap=map._repr_html_())
+    global empty_map_view
+    if empty_map_view is None:
+        map, geojson = create_empty_map()
+        add_event_macro(map, geojson)
+        empty_map_view = map._repr_html_()
+    return render_template('events.html', title='Events', foliummap=empty_map_view)
 
 
 @app.route('/sendPreset', methods=["POST"])

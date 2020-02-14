@@ -53,9 +53,9 @@ def get_capitals():
                 ns1:latitude ?lat ;
                 ns1:longitude ?lon ;
                 ns1:tempTypicalLow ?low ;
-                ns1:tempTypicalHigh ?high .
-            ?capital ns1:monthFrom ?mf . FILTER(?mf <= 9)
-            ?capital ns1:monthTo ?mt . FILTER(?mt >= 7 || (?mf<7 && ?mt>9))
+                ns1:tempTypicalHigh ?high ;
+                ns1:monthFrom ?mf ;
+                ns1:monthTo ?mt . 
             
             ?o a dbo:Country;
                ns1:Risk_Level 1.
@@ -120,7 +120,6 @@ def get_country_info(country_iso3):
         currency = ''
     else:
         currency = currency[0][1]
-    print(currency)
 
     sparql.setQuery("""PREFIX dbo: <http://dbpedia.org/ontology/>
             PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
@@ -181,7 +180,6 @@ def get_related_countries(resource_name):
 
 
 def get_top10_vacc_coverage():
-
     sparql.setQuery("""
                 PREFIX dbo: <http://dbpedia.org/ontology/>
                 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -223,6 +221,7 @@ def get_safe_countries_asia():
 
     return [(x['country']['value']) for x in results["results"]["bindings"]]
 
+
 def get_measles_threats():
     sparql.setQuery("""
                 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -250,3 +249,33 @@ def get_measles_threats():
     results = sparql.query().convert()
 
     return [(x['country']['value']) for x in results["results"]["bindings"]]
+
+
+def get_towns_month(iso, month):
+    q_string = """
+                PREFIX dbo: <http://dbpedia.org/ontology/>
+                PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+                select ?town ?lat ?lon ?low ?high ?mf ?mt where {
+                    ?town a dbo:Town ;
+                        ns1:latitude ?lat ;
+                        ns1:longitude ?lon ;
+                        ns1:tempTypicalLow ?low ;
+                        ns1:tempTypicalHigh ?high ;
+                        ns1:monthFrom ?mf ;
+                        ns1:monthTo ?mt .
+
+                    ?country a dbo:Country ;
+                        ns1:ISO3_Code "%(iso)s" ;
+                        ns1:hasTown ?town.
+                    FILTER(?mf=%(month)d
+                        || ?mt=%(month)d
+                        || (?mf<%(month)d && ?mt>%(month)d)
+                        || ((?mt<?mf) && ((?mt>%(month)d&&?mf>%(month)d)||(?mt<%(month)d&&?mf<%(month)d)))
+                        )
+                }
+            """ % {'iso': iso, 'month': month}
+    sparql.setQuery(q_string)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return [(x['town']['value'], x['lat']['value'], x['lon']['value'], x['low']['value'], x['high']['value'],
+             x['mf']['value'], x['mt']['value']) for x in results["results"]["bindings"]]

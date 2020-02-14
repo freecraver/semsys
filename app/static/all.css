@@ -4,8 +4,40 @@
     margin-top: -10%;
 }
 
+.risk-1 {
+    background-color: rgb(254, 240, 217) !important;
+    color: #343a40 !important;
+}
+
+.risk-2 {
+    background-color: rgb(253, 212, 158) !important;
+    color: #343a40 !important;
+}
+
+.risk-3 {
+    background-color: rgb(253, 187, 132) !important;
+    color: #343a40 !important;
+}
+
+.risk-4 {
+    background-color: rgb(252, 141, 89) !important;
+}
+
+.risk-5 {
+    background-color: rgb(227, 74, 51) !important;
+}
+
+.risk-6 {
+    background-color: rgb(179, 0, 0) !important;
+}
+
 .resource-search span, .resource-search input {
     width: 100%;
+}
+
+.capital-select {
+    position: relative;
+    margin-top: -20%;
 }
 
 .collapsible {

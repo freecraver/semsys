@@ -25,7 +25,7 @@
             {{ nav_link("presets", "Preset Views")}}
         </ul>
 
-        <button class="btn btn-info my-2 my-sm-0" onclick="w3_toggle()">Sidebar</button>
+        <button class="btn btn-info my-2 my-sm-0" onclick="w3_toggle()">Sidebar Guide</button>
 
     </div>
 </nav>
@@ -36,25 +36,28 @@
         <button type="button" class="btn btn-outline-success btn-lg btn-block collapsible"
                 onclick="collapse_sibling(this)">Country Info
         </button>
-        <div class="content"><p> It shows a world map with a coloring of the countries according to their risk level. On
-            the map, a selected
-            number of capitals are shown that have good weather in the summer months. Clicking a country reveals country
-            information such as the country name, the risk level, the used currency and the continent the country is
-            located on. Clicking a capital icon shows selected weather information.</p></div>
+        <div class="content"><p> ... consists of three layers and shows a world map with color coded countries according
+            to their risk level on the first. The second layer shows capitals, the third is not selected by default and
+            shows Ski Resorts. Clicking a country reveals country information such as the name, ISO3 code, etc. Clicking
+            a capital marker shows weather information. In the select box below the map a month can be chosen. The map
+            then displays towns inside the country that have a weather recommendation for the given month. </p></div>
         <button type="button" class="btn btn-outline-info btn-lg btn-block collapsible"
                 onclick="collapse_sibling(this)">Event Search
         </button>
-        <div class="content"><p>This view is a visualization of which countries have articles where a search term is
+        <div class="content"><p>... is a visualization of which countries have articles where a search term is
             mentioned.</p></div>
         <button type="button" class="btn btn-outline-warning btn-lg btn-block collapsible"
                 onclick="collapse_sibling(this)">Preset Views
         </button>
-        <div class="content"><p></p></div>
+        <div class="content"><p>... show vaccination coverage</p></div>
     </div>
 </div>
 <div>
     {% block content %}{% endblock %}
+
 </div>
+<div style="right:10px; bottom:0; position: absolute;"><p style="font-size: 10px">Icons by <a
+        class="badge badge-primary" href="https://fontawesome.com/license">Font Awesome</a></p></div>
 <script type=text/javascript src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
 </html>

@@ -1,15 +1,18 @@
 <ul class="list-group">
     <li class="list-group-item d-flex justify-content-between align-items-center">
-        Name: {{name}}
+        Name: <span>{{name}}</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        ISO: <span id="selected_iso">{{iso}}</span>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
         Risk Level:
-        <span class="badge badge-primary badge-pill">{{risk}}</span>
+        <span class="badge badge-primary badge-pill risk-{{risk}}">{{risk}}</span>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
-        Currency: {{currency}}
+        Currency: <span>{{currency}}</span>
     </li>
     <li class="list-group-item d-flex justify-content-between align-items-center">
-        Continent: {{continent}}
+        Continent: <span>{{continent}}</span>
     </li>
 </ul>
