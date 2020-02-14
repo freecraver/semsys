@@ -45,7 +45,12 @@
                 onclick="collapse_sibling(this)">Event Search
         </button>
         <div class="content"><p>... is a visualization of which countries have articles where a search term is
-            mentioned.</p></div>
+            mentioned. The input field allows the user to perform an async typeahead search, which queries the triple
+            store for matching resources mentioned in any news article. Keep in mind two limitations: The queries news
+            results are from December 2019, which means any recent events are not covered. Also, no relation checks were
+            performed, i.e. results only show the specific resource was mentioned in a news article, which also
+            mentioned the specific country. This leads to problems for newsflash articles, which aggregate
+            multiple different events.</p></div>
         <button type="button" class="btn btn-outline-warning btn-lg btn-block collapsible"
                 onclick="collapse_sibling(this)">Preset Views
         </button>
