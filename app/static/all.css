@@ -1,8 +1,13 @@
-.resource-search {
+.resource-search  {
     width: 100%;
     position: relative;
     margin-top: -10%;
 }
+
+.resource-search span, .resource-search input {
+    width: 100%;
+}
+
 
 .risk-1 {
     background-color: rgb(254, 240, 217) !important;
@@ -29,10 +34,6 @@
 
 .risk-6 {
     background-color: rgb(179, 0, 0) !important;
-}
-
-.resource-search span, .resource-search input {
-    width: 100%;
 }
 
 .capital-select {
