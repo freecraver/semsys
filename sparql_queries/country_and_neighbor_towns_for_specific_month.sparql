@@ -1,0 +1,28 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX ns1: <http://www.semanticweb.org/sws/group4/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+select distinct ?town ?lat ?lon ?low ?high ?mf ?mt where {
+    ?town a dbo:Town ;
+          ns1:latitude ?lat ;
+          ns1:longitude ?lon ;
+          ns1:tempTypicalLow ?low ;
+          ns1:tempTypicalHigh ?high ;
+          ns1:monthFrom ?mf ;
+          ns1:monthTo ?mt .
+    {select ?border_country where {
+            {
+                ?country a dbo:Country ;
+                         ns1:ISO3_Code "AFG" ;
+                                             ns1:hasBorder ?border_country.
+            }UNION  {
+                ?border_country a dbo:Country ;
+                                ns1:ISO3_Code "AFG".
+            }
+        }}
+    ?border_country ns1:hasTown ?town.
+    FILTER(?mf=6
+        || ?mt=6
+        || (?mf<6 && ?mt>6)
+        || ((?mt<?mf) && ((?mt>6&&?mf>6)||(?mt<6&&?mf<6)))
+        )
+}
