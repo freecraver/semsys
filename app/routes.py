@@ -1,6 +1,8 @@
+import os
+
 import folium
 import jinja2
-from flask import render_template, request, jsonify
+from flask import render_template, request, jsonify, send_from_directory
 from flask_cors import cross_origin
 
 from app import app
@@ -14,6 +16,12 @@ import numpy as np
 country_info_view = None
 country_info_map = None
 empty_map_view = None
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 
 @app.route('/')
@@ -68,8 +76,15 @@ def home():
 def country_info():
     if request.method == 'POST':
         info = get_country_info(request.json['id'])
-        ret = render_template('country_info.html', name=request.json['country'], risk=info[0][1], currency=info[0][3],
-                              continent=info[0][2], iso=request.json['id'])
+        r = ''
+        curr = ''
+        cont = ''
+        if len(info) > 0:
+            r = info[0][1]
+            curr = info[0][3]
+            cont = info[0][2]
+        ret = render_template('country_info.html', name=request.json['country'], risk=r, currency=curr,
+                              continent=cont, iso=request.json['id'])
 
         return ret
 
